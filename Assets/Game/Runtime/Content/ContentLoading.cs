@@ -64,17 +64,22 @@ namespace DJMaximusKaiserSoje.Content
         private readonly List<Action> releaseActions;
         private bool disposed;
 
-        internal LoadedSongContent(TextAsset chartText, AudioClip audio, Sprite jacket, VideoClip video, List<Action> releaseActions)
+        internal LoadedSongContent(TextAsset chartText, byte[] audioBytes, Sprite jacket, VideoClip video, List<Action> releaseActions)
         {
             ChartText = chartText;
-            Audio = audio;
+            AudioBytes = audioBytes;
             Jacket = jacket;
             Video = video;
             this.releaseActions = releaseActions;
         }
 
         public TextAsset ChartText { get; }
-        public AudioClip Audio { get; }
+
+        /// <summary>
+        /// The song's encoded audio file, delivered untouched so the mixer decodes it rather than
+        /// Unity's importer. Its length is only known once a player has opened it.
+        /// </summary>
+        public byte[] AudioBytes { get; }
         public Sprite Jacket { get; }
         public VideoClip Video { get; }
 
@@ -105,15 +110,19 @@ namespace DJMaximusKaiserSoje.Content
             var releases = new List<Action>(4);
             ContentLoadResult<TextAsset> chart = await LoadAssetAsync<TextAsset>(request.ChartAddress, false, cancellationToken, releases);
             if (!chart.Succeeded) return FailAndRelease<LoadedSongContent>(chart.Error, chart.Message, releases);
-            ContentLoadResult<AudioClip> audio = await LoadAssetAsync<AudioClip>(request.AudioAddress, false, cancellationToken, releases);
+            ContentLoadResult<TextAsset> audio = await LoadAssetAsync<TextAsset>(request.AudioAddress, false, cancellationToken, releases);
             if (!audio.Succeeded) return FailAndRelease<LoadedSongContent>(audio.Error, audio.Message, releases);
+            byte[] audioBytes = audio.Value.bytes;
+            if (audioBytes == null || audioBytes.Length == 0)
+                return FailAndRelease<LoadedSongContent>(ContentLoadError.NullAsset,
+                    "The song audio at '" + request.AudioAddress + "' was empty.", releases);
             ContentLoadResult<Sprite> jacket = await LoadAssetAsync<Sprite>(request.JacketAddress, false, cancellationToken, releases);
             if (!jacket.Succeeded) return FailAndRelease<LoadedSongContent>(jacket.Error, jacket.Message, releases);
             ContentLoadResult<VideoClip> video = await LoadAssetAsync<VideoClip>(request.VideoAddress, true, cancellationToken, releases);
             if (!video.Succeeded) return FailAndRelease<LoadedSongContent>(video.Error, video.Message, releases);
 
             return ContentLoadResult<LoadedSongContent>.Success(
-                new LoadedSongContent(chart.Value, audio.Value, jacket.Value, video.Value, releases));
+                new LoadedSongContent(chart.Value, audioBytes, jacket.Value, video.Value, releases));
         }
 
         public IEnumerator LoadSong(SongContentRequest request, Action<ContentLoadResult<LoadedSongContent>> completed,

@@ -31,14 +31,14 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             public FakeAudio(double lengthSeconds) { LengthSeconds = lengthSeconds; }
             public double LengthSeconds { get; }
             public double ScheduledDspTime { get; private set; }
-            public AudioClip Clip { get; private set; }
             public int PauseCount { get; private set; }
             public int ResumeCount { get; private set; }
-            public void SetClip(AudioClip clip) => Clip = clip;
+            public bool Disposed { get; private set; }
             public void PlayScheduled(double dspTime) => ScheduledDspTime = dspTime;
             public void Pause() => PauseCount++;
             public void Resume() => ResumeCount++;
             public void Stop() { }
+            public void Dispose() => Disposed = true;
         }
 
         private sealed class FakeInputTime : IInputTimeSource

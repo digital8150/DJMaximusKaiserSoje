@@ -4,6 +4,7 @@
   "references": [
     "DJMaximusKaiserSoje.Core",
     "DJMaximusKaiserSoje.Content",
+    "FMODUnity",
     "Unity.InputSystem",
     "Unity.ugui"
   ],

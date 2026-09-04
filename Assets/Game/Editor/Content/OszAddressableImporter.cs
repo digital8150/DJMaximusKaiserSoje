@@ -32,6 +32,13 @@ namespace DJMaximusKaiserSoje.Editor
         private const string RemoteLabel = "remote-song-content";
         private const string DefaultRemoteLoadPath = "http://localhost:8000/[BuildTarget]";
 
+        /// <summary>
+        /// Song audio ships as the original encoded file so the mixer decodes it. Appending this to
+        /// the real extension keeps the format readable (audio.mp3.bytes) while telling Unity to
+        /// import the file as raw data instead of turning it into an AudioClip.
+        /// </summary>
+        private const string RawAudioExtension = ".bytes";
+
         private sealed class PreparedChart
         {
             public OszChartSource Source;
@@ -75,7 +82,7 @@ namespace DJMaximusKaiserSoje.Editor
 
             var addresses = new Dictionary<string, string>(StringComparer.Ordinal);
             string addressPrefix = "song." + songId;
-            string audioPath = WriteBinary(songFolder, "audio", package.Audio);
+            string audioPath = WriteBinary(songFolder, "audio", package.Audio, RawAudioExtension);
             string jacketPath = WriteBinary(songFolder, "jacket", package.Jacket);
             string videoPath = package.Video == null ? null : WriteBinary(songFolder, "video", package.Video);
             addresses.Add(audioPath, addressPrefix + ".audio");
@@ -94,7 +101,7 @@ namespace DJMaximusKaiserSoje.Editor
             WriteTextAsset(RemoteCatalogPath, JsonUtility.ToJson(catalog, true) + Environment.NewLine);
 
             AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
-            ConfigureImporters(audioPath, jacketPath, videoPath);
+            ConfigureImporters(jacketPath, videoPath);
             addresses.Add(RemoteCatalogPath, RemoteCatalogAddress);
             RegisterRemoteAddresses(addresses);
             AssetDatabase.SaveAssets();
@@ -245,7 +252,7 @@ namespace DJMaximusKaiserSoje.Editor
             EditorUtility.SetDirty(group);
         }
 
-        private static void ConfigureImporters(string audioPath, string jacketPath, string videoPath)
+        private static void ConfigureImporters(string jacketPath, string videoPath)
         {
             if (AssetImporter.GetAtPath(jacketPath) is TextureImporter texture)
             {
@@ -258,27 +265,15 @@ namespace DJMaximusKaiserSoje.Editor
                 texture.SaveAndReimport();
             }
 
-            if (AssetImporter.GetAtPath(audioPath) is AudioImporter audio)
-            {
-                AudioImporterSampleSettings sampleSettings = audio.defaultSampleSettings;
-                sampleSettings.loadType = AudioClipLoadType.DecompressOnLoad;
-                sampleSettings.compressionFormat = AudioCompressionFormat.Vorbis;
-                sampleSettings.quality = 0.85f;
-                sampleSettings.preloadAudioData = true;
-                audio.defaultSampleSettings = sampleSettings;
-                audio.loadInBackground = false;
-                audio.SaveAndReimport();
-            }
-
             if (videoPath != null) AssetDatabase.ImportAsset(videoPath, ImportAssetOptions.ForceUpdate);
         }
 
-        private static string WriteBinary(string folder, string stem, OszBinaryAsset asset)
+        private static string WriteBinary(string folder, string stem, OszBinaryAsset asset, string extraExtension = "")
         {
             string extension = Path.GetExtension(asset.Filename).ToLowerInvariant();
             if (string.IsNullOrWhiteSpace(extension))
                 throw new OszImportException(asset.Filename + " 파일의 확장자를 확인해 주세요.");
-            string assetPath = folder + "/" + stem + extension;
+            string assetPath = folder + "/" + stem + extension + extraExtension;
             File.WriteAllBytes(ToAbsolute(assetPath), asset.Bytes);
             return assetPath;
         }

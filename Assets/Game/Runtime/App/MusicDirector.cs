@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using DJMaximusKaiserSoje.Content;
 using DJMaximusKaiserSoje.Core;
+using DJMaximusKaiserSoje.Gameplay;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -25,6 +26,8 @@ namespace DJMaximusKaiserSoje.App
         private int requestVersion;
         private Coroutine crossfade;
         private LoadedSongContent previewContent;
+        private FmodPreviewPlayback preview;
+        private FmodAudioDevice audioDevice;
         private string pendingPreviewSong;
         private double previewStartSeconds;
 
@@ -34,10 +37,15 @@ namespace DJMaximusKaiserSoje.App
         public event Action<string> PreviewStarted;
         public event Action PreviewStopped;
 
-        public void Configure(CatalogSongLibrary library, IContentLoader loader, IPreviewClock clock = null)
+        public void Configure(CatalogSongLibrary library, IContentLoader loader, FmodAudioDevice device,
+            IPreviewClock clock = null)
         {
             songs = library ?? throw new ArgumentNullException(nameof(library));
             contentLoader = loader ?? throw new ArgumentNullException(nameof(loader));
+            if (audioDevice != null) audioDevice.Closing -= CancelSongPreview;
+            audioDevice = device ?? throw new ArgumentNullException(nameof(device));
+            // A preview cannot outlive the mixer its sound was created on.
+            audioDevice.Closing += CancelSongPreview;
             previewClock = clock ?? new UnityPreviewClock();
             previewDwell = new PreviewDwellDebouncer(previewClock);
             EnsureSources();
@@ -109,7 +117,7 @@ namespace DJMaximusKaiserSoje.App
             while (!task.IsCompleted) yield return null;
             if (version != requestVersion || task.IsFaulted || !task.Result.Succeeded)
                 yield break;
-            PlayClip(task.Result.Value, 0.0, true);
+            PlayThemeClip(task.Result.Value);
         }
 
         private IEnumerator LoadAndPlayPreview(string songId, int version)
@@ -130,19 +138,58 @@ namespace DJMaximusKaiserSoje.App
 
             previewContent?.Dispose();
             previewContent = task.Result.Value;
+
+            FmodPreviewPlayback playback;
+            try
+            {
+                FmodOutput output = audioDevice.Output;
+                if (output == null) throw new InvalidOperationException("소리를 낼 수 없는 상태입니다.");
+                playback = FmodPreviewPlayback.Create(previewContent.AudioBytes, output);
+            }
+            catch (Exception exception)
+            {
+                Debug.LogWarning("곡 미리듣기를 재생하지 못했습니다: " + exception.Message);
+                previewContent.Dispose();
+                previewContent = null;
+                yield break;
+            }
+
+            preview?.Dispose();
+            preview = playback;
             try
             {
                 Beatmap chartData = new OsuManiaBeatmapParser().Parse(previewContent.ChartText.text);
-                previewStartSeconds = PreviewPointResolver.Resolve(chartData, previewContent.Audio.length * 1000.0) / 1000.0;
+                previewStartSeconds = PreviewPointResolver.Resolve(chartData, preview.LengthSeconds * 1000.0) / 1000.0;
             }
             catch (BeatmapParseException)
             {
-                previewStartSeconds = previewContent.Audio.length * MusicTiming.PreviewFallbackPosition01;
+                previewStartSeconds = preview.LengthSeconds * MusicTiming.PreviewFallbackPosition01;
             }
 
             PreviewingSongId = songId;
-            PlayClip(previewContent.Audio, previewStartSeconds, false);
+            preview.Play(previewStartSeconds);
+            if (crossfade != null) StopCoroutine(crossfade);
+            crossfade = StartCoroutine(FadeThemeIntoPreview());
             PreviewStarted?.Invoke(songId);
+        }
+
+        /// <summary>Hands the song over to the preview: the theme drops away as the song comes up.</summary>
+        private IEnumerator FadeThemeIntoPreview()
+        {
+            AudioSource outgoing = sources[activeSource];
+            float elapsed = 0.0f;
+            while (elapsed < MusicTiming.CrossfadeSeconds)
+            {
+                elapsed += Time.unscaledDeltaTime;
+                float progress = Mathf.Clamp01(elapsed / (float)MusicTiming.CrossfadeSeconds);
+                outgoing.volume = 1.0f - progress;
+                preview?.SetVolume(progress);
+                yield return null;
+            }
+            outgoing.volume = 0.0f;
+            outgoing.Stop();
+            preview?.SetVolume(1.0f);
+            crossfade = null;
         }
 
         private async Task<ContentLoadResult<AudioClip>> LoadThemeClipAsync(ScreenTheme theme)
@@ -172,7 +219,7 @@ namespace DJMaximusKaiserSoje.App
             return ContentLoadResult<AudioClip>.Success(handle.Result);
         }
 
-        private void PlayClip(AudioClip clip, double startSeconds, bool loop)
+        private void PlayThemeClip(AudioClip clip)
         {
             if (clip == null) return;
             EnsureSources();
@@ -180,8 +227,8 @@ namespace DJMaximusKaiserSoje.App
             AudioSource incoming = sources[next];
             incoming.Stop();
             incoming.clip = clip;
-            incoming.loop = loop;
-            incoming.time = (float)Math.Max(0.0, Math.Min(clip.length - 0.01, startSeconds));
+            incoming.loop = true;
+            incoming.time = 0.0f;
             incoming.volume = 0.0f;
             incoming.Play();
             if (crossfade != null) StopCoroutine(crossfade);
@@ -212,6 +259,8 @@ namespace DJMaximusKaiserSoje.App
         {
             bool hadPreview = !string.IsNullOrEmpty(PreviewingSongId);
             PreviewingSongId = null;
+            preview?.Dispose();
+            preview = null;
             previewContent?.Dispose();
             previewContent = null;
             if (notify && hadPreview) PreviewStopped?.Invoke();
@@ -260,6 +309,8 @@ namespace DJMaximusKaiserSoje.App
 
         private void OnDestroy()
         {
+            if (audioDevice != null) audioDevice.Closing -= CancelSongPreview;
+            preview?.Dispose();
             previewContent?.Dispose();
             for (int index = 0; index < themeHandles.Count; index++)
                 if (themeHandles[index].IsValid()) Addressables.Release(themeHandles[index]);

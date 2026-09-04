@@ -1,3 +1,4 @@
+using System;
 using DJMaximusKaiserSoje.Core;
 using NUnit.Framework;
 
@@ -5,6 +6,40 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
 {
     public sealed class BackendCoreTests
     {
+        [Test]
+        public void SampleClock_RoundTripsASchedulingTimeWithoutLosingASample()
+        {
+            const int sampleRate = 48000;
+            double scheduled = 12.3456789;
+
+            ulong samples = SampleClock.ToSamples(scheduled, sampleRate);
+
+            Assert.That(samples, Is.EqualTo(592593UL));
+            Assert.That(SampleClock.ToSeconds(samples, sampleRate), Is.EqualTo(scheduled).Within(1.0 / sampleRate));
+        }
+
+        [Test]
+        public void SampleClock_RoundsToNearestSampleSoAStartNeverLandsEarly()
+        {
+            // 0.5 samples past a boundary: truncating would schedule one sample before the beat.
+            Assert.That(SampleClock.ToSamples(1.0 / 48000.0 * 0.5, 48000), Is.EqualTo(1UL));
+            Assert.That(SampleClock.ToSamples(1.0 / 48000.0 * 0.49, 48000), Is.EqualTo(0UL));
+        }
+
+        [Test]
+        public void SampleClock_TimeBeforeTheDeviceStarted_ClampsToZero()
+        {
+            Assert.That(SampleClock.ToSamples(-3.0, 48000), Is.EqualTo(0UL));
+            Assert.That(SampleClock.ToSamples(double.NaN, 48000), Is.EqualTo(0UL));
+        }
+
+        [Test]
+        public void SampleClock_WhenDeviceReportsNoSampleRate_IsNotSilentlyAccepted()
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => SampleClock.ToSamples(1.0, 0));
+            Assert.Throws<ArgumentOutOfRangeException>(() => SampleClock.ToSeconds(1UL, -1));
+        }
+
         [Test]
         public void Score_AllPerfect_ReachesAccuracyAndRatingBoundaries()
         {
@@ -115,9 +150,12 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             Assert.That(PreviewPointResolver.Resolve(chart, 20000.0), Is.EqualTo(1250.0));
         }
 
-        [TestCase(64, 128)]
+        [TestCase(64, 64)]
+        [TestCase(40, 64)]
+        [TestCase(100, 128)]
         [TestCase(300, 256)]
         [TestCase(900, 1024)]
+        [TestCase(4096, 1024)]
         public void Options_AudioBufferUsesNearestSupportedSize(int requested, int expected)
         {
             Assert.That(GameOptionRules.NormalizeAudioBufferSize(requested), Is.EqualTo(expected));

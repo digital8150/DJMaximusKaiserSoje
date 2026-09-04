@@ -18,13 +18,20 @@ namespace DJMaximusKaiserSoje.App
         public const string ResolutionHeightKey = "rhythm.graphics.height";
         private const string BindingKeyPrefix = "rhythm.input.bindings.";
 
-        public PlayerPrefsPlayPreferences()
+        /// <summary>
+        /// Read before the mixer exists, so the device can be opened at the size the player chose
+        /// rather than being opened at a default and immediately rebuilt.
+        /// </summary>
+        public static int StoredAudioBufferSize => GameOptionRules.NormalizeAudioBufferSize(
+            PlayerPrefs.GetInt(AudioBufferSizeKey, GameOptionRules.DefaultAudioBufferSize));
+
+        public PlayerPrefsPlayPreferences(IAudioDevice audioDevice)
         {
+            this.audioDevice = audioDevice ?? throw new ArgumentNullException(nameof(audioDevice));
             scrollSpeed = ScrollSpeedRange.Clamp(PlayerPrefs.GetFloat(ScrollSpeedKey, ScrollSpeedRange.Default));
             judgementOffsetMs = JudgementOffsetRange.Clamp(PlayerPrefs.GetFloat(JudgementOffsetKey, 0.0f));
             playStyle = ReadStyle(PlayerPrefs.GetInt(PlayStyleKey, 0));
-            audioBufferSize = GameOptionRules.NormalizeAudioBufferSize(
-                PlayerPrefs.GetInt(AudioBufferSizeKey, AudioSettings.GetConfiguration().dspBufferSize));
+            audioBufferSize = StoredAudioBufferSize;
             qualityLevel = Mathf.Clamp(PlayerPrefs.GetInt(QualityLevelKey, QualitySettings.GetQualityLevel()),
                 0, Mathf.Max(0, QualitySettings.names.Length - 1));
             vSync = PlayerPrefs.GetInt(VSyncKey, QualitySettings.vSyncCount > 0 ? 1 : 0) != 0;
@@ -34,6 +41,7 @@ namespace DJMaximusKaiserSoje.App
             ApplyAll();
         }
 
+        private readonly IAudioDevice audioDevice;
         private float scrollSpeed;
         private double judgementOffsetMs;
         private PlayStyle playStyle;
@@ -195,13 +203,12 @@ namespace DJMaximusKaiserSoje.App
             ApplyResolution();
         }
 
-        private void ApplyAudioBuffer()
-        {
-            AudioConfiguration configuration = AudioSettings.GetConfiguration();
-            if (configuration.dspBufferSize == audioBufferSize) return;
-            configuration.dspBufferSize = audioBufferSize;
-            if (!AudioSettings.Reset(configuration)) Debug.LogWarning("선택한 오디오 버퍼 크기를 적용하지 못했습니다.");
-        }
+        /// <summary>
+        /// Gameplay is mixed by FMOD, so this is the buffer that decides how quickly a keypress is
+        /// heard. Unity's own buffer is left alone: it only carries the screen themes, which have
+        /// nothing to stay in time with.
+        /// </summary>
+        private void ApplyAudioBuffer() => audioDevice.SetBufferLength(audioBufferSize);
 
         private void ApplyResolution() => Screen.SetResolution(resolutionWidth, resolutionHeight, ToUnityMode(displayMode));
 

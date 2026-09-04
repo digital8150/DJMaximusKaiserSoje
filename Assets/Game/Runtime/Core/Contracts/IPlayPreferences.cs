@@ -17,6 +17,10 @@ namespace DJMaximusKaiserSoje.Core
 
         PlayStyle PlayStyle { get; set; }
 
+        /// <summary>
+        /// How much audio the mixer works on at a time, in samples. Smaller is more responsive and
+        /// more likely to crackle; see <see cref="GameOptionRules.AudioBufferSizes"/>.
+        /// </summary>
         int AudioBufferSize { get; set; }
 
         int QualityLevel { get; set; }
@@ -38,5 +42,17 @@ namespace DJMaximusKaiserSoje.Core
         void ResetKeyBindings(PlayStyle style);
 
         event Action Changed;
+    }
+
+    /// <summary>
+    /// The mixer, as far as the options need to steer it. Keeping this narrow lets preferences be
+    /// tested without an audio device and keeps the audio backend out of the settings code.
+    /// </summary>
+    public interface IAudioDevice
+    {
+        /// <summary>What the device actually settled on, which may not be what was asked for.</summary>
+        int BufferLength { get; }
+
+        void SetBufferLength(int samples);
     }
 }

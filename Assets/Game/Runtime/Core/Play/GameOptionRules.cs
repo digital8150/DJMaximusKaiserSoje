@@ -13,7 +13,13 @@ namespace DJMaximusKaiserSoje.Core
     /// <summary>Deterministic defaults and validation shared by persistence, input, and the option UI.</summary>
     public static class GameOptionRules
     {
-        public static readonly int[] AudioBufferSizes = { 128, 256, 512, 1024 };
+        public static readonly int[] AudioBufferSizes = { 64, 128, 256, 512, 1024 };
+
+        /// <summary>
+        /// Low enough that keypress and sound feel simultaneous, high enough that an ordinary
+        /// machine does not crackle before the player has found the setting.
+        /// </summary>
+        public const int DefaultAudioBufferSize = 256;
 
         public static int NormalizeAudioBufferSize(int value)
         {

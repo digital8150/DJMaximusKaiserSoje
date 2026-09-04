@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DJMaximusKaiserSoje.Content;
 using DJMaximusKaiserSoje.Core;
+using DJMaximusKaiserSoje.Gameplay;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -94,14 +95,20 @@ namespace DJMaximusKaiserSoje.App
             var songLibrary = new CatalogSongLibrary(catalog);
             var contentLoader = new AddressablesContentLoader();
             var records = new JsonRecordStore();
-            var preferences = new PlayerPrefsPlayPreferences();
+
+            // The mixer opens at the size the player already chose, so the first song is heard at
+            // the latency they settled on rather than at a default the options then rebuild.
+            var audioDevice = GetComponent<FmodAudioDevice>() ?? gameObject.AddComponent<FmodAudioDevice>();
+            audioDevice.SetBufferLength(PlayerPrefsPlayPreferences.StoredAudioBufferSize);
+
+            var preferences = new PlayerPrefsPlayPreferences(audioDevice);
             var profile = new LocalPlayerProfile();
             var music = GetComponent<MusicDirector>() ?? gameObject.AddComponent<MusicDirector>();
             var factory = GetComponent<PlaySessionFactory>() ?? gameObject.AddComponent<PlaySessionFactory>();
             Flow = GetComponent<SceneGameFlow>() ?? gameObject.AddComponent<SceneGameFlow>();
-            music.Configure(songLibrary, contentLoader);
+            music.Configure(songLibrary, contentLoader, audioDevice);
             Services = new GameServices(songLibrary, records, profile, preferences, Flow, music);
-            factory.Configure(songLibrary, contentLoader, records);
+            factory.Configure(songLibrary, contentLoader, records, audioDevice);
             Flow.Configure(Services, factory);
             initialized = true;
             Flow.ShowTitle();

@@ -11,11 +11,14 @@ namespace DJMaximusKaiserSoje.Gameplay
         double CurrentTime { get; }
     }
 
-    public interface IAudioPlayback
+    /// <summary>
+    /// One song's playback, scheduled against the same clock the session judges on. The audio the
+    /// adapter plays is fixed when it is constructed, so nothing Unity-typed reaches the session.
+    /// </summary>
+    public interface IAudioPlayback : IDisposable
     {
         double LengthSeconds { get; }
 
-        void SetClip(AudioClip clip);
         void PlayScheduled(double dspTime);
         void Pause();
         void Resume();
@@ -27,21 +30,28 @@ namespace DJMaximusKaiserSoje.Gameplay
     {
         private readonly AudioSource source;
 
-        public UnityAudioPlayback(AudioSource source)
+        public UnityAudioPlayback(AudioSource source, AudioClip clip)
         {
             this.source = source ?? throw new ArgumentNullException(nameof(source));
             source.playOnAwake = false;
             source.loop = false;
             source.spatialBlend = 0.0f;
+            source.clip = clip;
         }
 
         public double LengthSeconds => source.clip == null ? 0.0 : source.clip.length;
 
-        public void SetClip(AudioClip clip) => source.clip = clip;
         public void PlayScheduled(double dspTime) => source.PlayScheduled(dspTime);
         public void Pause() => source.Pause();
         public void Resume() => source.UnPause();
         public void Stop() => source.Stop();
+
+        public void Dispose()
+        {
+            if (source == null) return;
+            source.Stop();
+            source.clip = null;
+        }
     }
 
     public sealed class UnityDspTimeSource : IDspTimeSource
@@ -153,20 +163,6 @@ namespace DJMaximusKaiserSoje.Gameplay
             SongTimeMs = -LeadInSeconds * 1000.0;
             input.Pressed += OnLanePressed;
             input.Released += OnLaneReleased;
-        }
-
-        public PlaySession(
-            string songId,
-            string chartId,
-            PlayStyle style,
-            Beatmap beatmap,
-            AudioClip audioClip,
-            IDspTimeSource dspTime,
-            ILaneInput input,
-            IRecordStore records,
-            double judgementOffsetMs = 0.0)
-            : this(songId, chartId, style, beatmap, new ClipPlayback(audioClip), input, dspTime, records, judgementOffsetMs)
-        {
         }
 
         public PlaySessionState State { get; private set; }
@@ -332,6 +328,7 @@ namespace DJMaximusKaiserSoje.Gameplay
             input.Released -= OnLaneReleased;
             input.Dispose();
             audio.Stop();
+            audio.Dispose();
         }
 
         private void OnLanePressed(int lane, double timestamp)
@@ -477,17 +474,6 @@ namespace DJMaximusKaiserSoje.Gameplay
             if (disposed) throw new ObjectDisposedException(nameof(PlaySession));
         }
 
-        private sealed class ClipPlayback : IAudioPlayback
-        {
-            private readonly AudioClip clip;
-            public ClipPlayback(AudioClip clip) { this.clip = clip; }
-            public double LengthSeconds => clip == null ? 0.0 : clip.length;
-            public void SetClip(AudioClip value) { }
-            public void PlayScheduled(double dspTime) { }
-            public void Pause() { }
-            public void Resume() { }
-            public void Stop() { }
-        }
     }
 
     /// <summary>Bridges Unity's frame loop to a DSP-clocked session without putting UI in it.</summary>
@@ -516,10 +502,18 @@ namespace DJMaximusKaiserSoje.Gameplay
             bga?.Tick();
         }
 
-        private void OnDestroy()
+        /// <summary>
+        /// Frees the run now rather than at the end of the frame. Destroying the object is deferred,
+        /// which is too late when the mixer that owns the song's sound is being torn down.
+        /// </summary>
+        public void ReleaseNow()
         {
             session?.Dispose();
             content?.Dispose();
+            session = null;
+            content = null;
         }
+
+        private void OnDestroy() => ReleaseNow();
     }
 }

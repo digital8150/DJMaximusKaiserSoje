@@ -32,7 +32,7 @@ namespace DJMaximusKaiserSoje.Editor
             { SongFolder + "/ShootingStar-Hard.txt", "song.shooting-star.hard.beatmap" },
             { SongFolder + "/ShootingStar-Insane.txt", "song.shooting-star.insane.beatmap" },
             { SongFolder + "/ShootingStar-Satellite.txt", "song.shooting-star.satellite.beatmap" },
-            { SongFolder + "/ShootingStar.ogg", "song.shooting-star.audio" },
+            { SongFolder + "/ShootingStar.ogg.bytes", "song.shooting-star.audio" },
             { SongFolder + "/ShootingStar-Cover-1.jpg", "song.shooting-star.cover.1" },
             { SongFolder + "/ShootingStar-Cover-2.jpg", "song.shooting-star.cover.2" },
             { SongFolder + "/ShootingStar-Cover-3.jpg", "song.shooting-star.cover.3" },
@@ -40,11 +40,11 @@ namespace DJMaximusKaiserSoje.Editor
             { SongFolder + "/LastFortune-Lv1.txt", "song.last-fortune.lv1.beatmap" },
             { SongFolder + "/LastFortune-Lv20.txt", "song.last-fortune.lv20.beatmap" },
             { SongFolder + "/LastFortune-Lv45.txt", "song.last-fortune.lv45.beatmap" },
-            { SongFolder + "/LastFortune.ogg", "song.last-fortune.audio" },
+            { SongFolder + "/LastFortune.ogg.bytes", "song.last-fortune.audio" },
             { SongFolder + "/LastFortune-Cover.jpg", "song.last-fortune.cover" },
             { SongFolder + "/DisconnectedTrance-Insane.txt", "song.disconnected-trance.insane.beatmap" },
             { SongFolder + "/DisconnectedTrance-Stepmania.txt", "song.disconnected-trance.stepmania.beatmap" },
-            { SongFolder + "/DisconnectedTrance.ogg", "song.disconnected-trance.audio" },
+            { SongFolder + "/DisconnectedTrance.ogg.bytes", "song.disconnected-trance.audio" },
             { SongFolder + "/DisconnectedTrance-Cover.jpg", "song.disconnected-trance.cover" }
         };
 
@@ -140,18 +140,6 @@ namespace DJMaximusKaiserSoje.Editor
                         texture.SaveAndReimport();
                         break;
 
-                    // Charts are judged against the audio clock, so their audio is decompressed up
-                    // front; the screen themes stream instead and are configured with the screens.
-                    case AudioImporter audio when path.StartsWith(SongFolder, StringComparison.Ordinal):
-                        var settings = audio.defaultSampleSettings;
-                        settings.loadType = AudioClipLoadType.DecompressOnLoad;
-                        settings.compressionFormat = AudioCompressionFormat.Vorbis;
-                        settings.quality = 0.85f;
-                        settings.preloadAudioData = true;
-                        audio.defaultSampleSettings = settings;
-                        audio.loadInBackground = false;
-                        audio.SaveAndReimport();
-                        break;
                 }
             }
         }
