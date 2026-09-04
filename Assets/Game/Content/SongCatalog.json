@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "songs": [
+    {
+      "id": "shooting-star",
+      "title": "Shooting Star",
+      "artist": "StelLive Cliche",
+      "audioAddress": "song.shooting-star.audio",
+      "videoAddress": "song.shooting-star.video",
+      "bpm": 190,
+      "category": "Prototype",
+      "charts": [
+        { "difficulty": "Easy", "tier": "Easy", "level": 1, "keyCount": 4, "noteCount": 695, "beatmapAddress": "song.shooting-star.easy.beatmap", "coverAddress": "song.shooting-star.cover.1" },
+        { "difficulty": "Normal", "tier": "Normal", "level": 5, "keyCount": 4, "noteCount": 1100, "beatmapAddress": "song.shooting-star.normal.beatmap", "coverAddress": "song.shooting-star.cover.2" },
+        { "difficulty": "Hard", "tier": "Hard", "level": 10, "keyCount": 4, "noteCount": 1678, "beatmapAddress": "song.shooting-star.hard.beatmap", "coverAddress": "song.shooting-star.cover.2" },
+        { "difficulty": "Insane", "tier": "SuperHard", "level": 15, "keyCount": 4, "noteCount": 1935, "beatmapAddress": "song.shooting-star.insane.beatmap", "coverAddress": "song.shooting-star.cover.3" },
+        { "difficulty": "Satellite", "tier": "Over", "level": 20, "keyCount": 4, "noteCount": 2325, "beatmapAddress": "song.shooting-star.satellite.beatmap", "coverAddress": "song.shooting-star.cover.1" }
+      ]
+    },
+    {
+      "id": "last-fortune",
+      "title": "last fortune",
+      "artist": "fripSide",
+      "audioAddress": "song.last-fortune.audio",
+      "videoAddress": "",
+      "bpm": 134,
+      "category": "Prototype",
+      "charts": [
+        { "difficulty": "Lv.1", "tier": "Easy", "level": 1, "keyCount": 4, "noteCount": 844, "beatmapAddress": "song.last-fortune.lv1.beatmap", "coverAddress": "song.last-fortune.cover" },
+        { "difficulty": "Lv.20", "tier": "Hard", "level": 20, "keyCount": 4, "noteCount": 2387, "beatmapAddress": "song.last-fortune.lv20.beatmap", "coverAddress": "song.last-fortune.cover" },
+        { "difficulty": "Lv.45", "tier": "Over", "level": 45, "keyCount": 4, "noteCount": 3624, "beatmapAddress": "song.last-fortune.lv45.beatmap", "coverAddress": "song.last-fortune.cover" }
+      ]
+    },
+    {
+      "id": "disconnected-trance",
+      "title": "Disconnected Trance",
+      "artist": "DJ Banzai",
+      "audioAddress": "song.disconnected-trance.audio",
+      "videoAddress": "",
+      "bpm": 148,
+      "category": "Prototype",
+      "charts": [
+        { "difficulty": "Insane", "tier": "SuperHard", "level": 15, "keyCount": 4, "noteCount": 1674, "beatmapAddress": "song.disconnected-trance.insane.beatmap", "coverAddress": "song.disconnected-trance.cover" },
+        { "difficulty": "STEPMANIA", "tier": "Over", "level": 20, "keyCount": 4, "noteCount": 1775, "beatmapAddress": "song.disconnected-trance.stepmania.beatmap", "coverAddress": "song.disconnected-trance.cover" }
+      ]
+    }
+  ]
+}

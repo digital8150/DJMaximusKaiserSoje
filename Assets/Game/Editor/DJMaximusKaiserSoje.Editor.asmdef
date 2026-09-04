@@ -1,0 +1,24 @@
+{
+  "name": "DJMaximusKaiserSoje.Editor",
+  "rootNamespace": "DJMaximusKaiserSoje.Editor",
+  "references": [
+    "DJMaximusKaiserSoje.Core",
+    "DJMaximusKaiserSoje.Presentation",
+    "Unity.ugui",
+    "Unity.TextMeshPro",
+    "Unity.TextMeshPro.Editor",
+    "Unity.InputSystem",
+    "Unity.Addressables",
+    "Unity.Addressables.Editor",
+    "Unity.ResourceManager"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

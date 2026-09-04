@@ -1,0 +1,19 @@
+{
+  "name": "DJMaximusKaiserSoje.Tests.EditMode",
+  "rootNamespace": "DJMaximusKaiserSoje.Tests.EditMode",
+  "references": [
+    "DJMaximusKaiserSoje.Core",
+    "DJMaximusKaiserSoje.Content",
+    "DJMaximusKaiserSoje.Gameplay",
+    "DJMaximusKaiserSoje.App"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

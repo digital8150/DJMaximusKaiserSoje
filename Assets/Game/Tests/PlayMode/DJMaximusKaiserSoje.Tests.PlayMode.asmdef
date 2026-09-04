@@ -1,0 +1,23 @@
+{
+  "name": "DJMaximusKaiserSoje.Tests.PlayMode",
+  "rootNamespace": "DJMaximusKaiserSoje.Tests.PlayMode",
+  "references": [
+    "DJMaximusKaiserSoje.Core",
+    "DJMaximusKaiserSoje.Content",
+    "DJMaximusKaiserSoje.Gameplay",
+    "DJMaximusKaiserSoje.App",
+    "DJMaximusKaiserSoje.Presentation",
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+    "Unity.InputSystem"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Default Local Group
+  m_GUID: 7bd51be2a9bf48d4cb6bca659352dc87
+  m_SerializeEntries:
+  - m_GUID: 28b1343a429236041bf6777887f83f64
+    m_Address: song.shooting-star.cover.1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28b45b22de708694691d7fb095086ed3
+    m_Address: song.shooting-star.satellite.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ccea76c543b62849bdba149877efdde
+    m_Address: song.shooting-star.insane.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cb9c5dc448f1ec4894a4f8cdcbf3527
+    m_Address: song.shooting-star.normal.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e27535fb17ec3f44a5ad9a1de46b283
+    m_Address: song.last-fortune.audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fb4f12810e1e2b46bb85c8f6d323724
+    m_Address: song.disconnected-trance.insane.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4887b650a6a379643948533736c69e3a
+    m_Address: song.shooting-star.cover.2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60bd6d79166785e4f8739628b97aea09
+    m_Address: song.shooting-star.cover
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6121203eae48fc940a832f5841c60a44
+    m_Address: song.disconnected-trance.stepmania.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69787886dd37a7e409883c3e4b1fcc6a
+    m_Address: song.disconnected-trance.audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cc25d9bad7ae124599f1f4ceb349dde
+    m_Address: song.last-fortune.cover
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d1c4ac7ea82852459c1dbe374ce728c
+    m_Address: theme.result
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dab6ba83273e2b419693fc04711ae7a
+    m_Address: theme.title
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8010408bf8c310341ab75cacd14025eb
+    m_Address: song.disconnected-trance.cover
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85db0cb3e9323194483b6c8cbbfafdc4
+    m_Address: song.last-fortune.lv45.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ae0a05bb70a3cc48b1d27d299c601a6
+    m_Address: song.shooting-star.easy.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9562f4034094ab04598338ee1a6e5714
+    m_Address: song.shooting-star.video
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b85c9017b74182246af10c879914e4ce
+    m_Address: song.shooting-star.cover.3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c10e80a5d50645d4f9c7ffbd8dcebd1f
+    m_Address: song.last-fortune.lv1.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfd912d7938cd184497fd9abfd6dce73
+    m_Address: song.last-fortune.lv20.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2a1cf5943a7b4244846b854983c5446
+    m_Address: theme.song-select
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da79ff8ffad54ce43be68363b4b99ef4
+    m_Address: song.shooting-star.audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5c03cdfd65c1b8439256d01b9ac2727
+    m_Address: catalog.rhythm.bootstrap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8f93e9b0aa78854a9933a3a1a4dd02a
+    m_Address: song.shooting-star.hard.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - rhythm-prototype
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e9aa2d4934ee7e84a99b8ee52f6aeaa6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cd0683dcccf81d344960ed5b22c1b57f, type: 2}
+    - {fileID: 11400000, guid: 365438f96d11a6b42955fc7bdd00d09d, type: 2}
+    m_SchemaDisplayOrder:
+    - Default Local Group_ContentUpdateGroupSchema
+    - Default Local Group_BundledAssetGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

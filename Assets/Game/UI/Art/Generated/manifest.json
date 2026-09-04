@@ -1,0 +1,64 @@
+{
+  "assets": [
+    {
+      "file": "Mascot-Idle.png",
+      "pixelSize": { "width": 517, "height": 1508 },
+      "chromaKey": "#00ff00",
+      "description": "Recurring DJ mascot standing relaxed and looking at the player."
+    },
+    {
+      "file": "Mascot-Cheer.png",
+      "pixelSize": { "width": 650, "height": 1447 },
+      "chromaKey": "#00ff00",
+      "description": "Recurring DJ mascot celebrating a good score with a compact victory pose."
+    },
+    {
+      "file": "Mascot-Title.png",
+      "pixelSize": { "width": 681, "height": 1503 },
+      "chromaKey": "#00ff00",
+      "description": "Recurring DJ mascot in a confident full-body title-screen hero pose."
+    },
+    {
+      "file": "Mascot-Bust.png",
+      "pixelSize": { "width": 1191, "height": 1191 },
+      "chromaKey": "#00ff00",
+      "description": "Square head-and-shoulders avatar of the recurring DJ mascot."
+    },
+    {
+      "file": "RankMedallion.png",
+      "pixelSize": { "width": 1209, "height": 1209 },
+      "chromaKey": "#00ff00",
+      "description": "Empty ornate neon rank ring with sparkles and a transparent hollow centre."
+    },
+    {
+      "file": "SparkleBurst.png",
+      "pixelSize": { "width": 1039, "height": 1039 },
+      "chromaKey": "#00ff00",
+      "description": "Square scatter of cyan, magenta, white, and violet celebratory sparkles."
+    },
+    {
+      "file": "TitleEmblem.png",
+      "pixelSize": { "width": 1032, "height": 1032 },
+      "chromaKey": "#00ff00",
+      "description": "Abstract headphone-and-soundwave title emblem without lettering."
+    },
+    {
+      "file": "Bg-Title.png",
+      "pixelSize": { "width": 1920, "height": 1080 },
+      "chromaKey": "none",
+      "description": "Quiet neon city-at-night abstraction with an open dark centre."
+    },
+    {
+      "file": "Bg-SongSelect.png",
+      "pixelSize": { "width": 1920, "height": 1080 },
+      "chromaKey": "none",
+      "description": "Calm indigo geometric backdrop with the right two-thirds left open."
+    },
+    {
+      "file": "Bg-Result.png",
+      "pixelSize": { "width": 1920, "height": 1080 },
+      "chromaKey": "none",
+      "description": "Bright celebratory abstraction with edge confetti and an open middle."
+    }
+  ]
+}

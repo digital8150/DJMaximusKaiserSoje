@@ -1,0 +1,21 @@
+{
+  "name": "DJMaximusKaiserSoje.Presentation",
+  "rootNamespace": "DJMaximusKaiserSoje.Presentation",
+  "references": [
+    "DJMaximusKaiserSoje.Core",
+    "Unity.ugui",
+    "Unity.TextMeshPro",
+    "Unity.InputSystem",
+    "Unity.Addressables",
+    "Unity.ResourceManager"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

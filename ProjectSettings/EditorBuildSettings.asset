@@ -6,7 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Boot.unity
+    guid: 981468d215f730b44b9c9494c6af0586
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: d7a32d0d77070ef449e49cee47ae3e98
+  - enabled: 1
+    path: Assets/Scenes/SongSelect.unity
+    guid: ae4581add62b5b148b456a1c5aa231e3
+  - enabled: 1
+    path: Assets/Scenes/Gameplay.unity
+    guid: 0811830439387e34d8f41430023a29af
+  - enabled: 1
+    path: Assets/Scenes/Result.unity
+    guid: 74d7ec0960148304190d12dd070cbdc3
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 75b337f23599735429181484f1f0649f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

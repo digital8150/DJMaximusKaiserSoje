@@ -43,3 +43,12 @@ crashlytics-build.properties
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Generated art staging (raw chroma renders)
+tools/art/raw/
+
+# Build review output
+artifacts/
+
+# Agent worker logs
+.agent-logs/
