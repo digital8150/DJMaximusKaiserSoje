@@ -42,7 +42,8 @@ namespace DJMaximusKaiserSoje.Core
             double previewTimeMs = -1.0,
             string backgroundFilename = null,
             string videoFilename = null,
-            double videoStartTimeMs = 0.0)
+            double videoStartTimeMs = 0.0,
+            string audioFilename = null)
         {
             if (keyCount < 1) throw new ArgumentOutOfRangeException(nameof(keyCount));
 
@@ -55,6 +56,7 @@ namespace DJMaximusKaiserSoje.Core
             BackgroundFilename = backgroundFilename;
             VideoFilename = videoFilename;
             VideoStartTimeMs = videoStartTimeMs;
+            AudioFilename = audioFilename;
         }
 
         public string Title { get; }
@@ -74,6 +76,7 @@ namespace DJMaximusKaiserSoje.Core
         public string BackgroundFilename { get; }
         public string VideoFilename { get; }
         public double VideoStartTimeMs { get; }
+        public string AudioFilename { get; }
     }
 
     public readonly struct BeatmapNote

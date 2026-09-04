@@ -6,7 +6,7 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
 {
     public sealed class ContentBackendTests
     {
-        private const string Chart = "[General]\nPreviewTime:1234\n[Metadata]\nTitle:Test Song\nArtist:Test Artist\nVersion:Hard\n[Difficulty]\nCircleSize:6\n[TimingPoints]\n0,500,4,2,1,50,1,0\n1000,-100,4,2,1,50,0,0\n[Events]\nVideo,250,\"movie.mp4\"\n0,0,\"cover.jpg\",0,0\n[HitObjects]\n0,192,1000,1,0,0:0:0:0:\n511,192,1500,128,0,2200:0:0:0:0:";
+        private const string Chart = "[General]\nAudioFilename: song.ogg\nPreviewTime:1234\n[Metadata]\nTitle:Test Song\nArtist:Test Artist\nVersion:Hard\n[Difficulty]\nCircleSize:6\n[TimingPoints]\n0,500,4,2,1,50,1,0\n1000,-100,4,2,1,50,0,0\n[Events]\nVideo,250,\"movie.mp4\"\n0,0,\"cover.jpg\",0,0\n[HitObjects]\n0,192,1000,1,0,0:0:0:0:\n511,192,1500,128,0,2200:0:0:0:0:";
 
         [Test]
         public void Parser_MapsMetadataPreviewBpmAndObjects()
@@ -18,6 +18,7 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             Assert.That(result.Header.PreviewTimeMs, Is.EqualTo(1234.0));
             Assert.That(result.Header.Bpm, Is.EqualTo(120.0).Within(0.0001));
             Assert.That(result.Header.VideoFilename, Is.EqualTo("movie.mp4"));
+            Assert.That(result.Header.AudioFilename, Is.EqualTo("song.ogg"));
             Assert.That(result.Notes, Has.Count.EqualTo(2));
             Assert.That(result.Notes[1].EndTimeMs, Is.EqualTo(2200.0));
         }
@@ -69,6 +70,20 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             const string json = "{\"schemaVersion\":99,\"songs\":[]}";
 
             Assert.Throws<SongCatalogException>(() => SongCatalogParser.Parse(json));
+        }
+
+        [Test]
+        public void Catalog_SameTierAtDifferentKeyCounts_RemainsSelectableByStyle()
+        {
+            const string json = "{\"schemaVersion\":2,\"songs\":[{\"id\":\"multi\",\"title\":\"Multi\",\"artist\":\"Artist\",\"audioAddress\":\"audio\",\"jacketAddress\":\"cover\",\"charts\":[{\"difficulty\":\"Normal 4K\",\"tier\":\"Normal\",\"level\":5,\"keyCount\":4,\"noteCount\":10,\"beatmapAddress\":\"map4\"},{\"difficulty\":\"Normal 6K\",\"tier\":\"Normal\",\"level\":5,\"keyCount\":6,\"noteCount\":12,\"beatmapAddress\":\"map6\"}]}]}";
+            var library = new CatalogSongLibrary(SongCatalogParser.Parse(json));
+            SongSummary song = library.Songs[0];
+
+            Assert.That(song.TryGetChart(DifficultyTier.Normal, PlayStyle.FourKey, out ChartSummary fourKey), Is.True);
+            Assert.That(fourKey.KeyCount, Is.EqualTo(4));
+            Assert.That(song.TryGetChart(DifficultyTier.Normal, PlayStyle.SixKey, out ChartSummary sixKey), Is.True);
+            Assert.That(sixKey.KeyCount, Is.EqualTo(6));
+            Assert.That(fourKey.Id, Is.Not.EqualTo(sixKey.Id));
         }
     }
 }

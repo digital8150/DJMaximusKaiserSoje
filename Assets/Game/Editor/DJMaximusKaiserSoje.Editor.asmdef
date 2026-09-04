@@ -3,6 +3,7 @@
   "rootNamespace": "DJMaximusKaiserSoje.Editor",
   "references": [
     "DJMaximusKaiserSoje.Core",
+    "DJMaximusKaiserSoje.Content",
     "DJMaximusKaiserSoje.Presentation",
     "Unity.ugui",
     "Unity.TextMeshPro",

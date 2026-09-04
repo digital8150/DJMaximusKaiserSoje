@@ -195,7 +195,7 @@ namespace DJMaximusKaiserSoje.Content
                 if (double.IsNaN(song.bpm) || double.IsInfinity(song.bpm) || song.bpm < 0.0)
                     throw new SongCatalogException("Song " + song.id + " has an invalid BPM.");
 
-                var chartIds = new HashSet<DifficultyTier>();
+                var chartIds = new HashSet<string>(StringComparer.Ordinal);
                 for (int chartIndex = 0; chartIndex < song.charts.Length; chartIndex++)
                 {
                     SongChartEntry chart = song.charts[chartIndex];
@@ -207,9 +207,11 @@ namespace DJMaximusKaiserSoje.Content
                         throw new SongCatalogException("Chart " + chartIndex + " for song " + song.id + " is incomplete.");
                     if (!TryParseTier(chart.tier, out DifficultyTier tier))
                         throw new SongCatalogException("Chart " + chartIndex + " for song " + song.id + " has an unknown tier: " + chart.tier);
-                    if (!chartIds.Add(tier))
-                        throw new SongCatalogException("Song " + song.id + " has more than one chart in tier " + tier + ".");
-                    if (chart.level < 1 || chart.noteCount < 0 || chart.keyCount < 0)
+                    string chartSlot = tier + ":" + chart.keyCount;
+                    if (!chartIds.Add(chartSlot))
+                        throw new SongCatalogException("Song " + song.id + " has more than one " + chart.keyCount +
+                            "K chart in tier " + tier + ".");
+                    if (chart.level < 1 || chart.noteCount < 0 || chart.keyCount <= 0)
                         throw new SongCatalogException("Chart " + chartIndex + " for song " + song.id + " has invalid chart metadata.");
                 }
             }
@@ -254,13 +256,22 @@ namespace DJMaximusKaiserSoje.Content
             {
                 SongCatalogEntry entry = catalog.songs[songIndex];
                 var chartSummaries = new List<ChartSummary>(entry.charts.Length);
+                var tierCounts = new Dictionary<DifficultyTier, int>();
+                for (int chartIndex = 0; chartIndex < entry.charts.Length; chartIndex++)
+                {
+                    if (!SongCatalogParser.TryParseTier(entry.charts[chartIndex].tier, out DifficultyTier countedTier)) continue;
+                    tierCounts.TryGetValue(countedTier, out int count);
+                    tierCounts[countedTier] = count + 1;
+                }
                 string jacket = entry.jacketAddress;
                 for (int chartIndex = 0; chartIndex < entry.charts.Length; chartIndex++)
                 {
                     SongChartEntry chart = entry.charts[chartIndex];
                     if (!SongCatalogParser.TryParseTier(chart.tier, out DifficultyTier tier))
                         throw new SongCatalogException("Unknown tier in catalog: " + chart.tier);
-                    string chartId = entry.id + "." + tier.ToString().ToLowerInvariant();
+                    string chartId = entry.id + "." + (tierCounts[tier] == 1
+                        ? tier.ToString().ToLowerInvariant()
+                        : chart.keyCount + "k." + tier.ToString().ToLowerInvariant());
                     string chartJacket = string.IsNullOrWhiteSpace(chart.coverAddress) ? jacket : chart.coverAddress;
                     if (string.IsNullOrWhiteSpace(jacket)) jacket = chartJacket;
                     var summary = new ChartSummary(chartId, entry.id, tier, chart.difficulty, chart.level, chart.keyCount, chart.noteCount);

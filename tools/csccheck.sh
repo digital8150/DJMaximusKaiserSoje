@@ -46,5 +46,5 @@ compile DJMaximusKaiserSoje.Content DJMaximusKaiserSoje.Core -- Assets/Game/Runt
 compile DJMaximusKaiserSoje.Gameplay DJMaximusKaiserSoje.Core DJMaximusKaiserSoje.Content -- Assets/Game/Runtime/Gameplay
 compile DJMaximusKaiserSoje.App DJMaximusKaiserSoje.Core DJMaximusKaiserSoje.Content DJMaximusKaiserSoje.Gameplay -- Assets/Game/Runtime/App
 compile DJMaximusKaiserSoje.Presentation DJMaximusKaiserSoje.Core -- Assets/Game/Runtime/Presentation
-compile DJMaximusKaiserSoje.Editor DJMaximusKaiserSoje.Core DJMaximusKaiserSoje.Presentation -- Assets/Game/Editor
+compile DJMaximusKaiserSoje.Editor DJMaximusKaiserSoje.Core DJMaximusKaiserSoje.Content DJMaximusKaiserSoje.Presentation -- Assets/Game/Editor
 echo "done"

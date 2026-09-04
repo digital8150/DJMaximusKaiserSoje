@@ -96,6 +96,21 @@ layout change is a code change, not a manual re-drag.
 `tools/unity.sh DJMaximusKaiserSoje.Editor.ScreenshotCapture.CaptureAll` renders each screen to
 `artifacts/screens` so a layout can be reviewed without launching the game.
 
+## Importing osu!mania song sets
+
+`Tools > DJ Maximus > Import osu!mania .osz` opens a file picker and imports one set. The importer
+accepts 4K, 6K, and 8K mania charts, copies only referenced audio/jacket/video files, writes the
+versioned remote song catalog, assigns stable `song.<id>.*` addresses, and runs the Addressables
+content build. Output is written under `ServerData/[BuildTarget]`; set the active profile's
+`Remote.LoadPath` to the deployment URL (a new profile starts at
+`http://localhost:8000/[BuildTarget]`). The player tries `catalog.rhythm.remote` first and falls
+back to the bundled `catalog.rhythm.bootstrap` when remote content is unavailable.
+
+Archive handling uses the maintained `System.IO.Compression.ZipArchive` implementation bundled
+with Unity. The existing `OsuManiaBeatmapParser`, catalog schema, and Addressables editor APIs are
+reused; no new package or custom compression/serialization layer is introduced, so there is no
+additional third-party license to ship.
+
 ## Checks
 
 ```sh

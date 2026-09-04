@@ -30,6 +30,7 @@ namespace DJMaximusKaiserSoje.Content
             string backgroundFilename = null;
             string videoFilename = null;
             double videoStartTimeMs = 0.0;
+            string audioFilename = null;
             var rawObjects = new List<string>();
 
             using (var reader = new StringReader(source))
@@ -57,11 +58,18 @@ namespace DJMaximusKaiserSoje.Content
                         else if (TryProperty(line, "Artist", out value)) artist = value;
                         else if (TryProperty(line, "Version", out value)) difficulty = value;
                     }
-                    else if (section == "[General]" && TryProperty(line, "PreviewTime", out string preview))
+                    else if (section == "[General]")
                     {
-                        if (!double.TryParse(preview, NumberStyles.Float, CultureInfo.InvariantCulture, out previewTimeMs) || previewTimeMs < -1.0)
-                            throw new BeatmapParseException("PreviewTime must be -1 or a non-negative number.");
-                        if (previewTimeMs < 0.0) previewTimeMs = -1.0;
+                        if (TryProperty(line, "PreviewTime", out string preview))
+                        {
+                            if (!double.TryParse(preview, NumberStyles.Float, CultureInfo.InvariantCulture, out previewTimeMs) || previewTimeMs < -1.0)
+                                throw new BeatmapParseException("PreviewTime must be -1 or a non-negative number.");
+                            if (previewTimeMs < 0.0) previewTimeMs = -1.0;
+                        }
+                        else if (TryProperty(line, "AudioFilename", out string audio))
+                        {
+                            audioFilename = audio;
+                        }
                     }
                     else if (section == "[TimingPoints]")
                     {
@@ -88,7 +96,7 @@ namespace DJMaximusKaiserSoje.Content
             notes.Sort((left, right) => left.StartTimeMs.CompareTo(right.StartTimeMs));
 
             var header = new BeatmapHeader(title, artist, difficulty, keyCount, bpm, previewTimeMs,
-                backgroundFilename, videoFilename, videoStartTimeMs);
+                backgroundFilename, videoFilename, videoStartTimeMs, audioFilename);
             return new Beatmap(header, notes);
         }
 

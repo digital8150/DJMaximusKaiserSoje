@@ -96,5 +96,16 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
 
             Assert.That(PreviewPointResolver.Resolve(chart, 20000.0), Is.EqualTo(1250.0));
         }
+
+        [TestCase(PlayStyle.FourKey, 4)]
+        [TestCase(PlayStyle.FourKeyFx, 6)]
+        [TestCase(PlayStyle.SixKey, 6)]
+        [TestCase(PlayStyle.SixKeyFx, 8)]
+        public void PlayStyle_RequiresExactChartKeyCount(PlayStyle style, int expectedKeyCount)
+        {
+            Assert.That(PlayStyleChartCompatibility.RequiredKeyCount(style), Is.EqualTo(expectedKeyCount));
+            Assert.That(PlayStyleChartCompatibility.IsCompatible(style,
+                new ChartSummary("chart", "song", DifficultyTier.Normal, "Normal", 5, expectedKeyCount, 10)), Is.True);
+        }
     }
 }

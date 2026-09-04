@@ -56,6 +56,7 @@ namespace DJMaximusKaiserSoje.Gameplay
     public sealed class PlaySession : IPlaySession, IDisposable
     {
         public const double LeadInSeconds = 2.25;
+        public const double ResumeCountdownSeconds = 3.0;
 
         private sealed class RuntimeNote
         {
@@ -90,6 +91,7 @@ namespace DJMaximusKaiserSoje.Gameplay
         private SectionMarker currentSection;
         private bool disposed;
         private double inputToDspOffset;
+        private double resumeCountdownStartDspTime;
 
         public PlaySession(
             string songId,
@@ -177,6 +179,7 @@ namespace DJMaximusKaiserSoje.Gameplay
         public BeatmapHeader Chart { get; }
         public double SongTimeMs { get; private set; }
         public double SongLengthMs => songLengthMs;
+        public double ResumeCountdownRemainingMs { get; private set; }
         public double Progress01 => Score.Progress01;
         public IReadOnlyList<ActiveNote> PendingNotes
         {
@@ -219,6 +222,11 @@ namespace DJMaximusKaiserSoje.Gameplay
         public void Tick()
         {
             EnsureNotDisposed();
+            if (State == PlaySessionState.Resuming)
+            {
+                TickResumeCountdown();
+                return;
+            }
             if (State != PlaySessionState.Playing) return;
             SongTimeMs = clock.SongTimeMs + judgementOffsetMs;
             UpdateSection(SongTimeMs);
@@ -259,6 +267,13 @@ namespace DJMaximusKaiserSoje.Gameplay
 
         public void Pause()
         {
+            if (State == PlaySessionState.Resuming)
+            {
+                ResumeCountdownRemainingMs = 0.0;
+                SongTimeMs = clock.SongTimeMs + judgementOffsetMs;
+                SetState(PlaySessionState.Paused);
+                return;
+            }
             if (State != PlaySessionState.Playing) return;
             clock.Pause();
             audio.Pause();
@@ -269,11 +284,10 @@ namespace DJMaximusKaiserSoje.Gameplay
         public void Resume()
         {
             if (State != PlaySessionState.Paused) return;
-            clock.Resume();
-            SyncInputClock();
-            audio.Resume();
-            input.Enable();
-            SetState(PlaySessionState.Playing);
+            resumeCountdownStartDspTime = dspTime.DspTime;
+            ResumeCountdownRemainingMs = ResumeCountdownSeconds * 1000.0;
+            SongTimeMs = clock.SongTimeMs + judgementOffsetMs - ResumeCountdownRemainingMs;
+            SetState(PlaySessionState.Resuming);
         }
 
         public void Restart()
@@ -286,6 +300,21 @@ namespace DJMaximusKaiserSoje.Gameplay
             SyncInputClock();
             audio.PlayScheduled(clock.StartDspTime);
             input.Enable();
+            SetState(PlaySessionState.Playing);
+        }
+
+        private void TickResumeCountdown()
+        {
+            double elapsedMs = Math.Max(0.0, (dspTime.DspTime - resumeCountdownStartDspTime) * 1000.0);
+            ResumeCountdownRemainingMs = Math.Max(0.0, ResumeCountdownSeconds * 1000.0 - elapsedMs);
+            SongTimeMs = clock.SongTimeMs + judgementOffsetMs - ResumeCountdownRemainingMs;
+            if (ResumeCountdownRemainingMs > 0.0) return;
+
+            clock.Resume();
+            SyncInputClock();
+            audio.Resume();
+            input.Enable();
+            SongTimeMs = clock.SongTimeMs + judgementOffsetMs;
             SetState(PlaySessionState.Playing);
         }
 
@@ -402,6 +431,7 @@ namespace DJMaximusKaiserSoje.Gameplay
             health = healthRules.StartingHealth;
             Health = health;
             SongTimeMs = -LeadInSeconds * 1000.0;
+            ResumeCountdownRemainingMs = 0.0;
             currentSection = sections.GetSection(0.0);
             ScoreChanged?.Invoke(Score);
             HealthChanged?.Invoke(Health);

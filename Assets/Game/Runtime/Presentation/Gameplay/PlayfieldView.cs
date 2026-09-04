@@ -74,6 +74,11 @@ namespace DJMaximusKaiserSoje.Presentation
         private float laidOutWidth;
         private float laidOutHeight;
         private int frameStamp;
+        private double lastRenderedSongTimeMs;
+        private double rewindInitialOffsetMs;
+        private float rewindElapsedSeconds;
+
+        private const float RewindTransitionSeconds = 0.45f;
 
         private float LaneWidth => laneViewport == null ? 0f : laneViewport.rect.width;
 
@@ -105,6 +110,8 @@ namespace DJMaximusKaiserSoje.Presentation
 
             session.LanePressed += OnLanePressed;
             session.LaneReleased += OnLaneReleased;
+            session.StateChanged += OnSessionStateChanged;
+            lastRenderedSongTimeMs = session.SongTimeMs;
         }
 
         public void SetScrollSpeed(float speed) => scrollSpeed = ScrollSpeedRange.Clamp(speed);
@@ -116,6 +123,7 @@ namespace DJMaximusKaiserSoje.Presentation
             if (session == null) return;
             session.LanePressed -= OnLanePressed;
             session.LaneReleased -= OnLaneReleased;
+            session.StateChanged -= OnSessionStateChanged;
             session = null;
         }
 
@@ -276,7 +284,31 @@ namespace DJMaximusKaiserSoje.Presentation
                 LayoutLanes();
 
             UpdateEffects(Time.unscaledDeltaTime);
-            UpdateNotes(session.SongTimeMs);
+            double renderedSongTimeMs = session.SongTimeMs;
+            if (session.State == PlaySessionState.Resuming && rewindInitialOffsetMs > 0.0)
+            {
+                rewindElapsedSeconds = Mathf.Min(RewindTransitionSeconds,
+                    rewindElapsedSeconds + Time.unscaledDeltaTime);
+                float progress = rewindElapsedSeconds / RewindTransitionSeconds;
+                float eased = progress * progress * (3f - 2f * progress);
+                renderedSongTimeMs += rewindInitialOffsetMs * (1.0 - eased);
+            }
+
+            lastRenderedSongTimeMs = renderedSongTimeMs;
+            UpdateNotes(renderedSongTimeMs);
+        }
+
+        private void OnSessionStateChanged(PlaySessionState state)
+        {
+            if (state == PlaySessionState.Resuming)
+            {
+                rewindInitialOffsetMs = System.Math.Max(0.0, lastRenderedSongTimeMs - session.SongTimeMs);
+                rewindElapsedSeconds = 0f;
+                return;
+            }
+
+            rewindInitialOffsetMs = 0.0;
+            rewindElapsedSeconds = 0f;
         }
 
         private void UpdateNotes(double songTimeMs)

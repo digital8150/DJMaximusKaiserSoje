@@ -5,7 +5,8 @@
     "DJMaximusKaiserSoje.Core",
     "DJMaximusKaiserSoje.Content",
     "DJMaximusKaiserSoje.Gameplay",
-    "DJMaximusKaiserSoje.App"
+    "DJMaximusKaiserSoje.App",
+    "DJMaximusKaiserSoje.Editor"
   ],
   "includePlatforms": ["Editor"],
   "excludePlatforms": [],

@@ -36,7 +36,7 @@ namespace DJMaximusKaiserSoje.Presentation
             if (button != null) button.onClick.RemoveListener(OnClick);
         }
 
-        public void Bind(int rowIndex, SongSummary song, Action<int> onSelected, Action<int> onCommitted)
+        public void Bind(int rowIndex, SongSummary song, PlayStyle style, Action<int> onSelected, Action<int> onCommitted)
         {
             index = rowIndex;
             selected = onSelected;
@@ -51,7 +51,7 @@ namespace DJMaximusKaiserSoje.Presentation
             for (int chipIndex = 0; chipIndex < chips.Length; chipIndex++)
             {
                 var tier = (DifficultyTier)chipIndex;
-                song.TryGetChart(tier, out var chart);
+                song.TryGetChart(tier, style, out var chart);
                 chips[chipIndex].Bind(tier, chart, null);
             }
         }

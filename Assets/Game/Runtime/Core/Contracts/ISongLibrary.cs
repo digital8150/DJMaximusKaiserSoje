@@ -78,6 +78,20 @@ namespace DJMaximusKaiserSoje.Core
             chart = null;
             return false;
         }
+
+        public bool TryGetChart(DifficultyTier tier, PlayStyle style, out ChartSummary chart)
+        {
+            for (int index = 0; index < Charts.Count; index++)
+            {
+                ChartSummary candidate = Charts[index];
+                if (candidate.Tier != tier || !PlayStyleChartCompatibility.IsCompatible(style, candidate)) continue;
+                chart = candidate;
+                return true;
+            }
+
+            chart = null;
+            return false;
+        }
     }
 
     /// <summary>Everything the select screen can list, already resolved from the content catalog.</summary>

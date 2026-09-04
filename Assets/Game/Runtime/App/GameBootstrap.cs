@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using DJMaximusKaiserSoje.Content;
 using DJMaximusKaiserSoje.Core;
 using UnityEngine;
@@ -13,6 +14,7 @@ namespace DJMaximusKaiserSoje.App
     public sealed class GameBootstrap : MonoBehaviour
     {
         public const string BootstrapCatalogAddress = "catalog.rhythm.bootstrap";
+        public const string RemoteCatalogAddress = "catalog.rhythm.remote";
 
         [SerializeField] private string catalogAddress = BootstrapCatalogAddress;
 
@@ -46,12 +48,33 @@ namespace DJMaximusKaiserSoje.App
                 yield break;
             }
 
-            AsyncOperationHandle<TextAsset> catalogHandle = Addressables.LoadAssetAsync<TextAsset>(catalogAddress);
+            AsyncOperationHandle<IList<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> locations =
+                Addressables.LoadResourceLocationsAsync(RemoteCatalogAddress, typeof(TextAsset));
+            yield return locations;
+            bool hasRemoteCatalog = locations.Status == AsyncOperationStatus.Succeeded &&
+                                    locations.Result != null && locations.Result.Count > 0;
+            if (locations.IsValid()) Addressables.Release(locations);
+
+            AsyncOperationHandle<TextAsset> catalogHandle = hasRemoteCatalog
+                ? Addressables.LoadAssetAsync<TextAsset>(RemoteCatalogAddress)
+                : Addressables.LoadAssetAsync<TextAsset>(catalogAddress);
             yield return catalogHandle;
             if (catalogHandle.Status != AsyncOperationStatus.Succeeded || catalogHandle.Result == null)
             {
-                Debug.LogError("The bootstrap song catalog could not be loaded.");
-                yield break;
+                if (catalogHandle.IsValid()) Addressables.Release(catalogHandle);
+                if (!hasRemoteCatalog)
+                {
+                    Debug.LogError("The song catalog could not be loaded.");
+                    yield break;
+                }
+                catalogHandle = Addressables.LoadAssetAsync<TextAsset>(catalogAddress);
+                yield return catalogHandle;
+                if (catalogHandle.Status != AsyncOperationStatus.Succeeded || catalogHandle.Result == null)
+                {
+                    if (catalogHandle.IsValid()) Addressables.Release(catalogHandle);
+                    Debug.LogError("The song catalog could not be loaded.");
+                    yield break;
+                }
             }
 
             SongCatalogDocument catalog;
@@ -62,8 +85,11 @@ namespace DJMaximusKaiserSoje.App
             catch (SongCatalogException exception)
             {
                 Debug.LogError("The bootstrap song catalog is invalid: " + exception.Message);
+                if (catalogHandle.IsValid()) Addressables.Release(catalogHandle);
                 yield break;
             }
+
+            if (catalogHandle.IsValid()) Addressables.Release(catalogHandle);
 
             var songLibrary = new CatalogSongLibrary(catalog);
             var contentLoader = new AddressablesContentLoader();

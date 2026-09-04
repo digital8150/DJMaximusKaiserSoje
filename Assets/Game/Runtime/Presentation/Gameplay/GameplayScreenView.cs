@@ -38,6 +38,9 @@ namespace DJMaximusKaiserSoje.Presentation
         [SerializeField] internal CanvasGroup pauseOverlay;
         [SerializeField] internal TMP_Text pauseTitleLabel;
         [SerializeField] internal TMP_Text pauseGuideLabel;
+        [SerializeField] internal Button resumeButton;
+        [SerializeField] internal Button restartButton;
+        [SerializeField] internal Button quitButton;
 
         private GameServices services;
         private IPlaySession session;
@@ -57,9 +60,12 @@ namespace DJMaximusKaiserSoje.Presentation
             if (playerTagLabel != null) playerTagLabel.text = services.Profile.Tag;
             if (speedLabel != null) speedLabel.text = UiFormat.Speed(services.Preferences.ScrollSpeed);
             if (offsetLabel != null) offsetLabel.text = UiFormat.Offset(services.Preferences.JudgementOffsetMs);
-            if (keyGuideLabel != null) keyGuideLabel.text = "Space 일시정지    F5 다시하기    Esc 곡 선택";
+            if (keyGuideLabel != null) keyGuideLabel.text = "F1 / F2 노트 속도    Esc 일시정지";
             if (pauseTitleLabel != null) pauseTitleLabel.text = "일시정지";
-            if (pauseGuideLabel != null) pauseGuideLabel.text = "Space 계속하기    F5 처음부터    Esc 곡 선택으로";
+            if (pauseGuideLabel != null) pauseGuideLabel.text = "계속할 준비가 되면 재개를 눌러 주세요";
+
+            HookButtons();
+            services.Preferences.Changed += OnPreferencesChanged;
 
             ShowPauseOverlay(false);
         }
@@ -100,7 +106,12 @@ namespace DJMaximusKaiserSoje.Presentation
             session.Finished += OnFinished;
         }
 
-        private void OnDestroy() => Unsubscribe();
+        private void OnDestroy()
+        {
+            Unsubscribe();
+            UnhookButtons();
+            if (services != null) services.Preferences.Changed -= OnPreferencesChanged;
+        }
 
         private void Unsubscribe()
         {
@@ -152,7 +163,9 @@ namespace DJMaximusKaiserSoje.Presentation
 
             if (keyboard.spaceKey.wasPressedThisFrame) TogglePause();
             if (keyboard.f5Key.wasPressedThisFrame) Restart();
-            if (keyboard.escapeKey.wasPressedThisFrame) Quit();
+            if (keyboard.escapeKey.wasPressedThisFrame) TogglePause();
+            if (keyboard.f1Key.wasPressedThisFrame) NudgeSpeed(-1);
+            if (keyboard.f2Key.wasPressedThisFrame) NudgeSpeed(1);
             if (keyboard.leftBracketKey.wasPressedThisFrame) NudgeOffset(-JudgementOffsetRange.StepMs);
             if (keyboard.rightBracketKey.wasPressedThisFrame) NudgeOffset(JudgementOffsetRange.StepMs);
         }
@@ -160,6 +173,18 @@ namespace DJMaximusKaiserSoje.Presentation
         private void UpdateCountdown()
         {
             if (feedback == null) return;
+
+            if (session.State == PlaySessionState.Resuming)
+            {
+                int resumeCount = Mathf.Max(1,
+                    Mathf.CeilToInt((float)session.ResumeCountdownRemainingMs / 1000f));
+                string resumeBanner = resumeCount.ToString();
+                if (resumeBanner == lastCountdown) return;
+                lastCountdown = resumeBanner;
+                countdownShown = true;
+                feedback.ShowBanner(resumeBanner);
+                return;
+            }
 
             double songTimeMs = session.SongTimeMs;
             if (songTimeMs >= 0.0)
@@ -181,7 +206,8 @@ namespace DJMaximusKaiserSoje.Presentation
         private void TogglePause()
         {
             if (session.State == PlaySessionState.Paused) session.Resume();
-            else session.Pause();
+            else if (session.State == PlaySessionState.Playing || session.State == PlaySessionState.Resuming)
+                session.Pause();
         }
 
         private void Restart()
@@ -204,11 +230,45 @@ namespace DJMaximusKaiserSoje.Presentation
             if (offsetLabel != null) offsetLabel.text = UiFormat.Offset(services.Preferences.JudgementOffsetMs);
         }
 
+        private void NudgeSpeed(int steps)
+        {
+            services.Preferences.ScrollSpeed =
+                ScrollSpeedRange.Stepped(services.Preferences.ScrollSpeed, steps);
+        }
+
+        private void OnPreferencesChanged()
+        {
+            float speed = services.Preferences.ScrollSpeed;
+            if (speedLabel != null) speedLabel.text = UiFormat.Speed(speed);
+            playfield?.SetScrollSpeed(speed);
+        }
+
+        private void HookButtons()
+        {
+            UnhookButtons();
+            resumeButton?.onClick.AddListener(Resume);
+            restartButton?.onClick.AddListener(Restart);
+            quitButton?.onClick.AddListener(Quit);
+        }
+
+        private void UnhookButtons()
+        {
+            resumeButton?.onClick.RemoveListener(Resume);
+            restartButton?.onClick.RemoveListener(Restart);
+            quitButton?.onClick.RemoveListener(Quit);
+        }
+
+        private void Resume()
+        {
+            if (session != null && session.State == PlaySessionState.Paused) session.Resume();
+        }
+
         private void ShowPauseOverlay(bool visible)
         {
             if (pauseOverlay == null) return;
             pauseOverlay.alpha = visible ? 1f : 0f;
             pauseOverlay.blocksRaycasts = visible;
+            pauseOverlay.interactable = visible;
         }
     }
 }

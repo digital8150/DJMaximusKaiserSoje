@@ -32,10 +32,12 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             public double LengthSeconds { get; }
             public double ScheduledDspTime { get; private set; }
             public AudioClip Clip { get; private set; }
+            public int PauseCount { get; private set; }
+            public int ResumeCount { get; private set; }
             public void SetClip(AudioClip clip) => Clip = clip;
             public void PlayScheduled(double dspTime) => ScheduledDspTime = dspTime;
-            public void Pause() { }
-            public void Resume() { }
+            public void Pause() => PauseCount++;
+            public void Resume() => ResumeCount++;
             public void Stop() { }
         }
 
@@ -141,6 +143,42 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             Assert.That(judgements, Is.EqualTo(2));
             Assert.That(session.Score.Tally.Miss, Is.EqualTo(1));
             Assert.That(session.Score.Tally.PerfectHigh, Is.EqualTo(1));
+        }
+
+        [Test]
+        public void Session_ResumeWaitsThreeSecondsBeforeAudioAndInputContinue()
+        {
+            var dsp = new FakeDsp { DspTime = 10.0 };
+            var input = new FakeInput();
+            var audio = new FakeAudio(10.0);
+            var chart = new Beatmap(new BeatmapHeader("T", "A", "Hard", 4),
+                new[] { new BeatmapNote(0, 5000.0, 5000.0) });
+            var session = new PlaySession("song", "song.hard", PlayStyle.FourKey, chart, audio, input, dsp,
+                new EmptyRecords());
+
+            session.Start();
+            dsp.DspTime = 13.0;
+            session.Tick();
+            session.Pause();
+            double pausedTime = session.SongTimeMs;
+            session.Resume();
+
+            Assert.That(session.State, Is.EqualTo(PlaySessionState.Resuming));
+            Assert.That(session.ResumeCountdownRemainingMs, Is.EqualTo(3000.0));
+            Assert.That(session.SongTimeMs, Is.EqualTo(pausedTime - 3000.0).Within(0.001));
+            Assert.That(input.Enabled, Is.False);
+
+            dsp.DspTime = 15.99;
+            session.Tick();
+            Assert.That(session.State, Is.EqualTo(PlaySessionState.Resuming));
+            Assert.That(audio.ResumeCount, Is.EqualTo(0));
+
+            dsp.DspTime = 16.0;
+            session.Tick();
+            Assert.That(session.State, Is.EqualTo(PlaySessionState.Playing));
+            Assert.That(session.SongTimeMs, Is.EqualTo(pausedTime).Within(0.001));
+            Assert.That(audio.ResumeCount, Is.EqualTo(1));
+            Assert.That(input.Enabled, Is.True);
         }
     }
 }

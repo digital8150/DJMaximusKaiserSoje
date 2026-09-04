@@ -56,30 +56,26 @@ namespace DJMaximusKaiserSoje.Presentation
         private readonly Dictionary<string, DifficultyTier> tierBySong = new Dictionary<string, DifficultyTier>();
 
         private GameServices services;
-        private IReadOnlyList<SongSummary> songs;
+        private readonly List<SongSummary> songs = new List<SongSummary>();
         private int selectedIndex;
         private DifficultyTier selectedTier = DifficultyTier.Normal;
         private bool starting;
+        private bool hasDisplayedStyle;
+        private PlayStyle displayedStyle;
 
         public void Bind(GameServices gameServices)
         {
             services = gameServices;
-            songs = services.Songs.Songs;
             starting = false;
 
-            BuildRows();
             HookButtons();
             services.Preferences.Changed += OnPreferencesChanged;
 
             if (keyGuideLabel != null)
                 keyGuideLabel.text = "↑↓ 곡 고르기    ←→ 난이도    Enter 시작    Tab 키 모드    F1 / F2 노트 속도    Esc 뒤로";
 
-            if (emptyLibraryLabel != null)
-                emptyLibraryLabel.gameObject.SetActive(songs.Count == 0);
-
             services.Music.PlayTheme(ScreenTheme.SongSelect);
             OnPreferencesChanged();
-            Select(0, force: true);
         }
 
         public void Focus(string songId, string chartId)
@@ -110,7 +106,7 @@ namespace DJMaximusKaiserSoje.Presentation
                 var row = Instantiate(rowPrefab, listContent);
                 row.gameObject.SetActive(true);
                 row.name = "SongRow" + index;
-                row.Bind(index, songs[index], OnRowSelected, OnRowCommitted);
+                row.Bind(index, songs[index], displayedStyle, OnRowSelected, OnRowCommitted);
                 rows.Add(row);
             }
 
@@ -136,20 +132,26 @@ namespace DJMaximusKaiserSoje.Presentation
 
         private void Update()
         {
-            if (services == null || starting || songs == null || songs.Count == 0) return;
+            if (services == null || starting) return;
 
             var keyboard = Keyboard.current;
             if (keyboard == null) return;
+
+            if (keyboard.f1Key.wasPressedThisFrame) NudgeSpeed(-1);
+            if (keyboard.f2Key.wasPressedThisFrame) NudgeSpeed(1);
+            if (keyboard.tabKey.wasPressedThisFrame) CycleStyle();
+            if (keyboard.escapeKey.wasPressedThisFrame)
+            {
+                LeaveToTitle();
+                return;
+            }
+            if (songs.Count == 0) return;
 
             if (keyboard.upArrowKey.wasPressedThisFrame || keyboard.wKey.wasPressedThisFrame) Step(-1);
             if (keyboard.downArrowKey.wasPressedThisFrame || keyboard.sKey.wasPressedThisFrame) Step(1);
             if (keyboard.leftArrowKey.wasPressedThisFrame || keyboard.aKey.wasPressedThisFrame) StepTier(-1);
             if (keyboard.rightArrowKey.wasPressedThisFrame || keyboard.dKey.wasPressedThisFrame) StepTier(1);
-            if (keyboard.f1Key.wasPressedThisFrame) NudgeSpeed(-1);
-            if (keyboard.f2Key.wasPressedThisFrame) NudgeSpeed(1);
-            if (keyboard.tabKey.wasPressedThisFrame) CycleStyle();
             if (keyboard.enterKey.wasPressedThisFrame || keyboard.numpadEnterKey.wasPressedThisFrame) StartSelected();
-            if (keyboard.escapeKey.wasPressedThisFrame) LeaveToTitle();
         }
 
         private void Step(int direction)
@@ -166,7 +168,7 @@ namespace DJMaximusKaiserSoje.Presentation
             {
                 int step = start + direction * offset;
                 int index = ((step % TierOrder.Length) + TierOrder.Length) % TierOrder.Length;
-                if (!song.TryGetChart(TierOrder[index], out _)) continue;
+                if (!song.TryGetChart(TierOrder[index], displayedStyle, out _)) continue;
                 SelectTier(TierOrder[index]);
                 return;
             }
@@ -193,9 +195,10 @@ namespace DJMaximusKaiserSoje.Presentation
             selectedIndex = index;
             var song = songs[index];
 
-            if (tierBySong.TryGetValue(song.Id, out var remembered) && song.TryGetChart(remembered, out _))
+            if (tierBySong.TryGetValue(song.Id, out var remembered) &&
+                song.TryGetChart(remembered, displayedStyle, out _))
                 selectedTier = remembered;
-            else if (!song.TryGetChart(selectedTier, out _))
+            else if (!song.TryGetChart(selectedTier, displayedStyle, out _))
                 selectedTier = FirstAvailableTier(song);
 
             for (int rowIndex = 0; rowIndex < rows.Count; rowIndex++)
@@ -206,10 +209,10 @@ namespace DJMaximusKaiserSoje.Presentation
             services.Music.RequestSongPreview(song.Id);
         }
 
-        private static DifficultyTier FirstAvailableTier(SongSummary song)
+        private DifficultyTier FirstAvailableTier(SongSummary song)
         {
             for (int index = 0; index < TierOrder.Length; index++)
-                if (song.TryGetChart(TierOrder[index], out _))
+                if (song.TryGetChart(TierOrder[index], displayedStyle, out _))
                     return TierOrder[index];
             return DifficultyTier.Normal;
         }
@@ -217,7 +220,7 @@ namespace DJMaximusKaiserSoje.Presentation
         private void SelectTier(DifficultyTier tier)
         {
             var song = songs[selectedIndex];
-            if (!song.TryGetChart(tier, out _)) return;
+            if (!song.TryGetChart(tier, displayedStyle, out _)) return;
 
             selectedTier = tier;
             tierBySong[song.Id] = tier;
@@ -228,7 +231,7 @@ namespace DJMaximusKaiserSoje.Presentation
         {
             if (songs == null || songs.Count == 0) return;
             var song = songs[selectedIndex];
-            song.TryGetChart(selectedTier, out var chart);
+            song.TryGetChart(selectedTier, displayedStyle, out var chart);
 
             if (jacket != null) jacket.Show(song.JacketAddress);
             if (titleLabel != null) titleLabel.text = song.Title;
@@ -252,7 +255,7 @@ namespace DJMaximusKaiserSoje.Presentation
                 for (int index = 0; index < tierChips.Length && index < TierOrder.Length; index++)
                 {
                     var tier = TierOrder[index];
-                    song.TryGetChart(tier, out var tierChart);
+                    song.TryGetChart(tier, displayedStyle, out var tierChart);
                     tierChips[index].Bind(tier, tierChart, SelectTier);
                     tierChips[index].SetSelected(tier == selectedTier);
                 }
@@ -299,17 +302,55 @@ namespace DJMaximusKaiserSoje.Presentation
         {
             if (speedLabel != null) speedLabel.text = UiFormat.Speed(services.Preferences.ScrollSpeed);
 
-            if (styleTabs == null) return;
             int selected = (int)services.Preferences.PlayStyle;
-            for (int index = 0; index < styleTabs.Length; index++)
-                styleTabs[index].SetSelected(index == selected);
+            if (styleTabs != null)
+                for (int index = 0; index < styleTabs.Length; index++)
+                    styleTabs[index].SetSelected(index == selected);
+
+            if (!hasDisplayedStyle || displayedStyle != services.Preferences.PlayStyle)
+                ApplyStyleFilter(services.Preferences.PlayStyle);
+        }
+
+        private void ApplyStyleFilter(PlayStyle style)
+        {
+            string selectedSongId = songs.Count > 0 && selectedIndex >= 0 && selectedIndex < songs.Count
+                ? songs[selectedIndex].Id
+                : null;
+
+            displayedStyle = style;
+            hasDisplayedStyle = true;
+            songs.Clear();
+            IReadOnlyList<SongSummary> librarySongs = services.Songs.Songs;
+            for (int index = 0; index < librarySongs.Count; index++)
+                if (PlayStyleChartCompatibility.IsCompatible(style, librarySongs[index]))
+                    songs.Add(librarySongs[index]);
+
+            selectedIndex = 0;
+            if (selectedSongId != null)
+                for (int index = 0; index < songs.Count; index++)
+                    if (songs[index].Id == selectedSongId)
+                    {
+                        selectedIndex = index;
+                        break;
+                    }
+
+            BuildRows();
+            if (emptyLibraryLabel != null) emptyLibraryLabel.gameObject.SetActive(songs.Count == 0);
+            if (songs.Count == 0)
+            {
+                services.Music.CancelSongPreview();
+                if (playButton != null) playButton.interactable = false;
+                return;
+            }
+
+            Select(selectedIndex, force: true);
         }
 
         private void StartSelected()
         {
             if (starting || songs == null || songs.Count == 0) return;
             var song = songs[selectedIndex];
-            if (!song.TryGetChart(selectedTier, out var chart)) return;
+            if (!song.TryGetChart(selectedTier, displayedStyle, out var chart)) return;
 
             starting = true;
             services.Music.CancelSongPreview();

@@ -38,6 +38,7 @@ namespace DJMaximusKaiserSoje.Core
         Ready,
         Playing,
         Paused,
+        Resuming,
         Finished
     }
 
@@ -63,6 +64,9 @@ namespace DJMaximusKaiserSoje.Core
         double SongTimeMs { get; }
 
         double SongLengthMs { get; }
+
+        /// <summary>Time left before a paused run becomes playable again; zero otherwise.</summary>
+        double ResumeCountdownRemainingMs { get; }
 
         double Progress01 { get; }
 

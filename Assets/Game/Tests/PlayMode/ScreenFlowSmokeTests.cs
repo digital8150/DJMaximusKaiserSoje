@@ -39,8 +39,12 @@ namespace DJMaximusKaiserSoje.Tests.PlayMode
 
             var rows = Object.FindObjectsByType<SongRowView>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
             Assert.That(bootstrap.Services.Songs.Songs.Count, Is.GreaterThan(0), "The catalog resolved no songs.");
-            Assert.That(rows.Length, Is.EqualTo(bootstrap.Services.Songs.Songs.Count),
-                "The list did not build one row per song.");
+            int compatibleSongs = 0;
+            foreach (SongSummary song in bootstrap.Services.Songs.Songs)
+                if (PlayStyleChartCompatibility.IsCompatible(bootstrap.Services.Preferences.PlayStyle, song))
+                    compatibleSongs++;
+            Assert.That(rows.Length, Is.EqualTo(compatibleSongs),
+                "The list did not build one row per song compatible with the selected key mode.");
 
             yield return Capture("Runtime-SongSelect");
         }
@@ -83,6 +87,17 @@ namespace DJMaximusKaiserSoje.Tests.PlayMode
             Assert.That(play.PendingNotes.Count, Is.GreaterThan(0), "The chart produced no notes.");
 
             yield return Capture("Runtime-Gameplay");
+
+            play.Pause();
+            yield return null;
+            Assert.That(gameplay.pauseOverlay.alpha, Is.EqualTo(1f));
+            Assert.That(gameplay.resumeButton, Is.Not.Null);
+            Assert.That(gameplay.restartButton, Is.Not.Null);
+            Assert.That(gameplay.quitButton, Is.Not.Null);
+
+            gameplay.resumeButton.onClick.Invoke();
+            Assert.That(play.State, Is.EqualTo(PlaySessionState.Resuming));
+            Assert.That(play.ResumeCountdownRemainingMs, Is.EqualTo(3000.0).Within(20.0));
         }
 
         /// <summary>

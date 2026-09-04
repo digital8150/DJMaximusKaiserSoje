@@ -50,6 +50,12 @@ namespace DJMaximusKaiserSoje.App
                 loaded.Value.Dispose();
                 return ContentLoadResult<IPlaySession>.Failure(ContentLoadError.InvalidRequest, "The selected chart is not available.");
             }
+            if (!PlayStyleChartCompatibility.IsCompatible(request.Style, chart))
+            {
+                loaded.Value.Dispose();
+                return ContentLoadResult<IPlaySession>.Failure(ContentLoadError.InvalidRequest,
+                    "The selected chart does not match the selected key mode.");
+            }
             if (!string.Equals(chart.SongId, request.SongId, StringComparison.Ordinal))
             {
                 loaded.Value.Dispose();
