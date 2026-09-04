@@ -88,6 +88,18 @@ namespace DJMaximusKaiserSoje.Tests.PlayMode
             var play = gameplay.Session;
             Assert.That(play, Is.Not.Null, "No play session was bound to the gameplay screen.");
 
+            const float expectedGearScale = 1080f / 1571f;
+            var gearRect = GameObject.Find("Gear").GetComponent<RectTransform>();
+            var judgementBar = GameObject.Find("JudgementBar").GetComponent<RectTransform>();
+            var receptor = GameObject.Find("Receptor0").GetComponent<RectTransform>();
+            Assert.That(gearRect.rect.height, Is.EqualTo(1080f).Within(0.1f),
+                "The complete gear should fit within the reference-height screen.");
+            Assert.That(gearRect.rect.width, Is.LessThan(540f),
+                "The source gear should be uniformly scaled instead of retaining the old wide playfield.");
+            Assert.That(gameplay.playfield.geometryScale, Is.EqualTo(expectedGearScale).Within(0.001f));
+            Assert.That(judgementBar.rect.height, Is.EqualTo(6f * expectedGearScale).Within(0.1f));
+            Assert.That(receptor.rect.height, Is.EqualTo(46f * expectedGearScale).Within(0.1f));
+
             // Run past the lead-in so notes are on screen when the shot is taken.
             float elapsed = 0f;
             while (elapsed < 4f && play.State != PlaySessionState.Finished)

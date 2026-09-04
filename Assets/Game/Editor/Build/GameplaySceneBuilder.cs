@@ -10,15 +10,22 @@ namespace DJMaximusKaiserSoje.Editor
     {
         public const string SceneName = "Gameplay";
 
-        private const float GearHalfWidth = 390f;
-        private const float GearBottom = 116f;
+        private const float SourceGearWidth = 784f;
+        private const float SourceGearHeight = 1571f;
+        private const float GearScale = Ui.ReferenceHeight / SourceGearHeight;
+        private const float GearWidth = SourceGearWidth * GearScale;
+        private const float GearHalfWidth = GearWidth * 0.5f;
+        private const float GearHeight = Ui.ReferenceHeight;
+        private const float GearBottom = 0f;
 
-        /// <summary>How far the gear runs past the top of the screen, so notes fall in from outside it.</summary>
-        private const float GearOverhang = 260f;
-
-        private const float RailWidth = 46f;
-        private const float DeckHeight = 140f;
-        private const float LaneInset = 48f;
+        // Measured from GameplayGear.png. Keeping the live layers aligned to the authored openings
+        // lets the single frame replace the old body/rail/deck assembly without covering gameplay.
+        private const float LaneLeft = 28f * GearScale;
+        private const float LaneBottom = 388f * GearScale;
+        private const float LaneWidth = 674f * GearScale;
+        private const float LaneHeight = (SourceGearHeight - 388f) * GearScale;
+        private const float DeckBottom = 248f * GearScale;
+        private const float DeckHeight = 140f * GearScale;
         private const float ColumnWidth = 430f;
 
         public static string Build()
@@ -35,7 +42,7 @@ namespace DJMaximusKaiserSoje.Editor
             var screen = Ui.Node("GameplayScreen", root).Stretch();
             var view = screen.gameObject.AddComponent<GameplayScreenView>();
 
-            view.playfield = BuildPlayfield(screen, out var feedback);
+            view.playfield = BuildPlayfield(screen, view, out var feedback);
             view.feedback = feedback;
 
             BuildLeftColumn(screen, view);
@@ -47,28 +54,23 @@ namespace DJMaximusKaiserSoje.Editor
         }
 
         /// <summary>
-        /// The gear: side rails, the lane viewport, and the deck the keys sit on. The viewport runs
-        /// past the top of the screen, so notes are already moving when they come into view instead
-        /// of appearing inside a box.
+        /// The gear frame and the live layers aligned to its lane, deck, and gauge openings. The
+        /// source is uniformly fitted to the reference-height screen so none of its housing is lost.
         /// </summary>
-        private static PlayfieldView BuildPlayfield(RectTransform screen, out JudgementFeedbackView feedback)
+        private static PlayfieldView BuildPlayfield(
+            RectTransform screen,
+            GameplayScreenView screenView,
+            out JudgementFeedbackView feedback)
         {
-            var gear = Ui.Node("Gear", screen).Column(0.5f, -GearHalfWidth, GearHalfWidth, GearBottom, GearOverhang);
+            var gear = Ui.Node("Gear", screen)
+                .Set(Anchor.BottomCentre, 0f, GearBottom, GearWidth, GearHeight);
             var view = gear.gameObject.AddComponent<PlayfieldView>();
 
-            Ui.Image("GearBody", gear, null, UiPalette.Ink.WithAlpha(0.9f)).Stretch();
-
-            var railLeft = Ui.Image("RailLeft", gear, Ui.Chrome("RailEdge"), UiPalette.Cyan.WithAlpha(0.4f))
-                .Column(0f, 0f, RailWidth, 0f, 0f);
-            railLeft.type = Image.Type.Simple;
-            var railRight = Ui.Image("RailRight", gear, Ui.Chrome("RailEdge"), UiPalette.Cyan.WithAlpha(0.4f))
-                .Column(1f, -RailWidth, 0f, 0f, 0f);
-            railRight.type = Image.Type.Simple;
-            // Mirrored so both rails light their inner edge.
-            railRight.transform.localScale = new Vector3(-1f, 1f, 1f);
+            var frame = Ui.Image("GearFrame", gear, Ui.Art("GameplayGear"), Color.white).Stretch();
+            frame.type = Image.Type.Simple;
 
             var viewport = Ui.Image("LaneViewport", gear, null, UiPalette.Night.WithAlpha(0.55f))
-                .Column(0.5f, -GearHalfWidth + LaneInset, GearHalfWidth - LaneInset, DeckHeight, 0f);
+                .Set(Anchor.BottomLeft, LaneLeft, LaneBottom, LaneWidth, LaneHeight);
             viewport.gameObject.AddComponent<RectMask2D>();
 
             var laneLayer = Ui.Node("LaneLayer", viewport.transform).Stretch();
@@ -77,26 +79,29 @@ namespace DJMaximusKaiserSoje.Editor
             var fxNoteLayer = Ui.Node("FxNoteLayer", viewport.transform).Stretch();
             var noteLayer = Ui.Node("NoteLayer", viewport.transform).Stretch();
 
-            float laneSpan = (GearHalfWidth - LaneInset) * 2f;
+            float laneSpan = LaneWidth;
+            float laneCentre = LaneLeft + LaneWidth * 0.5f;
 
-            var deck = Ui.Image("Deck", gear, Ui.Chrome("PanelCut"), UiPalette.Panel)
-                .Set(Anchor.BottomCentre, 0f, 0f, GearHalfWidth * 2f - 12f, DeckHeight + 12f);
-            deck.transform.SetSiblingIndex(gear.childCount - 1);
+            var deckSurface = Ui.Image("DeckLayer", gear, null, UiPalette.Night.WithAlpha(0.82f))
+                .Set(Anchor.BottomLeft, LaneLeft, DeckBottom, laneSpan, DeckHeight);
+            var deckLayer = (RectTransform)deckSurface.transform;
 
-            var deckLayer = Ui.Node("DeckLayer", gear).Set(Anchor.BottomCentre, 0f, 0f, laneSpan, DeckHeight);
-
-            var judgementAnchor = Ui.Node("JudgementAnchor", gear).Set(Anchor.BottomCentre, 0f, DeckHeight, 0f, 0f);
+            var judgementAnchor = Ui.Node("JudgementAnchor", gear)
+                .Set(Anchor.BottomLeft, laneCentre, LaneBottom, 0f, 0f);
             var glow = Ui.Image("JudgementGlow", judgementAnchor, Ui.Chrome("Glow"), UiPalette.Cyan.WithAlpha(0.32f))
-                .Set(Anchor.Centre, 0f, 0f, laneSpan + 160f, 190f);
+                .Set(Anchor.Centre, 0f, 0f, laneSpan + 160f * GearScale, 190f * GearScale);
             glow.type = Image.Type.Simple;
             var bar = Ui.Image("JudgementBar", judgementAnchor, Ui.Chrome("Bar"), UiPalette.Cyan)
-                .Set(Anchor.Centre, 0f, 0f, laneSpan + 12f, 6f);
+                .Set(Anchor.Centre, 0f, 0f, laneSpan + 12f * GearScale, 6f * GearScale);
 
             // Outside the mask so a hit burst is not sliced off at the judgement line.
-            var burstLayer = Ui.Node("BurstLayer", gear).Set(Anchor.BottomCentre, 0f, DeckHeight, laneSpan, 420f);
+            var burstLayer = Ui.Node("BurstLayer", gear)
+                .Set(Anchor.BottomLeft, LaneLeft, LaneBottom, laneSpan, 420f * GearScale);
 
-            // Anchored to the screen, not the gear: the gear's own top edge is off-screen.
-            feedback = BuildFeedback(screen);
+            BuildHealthGauge(gear, screenView);
+
+            // Anchored to the screen so feedback is not clipped by the gear hierarchy.
+            feedback = BuildFeedback(screen, laneCentre - GearHalfWidth);
 
             view.laneViewport = (RectTransform)viewport.transform;
             view.laneLayer = laneLayer;
@@ -115,35 +120,70 @@ namespace DJMaximusKaiserSoje.Editor
             view.laneGuideSprite = Ui.Chrome("LaneGuide");
             view.keyCapSprite = Ui.Chrome("KeyCap");
             view.keyFont = Ui.Font(Weight.Bold);
+            view.geometryScale = GearScale;
             return view;
         }
 
-        private static JudgementFeedbackView BuildFeedback(RectTransform screen)
+        private static void BuildHealthGauge(RectTransform gear, GameplayScreenView screenView)
+        {
+            // The source art already supplies the casing and droplet. This opaque inner track masks
+            // the baked full bar so the live fill can continue to communicate the current health.
+            var gaugeRoot = Ui.Node("HealthGauge", gear)
+                .Set(Anchor.BottomLeft, 727f * GearScale, 363f * GearScale,
+                    24f * GearScale, 608f * GearScale);
+            var gauge = gaugeRoot.gameObject.AddComponent<HealthGaugeView>();
+
+            Ui.Image("Track", gaugeRoot, null, UiPalette.Night).Stretch();
+            float inset = 2f * GearScale;
+            var fill = Ui.Image("Fill", gaugeRoot, null, UiPalette.Cyan).Stretch(inset, inset, inset, inset);
+            fill.type = Image.Type.Filled;
+            fill.fillMethod = Image.FillMethod.Vertical;
+            fill.fillOrigin = (int)Image.OriginVertical.Bottom;
+            fill.fillAmount = 1f;
+
+            var smooth = gaugeRoot.gameObject.AddComponent<SmoothFill>();
+            smooth.target = fill;
+
+            gauge.fill = fill;
+            gauge.smoothFill = smooth;
+            screenView.health = gauge;
+        }
+
+        private static JudgementFeedbackView BuildFeedback(RectTransform screen, float horizontalOffset)
         {
             var holder = Ui.Node("Feedback", screen).Stretch();
             var view = holder.gameObject.AddComponent<JudgementFeedbackView>();
 
-            var comboGroup = Ui.Group("Combo", holder).Set(Anchor.TopCentre, 0f, -70f, 560f, 170f);
-            var comboCaption = Ui.Text("Caption", comboGroup.transform, "COMBO", 24f, Weight.Bold,
-                UiPalette.TextSecondary, TextAlignmentOptions.Center).Set(Anchor.TopCentre, 0f, 0f, 560f, 30f);
-            var comboLabel = Ui.Text("Value", comboGroup.transform, "0", 110f, Weight.Black,
-                UiPalette.TextPrimary, TextAlignmentOptions.Center).Set(Anchor.TopCentre, 0f, -28f, 560f, 130f);
+            var comboGroup = Ui.Group("Combo", holder).Set(Anchor.TopCentre, horizontalOffset,
+                -70f * GearScale, 560f * GearScale, 170f * GearScale);
+            var comboCaption = Ui.Text("Caption", comboGroup.transform, "COMBO", 24f * GearScale, Weight.Bold,
+                UiPalette.TextSecondary, TextAlignmentOptions.Center)
+                .Set(Anchor.TopCentre, 0f, 0f, 560f * GearScale, 30f * GearScale);
+            var comboLabel = Ui.Text("Value", comboGroup.transform, "0", 110f * GearScale, Weight.Black,
+                UiPalette.TextPrimary, TextAlignmentOptions.Center)
+                .Set(Anchor.TopCentre, 0f, -28f * GearScale, 560f * GearScale, 130f * GearScale);
             var comboPunch = comboLabel.gameObject.AddComponent<ScalePunch>();
             comboPunch.target = (RectTransform)comboLabel.transform;
             comboPunch.peakScale = 1.12f;
 
-            var judgementGroup = Ui.Group("Judgement", holder).Set(Anchor.BottomCentre, 0f, 272f, 620f, 150f);
-            var grade = Ui.Text("Grade", judgementGroup.transform, "PERFECT", 62f, Weight.Black,
-                UiPalette.Cyan, TextAlignmentOptions.Center).Set(Anchor.TopCentre, 0f, 0f, 620f, 76f);
-            var suffix = Ui.Text("Suffix", judgementGroup.transform, "HIGH", 26f, Weight.Bold,
-                UiPalette.Cyan, TextAlignmentOptions.Center).Set(Anchor.TopCentre, 0f, -72f, 620f, 32f);
-            var timing = Ui.Text("Timing", judgementGroup.transform, string.Empty, 22f, Weight.Bold,
-                UiPalette.TextMuted, TextAlignmentOptions.Center).Set(Anchor.TopCentre, 0f, -106f, 620f, 28f);
+            var judgementGroup = Ui.Group("Judgement", holder)
+                .Set(Anchor.BottomCentre, horizontalOffset, LaneBottom + 15f * GearScale,
+                    620f * GearScale, 150f * GearScale);
+            var grade = Ui.Text("Grade", judgementGroup.transform, "PERFECT", 62f * GearScale, Weight.Black,
+                UiPalette.Cyan, TextAlignmentOptions.Center)
+                .Set(Anchor.TopCentre, 0f, 0f, 620f * GearScale, 76f * GearScale);
+            var suffix = Ui.Text("Suffix", judgementGroup.transform, "HIGH", 26f * GearScale, Weight.Bold,
+                UiPalette.Cyan, TextAlignmentOptions.Center)
+                .Set(Anchor.TopCentre, 0f, -72f * GearScale, 620f * GearScale, 32f * GearScale);
+            var timing = Ui.Text("Timing", judgementGroup.transform, string.Empty, 22f * GearScale, Weight.Bold,
+                UiPalette.TextMuted, TextAlignmentOptions.Center)
+                .Set(Anchor.TopCentre, 0f, -106f * GearScale, 620f * GearScale, 28f * GearScale);
             var gradePunch = grade.gameObject.AddComponent<ScalePunch>();
             gradePunch.target = (RectTransform)grade.transform;
 
-            var banner = Ui.Text("Banner", holder, string.Empty, 120f, Weight.Black, UiPalette.Magenta,
-                TextAlignmentOptions.Center).Set(Anchor.Centre, 0f, 40f, 600f, 150f);
+            var banner = Ui.Text("Banner", holder, string.Empty, 120f * GearScale, Weight.Black, UiPalette.Magenta,
+                TextAlignmentOptions.Center).Set(Anchor.Centre, horizontalOffset, 40f * GearScale,
+                    600f * GearScale, 150f * GearScale);
 
             view.comboGroup = comboGroup;
             view.comboLabel = comboLabel;
@@ -246,31 +286,6 @@ namespace DJMaximusKaiserSoje.Editor
 
         private static void BuildRightColumn(RectTransform screen, GameplayScreenView view)
         {
-            // Hugging the gear's right rail, rising from the judgement line.
-            var gaugeRoot = Ui.Node("HealthGauge", screen)
-                .Set(Anchor.BottomCentre, GearHalfWidth + 40f, GearBottom + DeckHeight, 30f, 660f);
-            var gauge = gaugeRoot.gameObject.AddComponent<HealthGaugeView>();
-
-            Ui.Image("Track", gaugeRoot, Ui.Chrome("Bar"), UiPalette.Night.WithAlpha(0.9f)).Stretch();
-            var glow = Ui.Image("Glow", gaugeRoot, Ui.Chrome("Glow"), UiPalette.Cyan.WithAlpha(0.22f))
-                .Stretch(-10f, -6f, -10f, -6f);
-            var fill = Ui.Image("Fill", gaugeRoot, Ui.Chrome("Bar"), UiPalette.Cyan).Stretch(5f, 5f, 5f, 5f);
-            fill.type = Image.Type.Filled;
-            fill.fillMethod = Image.FillMethod.Vertical;
-            fill.fillOrigin = (int)Image.OriginVertical.Bottom;
-            fill.fillAmount = 1f;
-
-            var smooth = gaugeRoot.gameObject.AddComponent<SmoothFill>();
-            smooth.target = fill;
-
-            Ui.Text("Caption", gaugeRoot, "HP", 15f, Weight.Bold, UiPalette.TextMuted, TextAlignmentOptions.Center)
-                .Set(Anchor.BottomCentre, 0f, -26f, 60f, 22f);
-
-            gauge.fill = fill;
-            gauge.glow = glow;
-            gauge.smoothFill = smooth;
-            view.health = gauge;
-
             var mascot = Ui.Image("Mascot", screen, Ui.Art("Mascot-Idle"), Color.white)
                 .Set(Anchor.MiddleRight, -40f, -20f, 500f, 900f);
             mascot.preserveAspect = true;
@@ -281,28 +296,33 @@ namespace DJMaximusKaiserSoje.Editor
         private static void BuildBottom(RectTransform screen, GameplayScreenView view)
         {
             var strip = Ui.Image("ProgressStrip", screen, Ui.Chrome("PanelCut"), UiPalette.Panel)
-                .Set(Anchor.BottomCentre, 0f, 34f, 780f, 66f);
+                .Set(Anchor.BottomCentre, 0f, 34f * GearScale, GearWidth, 66f * GearScale);
             var progress = strip.gameObject.AddComponent<ProgressStripView>();
 
             var badge = Ui.Image("SectionBadge", strip.transform, Ui.Chrome("Bar"), UiPalette.Cyan.WithAlpha(0.22f))
-                .Set(Anchor.MiddleLeft, 12f, 0f, 92f, 46f);
-            Ui.Text("Caption", badge.transform, "SECTION", 12f, Weight.Medium, UiPalette.TextMuted,
-                TextAlignmentOptions.Center).Set(Anchor.TopCentre, 0f, -4f, 92f, 16f);
-            var sectionIndex = Ui.Text("Index", badge.transform, "1", 24f, Weight.Black, UiPalette.Cyan,
-                TextAlignmentOptions.Center).Set(Anchor.TopCentre, 0f, -18f, 92f, 28f);
+                .Set(Anchor.MiddleLeft, 12f * GearScale, 0f, 92f * GearScale, 46f * GearScale);
+            Ui.Text("Caption", badge.transform, "SECTION", 12f * GearScale, Weight.Medium, UiPalette.TextMuted,
+                TextAlignmentOptions.Center)
+                .Set(Anchor.TopCentre, 0f, -4f * GearScale, 92f * GearScale, 16f * GearScale);
+            var sectionIndex = Ui.Text("Index", badge.transform, "1", 24f * GearScale, Weight.Black, UiPalette.Cyan,
+                TextAlignmentOptions.Center)
+                .Set(Anchor.TopCentre, 0f, -18f * GearScale, 92f * GearScale, 28f * GearScale);
 
-            var sectionName = Ui.Text("SectionName", strip.transform, string.Empty, 22f, Weight.Bold,
-                UiPalette.TextSecondary).Set(Anchor.MiddleLeft, 118f, 12f, 400f, 28f);
+            var sectionName = Ui.Text("SectionName", strip.transform, string.Empty, 22f * GearScale, Weight.Bold,
+                UiPalette.TextSecondary).Set(Anchor.MiddleLeft, 118f * GearScale, 12f * GearScale,
+                    400f * GearScale, 28f * GearScale);
 
             var track = Ui.Image("Track", strip.transform, Ui.Chrome("Bar"), UiPalette.Night)
-                .Set(Anchor.MiddleLeft, 118f, -16f, 520f, 10f);
+                .Set(Anchor.MiddleLeft, 118f * GearScale, -16f * GearScale,
+                    520f * GearScale, 10f * GearScale);
             var fill = Ui.Image("Fill", track.transform, Ui.Chrome("Bar"), UiPalette.Magenta).Stretch();
             fill.type = Image.Type.Filled;
             fill.fillMethod = Image.FillMethod.Horizontal;
             fill.fillAmount = 0f;
 
-            var elapsed = Ui.Text("Elapsed", strip.transform, "00:00 / 00:00", 20f, Weight.Medium,
-                UiPalette.TextMuted, TextAlignmentOptions.Right).Set(Anchor.MiddleRight, -16f, 0f, 190f, 28f);
+            var elapsed = Ui.Text("Elapsed", strip.transform, "00:00 / 00:00", 20f * GearScale, Weight.Medium,
+                UiPalette.TextMuted, TextAlignmentOptions.Right).Set(Anchor.MiddleRight,
+                    -16f * GearScale, 0f, 190f * GearScale, 28f * GearScale);
 
             progress.fill = fill;
             progress.sectionIndexLabel = sectionIndex;

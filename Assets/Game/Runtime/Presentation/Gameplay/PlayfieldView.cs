@@ -43,6 +43,7 @@ namespace DJMaximusKaiserSoje.Presentation
         [SerializeField] internal TMP_FontAsset keyFont;
 
         [Header("Geometry")]
+        [SerializeField] internal float geometryScale = 1f;
         [SerializeField] internal float notePadding = 10f;
         [SerializeField] internal float noteHeight = 30f;
         [SerializeField] internal float keyCapHeight = 96f;
@@ -84,10 +85,14 @@ namespace DJMaximusKaiserSoje.Presentation
 
         private float LaneHeight => laneViewport == null ? 0f : laneViewport.rect.height;
 
-        private float PixelsPerMillisecond => basePixelsPerMillisecond * scrollSpeed * speedMultiplier;
+        private float GeometryScale => Mathf.Max(0.01f, geometryScale);
+
+        private float PixelsPerMillisecond =>
+            basePixelsPerMillisecond * scrollSpeed * speedMultiplier * GeometryScale;
 
         /// <summary>How far ahead a note can be and still land inside the viewport.</summary>
-        private double LookaheadMs => (LaneHeight + 160f) / Mathf.Max(0.0001f, PixelsPerMillisecond);
+        private double LookaheadMs =>
+            (LaneHeight + 160f * GeometryScale) / Mathf.Max(0.0001f, PixelsPerMillisecond);
 
         private sealed class NoteView
         {
@@ -203,7 +208,8 @@ namespace DJMaximusKaiserSoje.Presentation
             cap.type = keyCapSprite == null ? Image.Type.Simple : Image.Type.Sliced;
 
             var label = NewText("Label", cap.rectTransform,
-                spec.KeyName == "Semicolon" ? ";" : spec.KeyName, spec.IsFx ? 17f : 26f, keyFont);
+                spec.KeyName == "Semicolon" ? ";" : spec.KeyName,
+                (spec.IsFx ? 17f : 26f) * GeometryScale, keyFont);
             label.color = spec.IsFx ? UiPalette.Magenta : UiPalette.TextSecondary;
             Stretch(label.rectTransform);
 
@@ -242,16 +248,20 @@ namespace DJMaximusKaiserSoje.Presentation
 
                 Place(beams[laneIndex].rectTransform, x, 0f, laneSpan, laneSpan * 1.6f);
 
-                float receptorHeight = spec.IsFx ? 18f : 46f;
-                Place(receptors[laneIndex].rectTransform, x + 4f, 0f, laneSpan - 8f, receptorHeight);
+                float receptorInset = 4f * GeometryScale;
+                float receptorHeight = (spec.IsFx ? 18f : 46f) * GeometryScale;
+                Place(receptors[laneIndex].rectTransform, x + receptorInset, 0f,
+                    laneSpan - receptorInset * 2f, receptorHeight);
 
-                float burstSize = Mathf.Min(spec.IsFx ? laneSpan * 0.95f : laneSpan * 1.5f, 260f);
+                float burstSize = Mathf.Min(spec.IsFx ? laneSpan * 0.95f : laneSpan * 1.5f,
+                    260f * GeometryScale);
                 Centre(bursts[laneIndex].rectTransform, x + laneSpan * 0.5f, 0f, burstSize, burstSize);
 
                 // FX keys sit on a low strip beneath the core key caps rather than over them.
-                float capInset = spec.IsFx ? 10f : 5f;
-                Place(keyCaps[laneIndex], x + capInset, spec.IsFx ? 0f : 34f,
-                    laneSpan - capInset * 2f, spec.IsFx ? 28f : keyCapHeight);
+                float capInset = (spec.IsFx ? 10f : 5f) * GeometryScale;
+                Place(keyCaps[laneIndex], x + capInset, spec.IsFx ? 0f : 34f * GeometryScale,
+                    laneSpan - capInset * 2f,
+                    (spec.IsFx ? 28f : keyCapHeight) * GeometryScale);
             }
 
             if (judgementBar != null)
@@ -260,7 +270,7 @@ namespace DJMaximusKaiserSoje.Presentation
                 judgementBar.anchorMax = new Vector2(0.5f, 0f);
                 judgementBar.pivot = new Vector2(0.5f, 0.5f);
                 judgementBar.anchoredPosition = Vector2.zero;
-                judgementBar.sizeDelta = new Vector2(width + 12f, 6f);
+                judgementBar.sizeDelta = new Vector2(width + 12f * GeometryScale, 6f * GeometryScale);
             }
 
             if (judgementGlow == null) return;
@@ -268,7 +278,7 @@ namespace DJMaximusKaiserSoje.Presentation
             judgementGlow.anchorMax = new Vector2(0.5f, 0f);
             judgementGlow.pivot = new Vector2(0.5f, 0.5f);
             judgementGlow.anchoredPosition = Vector2.zero;
-            judgementGlow.sizeDelta = new Vector2(width + 160f, 190f);
+            judgementGlow.sizeDelta = new Vector2(width + 160f * GeometryScale, 190f * GeometryScale);
         }
 
         private static Color RestingReceptorColor(bool isFx) =>
@@ -328,11 +338,14 @@ namespace DJMaximusKaiserSoje.Presentation
                 view.Stamp = frameStamp;
 
                 var spec = layout.Lanes[Mathf.Clamp(note.Lane, 0, layout.Lanes.Count - 1)];
-                float x = spec.BaseLaneStart * baseWidth + notePadding * 0.5f;
+                float scaledNotePadding = notePadding * GeometryScale;
+                float scaledNoteHeight = noteHeight * GeometryScale;
+                float x = spec.BaseLaneStart * baseWidth + scaledNotePadding * 0.5f;
                 float y = (float)(lead * PixelsPerMillisecond);
                 float height = note.IsHold
-                    ? Mathf.Max(noteHeight, (float)((note.EndTimeMs - note.StartTimeMs) * PixelsPerMillisecond) + noteHeight)
-                    : noteHeight;
+                    ? Mathf.Max(scaledNoteHeight,
+                        (float)((note.EndTimeMs - note.StartTimeMs) * PixelsPerMillisecond) + scaledNoteHeight)
+                    : scaledNoteHeight;
 
                 Color noteColor = spec.IsFx ? UiPalette.FxRed : Color.white;
                 if (note.IsHold && note.HeadJudged)
@@ -340,7 +353,7 @@ namespace DJMaximusKaiserSoje.Presentation
                     // A held note stops falling: its head stays pinned to the judgement line.
                     float tail = (float)((note.EndTimeMs - songTimeMs) * PixelsPerMillisecond);
                     y = 0f;
-                    height = Mathf.Max(noteHeight, tail + noteHeight);
+                    height = Mathf.Max(scaledNoteHeight, tail + scaledNoteHeight);
                     view.Image.color = noteColor.WithAlpha(0.62f);
                 }
                 else
@@ -348,7 +361,7 @@ namespace DJMaximusKaiserSoje.Presentation
                     view.Image.color = noteColor;
                 }
 
-                Place(view.Rect, x, y, spec.BaseLaneSpan * baseWidth - notePadding, height);
+                Place(view.Rect, x, y, spec.BaseLaneSpan * baseWidth - scaledNotePadding, height);
             }
 
             retired.Clear();
