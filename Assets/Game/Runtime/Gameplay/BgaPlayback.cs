@@ -28,6 +28,28 @@ namespace DJMaximusKaiserSoje.Gameplay
             if (hasVideo) return BgaVisualMode.Video;
             return hasJacket ? BgaVisualMode.Jacket : BgaVisualMode.None;
         }
+
+        public static Vector2 CalculateJacketShakeOffset(
+            double songTimeMs, double bpm, float maximumDistance = 8f)
+        {
+            if (songTimeMs < 0.0 || bpm <= 0.0 || double.IsNaN(bpm) || double.IsInfinity(bpm) ||
+                maximumDistance <= 0f)
+                return Vector2.zero;
+
+            double beatMs = 60000.0 / bpm;
+            double beatPosition = songTimeMs / beatMs;
+            int beatIndex = (int)Math.Floor(beatPosition);
+            float phase = (float)(beatPosition - beatIndex);
+            float decay = 1f - phase;
+            float strength = maximumDistance * decay * decay;
+            return new Vector2(SignedHash(beatIndex * 2 + 1), SignedHash(beatIndex * 2 + 2)) * strength;
+        }
+
+        private static float SignedHash(int value)
+        {
+            double wave = Math.Sin(value * 12.9898) * 43758.5453;
+            return (float)((wave - Math.Floor(wave)) * 2.0 - 1.0);
+        }
     }
 
     /// <summary>Draws song video, or its jacket when no video exists, behind the gameplay UI.</summary>
@@ -41,6 +63,7 @@ namespace DJMaximusKaiserSoje.Gameplay
         private Sprite jacket;
         private Canvas backdropCanvas;
         private Image jacketImage;
+        private RectTransform jacketRect;
         private RawImage videoImage;
         private RenderTexture videoTexture;
         private Camera targetCamera;
@@ -99,8 +122,11 @@ namespace DJMaximusKaiserSoje.Gameplay
             {
                 jacketImage.enabled = jacket != null;
                 videoImage.enabled = false;
+                UpdateJacketShake();
                 return;
             }
+
+            ResetJacketShake();
 
             bool onVideoTimeline = BgaTimeline.TryResolveTime(session.SongTimeMs,
                 session.Chart.VideoStartTimeMs, player.length, out double videoTime);
@@ -150,6 +176,7 @@ namespace DJMaximusKaiserSoje.Gameplay
             scaler.matchWidthOrHeight = 0.5f;
 
             jacketImage = CreateFullscreenGraphic<Image>("Jacket", canvasObject.transform);
+            jacketRect = jacketImage.rectTransform;
             jacketImage.sprite = jacket;
             jacketImage.color = Color.white;
             jacketImage.raycastTarget = false;
@@ -195,6 +222,21 @@ namespace DJMaximusKaiserSoje.Gameplay
         private void PauseVideo()
         {
             if (player != null && player.isPlaying) player.Pause();
+        }
+
+        private void UpdateJacketShake()
+        {
+            if (jacketRect == null || jacket == null) return;
+            jacketRect.localScale = Vector3.one * 1.04f;
+            jacketRect.anchoredPosition = BgaTimeline.CalculateJacketShakeOffset(
+                session.SongTimeMs, session.Chart.Bpm);
+        }
+
+        private void ResetJacketShake()
+        {
+            if (jacketRect == null) return;
+            jacketRect.localScale = Vector3.one;
+            jacketRect.anchoredPosition = Vector2.zero;
         }
 
         private void OnDestroy()

@@ -21,6 +21,20 @@ namespace DJMaximusKaiserSoje.Core
         /// </summary>
         public const int DefaultAudioBufferSize = 256;
 
+        public const float DefaultGearBackgroundOpacity = 0.55f;
+        public const float GearBackgroundOpacityStep = 0.1f;
+
+        public static float NormalizeGearBackgroundOpacity(float value)
+        {
+            if (float.IsNaN(value) || float.IsInfinity(value)) return DefaultGearBackgroundOpacity;
+            return Math.Max(0f, Math.Min(1f, value));
+        }
+
+        public static float StepGearBackgroundOpacity(float value, int direction)
+        {
+            return NormalizeGearBackgroundOpacity(value + Math.Sign(direction) * GearBackgroundOpacityStep);
+        }
+
         public static int NormalizeAudioBufferSize(int value)
         {
             int closest = AudioBufferSizes[0];

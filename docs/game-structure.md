@@ -23,7 +23,7 @@ single (not additive) by the flow service, which lives on the bootstrap object a
 | `DJMaximusKaiserSoje.Core` | `Assets/Game/Runtime/Core` | nothing (`noEngineReferences`) | contracts: Claude · implementations: Codex |
 | `DJMaximusKaiserSoje.Content` | `Assets/Game/Runtime/Content` | Core, Addressables | Codex |
 | `DJMaximusKaiserSoje.Gameplay` | `Assets/Game/Runtime/Gameplay` | Core, Content, InputSystem | Codex |
-| `DJMaximusKaiserSoje.App` | `Assets/Game/Runtime/App` | Core, Content, Gameplay | Codex |
+| `DJMaximusKaiserSoje.App` | `Assets/Game/Runtime/App` | Core, Content, Gameplay, ugui | Codex |
 | `DJMaximusKaiserSoje.Presentation` | `Assets/Game/Runtime/Presentation` | Core, ugui, TextMeshPro | Claude |
 | `DJMaximusKaiserSoje.Editor` | `Assets/Game/Editor` | all runtime, Addressables.Editor | Claude |
 | `DJMaximusKaiserSoje.Tests.EditMode` | `Assets/Game/Tests/EditMode` | all runtime | Codex (Presentation tests: Claude) |
@@ -69,17 +69,22 @@ request; leaving the screen returns to the theme. The debounce is testable with 
 
 ## Options and BGA
 
-The options screen persists judgement offset, audio buffer size, display mode, resolution, quality,
-V-Sync, and a separate key layout for 4K, 4K+2, 6K, and 6K+2. In FX modes, the left and right FX
-bindings are shown separately from the regular lanes. Key assignments use Unity's existing Input
-System control names and duplicate assignments swap lanes, so no custom input serialization or
-additional input package is needed.
+The options screen persists judgement offset, audio buffer size, gear background opacity, display
+mode, resolution, quality, V-Sync, and a separate key layout for 4K, 4K+2, 6K, and 6K+2. In FX
+modes, the left and right FX bindings are shown separately from the regular lanes. Key assignments
+use Unity's existing Input System control names and duplicate assignments swap lanes, so no custom
+input serialization or additional input package is needed.
 
 Playable video continues through the existing catalog `videoAddress` and Addressables loader. A
 built-in `VideoPlayer` renders it on the gameplay camera's far plane with its audio disabled, while
 the chart's video start offset and the DSP-backed session clock determine its position. This reuses
 Unity's maintained video module and keeps BGA files remote-content compatible; no codec or playback
 layer is implemented in project code.
+
+The health pulse, jacket fallback shake, and result fade use the existing DSP song time, Unity UI,
+and short deterministic interpolation functions. A tween package was evaluated as unnecessary for
+these isolated effects: it would duplicate the existing `SmoothFill`/coroutine approach and add a
+runtime dependency without supplying timing, pooling, or authoring capability the project needs.
 
 ## Art pipeline
 

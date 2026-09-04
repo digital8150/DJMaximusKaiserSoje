@@ -58,9 +58,9 @@ namespace DJMaximusKaiserSoje.Editor
         {
             var (scene, root) = SceneScaffold.Create(SceneName);
 
-            // The camera far plane carries an optional song video. This tint keeps the lanes legible
-            // while remaining a complete backdrop for songs without one.
-            Ui.Image("Background", root, null, UiPalette.Ink.WithAlpha(0.58f)).Stretch();
+            // The camera far plane carries the optional song visual. Lane darkness is controlled by
+            // GearBackground instead of a fixed full-screen tint, so the gameplay option has range.
+            Ui.Image("Background", root, null, Color.clear).Stretch();
             // Tiled at the sprite's own 64 px, not stretched, or the weave becomes giant stripes.
             var hatch = Ui.Image("BackgroundHatch", root, Ui.Chrome("Hatch"), UiPalette.Violet.WithAlpha(0.02f)).Stretch();
             hatch.type = Image.Type.Tiled;
@@ -92,10 +92,15 @@ namespace DJMaximusKaiserSoje.Editor
                 .Set(Anchor.BottomCentre, 0f, GearBottom, GearWidth, GearHeight);
             var view = gear.gameObject.AddComponent<PlayfieldView>();
 
+            var gearBackground = Ui.Image("GearBackground", gear, Ui.Chrome("Solid"),
+                    UiPalette.Night.WithAlpha(GameOptionRules.DefaultGearBackgroundOpacity))
+                .Set(Anchor.BottomLeft, LaneLeft, LaneBottom, LaneWidth, LaneHeight);
+            screenView.gearBackground = gearBackground;
+
             var frame = Ui.Image("GearFrame", gear, Ui.Art("GameplayGear"), Color.white).Stretch();
             frame.type = Image.Type.Simple;
 
-            var viewport = Ui.Image("LaneViewport", gear, null, UiPalette.Night.WithAlpha(0.55f))
+            var viewport = Ui.Image("LaneViewport", gear, null, Color.clear)
                 .Set(Anchor.BottomLeft, LaneLeft, LaneBottom, LaneWidth, LaneHeight);
             viewport.gameObject.AddComponent<RectMask2D>();
 

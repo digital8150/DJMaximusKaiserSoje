@@ -22,6 +22,7 @@ namespace DJMaximusKaiserSoje.Presentation
         [SerializeField] internal TallyPanelView tally;
         [SerializeField] internal HealthGaugeView health;
         [SerializeField] internal ProgressStripView progress;
+        [SerializeField] internal Image gearBackground;
 
         [Header("Player")]
         [SerializeField] internal TMP_Text playerNameLabel;
@@ -66,6 +67,7 @@ namespace DJMaximusKaiserSoje.Presentation
             services.Preferences.Changed += OnPreferencesChanged;
 
             ShowPauseOverlay(false);
+            RefreshGearBackground();
         }
 
         public void BindSession(IPlaySession playSession)
@@ -159,6 +161,7 @@ namespace DJMaximusKaiserSoje.Presentation
             if (session == null || leaving) return;
 
             UpdateCountdown();
+            health?.SetPulseTiming(session.SongTimeMs, session.Chart.Bpm);
             if (progress != null)
                 progress.SetProgress(session.Progress01, session.SongTimeMs, session.SongLengthMs);
 
@@ -237,6 +240,15 @@ namespace DJMaximusKaiserSoje.Presentation
             playfield?.SetScrollSpeed(speed);
             if (playfield != null && session != null)
                 playfield.SetKeyBindings(services.Preferences.GetKeyBindings(session.Layout.Style));
+            RefreshGearBackground();
+        }
+
+        private void RefreshGearBackground()
+        {
+            if (gearBackground == null || services == null) return;
+            Color color = gearBackground.color;
+            color.a = services.Preferences.GearBackgroundOpacity;
+            gearBackground.color = color;
         }
 
         private void HookButtons()

@@ -164,6 +164,22 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
         }
 
         [Test]
+        public void FxNote_AtTheSameTimeAsNormalNotes_ExtendsAboveThem()
+        {
+            var notes = new[]
+            {
+                new ActiveNote(1, 0, 0.0, 0.0, headJudged: false),
+                new ActiveNote(2, 1, 0.0, 0.0, headJudged: false)
+            };
+            var session = new FakeSession(PlayStyle.SixKeyFx, notes);
+            PlayfieldView view = BuildPlayfield(session, null);
+
+            view.UpdateNotes(session.SongTimeMs);
+
+            Assert.That(Find(view, "FxNote").rect.height, Is.GreaterThan(Find(view, "Note").rect.height));
+        }
+
+        [Test]
         public void LongNoteTick_ShowsPerfectFeedbackAndUpdatedCombo()
         {
             root = new GameObject("Feedback");

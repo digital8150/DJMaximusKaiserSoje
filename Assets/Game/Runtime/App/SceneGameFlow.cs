@@ -29,6 +29,7 @@ namespace DJMaximusKaiserSoje.App
         private string pendingFocusChartId;
         private bool loading;
         private string optionsReturnScene = SceneNames.Title;
+        private SceneFadeTransition fadeTransition;
 
         public bool CanRetry => lastRequest != null;
 
@@ -36,6 +37,7 @@ namespace DJMaximusKaiserSoje.App
         {
             services = gameServices ?? throw new ArgumentNullException(nameof(gameServices));
             sessionFactory = factory ?? throw new ArgumentNullException(nameof(factory));
+            fadeTransition = GetComponent<SceneFadeTransition>() ?? gameObject.AddComponent<SceneFadeTransition>();
         }
 
         public void ShowTitle() => Load(SceneNames.Title);
@@ -62,13 +64,14 @@ namespace DJMaximusKaiserSoje.App
 
         public void ShowResult(PlayResult result)
         {
-            if (result == null) return;
+            if (result == null || loading) return;
             pendingResult = result;
             pendingSession = null;
             pendingFocusSongId = result.SongId;
             pendingFocusChartId = result.ChartId;
             services?.Records.Submit(result);
-            Load(SceneNames.Result);
+            loading = true;
+            StartCoroutine(LoadResultWithFade());
         }
 
         public void RetryLast()
@@ -91,6 +94,24 @@ namespace DJMaximusKaiserSoje.App
             pendingFocusSongId = null;
             pendingFocusChartId = null;
             Load(SceneNames.Gameplay);
+        }
+
+        private System.Collections.IEnumerator LoadResultWithFade()
+        {
+            if (fadeTransition != null) yield return fadeTransition.FadeToBlack();
+
+            AsyncOperation operation = SceneManager.LoadSceneAsync(SceneNames.Result, LoadSceneMode.Single);
+            if (operation == null)
+            {
+                loading = false;
+                if (fadeTransition != null) yield return fadeTransition.FadeFromBlack();
+                yield break;
+            }
+
+            yield return operation;
+            yield return null;
+            if (fadeTransition != null) yield return fadeTransition.FadeFromBlack();
+            loading = false;
         }
 
         private void Load(string sceneName)

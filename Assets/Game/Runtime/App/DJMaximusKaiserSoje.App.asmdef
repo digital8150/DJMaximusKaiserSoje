@@ -5,6 +5,7 @@
     "DJMaximusKaiserSoje.Core",
     "DJMaximusKaiserSoje.Content",
     "DJMaximusKaiserSoje.Gameplay",
+    "Unity.ugui",
     "Unity.Addressables",
     "Unity.ResourceManager"
   ],

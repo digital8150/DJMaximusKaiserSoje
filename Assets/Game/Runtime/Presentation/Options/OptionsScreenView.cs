@@ -30,6 +30,9 @@ namespace DJMaximusKaiserSoje.Presentation
         [SerializeField] internal TMP_Text qualityLabel;
         [SerializeField] internal Button qualityDownButton;
         [SerializeField] internal Button qualityUpButton;
+        [SerializeField] internal TMP_Text gearBackgroundOpacityLabel;
+        [SerializeField] internal Button gearBackgroundOpacityDownButton;
+        [SerializeField] internal Button gearBackgroundOpacityUpButton;
         [SerializeField] internal TMP_Text displayModeLabel;
         [SerializeField] internal Button displayModeButton;
         [SerializeField] internal TMP_Text resolutionLabel;
@@ -115,6 +118,8 @@ namespace DJMaximusKaiserSoje.Presentation
             judgementOffsetUpButton?.onClick.AddListener(() => StepJudgementOffset(1));
             qualityDownButton?.onClick.AddListener(() => StepQuality(-1));
             qualityUpButton?.onClick.AddListener(() => StepQuality(1));
+            gearBackgroundOpacityDownButton?.onClick.AddListener(() => StepGearBackgroundOpacity(-1));
+            gearBackgroundOpacityUpButton?.onClick.AddListener(() => StepGearBackgroundOpacity(1));
             displayModeButton?.onClick.AddListener(StepDisplayMode);
             resolutionDownButton?.onClick.AddListener(() => StepResolution(-1));
             resolutionUpButton?.onClick.AddListener(() => StepResolution(1));
@@ -142,6 +147,8 @@ namespace DJMaximusKaiserSoje.Presentation
             judgementOffsetUpButton?.onClick.RemoveAllListeners();
             qualityDownButton?.onClick.RemoveAllListeners();
             qualityUpButton?.onClick.RemoveAllListeners();
+            gearBackgroundOpacityDownButton?.onClick.RemoveAllListeners();
+            gearBackgroundOpacityUpButton?.onClick.RemoveAllListeners();
             displayModeButton?.onClick.RemoveAllListeners();
             resolutionDownButton?.onClick.RemoveAllListeners();
             resolutionUpButton?.onClick.RemoveAllListeners();
@@ -163,6 +170,8 @@ namespace DJMaximusKaiserSoje.Presentation
                 string[] names = QualitySettings.names;
                 qualityLabel.text = names.Length == 0 ? "기본" : names[Mathf.Clamp(preferences.QualityLevel, 0, names.Length - 1)];
             }
+            if (gearBackgroundOpacityLabel != null)
+                gearBackgroundOpacityLabel.text = Mathf.RoundToInt(preferences.GearBackgroundOpacity * 100f) + "%";
             if (displayModeLabel != null) displayModeLabel.text = DisplayModeName(preferences.DisplayMode);
             if (resolutionLabel != null) resolutionLabel.text = preferences.ResolutionWidth + " × " + preferences.ResolutionHeight;
             if (vSyncLabel != null) vSyncLabel.text = preferences.VSync ? "켜짐" : "꺼짐";
@@ -259,6 +268,10 @@ namespace DJMaximusKaiserSoje.Presentation
                 JudgementOffsetRange.Stepped(services.Preferences.JudgementOffsetMs, direction);
 
         private void StepQuality(int direction) => services.Preferences.QualityLevel += direction;
+
+        private void StepGearBackgroundOpacity(int direction) =>
+            services.Preferences.GearBackgroundOpacity = GameOptionRules.StepGearBackgroundOpacity(
+                services.Preferences.GearBackgroundOpacity, direction);
 
         private void StepDisplayMode()
         {

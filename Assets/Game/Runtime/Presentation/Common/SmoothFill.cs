@@ -11,11 +11,15 @@ namespace DJMaximusKaiserSoje.Presentation
         [SerializeField] internal float responseTime = 0.12f;
 
         private float goal;
+        private float current;
+
+        internal float CurrentValue => current;
 
         public void SetImmediate(float value)
         {
             goal = Mathf.Clamp01(value);
-            if (target != null) target.fillAmount = goal;
+            current = goal;
+            if (target != null) target.fillAmount = current;
         }
 
         public void Set(float value) => goal = Mathf.Clamp01(value);
@@ -23,9 +27,10 @@ namespace DJMaximusKaiserSoje.Presentation
         private void Update()
         {
             if (target == null) return;
-            target.fillAmount = responseTime <= 0f
+            current = responseTime <= 0f
                 ? goal
-                : Mathf.MoveTowards(target.fillAmount, goal, Time.unscaledDeltaTime / responseTime);
+                : Mathf.MoveTowards(current, goal, Time.unscaledDeltaTime / responseTime);
+            target.fillAmount = current;
         }
     }
 }

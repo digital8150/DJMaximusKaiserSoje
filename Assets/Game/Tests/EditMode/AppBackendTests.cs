@@ -3,11 +3,18 @@ using System.IO;
 using DJMaximusKaiserSoje.App;
 using DJMaximusKaiserSoje.Core;
 using NUnit.Framework;
+using UnityEngine;
 
 namespace DJMaximusKaiserSoje.Tests.EditMode
 {
     public sealed class AppBackendTests
     {
+        private sealed class FakeAudioDevice : IAudioDevice
+        {
+            public int BufferLength { get; private set; }
+            public void SetBufferLength(int samples) => BufferLength = samples;
+        }
+
         private sealed class FakePreviewClock : IPreviewClock
         {
             public double Now { get; set; }
@@ -90,6 +97,44 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             {
                 if (File.Exists(path)) File.Delete(path);
             }
+        }
+
+        [Test]
+        public void Preferences_GearBackgroundOpacityPersistsAndClamps()
+        {
+            bool hadValue = PlayerPrefs.HasKey(PlayerPrefsPlayPreferences.GearBackgroundOpacityKey);
+            float previous = PlayerPrefs.GetFloat(PlayerPrefsPlayPreferences.GearBackgroundOpacityKey);
+            try
+            {
+                PlayerPrefs.SetFloat(PlayerPrefsPlayPreferences.GearBackgroundOpacityKey, 0.37f);
+                var preferences = new PlayerPrefsPlayPreferences(new FakeAudioDevice());
+                int changes = 0;
+                preferences.Changed += () => changes++;
+
+                Assert.That(preferences.GearBackgroundOpacity, Is.EqualTo(0.37f).Within(0.0001f));
+
+                preferences.GearBackgroundOpacity = 2f;
+
+                Assert.That(preferences.GearBackgroundOpacity, Is.EqualTo(1f));
+                Assert.That(PlayerPrefs.GetFloat(PlayerPrefsPlayPreferences.GearBackgroundOpacityKey), Is.EqualTo(1f));
+                Assert.That(changes, Is.EqualTo(1));
+            }
+            finally
+            {
+                if (hadValue)
+                    PlayerPrefs.SetFloat(PlayerPrefsPlayPreferences.GearBackgroundOpacityKey, previous);
+                else
+                    PlayerPrefs.DeleteKey(PlayerPrefsPlayPreferences.GearBackgroundOpacityKey);
+                PlayerPrefs.Save();
+            }
+        }
+
+        [Test]
+        public void ResultFade_UsesSmoothEndpointsAndMidpoint()
+        {
+            Assert.That(SceneFadeTransition.EvaluateAlpha(0f, 1f, 0f, 0.35f), Is.EqualTo(0f));
+            Assert.That(SceneFadeTransition.EvaluateAlpha(0f, 1f, 0.175f, 0.35f), Is.EqualTo(0.5f));
+            Assert.That(SceneFadeTransition.EvaluateAlpha(0f, 1f, 0.35f, 0.35f), Is.EqualTo(1f));
         }
     }
 }

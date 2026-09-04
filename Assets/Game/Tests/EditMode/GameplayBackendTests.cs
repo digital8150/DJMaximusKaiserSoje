@@ -77,6 +77,17 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
         }
 
         [Test]
+        public void JacketFallback_ShakeHitsOnTheBeatAndSettlesBeforeTheNextBeat()
+        {
+            Vector2 onBeat = BgaTimeline.CalculateJacketShakeOffset(0.0, 120.0);
+            Vector2 nearNextBeat = BgaTimeline.CalculateJacketShakeOffset(499.0, 120.0);
+
+            Assert.That(onBeat.magnitude, Is.GreaterThan(0f));
+            Assert.That(nearNextBeat.magnitude, Is.LessThan(onBeat.magnitude * 0.01f));
+            Assert.That(BgaTimeline.CalculateJacketShakeOffset(-1.0, 120.0), Is.EqualTo(Vector2.zero));
+        }
+
+        [Test]
         public void Session_SchedulesAudioFromDspClockAndTranslatesInputTimestamp()
         {
             var dsp = new FakeDsp { DspTime = 10.0 };

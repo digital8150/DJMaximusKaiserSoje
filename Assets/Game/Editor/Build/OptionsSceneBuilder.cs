@@ -25,9 +25,9 @@ namespace DJMaximusKaiserSoje.Editor
                 TextAlignmentOptions.Right).Set(Anchor.TopRight, -80f, -76f, 500f, 32f);
 
             var list = Ui.Panel("Settings", screen, UiPalette.Panel.WithAlpha(0.94f))
-                .Set(Anchor.TopLeft, 82f, -184f, 1090f, 808f);
+                .Set(Anchor.TopLeft, 82f, -184f, 1090f, 848f);
             var detail = Ui.Panel("Description", screen, UiPalette.PanelSoft.WithAlpha(0.9f))
-                .Set(Anchor.TopRight, -82f, -184f, 610f, 808f);
+                .Set(Anchor.TopRight, -82f, -184f, 610f, 848f);
 
             BuildAudio(list.transform, view);
             BuildInput(list.transform, view);
@@ -92,13 +92,18 @@ namespace DJMaximusKaiserSoje.Editor
             SettingRow(parent, "Quality", "그래픽 품질", -574f,
                 out view.qualityLabel, out view.qualityDownButton, out view.qualityUpButton);
 
-            SettingButtonRow(parent, "DisplayMode", "화면 모드", -628f,
+            SettingRow(parent, "GearBackgroundOpacity", "기어 배경 진하기", -628f,
+                out view.gearBackgroundOpacityLabel,
+                out view.gearBackgroundOpacityDownButton,
+                out view.gearBackgroundOpacityUpButton);
+
+            SettingButtonRow(parent, "DisplayMode", "화면 모드", -682f,
                 out view.displayModeLabel, out view.displayModeButton);
 
-            SettingRow(parent, "Resolution", "해상도", -682f,
+            SettingRow(parent, "Resolution", "해상도", -736f,
                 out view.resolutionLabel, out view.resolutionDownButton, out view.resolutionUpButton);
 
-            SettingButtonRow(parent, "VSync", "수직 동기화", -736f,
+            SettingButtonRow(parent, "VSync", "수직 동기화", -790f,
                 out view.vSyncLabel, out view.vSyncButton);
         }
 

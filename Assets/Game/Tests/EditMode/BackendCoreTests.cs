@@ -81,13 +81,13 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
         }
 
         [Test]
-        public void Health_TenfoldGaugeKeepsExistingDamagePerMiss()
+        public void Health_MissDamageUsesTheNerfedGaugeRate()
         {
             var rules = new HealthRules();
             HealthState health = rules.StartingHealth;
-            for (int index = 0; index < 49; index++) health = rules.Apply(health, JudgementGrade.Miss);
+            for (int index = 0; index < 33; index++) health = rules.Apply(health, JudgementGrade.Miss);
 
-            Assert.That(health.Value, Is.EqualTo(0.2).Within(0.000001));
+            Assert.That(health.Value, Is.EqualTo(0.1).Within(0.000001));
             Assert.That(health.IsEmpty, Is.False);
 
             health = rules.Apply(health, JudgementGrade.Miss);
@@ -96,7 +96,7 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
         }
 
         [Test]
-        public void Health_RecoveryIsTenfoldWhileDamageIsUnchanged()
+        public void Health_RecoveryIsHalvedAndDamageIsOneAndAHalfTimesThePreviousRate()
         {
             var rules = new HealthRules(initialValue: 5.0);
 
@@ -104,9 +104,19 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             HealthState damaged = rules.Apply(recovered, JudgementGrade.Miss);
 
             Assert.That(HealthState.Maximum, Is.EqualTo(10.0));
-            Assert.That(recovered.Value, Is.EqualTo(5.1).Within(0.000001));
-            Assert.That(damaged.Value, Is.EqualTo(4.9).Within(0.000001));
-            Assert.That(HealthRules.MissDelta, Is.EqualTo(-0.2));
+            Assert.That(recovered.Value, Is.EqualTo(5.05).Within(0.000001));
+            Assert.That(damaged.Value, Is.EqualTo(4.75).Within(0.000001));
+            Assert.That(HealthRules.MissDelta, Is.EqualTo(-0.3));
+        }
+
+        [TestCase(JudgementGrade.PerfectHigh, 0.05)]
+        [TestCase(JudgementGrade.Perfect, 0.04)]
+        [TestCase(JudgementGrade.Great, 0.02)]
+        [TestCase(JudgementGrade.Good, -0.015)]
+        [TestCase(JudgementGrade.Miss, -0.3)]
+        public void Health_EachJudgementUsesTheBalancedDelta(JudgementGrade grade, double expected)
+        {
+            Assert.That(HealthRules.DeltaFor(grade), Is.EqualTo(expected).Within(0.000001));
         }
 
         [Test]
@@ -197,6 +207,16 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
         public void FxPlayStyle_IdentifiesLeftAndRightBindings(PlayStyle style, int lane, LaneRole expected)
         {
             Assert.That(LaneLayout.Create(style).Lanes[lane].Role, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public void Options_GearBackgroundOpacityStepsAndClampsToVisibleRange()
+        {
+            Assert.That(GameOptionRules.StepGearBackgroundOpacity(0.55f, 1), Is.EqualTo(0.65f).Within(0.0001f));
+            Assert.That(GameOptionRules.StepGearBackgroundOpacity(1f, 1), Is.EqualTo(1f));
+            Assert.That(GameOptionRules.StepGearBackgroundOpacity(0f, -1), Is.EqualTo(0f));
+            Assert.That(GameOptionRules.NormalizeGearBackgroundOpacity(float.NaN),
+                Is.EqualTo(GameOptionRules.DefaultGearBackgroundOpacity));
         }
 
         [TestCase(PlayStyle.FourKey, "0110")]

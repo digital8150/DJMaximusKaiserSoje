@@ -5,11 +5,11 @@ namespace DJMaximusKaiserSoje.Core
     /// <summary>Deterministic gauge changes shared by gameplay and tests.</summary>
     public sealed class HealthRules
     {
-        public const double PerfectHighDelta = 0.100;
-        public const double PerfectDelta = 0.080;
-        public const double GreatDelta = 0.040;
-        public const double GoodDelta = -0.010;
-        public const double MissDelta = -0.200;
+        public const double PerfectHighDelta = 0.050;
+        public const double PerfectDelta = 0.040;
+        public const double GreatDelta = 0.020;
+        public const double GoodDelta = -0.015;
+        public const double MissDelta = -0.300;
 
         public static HealthRules Default { get; } = new HealthRules();
 

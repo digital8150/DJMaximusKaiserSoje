@@ -46,6 +46,7 @@ namespace DJMaximusKaiserSoje.Presentation
         [SerializeField] internal float geometryScale = 1f;
         [SerializeField] internal float notePadding = 10f;
         [SerializeField] internal float noteHeight = 30f;
+        [SerializeField] internal float fxNoteHeight = 48f;
 
         [Tooltip("Where the lettered caps start, measured up from the bottom of the deck band.")]
         [SerializeField] internal float keyCapBottom = 24f;
@@ -201,7 +202,7 @@ namespace DJMaximusKaiserSoje.Presentation
             for (int baseLane = 0; baseLane < layout.BaseLaneCount; baseLane++)
             {
                 var plate = NewImage("LanePlate" + baseLane, laneLayer,
-                    baseLane % 2 == 0 ? UiPalette.Night.WithAlpha(0.55f) : UiPalette.Ink.WithAlpha(0.6f));
+                    baseLane % 2 == 0 ? UiPalette.Night.WithAlpha(0.08f) : UiPalette.Ink.WithAlpha(0.14f));
                 plate.sprite = lanePlateSprite;
                 plate.type = lanePlateSprite == null ? Image.Type.Simple : Image.Type.Sliced;
                 FitSlices(plate);
@@ -401,7 +402,7 @@ namespace DJMaximusKaiserSoje.Presentation
 
                 var spec = layout.Lanes[Mathf.Clamp(note.Lane, 0, layout.Lanes.Count - 1)];
                 float scaledNotePadding = notePadding * GeometryScale;
-                float scaledNoteHeight = noteHeight * GeometryScale;
+                float scaledNoteHeight = (spec.IsFx ? fxNoteHeight : noteHeight) * GeometryScale;
                 float x = spec.BaseLaneStart * baseWidth + scaledNotePadding * 0.5f;
                 float y = (float)(lead * PixelsPerMillisecond);
                 float height = note.IsHold

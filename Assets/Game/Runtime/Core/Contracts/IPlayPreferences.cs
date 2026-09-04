@@ -25,6 +25,9 @@ namespace DJMaximusKaiserSoje.Core
 
         int QualityLevel { get; set; }
 
+        /// <summary>Opacity of the dark backdrop immediately behind the gameplay lanes.</summary>
+        float GearBackgroundOpacity { get; set; }
+
         bool VSync { get; set; }
 
         DisplayMode DisplayMode { get; set; }

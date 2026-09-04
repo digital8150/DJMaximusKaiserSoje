@@ -1,3 +1,5 @@
+using DJMaximusKaiserSoje.Core;
+using DJMaximusKaiserSoje.Presentation;
 using NUnit.Framework;
 using UnityEditor;
 using UnityEditor.SceneManagement;
@@ -10,6 +12,7 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
     public sealed class GameplaySceneCompositionTests
     {
         private const string GameplayScenePath = "Assets/Scenes/Gameplay.unity";
+        private const string OptionsScenePath = "Assets/Scenes/Options.unity";
         private const string GearSpritePath = "Assets/Game/UI/Art/Generated/GameplayGear.png";
         private const float GearScale = 1080f / 1571f;
 
@@ -21,12 +24,14 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             {
                 GameObject gear = Find(scene, "Gear");
                 GameObject frame = Find(scene, "GearFrame");
+                GameObject gearBackground = Find(scene, "GearBackground");
                 GameObject viewport = Find(scene, "LaneViewport");
                 GameObject deckLayer = Find(scene, "DeckLayer");
                 GameObject healthGauge = Find(scene, "HealthGauge");
 
                 Assert.That(gear, Is.Not.Null);
                 Assert.That(frame, Is.Not.Null);
+                Assert.That(gearBackground, Is.Not.Null);
                 Assert.That(viewport, Is.Not.Null);
                 Assert.That(deckLayer, Is.Not.Null);
                 Assert.That(healthGauge, Is.Not.Null);
@@ -44,7 +49,11 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
                 AssertRect((RectTransform)viewport.transform,
                     new Vector2(28f, 388f) * GearScale,
                     new Vector2(674f, 1183f) * GearScale);
-                Assert.That(viewport.GetComponent<Image>().color.a, Is.EqualTo(0.55f).Within(0.001f));
+                Assert.That(viewport.GetComponent<Image>().color.a, Is.EqualTo(0f).Within(0.001f));
+                Assert.That(gearBackground.GetComponent<Image>().color.a,
+                    Is.EqualTo(GameOptionRules.DefaultGearBackgroundOpacity).Within(0.001f));
+                Assert.That(Find(scene, "GameplayScreen").GetComponent<GameplayScreenView>().gearBackground,
+                    Is.EqualTo(gearBackground.GetComponent<Image>()));
                 Assert.That(deckLayer.GetComponent<Image>().color.a, Is.EqualTo(0.82f).Within(0.001f));
                 Assert.That(healthGauge.transform.parent, Is.EqualTo(gear.transform));
                 Assert.That(healthGauge.GetComponentInChildren<Image>().color.a, Is.EqualTo(1f));
@@ -54,6 +63,28 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
                 var serializedPlayfield = new SerializedObject(playfield);
                 Assert.That(serializedPlayfield.FindProperty("geometryScale").floatValue,
                     Is.EqualTo(GearScale).Within(0.001f));
+            }
+            finally
+            {
+                EditorSceneManager.ClosePreviewScene(scene);
+            }
+        }
+
+        [Test]
+        public void Options_WhenSceneIsBuilt_WiresTheGearBackgroundOpacityControlsInsideThePanel()
+        {
+            Scene scene = EditorSceneManager.OpenPreviewScene(OptionsScenePath);
+            try
+            {
+                var settings = (RectTransform)Find(scene, "Settings").transform;
+                var row = (RectTransform)Find(settings, "GearBackgroundOpacity");
+                var view = Find(scene, "OptionsScreen").GetComponent<OptionsScreenView>();
+
+                Assert.That(view.gearBackgroundOpacityLabel, Is.Not.Null);
+                Assert.That(view.gearBackgroundOpacityDownButton, Is.Not.Null);
+                Assert.That(view.gearBackgroundOpacityUpButton, Is.Not.Null);
+                Assert.That(-row.anchoredPosition.y + row.rect.height,
+                    Is.LessThanOrEqualTo(settings.rect.height + 0.01f));
             }
             finally
             {

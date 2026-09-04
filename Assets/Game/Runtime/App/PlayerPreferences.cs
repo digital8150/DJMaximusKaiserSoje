@@ -12,6 +12,7 @@ namespace DJMaximusKaiserSoje.App
         public const string PlayStyleKey = "rhythm.play.style";
         public const string AudioBufferSizeKey = "rhythm.audio.buffer-size";
         public const string QualityLevelKey = "rhythm.graphics.quality";
+        public const string GearBackgroundOpacityKey = "rhythm.graphics.gear-background-opacity";
         public const string VSyncKey = "rhythm.graphics.vsync";
         public const string DisplayModeKey = "rhythm.graphics.display-mode";
         public const string ResolutionWidthKey = "rhythm.graphics.width";
@@ -34,6 +35,8 @@ namespace DJMaximusKaiserSoje.App
             audioBufferSize = StoredAudioBufferSize;
             qualityLevel = Mathf.Clamp(PlayerPrefs.GetInt(QualityLevelKey, QualitySettings.GetQualityLevel()),
                 0, Mathf.Max(0, QualitySettings.names.Length - 1));
+            gearBackgroundOpacity = GameOptionRules.NormalizeGearBackgroundOpacity(
+                PlayerPrefs.GetFloat(GearBackgroundOpacityKey, GameOptionRules.DefaultGearBackgroundOpacity));
             vSync = PlayerPrefs.GetInt(VSyncKey, QualitySettings.vSyncCount > 0 ? 1 : 0) != 0;
             displayMode = ReadDisplayMode(PlayerPrefs.GetInt(DisplayModeKey, (int)CurrentDisplayMode()));
             resolutionWidth = Mathf.Max(640, PlayerPrefs.GetInt(ResolutionWidthKey, Screen.width));
@@ -47,6 +50,7 @@ namespace DJMaximusKaiserSoje.App
         private PlayStyle playStyle;
         private int audioBufferSize;
         private int qualityLevel;
+        private float gearBackgroundOpacity;
         private bool vSync;
         private DisplayMode displayMode;
         private int resolutionWidth;
@@ -115,6 +119,19 @@ namespace DJMaximusKaiserSoje.App
                 qualityLevel = clamped;
                 PlayerPrefs.SetInt(QualityLevelKey, qualityLevel);
                 QualitySettings.SetQualityLevel(qualityLevel, true);
+                SaveAndNotify();
+            }
+        }
+
+        public float GearBackgroundOpacity
+        {
+            get => gearBackgroundOpacity;
+            set
+            {
+                float normalized = GameOptionRules.NormalizeGearBackgroundOpacity(value);
+                if (Math.Abs(gearBackgroundOpacity - normalized) < 0.0001f) return;
+                gearBackgroundOpacity = normalized;
+                PlayerPrefs.SetFloat(GearBackgroundOpacityKey, normalized);
                 SaveAndNotify();
             }
         }
