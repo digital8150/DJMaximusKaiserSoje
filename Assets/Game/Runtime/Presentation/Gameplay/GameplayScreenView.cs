@@ -99,6 +99,7 @@ namespace DJMaximusKaiserSoje.Presentation
             }
 
             session.Judged += OnJudged;
+            session.HoldTicked += OnHoldTicked;
             session.ScoreChanged += OnScoreChanged;
             session.HealthChanged += OnHealthChanged;
             session.SectionChanged += OnSectionChanged;
@@ -117,6 +118,7 @@ namespace DJMaximusKaiserSoje.Presentation
         {
             if (session == null) return;
             session.Judged -= OnJudged;
+            session.HoldTicked -= OnHoldTicked;
             session.ScoreChanged -= OnScoreChanged;
             session.HealthChanged -= OnHealthChanged;
             session.SectionChanged -= OnSectionChanged;
@@ -126,6 +128,8 @@ namespace DJMaximusKaiserSoje.Presentation
         }
 
         private void OnJudged(JudgementEvent judgement) => feedback?.ShowJudgement(judgement);
+
+        private void OnHoldTicked(HoldTickEvent tick) => feedback?.ShowHoldTick(tick);
 
         private void OnScoreChanged(RunScore score)
         {

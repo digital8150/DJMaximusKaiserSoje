@@ -68,6 +68,9 @@ namespace DJMaximusKaiserSoje.Gameplay
         public const double LeadInSeconds = 2.25;
         public const double ResumeCountdownSeconds = 3.0;
 
+        // A BPM beat is a quarter note. Six pulses within it produce a 24th-note roll.
+        private const int HoldTicksPerBeat = 6;
+
         private sealed class RuntimeNote
         {
             public int Id;
@@ -75,6 +78,7 @@ namespace DJMaximusKaiserSoje.Gameplay
             public int InputLane;
             public bool HeadJudged;
             public bool Complete;
+            public double NextHoldTickTimeMs = double.PositiveInfinity;
         }
 
         private readonly string songId;
@@ -95,10 +99,12 @@ namespace DJMaximusKaiserSoje.Gameplay
         private readonly bool[] laneHeld;
         private readonly double judgementOffsetMs;
         private readonly double songLengthMs;
+        private readonly double holdTickIntervalMs;
         private DspSongClock clock;
         private ScoreAccumulator scoreAccumulator;
         private HealthState health;
         private SectionMarker currentSection;
+        private int presentationCombo;
         private bool disposed;
         private double inputToDspOffset;
         private double resumeCountdownStartDspTime;
@@ -131,6 +137,10 @@ namespace DJMaximusKaiserSoje.Gameplay
             this.judgementOffsetMs = JudgementOffsetRange.Clamp(judgementOffsetMs);
             this.judgement = new JudgementEngine(judgementWindows ?? JudgementWindows.Default);
             this.healthRules = healthRules ?? new HealthRules();
+            double chartBpm = beatmap.Header.Bpm;
+            holdTickIntervalMs = chartBpm > 0.0 && !double.IsNaN(chartBpm) && !double.IsInfinity(chartBpm)
+                ? 60000.0 / chartBpm / HoldTicksPerBeat
+                : double.PositiveInfinity;
             clock = new DspSongClock(dspTime);
             Layout = LaneLayout.Create(style);
             laneHeld = new bool[Layout.Lanes.Count];
@@ -194,6 +204,7 @@ namespace DJMaximusKaiserSoje.Gameplay
         public double InputToDspOffset { get => inputToDspOffset; set => inputToDspOffset = value; }
 
         public event Action<JudgementEvent> Judged;
+        public event Action<HoldTickEvent> HoldTicked;
         public event Action<RunScore> ScoreChanged;
         public event Action<HealthState> HealthChanged;
         public event Action<SectionMarker> SectionChanged;
@@ -238,10 +249,15 @@ namespace DJMaximusKaiserSoje.Gameplay
                 }
                 if (note.HeadJudged && !note.Complete && note.Data.IsHold && SongTimeMs >= note.Data.EndTimeMs)
                 {
+                    ProcessHoldTicks(note, note.Data.EndTimeMs);
                     JudgementGrade grade = laneHeld[note.InputLane] ? JudgementGrade.PerfectHigh : JudgementGrade.Miss;
                     JudgeHoldRelease(note, grade, SongTimeMs - note.Data.EndTimeMs);
                     if (State != PlaySessionState.Playing) break;
+                    continue;
                 }
+
+                if (note.HeadJudged && !note.Complete && note.Data.IsHold)
+                    ProcessHoldTicks(note, SongTimeMs);
             }
 
             if (AllNotesComplete() && clock.SongTimeMs >= songLengthMs)
@@ -344,6 +360,7 @@ namespace DJMaximusKaiserSoje.Gameplay
             candidate.HeadJudged = true;
             if (candidate.Data.IsHold)
             {
+                ScheduleFirstHoldTick(candidate, songTime);
                 ApplyJudgement(candidate.InputLane, grade, offset, false);
                 return;
             }
@@ -354,19 +371,51 @@ namespace DJMaximusKaiserSoje.Gameplay
         private void OnLaneReleased(int lane, double timestamp)
         {
             if (lane < 0 || lane >= laneHeld.Length) return;
-            laneHeld[lane] = false;
-            if (State != PlaySessionState.Playing) return;
-            LaneReleased?.Invoke(lane);
+            if (State != PlaySessionState.Playing)
+            {
+                laneHeld[lane] = false;
+                return;
+            }
             double songTime = SongTimeAtInput(timestamp);
+            RuntimeNote activeHold = null;
             for (int index = 0; index < notes.Count; index++)
             {
                 RuntimeNote note = notes[index];
                 if (note.InputLane != lane || !note.HeadJudged || note.Complete || !note.Data.IsHold) continue;
-                double offset = songTime - note.Data.EndTimeMs;
-                JudgementGrade grade;
-                if (offset < -judgement.Windows.GoodMs || !judgement.TryJudge(offset, out grade)) grade = JudgementGrade.Miss;
-                JudgeHoldRelease(note, grade, offset);
-                return;
+                activeHold = note;
+                ProcessHoldTicks(note, Math.Min(songTime, note.Data.EndTimeMs));
+                break;
+            }
+
+            laneHeld[lane] = false;
+            LaneReleased?.Invoke(lane);
+            if (activeHold == null) return;
+
+            double offset = songTime - activeHold.Data.EndTimeMs;
+            JudgementGrade grade;
+            if (offset < -judgement.Windows.GoodMs || !judgement.TryJudge(offset, out grade)) grade = JudgementGrade.Miss;
+            JudgeHoldRelease(activeHold, grade, offset);
+        }
+
+        private void ScheduleFirstHoldTick(RuntimeNote note, double headHitTimeMs)
+        {
+            if (double.IsInfinity(holdTickIntervalMs)) return;
+
+            double elapsedMs = Math.Max(0.0, headHitTimeMs - note.Data.StartTimeMs);
+            double elapsedTicks = Math.Floor(elapsedMs / holdTickIntervalMs) + 1.0;
+            note.NextHoldTickTimeMs = note.Data.StartTimeMs + elapsedTicks * holdTickIntervalMs;
+        }
+
+        private void ProcessHoldTicks(RuntimeNote note, double throughTimeMs)
+        {
+            if (!laneHeld[note.InputLane] || double.IsInfinity(note.NextHoldTickTimeMs)) return;
+
+            while (note.NextHoldTickTimeMs < note.Data.EndTimeMs &&
+                   note.NextHoldTickTimeMs <= throughTimeMs)
+            {
+                note.NextHoldTickTimeMs += holdTickIntervalMs;
+                presentationCombo++;
+                HoldTicked?.Invoke(new HoldTickEvent(note.InputLane, presentationCombo));
             }
         }
 
@@ -408,9 +457,11 @@ namespace DJMaximusKaiserSoje.Gameplay
         {
             Score = scoreAccumulator.Feed(grade, judgement.TimingOf(offset));
             Health = healthRules.Apply(Health, grade);
+            presentationCombo = grade == JudgementGrade.Miss ? 0 : presentationCombo + 1;
             ScoreChanged?.Invoke(Score);
             HealthChanged?.Invoke(Health);
-            Judged?.Invoke(new JudgementEvent(lane, grade, judgement.TimingOf(offset), offset, Score.Combo, isHoldRelease));
+            Judged?.Invoke(new JudgementEvent(
+                lane, grade, judgement.TimingOf(offset), offset, presentationCombo, isHoldRelease));
             if (healthRules.HasFailed(Health)) Finish(PlayOutcome.Failed);
         }
 
@@ -421,8 +472,10 @@ namespace DJMaximusKaiserSoje.Gameplay
             {
                 notes[index].HeadJudged = false;
                 notes[index].Complete = false;
+                notes[index].NextHoldTickTimeMs = double.PositiveInfinity;
             }
             Array.Clear(laneHeld, 0, laneHeld.Length);
+            presentationCombo = 0;
             scoreAccumulator = new ScoreAccumulator(scoreAccumulator.Current.TotalNotes, judgement);
             Score = scoreAccumulator.Current;
             health = healthRules.StartingHealth;

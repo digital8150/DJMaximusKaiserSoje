@@ -77,6 +77,7 @@ namespace DJMaximusKaiserSoje.Core
         IReadOnlyList<ActiveNote> PendingNotes { get; }
 
         event Action<JudgementEvent> Judged;
+        event Action<HoldTickEvent> HoldTicked;
         event Action<RunScore> ScoreChanged;
         event Action<HealthState> HealthChanged;
         event Action<SectionMarker> SectionChanged;

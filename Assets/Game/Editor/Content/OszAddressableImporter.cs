@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using DJMaximusKaiserSoje.Content;
 using DJMaximusKaiserSoje.Core;
 using UnityEditor;
@@ -16,9 +15,10 @@ using UnityEngine;
 namespace DJMaximusKaiserSoje.Editor
 {
     /// <summary>
-    /// Imports one osu!mania set into project assets, updates the versioned remote catalog, assigns
-    /// stable Addressables keys, and builds player content. Imported files remain ordinary Unity
-    /// assets so the generated catalog can be rebuilt or uploaded by the release pipeline.
+    /// Imports osu!mania sets into project assets, updates the versioned remote catalog, assigns
+    /// stable Addressables keys, and builds player content once for the whole batch. Imported files
+    /// remain ordinary Unity assets so the generated catalog can be rebuilt or uploaded by the
+    /// release pipeline. A pack archive lands as one song per track, not as a single entry.
     /// </summary>
     public static class OszAddressableImporter
     {
@@ -44,8 +44,14 @@ namespace DJMaximusKaiserSoje.Editor
             public OszChartSource Source;
             public DifficultyTier Tier;
             public int Level;
-            public string AssetPath;
             public string Address;
+        }
+
+        private sealed class ImportedSong
+        {
+            public SongCatalogEntry Entry;
+            public string JacketPath;
+            public string VideoPath;
         }
 
         [MenuItem("Tools/DJ Maximus/Import osu!mania .osz")]
@@ -53,12 +59,33 @@ namespace DJMaximusKaiserSoje.Editor
         {
             string path = EditorUtility.OpenFilePanel("osu!mania 곡 가져오기", string.Empty, "osz");
             if (string.IsNullOrEmpty(path)) return;
+            RunImport(new[] { path });
+        }
 
+        [MenuItem("Tools/DJ Maximus/Import osu!mania .osz folder")]
+        public static void ImportFolderWithPicker()
+        {
+            string folder = EditorUtility.OpenFolderPanel("osu!mania 곡 폴더 가져오기", string.Empty, string.Empty);
+            if (string.IsNullOrEmpty(folder)) return;
+
+            string[] paths = Directory.GetFiles(folder, "*.osz", SearchOption.TopDirectoryOnly)
+                .OrderBy(path => path, StringComparer.OrdinalIgnoreCase).ToArray();
+            if (paths.Length == 0)
+            {
+                EditorUtility.DisplayDialog("가져올 곡이 없어요", "이 폴더에 .osz 파일이 없습니다.", "확인");
+                return;
+            }
+
+            RunImport(paths);
+        }
+
+        private static void RunImport(IReadOnlyList<string> oszPaths)
+        {
             try
             {
-                string songId = ImportAndBuild(path);
+                IReadOnlyList<string> songIds = Import(oszPaths);
                 EditorUtility.DisplayDialog("가져오기 완료",
-                    "곡 데이터를 만들었습니다.\n\nID: " + songId + "\n출력: ServerData", "확인");
+                    "곡 " + songIds.Count + "개를 만들었습니다.\n\n출력: ServerData", "확인");
             }
             catch (Exception exception)
             {
@@ -67,20 +94,74 @@ namespace DJMaximusKaiserSoje.Editor
             }
         }
 
-        public static string ImportAndBuild(string oszPath)
-        {
-            if (!string.Equals(Path.GetExtension(oszPath), ".osz", StringComparison.OrdinalIgnoreCase))
-                throw new OszImportException(".osz 파일을 선택해 주세요.");
+        public static string ImportAndBuild(string oszPath) => Import(new[] { oszPath }).First();
 
-            OszBeatmapPackage package = OszBeatmapPackageReader.Read(oszPath);
-            string songId = BuildSongId(oszPath, package);
-            string songFolder = ImportRoot + "/" + songId;
+        /// <summary>
+        /// Imports every archive, rewrites the remote catalog, and builds Addressables content once.
+        /// Archives are read up front so a broken file fails before anything is written.
+        /// </summary>
+        public static IReadOnlyList<string> Import(IReadOnlyList<string> oszPaths)
+        {
+            if (oszPaths == null || oszPaths.Count == 0)
+                throw new OszImportException("가져올 .osz 파일이 없습니다.");
+
+            var archives = new List<KeyValuePair<string, OszArchiveContents>>(oszPaths.Count);
+            foreach (string oszPath in oszPaths)
+            {
+                if (!string.Equals(Path.GetExtension(oszPath), ".osz", StringComparison.OrdinalIgnoreCase))
+                    throw new OszImportException(".osz 파일을 선택해 주세요: " + oszPath);
+
+                OszArchiveContents contents = OszBeatmapPackageReader.Read(oszPath);
+                foreach (string warning in contents.Warnings)
+                    Debug.LogWarning(Path.GetFileName(oszPath) + " — " + warning);
+                OszBeatmapPackage first = contents.Songs[0];
+                archives.Add(new KeyValuePair<string, OszArchiveContents>(
+                    OszSongId.ForArchive(oszPath, first.Artist, first.Title), contents));
+            }
+
+            SongCatalogDocument catalog = LoadCatalog();
+            var addresses = new Dictionary<string, string>(StringComparer.Ordinal);
+            List<SongCatalogEntry> kept = catalog.Songs
+                .Where(song => song != null && !archives.Any(archive => OszSongId.BelongsToSet(song.id, archive.Key)))
+                .ToList();
+            var songIds = new HashSet<string>(kept.Select(song => song.id), StringComparer.Ordinal);
+            var imported = new List<ImportedSong>();
+
             EnsureFolder(ImportRoot);
-            if (AssetDatabase.IsValidFolder(songFolder) && !AssetDatabase.DeleteAsset(songFolder))
-                throw new OszImportException("기존 가져오기 폴더를 갱신할 수 없습니다: " + songFolder);
+            foreach (KeyValuePair<string, OszArchiveContents> archive in archives)
+            {
+                RemoveSetFolders(archive.Key);
+                bool isPack = archive.Value.Songs.Count > 1;
+                foreach (OszBeatmapPackage song in archive.Value.Songs)
+                    imported.Add(WriteSong(
+                        OszSongId.Reserve(archive.Key, song.Title, isPack, songIds), song, addresses));
+            }
+
+            catalog.songs = kept.Concat(imported.Select(song => song.Entry)).ToArray();
+            catalog.schemaVersion = SongCatalogParser.SupportedSchemaVersion;
+            WriteTextAsset(RemoteCatalogPath, JsonUtility.ToJson(catalog, true) + Environment.NewLine);
+
+            AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
+            foreach (ImportedSong song in imported) ConfigureImporters(song.JacketPath, song.VideoPath);
+            addresses.Add(RemoteCatalogPath, RemoteCatalogAddress);
+            RegisterRemoteAddresses(addresses);
+            AssetDatabase.SaveAssets();
+
+            AddressableAssetSettings.BuildPlayerContent(out AddressablesPlayerBuildResult result);
+            if (!string.IsNullOrWhiteSpace(result.Error))
+                throw new OszImportException("Addressables 빌드에 실패했습니다: " + result.Error);
+
+            Debug.Log("Imported " + imported.Count + " songs from " + archives.Count +
+                      " archives and built Addressables content.");
+            return imported.Select(song => song.Entry.id).ToArray();
+        }
+
+        private static ImportedSong WriteSong(string songId, OszBeatmapPackage package,
+            IDictionary<string, string> addresses)
+        {
+            string songFolder = ImportRoot + "/" + songId;
             EnsureFolder(songFolder);
 
-            var addresses = new Dictionary<string, string>(StringComparer.Ordinal);
             string addressPrefix = "song." + songId;
             string audioPath = WriteBinary(songFolder, "audio", package.Audio, RawAudioExtension);
             string jacketPath = WriteBinary(songFolder, "jacket", package.Jacket);
@@ -90,29 +171,15 @@ namespace DJMaximusKaiserSoje.Editor
             if (videoPath != null) addresses.Add(videoPath, addressPrefix + ".video");
 
             List<PreparedChart> charts = PrepareCharts(package, songFolder, addressPrefix, addresses);
-            if (charts.Count == 0) throw new OszImportException("가져올 수 있는 난이도가 없습니다.");
+            if (charts.Count == 0) throw new OszImportException(package.Title + ": 가져올 수 있는 난이도가 없습니다.");
 
-            SongCatalogDocument catalog = LoadCatalog();
-            SongCatalogEntry importedSong = CreateCatalogEntry(songId, package, charts,
-                addresses[audioPath], addresses[jacketPath], videoPath == null ? string.Empty : addresses[videoPath]);
-            catalog.songs = catalog.Songs.Where(song => song != null && song.id != songId)
-                .Concat(new[] { importedSong }).ToArray();
-            catalog.schemaVersion = SongCatalogParser.SupportedSchemaVersion;
-            WriteTextAsset(RemoteCatalogPath, JsonUtility.ToJson(catalog, true) + Environment.NewLine);
-
-            AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
-            ConfigureImporters(jacketPath, videoPath);
-            addresses.Add(RemoteCatalogPath, RemoteCatalogAddress);
-            RegisterRemoteAddresses(addresses);
-            AssetDatabase.SaveAssets();
-
-            AddressableAssetSettings.BuildPlayerContent(out AddressablesPlayerBuildResult result);
-            if (!string.IsNullOrWhiteSpace(result.Error))
-                throw new OszImportException("Addressables 빌드에 실패했습니다: " + result.Error);
-
-            Debug.Log("Imported " + package.Title + " (" + songId + ") with " + charts.Count +
-                      " charts and built Addressables content.");
-            return songId;
+            return new ImportedSong
+            {
+                Entry = CreateCatalogEntry(songId, package, charts, addresses[audioPath], addresses[jacketPath],
+                    videoPath == null ? string.Empty : addresses[videoPath]),
+                JacketPath = jacketPath,
+                VideoPath = videoPath
+            };
         }
 
         private static List<PreparedChart> PrepareCharts(OszBeatmapPackage package, string songFolder,
@@ -125,16 +192,16 @@ namespace DJMaximusKaiserSoje.Editor
                 int nameIndex = 0;
                 foreach (OszChartSource source in group.OrderBy(chart => chart.Beatmap.Notes.Count))
                 {
-                    DifficultyTier inferred = SongCatalogParser.InferTier(source.Beatmap.Header.DifficultyName);
+                    DifficultyTier inferred = SongCatalogParser.InferTier(source.DifficultyName);
                     if (!TryReserveTier(inferred, usedTiers, out DifficultyTier tier))
                     {
-                        Debug.LogWarning("Skipped extra " + group.Key + "K chart: " +
-                                         source.Beatmap.Header.DifficultyName);
+                        Debug.LogWarning("Skipped extra " + group.Key + "K chart: " + package.Title + " / " +
+                                         source.DifficultyName);
                         continue;
                     }
 
-                    int level = SongCatalogParser.InferLevel(source.Beatmap.Header.DifficultyName, tier);
-                    string chartSlug = Slug(source.Beatmap.Header.DifficultyName, "chart") + "-" + (++nameIndex);
+                    int level = SongCatalogParser.InferLevel(source.DifficultyName, tier);
+                    string chartSlug = OszSongId.Slug(source.DifficultyName, "chart") + "-" + (++nameIndex);
                     string assetPath = songFolder + "/" + group.Key + "k-" + chartSlug + ".txt";
                     string address = addressPrefix + "." + group.Key + "k." + chartSlug + ".beatmap";
                     WriteTextAsset(assetPath, source.Text);
@@ -144,7 +211,6 @@ namespace DJMaximusKaiserSoje.Editor
                         Source = source,
                         Tier = tier,
                         Level = level,
-                        AssetPath = assetPath,
                         Address = address
                     });
                 }
@@ -193,7 +259,9 @@ namespace DJMaximusKaiserSoje.Editor
                 category = "osu!mania",
                 charts = charts.Select(chart => new SongChartEntry
                 {
-                    difficulty = chart.Source.Beatmap.Header.DifficultyName,
+                    difficulty = string.IsNullOrWhiteSpace(chart.Source.DifficultyName)
+                        ? chart.Tier.ToString()
+                        : chart.Source.DifficultyName,
                     tier = chart.Tier.ToString(),
                     level = chart.Level,
                     keyCount = chart.Source.Beatmap.Header.KeyCount,
@@ -225,7 +293,8 @@ namespace DJMaximusKaiserSoje.Editor
             BundledAssetGroupSchema bundled = group.GetSchema<BundledAssetGroupSchema>();
             bundled.BuildPath.SetVariableByName(settings, AddressableAssetSettings.kRemoteBuildPath);
             bundled.LoadPath.SetVariableByName(settings, AddressableAssetSettings.kRemoteLoadPath);
-            bundled.BundleMode = BundledAssetGroupSchema.BundlePackingMode.PackTogetherByLabel;
+            // One bundle per asset: a player that picks a song downloads that song, not the library.
+            bundled.BundleMode = BundledAssetGroupSchema.BundlePackingMode.PackSeparately;
             group.GetSchema<ContentUpdateGroupSchema>().StaticContent = false;
 
             string remoteLoadPath = settings.profileSettings.GetValueByName(
@@ -237,6 +306,14 @@ namespace DJMaximusKaiserSoje.Editor
             settings.BuildRemoteCatalog = true;
             settings.RemoteCatalogBuildPath.SetVariableByName(settings, AddressableAssetSettings.kRemoteBuildPath);
             settings.RemoteCatalogLoadPath.SetVariableByName(settings, AddressableAssetSettings.kRemoteLoadPath);
+
+            // Entries whose asset is gone would otherwise keep a stale address alive in the catalog.
+            foreach (AddressableAssetEntry stale in group.entries.ToArray())
+            {
+                string assetPath = AssetDatabase.GUIDToAssetPath(stale.guid);
+                if (string.IsNullOrEmpty(assetPath) || !File.Exists(ToAbsolute(assetPath)))
+                    settings.RemoveAssetEntry(stale.guid, false);
+            }
 
             foreach (KeyValuePair<string, string> pair in addresses)
             {
@@ -281,18 +358,15 @@ namespace DJMaximusKaiserSoje.Editor
         private static void WriteTextAsset(string assetPath, string text) =>
             File.WriteAllText(ToAbsolute(assetPath), text, new UTF8Encoding(false));
 
-        private static string BuildSongId(string oszPath, OszBeatmapPackage package)
+        /// <summary>Drops what a previous import of the same set left behind, including its songs.</summary>
+        private static void RemoveSetFolders(string setId)
         {
-            Match setId = Regex.Match(Path.GetFileNameWithoutExtension(oszPath) ?? string.Empty, @"^\s*(\d+)");
-            return setId.Success
-                ? "osu-" + setId.Groups[1].Value
-                : Slug(package.Artist + "-" + package.Title, "imported-song");
-        }
-
-        private static string Slug(string value, string fallback)
-        {
-            string slug = Regex.Replace((value ?? string.Empty).ToLowerInvariant(), @"[^a-z0-9]+", "-").Trim('-');
-            return string.IsNullOrEmpty(slug) ? fallback : slug;
+            foreach (string folder in AssetDatabase.GetSubFolders(ImportRoot))
+            {
+                if (!OszSongId.BelongsToSet(Path.GetFileName(folder), setId)) continue;
+                if (!AssetDatabase.DeleteAsset(folder))
+                    throw new OszImportException("기존 가져오기 폴더를 갱신할 수 없습니다: " + folder);
+            }
         }
 
         private static string ToAbsolute(string assetPath)

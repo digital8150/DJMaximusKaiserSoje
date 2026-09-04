@@ -20,12 +20,13 @@ namespace DJMaximusKaiserSoje.Core
 
     public readonly struct LaneSpec
     {
-        public LaneSpec(string keyName, int baseLaneStart, int baseLaneSpan, LaneRole role)
+        public LaneSpec(string keyName, int baseLaneStart, int baseLaneSpan, LaneRole role, bool usesBlueColor = false)
         {
             KeyName = keyName;
             BaseLaneStart = baseLaneStart;
             BaseLaneSpan = baseLaneSpan;
             Role = role;
+            UsesBlueColor = usesBlueColor;
         }
 
         public string KeyName { get; }
@@ -33,6 +34,7 @@ namespace DJMaximusKaiserSoje.Core
         public int BaseLaneSpan { get; }
         public LaneRole Role { get; }
         public bool IsFx => Role != LaneRole.Normal;
+        public bool UsesBlueColor { get; }
     }
 
     /// <summary>
@@ -72,19 +74,19 @@ namespace DJMaximusKaiserSoje.Core
             {
                 case PlayStyle.FourKey:
                     return new LaneLayout(style, "4K", 4,
-                        Normal("D", 0), Normal("F", 1), Normal("J", 2), Normal("K", 3));
+                        Normal("D", 0), BlueNormal("F", 1), BlueNormal("J", 2), Normal("K", 3));
                 case PlayStyle.FourKeyFx:
                     return new LaneLayout(style, "4K + 2 FX", 4,
                         Fx("S", 0, 2, LaneRole.LeftFx),
-                        Normal("D", 0), Normal("F", 1), Normal("J", 2), Normal("K", 3),
+                        Normal("D", 0), BlueNormal("F", 1), BlueNormal("J", 2), Normal("K", 3),
                         Fx("L", 2, 2, LaneRole.RightFx));
                 case PlayStyle.SixKey:
                     return new LaneLayout(style, "6K", 6,
-                        Normal("S", 0), Normal("D", 1), Normal("F", 2), Normal("J", 3), Normal("K", 4), Normal("L", 5));
+                        Normal("S", 0), BlueNormal("D", 1), Normal("F", 2), Normal("J", 3), BlueNormal("K", 4), Normal("L", 5));
                 case PlayStyle.SixKeyFx:
                     return new LaneLayout(style, "6K + 2 FX", 6,
                         Fx("A", 0, 3, LaneRole.LeftFx),
-                        Normal("S", 0), Normal("D", 1), Normal("F", 2), Normal("J", 3), Normal("K", 4), Normal("L", 5),
+                        Normal("S", 0), BlueNormal("D", 1), Normal("F", 2), Normal("J", 3), BlueNormal("K", 4), Normal("L", 5),
                         Fx("Semicolon", 3, 3, LaneRole.RightFx));
                 default:
                     throw new ArgumentOutOfRangeException(nameof(style), style, null);
@@ -93,6 +95,9 @@ namespace DJMaximusKaiserSoje.Core
 
         private static LaneSpec Normal(string keyName, int baseLane) =>
             new LaneSpec(keyName, baseLane, 1, LaneRole.Normal);
+
+        private static LaneSpec BlueNormal(string keyName, int baseLane) =>
+            new LaneSpec(keyName, baseLane, 1, LaneRole.Normal, usesBlueColor: true);
 
         private static LaneSpec Fx(string keyName, int baseLane, int span, LaneRole role) =>
             new LaneSpec(keyName, baseLane, span, role);

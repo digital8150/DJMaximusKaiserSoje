@@ -65,6 +65,7 @@ namespace DJMaximusKaiserSoje.Presentation
         [Header("Effects")]
         [SerializeField] internal float burstDuration = 0.24f;
         [SerializeField] internal float beamDecayPerSecond = 5.5f;
+        [SerializeField] internal float holdTickBeamPulseDuration = 0.14f;
 
         private readonly Dictionary<int, NoteView> viewsByNote = new Dictionary<int, NoteView>();
         private readonly Stack<NoteView> pool = new Stack<NoteView>();
@@ -81,6 +82,7 @@ namespace DJMaximusKaiserSoje.Presentation
         private RectTransform[] keyCaps;
         private TMP_Text[] keyCapLabels;
         private float[] beamLevel;
+        private float[] beamPulseRemaining;
         private float[] burstRemaining;
         private bool[] laneHeld;
         private float scrollSpeed = ScrollSpeedRange.Default;
@@ -122,6 +124,7 @@ namespace DJMaximusKaiserSoje.Presentation
             public GameObject GameObject;
             public RectTransform Rect;
             public Image Image;
+            public SlicedImageFit Fit;
             public int Stamp;
         }
 
@@ -145,6 +148,7 @@ namespace DJMaximusKaiserSoje.Presentation
             session.LaneReleased += OnLaneReleased;
             session.StateChanged += OnSessionStateChanged;
             session.Judged += OnJudged;
+            session.HoldTicked += OnHoldTicked;
             lastRenderedSongTimeMs = session.SongTimeMs;
         }
 
@@ -168,6 +172,7 @@ namespace DJMaximusKaiserSoje.Presentation
             session.LaneReleased -= OnLaneReleased;
             session.StateChanged -= OnSessionStateChanged;
             session.Judged -= OnJudged;
+            session.HoldTicked -= OnHoldTicked;
             session = null;
         }
 
@@ -199,6 +204,7 @@ namespace DJMaximusKaiserSoje.Presentation
                     baseLane % 2 == 0 ? UiPalette.Night.WithAlpha(0.55f) : UiPalette.Ink.WithAlpha(0.6f));
                 plate.sprite = lanePlateSprite;
                 plate.type = lanePlateSprite == null ? Image.Type.Simple : Image.Type.Sliced;
+                FitSlices(plate);
                 lanePlates[baseLane] = plate;
 
                 if (baseLane <= 0) continue;
@@ -215,6 +221,7 @@ namespace DJMaximusKaiserSoje.Presentation
             keyCaps = new RectTransform[count];
             keyCapLabels = new TMP_Text[count];
             beamLevel = new float[count];
+            beamPulseRemaining = new float[count];
             burstRemaining = new float[count];
             laneHeld = new bool[count];
 
@@ -239,6 +246,7 @@ namespace DJMaximusKaiserSoje.Presentation
                     var receptor = NewImage("Receptor" + laneIndex, laneLayer, RestingReceptorColor(spec.IsFx));
                     receptor.sprite = lanePlateSprite;
                     receptor.type = lanePlateSprite == null ? Image.Type.Simple : Image.Type.Sliced;
+                    FitSlices(receptor);
                     receptors[laneIndex] = receptor;
 
                     keyCaps[laneIndex] = BuildKeyCap(laneIndex, spec);
@@ -252,6 +260,7 @@ namespace DJMaximusKaiserSoje.Presentation
                 spec.IsFx ? UiPalette.Magenta.WithAlpha(0.2f) : UiPalette.PanelRaised.WithAlpha(0.9f));
             cap.sprite = keyCapSprite;
             cap.type = keyCapSprite == null ? Image.Type.Simple : Image.Type.Sliced;
+            FitSlices(cap);
 
             var label = NewText("Label", cap.rectTransform, KeyLabel(laneIndex),
                 (spec.IsFx ? 17f : 26f) * GeometryScale, keyFont);
@@ -374,7 +383,7 @@ namespace DJMaximusKaiserSoje.Presentation
             rewindElapsedSeconds = 0f;
         }
 
-        private void UpdateNotes(double songTimeMs)
+        internal void UpdateNotes(double songTimeMs)
         {
             frameStamp++;
             var pending = session.PendingNotes;
@@ -400,19 +409,17 @@ namespace DJMaximusKaiserSoje.Presentation
                         (float)((note.EndTimeMs - note.StartTimeMs) * PixelsPerMillisecond) + scaledNoteHeight)
                     : scaledNoteHeight;
 
-                Color noteColor = spec.IsFx ? UiPalette.FxRed : Color.white;
+                Color noteColor = spec.IsFx
+                    ? UiPalette.FxRed
+                    : spec.UsesBlueColor ? UiPalette.Cyan : Color.white;
                 if (note.IsHold && note.HeadJudged)
                 {
                     // A held note stops falling: its head stays pinned to the judgement line.
                     float tail = (float)((note.EndTimeMs - songTimeMs) * PixelsPerMillisecond);
                     y = 0f;
                     height = Mathf.Max(scaledNoteHeight, tail + scaledNoteHeight);
-                    view.Image.color = noteColor.WithAlpha(0.62f);
                 }
-                else
-                {
-                    view.Image.color = noteColor;
-                }
+                view.Image.color = noteColor;
 
                 Place(view.Rect, x, y, spec.BaseLaneSpan * baseWidth - scaledNotePadding, height);
             }
@@ -442,12 +449,22 @@ namespace DJMaximusKaiserSoje.Presentation
             else
             {
                 var image = NewImage("Note", parent, Color.white);
-                view = new NoteView { GameObject = image.gameObject, Rect = image.rectTransform, Image = image };
+                view = new NoteView
+                {
+                    GameObject = image.gameObject,
+                    Rect = image.rectTransform,
+                    Image = image,
+                    Fit = FitSlices(image)
+                };
             }
 
             view.Image.sprite = isFx ? fxNoteSprite : normalNoteSprite;
-            view.Image.type = note.IsHold ? Image.Type.Sliced : Image.Type.Simple;
+            // Sliced for a tap as well as a hold: the note art is a third as tall as a lane is wide, so
+            // stretching the whole of it into a tap's height pulls its round caps into ovals.
+            view.Image.type = Image.Type.Sliced;
             view.Image.fillCenter = true;
+            // A pooled view can come back carrying the other note's sprite, whose border is its own.
+            view.Fit.SetArtScale(GeometryScale);
             view.GameObject.name = isFx ? "FxNote" : "Note";
             viewsByNote[note.Id] = view;
             return view;
@@ -468,9 +485,16 @@ namespace DJMaximusKaiserSoje.Presentation
         private void OnJudged(JudgementEvent judgement)
         {
             if (bursts == null || judgement.Grade == JudgementGrade.Miss) return;
-            int lane = judgement.Lane;
-            if (lane < 0 || lane >= bursts.Length) return;
+            TriggerHitEffect(judgement.Lane, pulseBeam: false);
+        }
+
+        private void OnHoldTicked(HoldTickEvent tick) => TriggerHitEffect(tick.Lane, pulseBeam: true);
+
+        private void TriggerHitEffect(int lane, bool pulseBeam)
+        {
+            if (bursts == null || lane < 0 || lane >= bursts.Length) return;
             burstRemaining[lane] = burstDuration;
+            if (pulseBeam) beamPulseRemaining[lane] = holdTickBeamPulseDuration;
         }
 
         private void OnLanePressed(int lane)
@@ -510,7 +534,12 @@ namespace DJMaximusKaiserSoje.Presentation
                 beamLevel[lane] = laneHeld[lane]
                     ? 1f
                     : Mathf.MoveTowards(beamLevel[lane], 0f, deltaTime * beamDecayPerSecond);
-                float alpha = beamLevel[lane] * (layout.Lanes[lane].IsFx ? 0.5f : 0.72f);
+                beamPulseRemaining[lane] = Mathf.Max(0f, beamPulseRemaining[lane] - deltaTime);
+                float pulse = holdTickBeamPulseDuration <= 0f
+                    ? 0f
+                    : beamPulseRemaining[lane] / holdTickBeamPulseDuration;
+                float restingAlpha = beamLevel[lane] * (layout.Lanes[lane].IsFx ? 0.5f : 0.72f);
+                float alpha = Mathf.Lerp(restingAlpha, 1f, pulse);
                 beams[lane].color = Color.white.WithAlpha(alpha);
 
                 if (burstRemaining[lane] <= 0f)
@@ -532,6 +561,19 @@ namespace DJMaximusKaiserSoje.Presentation
         {
             if (root == null) return;
             for (int index = root.childCount - 1; index >= 0; index--) Destroy(root.GetChild(index).gameObject);
+        }
+
+        /// <summary>
+        /// Lane furniture is sized from the viewport every frame, and every one of these sprites is
+        /// drawn far smaller than it was authored. Left alone their borders would not fit, and Unity
+        /// flattens a border that does not fit rather than scaling it.
+        /// </summary>
+        private SlicedImageFit FitSlices(Image image)
+        {
+            var fit = image.gameObject.GetComponent<SlicedImageFit>();
+            if (fit == null) fit = image.gameObject.AddComponent<SlicedImageFit>();
+            fit.SetArtScale(GeometryScale);
+            return fit;
         }
 
         private static Image NewImage(string name, Transform parent, Color color)

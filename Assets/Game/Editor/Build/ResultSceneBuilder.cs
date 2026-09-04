@@ -210,7 +210,9 @@ namespace DJMaximusKaiserSoje.Editor
                 TextAlignmentOptions.Center).Stretch();
             var expTrack = Ui.Image("ExpTrack", playerPlate.transform, Ui.Chrome("Bar"), UiPalette.Ink)
                 .Set(Anchor.BottomCentre, 0f, 14f, 380f, 12f);
-            var expFill = Ui.Image("ExpFill", expTrack.transform, Ui.Chrome("Bar"), UiPalette.Magenta).Stretch();
+            // A filled Image ignores the 9-slice and stretches the whole sprite, so the pill would be
+            // drawn as one wide ellipse. The plain rectangle is the shape that survives being filled.
+            var expFill = Ui.Image("ExpFill", expTrack.transform, Ui.Chrome("Solid"), UiPalette.Magenta).Stretch();
             expFill.type = Image.Type.Filled;
             expFill.fillMethod = Image.FillMethod.Horizontal;
             expFill.fillAmount = 0f;

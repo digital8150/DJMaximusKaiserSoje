@@ -199,6 +199,23 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             Assert.That(LaneLayout.Create(style).Lanes[lane].Role, Is.EqualTo(expected));
         }
 
+        [TestCase(PlayStyle.FourKey, "0110")]
+        [TestCase(PlayStyle.FourKeyFx, "001100")]
+        [TestCase(PlayStyle.SixKey, "010010")]
+        [TestCase(PlayStyle.SixKeyFx, "00100100")]
+        public void PlayStyle_MarksOnlyTheRequestedNormalLanesBlue(PlayStyle style, string expectedPattern)
+        {
+            LaneLayout layout = LaneLayout.Create(style);
+
+            for (int index = 0; index < layout.Lanes.Count; index++)
+            {
+                bool expectedBlue = expectedPattern[index] == '1';
+                Assert.That(layout.Lanes[index].UsesBlueColor, Is.EqualTo(expectedBlue),
+                    "Unexpected color role at runtime lane " + index + ".");
+                if (expectedBlue) Assert.That(layout.Lanes[index].IsFx, Is.False);
+            }
+        }
+
         [TestCase(PlayStyle.FourKey, 4)]
         [TestCase(PlayStyle.FourKeyFx, 6)]
         [TestCase(PlayStyle.SixKey, 6)]

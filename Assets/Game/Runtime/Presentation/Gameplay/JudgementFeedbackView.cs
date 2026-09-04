@@ -72,6 +72,17 @@ namespace DJMaximusKaiserSoje.Presentation
             SetCombo(judgement.Combo);
         }
 
+        public void ShowHoldTick(HoldTickEvent tick)
+        {
+            ShowJudgement(new JudgementEvent(
+                tick.Lane,
+                JudgementGrade.PerfectHigh,
+                JudgementTiming.Exact,
+                0.0,
+                tick.Combo,
+                isHoldRelease: false));
+        }
+
         public void SetCombo(int combo)
         {
             if (comboLabel != null) comboLabel.text = UiFormat.Combo(combo);

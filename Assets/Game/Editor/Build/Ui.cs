@@ -88,7 +88,12 @@ namespace DJMaximusKaiserSoje.Editor
             image.sprite = sprite;
             image.color = color ?? Color.white;
             image.raycastTarget = false;
-            image.type = sprite != null && sprite.border != Vector4.zero ? UnityEngine.UI.Image.Type.Sliced : UnityEngine.UI.Image.Type.Simple;
+
+            bool sliced = sprite != null && sprite.border != Vector4.zero;
+            image.type = sliced ? UnityEngine.UI.Image.Type.Sliced : UnityEngine.UI.Image.Type.Simple;
+            // A border authored for the sprite's own size is too big for most widgets it is dropped
+            // into, and Unity's answer to a border that does not fit is to flatten it.
+            if (sliced) image.gameObject.AddComponent<SlicedImageFit>();
             return image;
         }
 
@@ -204,6 +209,17 @@ namespace DJMaximusKaiserSoje.Editor
             rect.anchoredPosition = new Vector2(0f, y);
             rect.sizeDelta = new Vector2(-inset * 2f, height);
             return component;
+        }
+
+        /// <summary>
+        /// Scales a sliced sprite's corners down with the art the widget is dropped into, so chrome
+        /// inside a fitted frame carries the frame's radius rather than the full screen's.
+        /// </summary>
+        public static Image Fit(this Image image, float artScale)
+        {
+            var fit = image.GetComponent<SlicedImageFit>();
+            if (fit != null) fit.SetArtScale(artScale);
+            return image;
         }
 
         public static T Tint<T>(this T graphic, Color color) where T : Graphic

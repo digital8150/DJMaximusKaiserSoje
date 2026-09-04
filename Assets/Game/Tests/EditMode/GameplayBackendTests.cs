@@ -122,6 +122,63 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
         }
 
         [Test]
+        public void Session_HeldLongNote_PulsesAtTwentyFourthNoteRateWithoutChangingScoreHealthOrAccuracy()
+        {
+            var dsp = new FakeDsp { DspTime = 10.0 };
+            var input = new FakeInput();
+            var audio = new FakeAudio(2.0);
+            var chart = new Beatmap(new BeatmapHeader("T", "A", "Hard", 4, bpm: 120.0),
+                new[] { new BeatmapNote(0, 0.0, 1600.0) });
+            var session = new PlaySession("song", "song.hard", PlayStyle.FourKey, chart, audio, input, dsp,
+                new EmptyRecords());
+            var ticks = new List<HoldTickEvent>();
+            session.HoldTicked += ticks.Add;
+
+            session.Start();
+            input.Press(0, 12.25);
+            RunScore headScore = session.Score;
+            HealthState headHealth = session.Health;
+            dsp.DspTime = 12.3332;
+            session.Tick();
+            dsp.DspTime = 12.3334;
+            session.Tick();
+            dsp.DspTime = 12.4167;
+            session.Tick();
+
+            Assert.That(ticks.Count, Is.EqualTo(2));
+            Assert.That(ticks[0].Combo, Is.EqualTo(2));
+            Assert.That(ticks[1].Combo, Is.EqualTo(3));
+            Assert.That(session.Score.Score, Is.EqualTo(headScore.Score));
+            Assert.That(session.Score.Accuracy01, Is.EqualTo(headScore.Accuracy01));
+            Assert.That(session.Score.Tally.Judged, Is.EqualTo(headScore.Tally.Judged));
+            Assert.That(session.Health.Value, Is.EqualTo(headHealth.Value));
+        }
+
+        [Test]
+        public void Session_ReleasingLongNoteEarly_ProducesOneMissRatherThanOnePerRemainingTick()
+        {
+            var dsp = new FakeDsp { DspTime = 10.0 };
+            var input = new FakeInput();
+            var audio = new FakeAudio(3.0);
+            var chart = new Beatmap(new BeatmapHeader("T", "A", "Hard", 4, bpm: 120.0),
+                new[] { new BeatmapNote(0, 0.0, 2000.0) });
+            var session = new PlaySession("song", "song.hard", PlayStyle.FourKey, chart, audio, input, dsp,
+                new EmptyRecords());
+            int tickCount = 0;
+            session.HoldTicked += _ => tickCount++;
+
+            session.Start();
+            input.Press(0, 12.25);
+            input.Release(0, 12.30);
+            dsp.DspTime = 14.25;
+            session.Tick();
+
+            Assert.That(tickCount, Is.EqualTo(0));
+            Assert.That(session.Score.Tally.Miss, Is.EqualTo(1));
+            Assert.That(session.Score.Tally.Judged, Is.EqualTo(2));
+        }
+
+        [Test]
         public void Session_RestartPublishesResetScoreAndHealthSnapshots()
         {
             var dsp = new FakeDsp { DspTime = 10.0 };

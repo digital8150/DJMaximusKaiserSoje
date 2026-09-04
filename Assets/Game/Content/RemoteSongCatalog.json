@@ -459,6 +459,1743 @@
                     "coverAddress": "song.osu-2603242.jacket"
                 }
             ]
+        },
+        {
+            "id": "osu-850880-ashita-no-kimi-sae-ireba-ii",
+            "title": "Ashita no Kimi sae Ireba Ii",
+            "artist": "Choucho",
+            "audioAddress": "song.osu-850880-ashita-no-kimi-sae-ireba-ii.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-850880-ashita-no-kimi-sae-ireba-ii.jacket",
+            "bpm": 174.99999999999991,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "_IceRain's 9",
+                    "tier": "Normal",
+                    "level": 9,
+                    "keyCount": 6,
+                    "noteCount": 951,
+                    "beatmapAddress": "song.osu-850880-ashita-no-kimi-sae-ireba-ii.6k.icerain-s-9-1.beatmap",
+                    "coverAddress": "song.osu-850880-ashita-no-kimi-sae-ireba-ii.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-850880-liar-mask",
+            "title": "Liar Mask",
+            "artist": "Mayama Rika",
+            "audioAddress": "song.osu-850880-liar-mask.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-850880-liar-mask.jacket",
+            "bpm": 180.0000000000002,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "_IceRain's 8",
+                    "tier": "Normal",
+                    "level": 8,
+                    "keyCount": 6,
+                    "noteCount": 694,
+                    "beatmapAddress": "song.osu-850880-liar-mask.6k.icerain-s-8-1.beatmap",
+                    "coverAddress": "song.osu-850880-liar-mask.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-850880-area-184-platinum-mix",
+            "title": "AREA 184 -Platinum mix-",
+            "artist": "Persona",
+            "audioAddress": "song.osu-850880-area-184-platinum-mix.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-850880-area-184-platinum-mix.jacket",
+            "bpm": 184.00000000000006,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Imperial Wolf's 7",
+                    "tier": "Normal",
+                    "level": 7,
+                    "keyCount": 6,
+                    "noteCount": 839,
+                    "beatmapAddress": "song.osu-850880-area-184-platinum-mix.6k.imperial-wolf-s-7-1.beatmap",
+                    "coverAddress": "song.osu-850880-area-184-platinum-mix.jacket"
+                },
+                {
+                    "difficulty": "Imperial Wolf's 9",
+                    "tier": "Easy",
+                    "level": 9,
+                    "keyCount": 6,
+                    "noteCount": 1434,
+                    "beatmapAddress": "song.osu-850880-area-184-platinum-mix.6k.imperial-wolf-s-9-2.beatmap",
+                    "coverAddress": "song.osu-850880-area-184-platinum-mix.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-850880-candy-galy",
+            "title": "Candy Galy",
+            "artist": "Risk Junk-G",
+            "audioAddress": "song.osu-850880-candy-galy.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-850880-candy-galy.jacket",
+            "bpm": 183.99997546666995,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Arkman's 9",
+                    "tier": "Normal",
+                    "level": 9,
+                    "keyCount": 6,
+                    "noteCount": 1364,
+                    "beatmapAddress": "song.osu-850880-candy-galy.6k.arkman-s-9-1.beatmap",
+                    "coverAddress": "song.osu-850880-candy-galy.jacket"
+                },
+                {
+                    "difficulty": "Arkman's 11",
+                    "tier": "Easy",
+                    "level": 11,
+                    "keyCount": 6,
+                    "noteCount": 1612,
+                    "beatmapAddress": "song.osu-850880-candy-galy.6k.arkman-s-11-2.beatmap",
+                    "coverAddress": "song.osu-850880-candy-galy.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-850880-halloween-party",
+            "title": "Halloween Party",
+            "artist": "SHK",
+            "audioAddress": "song.osu-850880-halloween-party.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-850880-halloween-party.jacket",
+            "bpm": 155.00003134142784,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "553343477's 10",
+                    "tier": "Over",
+                    "level": 553343477,
+                    "keyCount": 6,
+                    "noteCount": 1097,
+                    "beatmapAddress": "song.osu-850880-halloween-party.6k.553343477-s-10-1.beatmap",
+                    "coverAddress": "song.osu-850880-halloween-party.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-850880-konna-sekai-shiritakunakatta",
+            "title": "Konna Sekai, Shiritakunakatta",
+            "artist": "Sawai Miku",
+            "audioAddress": "song.osu-850880-konna-sekai-shiritakunakatta.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-850880-konna-sekai-shiritakunakatta.jacket",
+            "bpm": 87.99999999999997,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "_IceRain's 7",
+                    "tier": "Normal",
+                    "level": 7,
+                    "keyCount": 6,
+                    "noteCount": 431,
+                    "beatmapAddress": "song.osu-850880-konna-sekai-shiritakunakatta.6k.icerain-s-7-1.beatmap",
+                    "coverAddress": "song.osu-850880-konna-sekai-shiritakunakatta.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-850880-kyoto-megaplex",
+            "title": "Kyoto Megaplex",
+            "artist": "Wigen feat. Rmhn",
+            "audioAddress": "song.osu-850880-kyoto-megaplex.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-850880-kyoto-megaplex.jacket",
+            "bpm": 135.00000000000014,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "553343477's 9",
+                    "tier": "Over",
+                    "level": 553343477,
+                    "keyCount": 6,
+                    "noteCount": 1452,
+                    "beatmapAddress": "song.osu-850880-kyoto-megaplex.6k.553343477-s-9-1.beatmap",
+                    "coverAddress": "song.osu-850880-kyoto-megaplex.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-850880-level5-judgelight",
+            "title": "LEVEL5 Judgelight",
+            "artist": "fripSide",
+            "audioAddress": "song.osu-850880-level5-judgelight.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-850880-level5-judgelight.jacket",
+            "bpm": 139.50000000000014,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Arkman's 10",
+                    "tier": "Normal",
+                    "level": 10,
+                    "keyCount": 6,
+                    "noteCount": 892,
+                    "beatmapAddress": "song.osu-850880-level5-judgelight.6k.arkman-s-10-1.beatmap",
+                    "coverAddress": "song.osu-850880-level5-judgelight.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-850880-white-day",
+            "title": "White Day",
+            "artist": "nao.paradigm",
+            "audioAddress": "song.osu-850880-white-day.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-850880-white-day.jacket",
+            "bpm": 162.0300000000002,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Alipay's 9",
+                    "tier": "Normal",
+                    "level": 9,
+                    "keyCount": 6,
+                    "noteCount": 1346,
+                    "beatmapAddress": "song.osu-850880-white-day.6k.alipay-s-9-1.beatmap",
+                    "coverAddress": "song.osu-850880-white-day.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-363594",
+            "title": "Kyouran Hey Kids!!",
+            "artist": "THE ORAL CIGARETTES",
+            "audioAddress": "song.osu-363594.audio",
+            "videoAddress": "song.osu-363594.video",
+            "jacketAddress": "song.osu-363594.jacket",
+            "bpm": 283.9999999999998,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Easy",
+                    "tier": "Easy",
+                    "level": 1,
+                    "keyCount": 4,
+                    "noteCount": 338,
+                    "beatmapAddress": "song.osu-363594.4k.easy-1.beatmap",
+                    "coverAddress": "song.osu-363594.jacket"
+                },
+                {
+                    "difficulty": "Normal",
+                    "tier": "Normal",
+                    "level": 5,
+                    "keyCount": 4,
+                    "noteCount": 476,
+                    "beatmapAddress": "song.osu-363594.4k.normal-2.beatmap",
+                    "coverAddress": "song.osu-363594.jacket"
+                },
+                {
+                    "difficulty": "Draw's Hard",
+                    "tier": "Hard",
+                    "level": 10,
+                    "keyCount": 4,
+                    "noteCount": 685,
+                    "beatmapAddress": "song.osu-363594.4k.draw-s-hard-3.beatmap",
+                    "coverAddress": "song.osu-363594.jacket"
+                },
+                {
+                    "difficulty": "Maximum",
+                    "tier": "SuperHard",
+                    "level": 15,
+                    "keyCount": 4,
+                    "noteCount": 957,
+                    "beatmapAddress": "song.osu-363594.4k.maximum-4.beatmap",
+                    "coverAddress": "song.osu-363594.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-224340",
+            "title": "No More Time Machine -TV ver.-",
+            "artist": "LiSA",
+            "audioAddress": "song.osu-224340.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-224340.jacket",
+            "bpm": 137.00000000000003,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Normal",
+                    "tier": "Normal",
+                    "level": 5,
+                    "keyCount": 4,
+                    "noteCount": 419,
+                    "beatmapAddress": "song.osu-224340.4k.normal-1.beatmap",
+                    "coverAddress": "song.osu-224340.jacket"
+                },
+                {
+                    "difficulty": "Hard",
+                    "tier": "Hard",
+                    "level": 10,
+                    "keyCount": 4,
+                    "noteCount": 713,
+                    "beatmapAddress": "song.osu-224340.4k.hard-2.beatmap",
+                    "coverAddress": "song.osu-224340.jacket"
+                },
+                {
+                    "difficulty": "Insane",
+                    "tier": "SuperHard",
+                    "level": 15,
+                    "keyCount": 4,
+                    "noteCount": 830,
+                    "beatmapAddress": "song.osu-224340.4k.insane-3.beatmap",
+                    "coverAddress": "song.osu-224340.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-2523549",
+            "title": "Pika Girl (Cut Ver.)",
+            "artist": "S3RL",
+            "audioAddress": "song.osu-2523549.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-2523549.jacket",
+            "bpm": 174.99999999999991,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Mis Fortune's Beginner",
+                    "tier": "Normal",
+                    "level": 5,
+                    "keyCount": 8,
+                    "noteCount": 232,
+                    "beatmapAddress": "song.osu-2523549.8k.mis-fortune-s-beginner-1.beatmap",
+                    "coverAddress": "song.osu-2523549.jacket"
+                },
+                {
+                    "difficulty": "Normal",
+                    "tier": "Easy",
+                    "level": 1,
+                    "keyCount": 8,
+                    "noteCount": 556,
+                    "beatmapAddress": "song.osu-2523549.8k.normal-2.beatmap",
+                    "coverAddress": "song.osu-2523549.jacket"
+                },
+                {
+                    "difficulty": "Hyper",
+                    "tier": "Hard",
+                    "level": 10,
+                    "keyCount": 8,
+                    "noteCount": 807,
+                    "beatmapAddress": "song.osu-2523549.8k.hyper-3.beatmap",
+                    "coverAddress": "song.osu-2523549.jacket"
+                },
+                {
+                    "difficulty": "Another",
+                    "tier": "SuperHard",
+                    "level": 15,
+                    "keyCount": 8,
+                    "noteCount": 1086,
+                    "beatmapAddress": "song.osu-2523549.8k.another-4.beatmap",
+                    "coverAddress": "song.osu-2523549.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-a-c-i-l",
+            "title": "A c i - L",
+            "artist": "-45",
+            "audioAddress": "song.osu-1716337-a-c-i-l.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-a-c-i-l.jacket",
+            "bpm": 162.00000000000017,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.17",
+                    "tier": "Hard",
+                    "level": 17,
+                    "keyCount": 6,
+                    "noteCount": 3080,
+                    "beatmapAddress": "song.osu-1716337-a-c-i-l.6k.lv-17-1.beatmap",
+                    "coverAddress": "song.osu-1716337-a-c-i-l.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-lifework",
+            "title": "lifework",
+            "artist": "AAAA",
+            "audioAddress": "song.osu-1716337-lifework.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-lifework.jacket",
+            "bpm": 178.0000000000001,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.20",
+                    "tier": "Hard",
+                    "level": 20,
+                    "keyCount": 6,
+                    "noteCount": 3011,
+                    "beatmapAddress": "song.osu-1716337-lifework.6k.lv-20-1.beatmap",
+                    "coverAddress": "song.osu-1716337-lifework.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-monochrome-butterfly",
+            "title": "Monochrome Butterfly",
+            "artist": "Aitsuki Nakuru",
+            "audioAddress": "song.osu-1716337-monochrome-butterfly.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-monochrome-butterfly.jacket",
+            "bpm": 174.99999999999991,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.14",
+                    "tier": "Hard",
+                    "level": 14,
+                    "keyCount": 6,
+                    "noteCount": 1722,
+                    "beatmapAddress": "song.osu-1716337-monochrome-butterfly.6k.lv-14-1.beatmap",
+                    "coverAddress": "song.osu-1716337-monochrome-butterfly.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-fastest-crash-cut-ver",
+            "title": "Fastest Crash (Cut Ver.)",
+            "artist": "Camellia",
+            "audioAddress": "song.osu-1716337-fastest-crash-cut-ver.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-fastest-crash-cut-ver.jacket",
+            "bpm": 209.99999999999977,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.21",
+                    "tier": "SuperHard",
+                    "level": 21,
+                    "keyCount": 6,
+                    "noteCount": 2740,
+                    "beatmapAddress": "song.osu-1716337-fastest-crash-cut-ver.6k.lv-21-1.beatmap",
+                    "coverAddress": "song.osu-1716337-fastest-crash-cut-ver.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-bassdrop-freaks",
+            "title": "Bassdrop Freaks",
+            "artist": "Camellia feat. Nanahira",
+            "audioAddress": "song.osu-1716337-bassdrop-freaks.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-bassdrop-freaks.jacket",
+            "bpm": 179.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.17",
+                    "tier": "Hard",
+                    "level": 17,
+                    "keyCount": 6,
+                    "noteCount": 2252,
+                    "beatmapAddress": "song.osu-1716337-bassdrop-freaks.6k.lv-17-1.beatmap",
+                    "coverAddress": "song.osu-1716337-bassdrop-freaks.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-invincible",
+            "title": "Invincible",
+            "artist": "DEAF KEV",
+            "audioAddress": "song.osu-1716337-invincible.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-invincible.jacket",
+            "bpm": 200.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.19",
+                    "tier": "Hard",
+                    "level": 19,
+                    "keyCount": 6,
+                    "noteCount": 2784,
+                    "beatmapAddress": "song.osu-1716337-invincible.6k.lv-19-1.beatmap",
+                    "coverAddress": "song.osu-1716337-invincible.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-ops-code-rapture",
+            "title": "Ops:Code -Rapture-",
+            "artist": "Getty vs. DJ DiA",
+            "audioAddress": "song.osu-1716337-ops-code-rapture.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-ops-code-rapture.jacket",
+            "bpm": 194.9999999999998,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.23",
+                    "tier": "SuperHard",
+                    "level": 23,
+                    "keyCount": 6,
+                    "noteCount": 2787,
+                    "beatmapAddress": "song.osu-1716337-ops-code-rapture.6k.lv-23-1.beatmap",
+                    "coverAddress": "song.osu-1716337-ops-code-rapture.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-shagan-daishi",
+            "title": "SHAGAN DAISHI",
+            "artist": "KAKU P-MODEL",
+            "audioAddress": "song.osu-1716337-shagan-daishi.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-shagan-daishi.jacket",
+            "bpm": 150.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.21",
+                    "tier": "SuperHard",
+                    "level": 21,
+                    "keyCount": 6,
+                    "noteCount": 4792,
+                    "beatmapAddress": "song.osu-1716337-shagan-daishi.6k.lv-21-1.beatmap",
+                    "coverAddress": "song.osu-1716337-shagan-daishi.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-sheriruth-laur-remix",
+            "title": "Sheriruth (Laur Remix)",
+            "artist": "Laur",
+            "audioAddress": "song.osu-1716337-sheriruth-laur-remix.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-sheriruth-laur-remix.jacket",
+            "bpm": 200.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.19",
+                    "tier": "Hard",
+                    "level": 19,
+                    "keyCount": 6,
+                    "noteCount": 2518,
+                    "beatmapAddress": "song.osu-1716337-sheriruth-laur-remix.6k.lv-19-1.beatmap",
+                    "coverAddress": "song.osu-1716337-sheriruth-laur-remix.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-shitsubou-choco",
+            "title": "Shitsubou Choco",
+            "artist": "LeaF",
+            "audioAddress": "song.osu-1716337-shitsubou-choco.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-shitsubou-choco.jacket",
+            "bpm": 219.9999999999998,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.16",
+                    "tier": "Hard",
+                    "level": 16,
+                    "keyCount": 6,
+                    "noteCount": 2148,
+                    "beatmapAddress": "song.osu-1716337-shitsubou-choco.6k.lv-16-1.beatmap",
+                    "coverAddress": "song.osu-1716337-shitsubou-choco.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-y",
+            "title": "Y",
+            "artist": "Oerba Tanaka Vanilla",
+            "audioAddress": "song.osu-1716337-y.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-y.jacket",
+            "bpm": 170.0000000000001,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.18",
+                    "tier": "Hard",
+                    "level": 18,
+                    "keyCount": 6,
+                    "noteCount": 3329,
+                    "beatmapAddress": "song.osu-1716337-y.6k.lv-18-1.beatmap",
+                    "coverAddress": "song.osu-1716337-y.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-schwerkraft",
+            "title": "Schwerkraft",
+            "artist": "ROKINA",
+            "audioAddress": "song.osu-1716337-schwerkraft.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-schwerkraft.jacket",
+            "bpm": 249.75000000000023,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.19",
+                    "tier": "Hard",
+                    "level": 19,
+                    "keyCount": 6,
+                    "noteCount": 2560,
+                    "beatmapAddress": "song.osu-1716337-schwerkraft.6k.lv-19-1.beatmap",
+                    "coverAddress": "song.osu-1716337-schwerkraft.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-asymmetry",
+            "title": "Asymmetry",
+            "artist": "Reol",
+            "audioAddress": "song.osu-1716337-asymmetry.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-asymmetry.jacket",
+            "bpm": 184.00000000000006,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.20 LN",
+                    "tier": "Hard",
+                    "level": 20,
+                    "keyCount": 6,
+                    "noteCount": 4826,
+                    "beatmapAddress": "song.osu-1716337-asymmetry.6k.lv-20-ln-1.beatmap",
+                    "coverAddress": "song.osu-1716337-asymmetry.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-hachidaijigoku-jakontensei-kyousou-sanbika",
+            "title": "Hachidaijigoku Jakontensei Kyousou Sanbika",
+            "artist": "Sakamirito",
+            "audioAddress": "song.osu-1716337-hachidaijigoku-jakontensei-kyousou-sanbika.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-hachidaijigoku-jakontensei-kyousou-sanbika.jacket",
+            "bpm": 203.0000000000001,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.19",
+                    "tier": "Hard",
+                    "level": 19,
+                    "keyCount": 6,
+                    "noteCount": 2581,
+                    "beatmapAddress": "song.osu-1716337-hachidaijigoku-jakontensei-kyousou-sanbika.6k.lv-19-1.beatmap",
+                    "coverAddress": "song.osu-1716337-hachidaijigoku-jakontensei-kyousou-sanbika.jacket"
+                },
+                {
+                    "difficulty": "Lv.24",
+                    "tier": "SuperHard",
+                    "level": 24,
+                    "keyCount": 6,
+                    "noteCount": 3734,
+                    "beatmapAddress": "song.osu-1716337-hachidaijigoku-jakontensei-kyousou-sanbika.6k.lv-24-2.beatmap",
+                    "coverAddress": "song.osu-1716337-hachidaijigoku-jakontensei-kyousou-sanbika.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-nhelv",
+            "title": "Nhelv",
+            "artist": "Silentroom",
+            "audioAddress": "song.osu-1716337-nhelv.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-nhelv.jacket",
+            "bpm": 174.59199999999998,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.20",
+                    "tier": "Hard",
+                    "level": 20,
+                    "keyCount": 6,
+                    "noteCount": 3270,
+                    "beatmapAddress": "song.osu-1716337-nhelv.6k.lv-20-1.beatmap",
+                    "coverAddress": "song.osu-1716337-nhelv.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-reunion",
+            "title": "reunion",
+            "artist": "Tatsh",
+            "audioAddress": "song.osu-1716337-reunion.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-reunion.jacket",
+            "bpm": 184.00000000000006,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.21",
+                    "tier": "SuperHard",
+                    "level": 21,
+                    "keyCount": 6,
+                    "noteCount": 3058,
+                    "beatmapAddress": "song.osu-1716337-reunion.6k.lv-21-1.beatmap",
+                    "coverAddress": "song.osu-1716337-reunion.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-grievous-lady",
+            "title": "Grievous Lady",
+            "artist": "Team Grimoire vs. Laur",
+            "audioAddress": "song.osu-1716337-grievous-lady.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-grievous-lady.jacket",
+            "bpm": 209.99999999999977,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.20",
+                    "tier": "Hard",
+                    "level": 20,
+                    "keyCount": 6,
+                    "noteCount": 4500,
+                    "beatmapAddress": "song.osu-1716337-grievous-lady.6k.lv-20-1.beatmap",
+                    "coverAddress": "song.osu-1716337-grievous-lady.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-break",
+            "title": "Break",
+            "artist": "The Quick Brown Fox",
+            "audioAddress": "song.osu-1716337-break.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-break.jacket",
+            "bpm": 259.9999999999997,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.16",
+                    "tier": "Hard",
+                    "level": 16,
+                    "keyCount": 6,
+                    "noteCount": 1641,
+                    "beatmapAddress": "song.osu-1716337-break.6k.lv-16-1.beatmap",
+                    "coverAddress": "song.osu-1716337-break.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-astronomia-camellia-remix",
+            "title": "Astronomia (Camellia Remix)",
+            "artist": "Vicetone & Tony Igy",
+            "audioAddress": "song.osu-1716337-astronomia-camellia-remix.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-astronomia-camellia-remix.jacket",
+            "bpm": 200.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.20",
+                    "tier": "Hard",
+                    "level": 20,
+                    "keyCount": 6,
+                    "noteCount": 3547,
+                    "beatmapAddress": "song.osu-1716337-astronomia-camellia-remix.6k.lv-20-1.beatmap",
+                    "coverAddress": "song.osu-1716337-astronomia-camellia-remix.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-genjitsu-o-cut-up-shite-mita",
+            "title": "Genjitsu o Cut-up Shite Mita",
+            "artist": "Yu^ta",
+            "audioAddress": "song.osu-1716337-genjitsu-o-cut-up-shite-mita.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-genjitsu-o-cut-up-shite-mita.jacket",
+            "bpm": 120.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.17",
+                    "tier": "Hard",
+                    "level": 17,
+                    "keyCount": 6,
+                    "noteCount": 2500,
+                    "beatmapAddress": "song.osu-1716337-genjitsu-o-cut-up-shite-mita.6k.lv-17-1.beatmap",
+                    "coverAddress": "song.osu-1716337-genjitsu-o-cut-up-shite-mita.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-blaze",
+            "title": "{Blaze}",
+            "artist": "cornandbeans",
+            "audioAddress": "song.osu-1716337-blaze.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-blaze.jacket",
+            "bpm": 174.99999999999991,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.22",
+                    "tier": "SuperHard",
+                    "level": 22,
+                    "keyCount": 6,
+                    "noteCount": 3800,
+                    "beatmapAddress": "song.osu-1716337-blaze.6k.lv-22-1.beatmap",
+                    "coverAddress": "song.osu-1716337-blaze.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-slavik-goblins",
+            "title": "slavik goblins",
+            "artist": "goreshit",
+            "audioAddress": "song.osu-1716337-slavik-goblins.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-slavik-goblins.jacket",
+            "bpm": 270.0000000000003,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.17",
+                    "tier": "Hard",
+                    "level": 17,
+                    "keyCount": 6,
+                    "noteCount": 3237,
+                    "beatmapAddress": "song.osu-1716337-slavik-goblins.6k.lv-17-1.beatmap",
+                    "coverAddress": "song.osu-1716337-slavik-goblins.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-ch3rry",
+            "title": "ch3rry",
+            "artist": "katagiri",
+            "audioAddress": "song.osu-1716337-ch3rry.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-ch3rry.jacket",
+            "bpm": 205.0000000000002,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.20",
+                    "tier": "Hard",
+                    "level": 20,
+                    "keyCount": 6,
+                    "noteCount": 4942,
+                    "beatmapAddress": "song.osu-1716337-ch3rry.6k.lv-20-1.beatmap",
+                    "coverAddress": "song.osu-1716337-ch3rry.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1716337-mario-paint-time-regression-mix-for-bms",
+            "title": "Mario Paint (Time Regression Mix for BMS)",
+            "artist": "ueotan",
+            "audioAddress": "song.osu-1716337-mario-paint-time-regression-mix-for-bms.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1716337-mario-paint-time-regression-mix-for-bms.jacket",
+            "bpm": 155.00000000000014,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.22",
+                    "tier": "SuperHard",
+                    "level": 22,
+                    "keyCount": 6,
+                    "noteCount": 2310,
+                    "beatmapAddress": "song.osu-1716337-mario-paint-time-regression-mix-for-bms.6k.lv-22-1.beatmap",
+                    "coverAddress": "song.osu-1716337-mario-paint-time-regression-mix-for-bms.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-mouth",
+            "title": "Mouth",
+            "artist": "Rochelle",
+            "audioAddress": "song.osu-1640166-mouth.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-mouth.jacket",
+            "bpm": 133.99999999999991,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.10",
+                    "tier": "Normal",
+                    "level": 10,
+                    "keyCount": 6,
+                    "noteCount": 1196,
+                    "beatmapAddress": "song.osu-1640166-mouth.6k.lv-10-1.beatmap",
+                    "coverAddress": "song.osu-1640166-mouth.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-yoru-ni-kakeru-cut-ver",
+            "title": "Yoru ni Kakeru (Cut Ver.)",
+            "artist": "YOASOBI",
+            "audioAddress": "song.osu-1640166-yoru-ni-kakeru-cut-ver.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-yoru-ni-kakeru-cut-ver.jacket",
+            "bpm": 129.99999999999986,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.10",
+                    "tier": "Normal",
+                    "level": 10,
+                    "keyCount": 6,
+                    "noteCount": 1415,
+                    "beatmapAddress": "song.osu-1640166-yoru-ni-kakeru-cut-ver.6k.lv-10-1.beatmap",
+                    "coverAddress": "song.osu-1640166-yoru-ni-kakeru-cut-ver.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-fly-away",
+            "title": "Fly Away",
+            "artist": "MISSING HEART",
+            "audioAddress": "song.osu-1640166-fly-away.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-fly-away.jacket",
+            "bpm": 138.00000000000006,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.10",
+                    "tier": "Normal",
+                    "level": 10,
+                    "keyCount": 6,
+                    "noteCount": 1047,
+                    "beatmapAddress": "song.osu-1640166-fly-away.6k.lv-10-1.beatmap",
+                    "coverAddress": "song.osu-1640166-fly-away.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-hearts-of-ice",
+            "title": "Hearts of Ice",
+            "artist": "MISSING HEART",
+            "audioAddress": "song.osu-1640166-hearts-of-ice.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-hearts-of-ice.jacket",
+            "bpm": 136.00000000000009,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.10",
+                    "tier": "Normal",
+                    "level": 10,
+                    "keyCount": 6,
+                    "noteCount": 1070,
+                    "beatmapAddress": "song.osu-1640166-hearts-of-ice.6k.lv-10-1.beatmap",
+                    "coverAddress": "song.osu-1640166-hearts-of-ice.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-feel-the-o2jam",
+            "title": "Feel The O2Jam!",
+            "artist": "BeautifulDay",
+            "audioAddress": "song.osu-1640166-feel-the-o2jam.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-feel-the-o2jam.jacket",
+            "bpm": 139.99999999999986,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.11",
+                    "tier": "Normal",
+                    "level": 11,
+                    "keyCount": 6,
+                    "noteCount": 1386,
+                    "beatmapAddress": "song.osu-1640166-feel-the-o2jam.6k.lv-11-1.beatmap",
+                    "coverAddress": "song.osu-1640166-feel-the-o2jam.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-bubble-dancer",
+            "title": "Bubble Dancer",
+            "artist": "Crispy",
+            "audioAddress": "song.osu-1640166-bubble-dancer.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-bubble-dancer.jacket",
+            "bpm": 137.00000000000003,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.11",
+                    "tier": "Normal",
+                    "level": 11,
+                    "keyCount": 6,
+                    "noteCount": 1311,
+                    "beatmapAddress": "song.osu-1640166-bubble-dancer.6k.lv-11-1.beatmap",
+                    "coverAddress": "song.osu-1640166-bubble-dancer.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-summer-in-belize",
+            "title": "Summer in Belize",
+            "artist": "Digital Explosion",
+            "audioAddress": "song.osu-1640166-summer-in-belize.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-summer-in-belize.jacket",
+            "bpm": 137.5000000000001,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.11",
+                    "tier": "Normal",
+                    "level": 11,
+                    "keyCount": 6,
+                    "noteCount": 1193,
+                    "beatmapAddress": "song.osu-1640166-summer-in-belize.6k.lv-11-1.beatmap",
+                    "coverAddress": "song.osu-1640166-summer-in-belize.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-daydreamer",
+            "title": "Daydreamer",
+            "artist": "Lime",
+            "audioAddress": "song.osu-1640166-daydreamer.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-daydreamer.jacket",
+            "bpm": 176.9999999999998,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.12",
+                    "tier": "Normal",
+                    "level": 12,
+                    "keyCount": 6,
+                    "noteCount": 1207,
+                    "beatmapAddress": "song.osu-1640166-daydreamer.6k.lv-12-1.beatmap",
+                    "coverAddress": "song.osu-1640166-daydreamer.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-sad-love-of-the-moon-night-of-the-moon",
+            "title": "Sad Love of the Moon / Night of the Moon",
+            "artist": "SHK",
+            "audioAddress": "song.osu-1640166-sad-love-of-the-moon-night-of-the-moon.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-sad-love-of-the-moon-night-of-the-moon.jacket",
+            "bpm": 150.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.12",
+                    "tier": "Normal",
+                    "level": 12,
+                    "keyCount": 6,
+                    "noteCount": 1784,
+                    "beatmapAddress": "song.osu-1640166-sad-love-of-the-moon-night-of-the-moon.6k.lv-12-1.beatmap",
+                    "coverAddress": "song.osu-1640166-sad-love-of-the-moon-night-of-the-moon.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-always-in-my-heart",
+            "title": "Always in My Heart",
+            "artist": "LAGOONA",
+            "audioAddress": "song.osu-1640166-always-in-my-heart.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-always-in-my-heart.jacket",
+            "bpm": 139.99999999999986,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.1",
+                    "tier": "Easy",
+                    "level": 1,
+                    "keyCount": 6,
+                    "noteCount": 98,
+                    "beatmapAddress": "song.osu-1640166-always-in-my-heart.6k.lv-1-1.beatmap",
+                    "coverAddress": "song.osu-1640166-always-in-my-heart.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-amore",
+            "title": "Amore",
+            "artist": "Uniq",
+            "audioAddress": "song.osu-1640166-amore.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-amore.jacket",
+            "bpm": 142.99999999999986,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.1",
+                    "tier": "Easy",
+                    "level": 1,
+                    "keyCount": 6,
+                    "noteCount": 135,
+                    "beatmapAddress": "song.osu-1640166-amore.6k.lv-1-1.beatmap",
+                    "coverAddress": "song.osu-1640166-amore.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-starfield",
+            "title": "Starfield",
+            "artist": "Cyrex",
+            "audioAddress": "song.osu-1640166-starfield.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-starfield.jacket",
+            "bpm": 139.99999999999986,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.2",
+                    "tier": "Normal",
+                    "level": 2,
+                    "keyCount": 6,
+                    "noteCount": 253,
+                    "beatmapAddress": "song.osu-1640166-starfield.6k.lv-2-1.beatmap",
+                    "coverAddress": "song.osu-1640166-starfield.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-do-u-love-me",
+            "title": "Do U Love Me",
+            "artist": "DJ Doo",
+            "audioAddress": "song.osu-1640166-do-u-love-me.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-do-u-love-me.jacket",
+            "bpm": 133.00000000000006,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.2",
+                    "tier": "Normal",
+                    "level": 2,
+                    "keyCount": 6,
+                    "noteCount": 236,
+                    "beatmapAddress": "song.osu-1640166-do-u-love-me.6k.lv-2-1.beatmap",
+                    "coverAddress": "song.osu-1640166-do-u-love-me.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-zodiac",
+            "title": "Zodiac",
+            "artist": "Banzai",
+            "audioAddress": "song.osu-1640166-zodiac.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-zodiac.jacket",
+            "bpm": 106.99999999999999,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.3",
+                    "tier": "Normal",
+                    "level": 3,
+                    "keyCount": 6,
+                    "noteCount": 347,
+                    "beatmapAddress": "song.osu-1640166-zodiac.6k.lv-3-1.beatmap",
+                    "coverAddress": "song.osu-1640166-zodiac.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-cherry-doll",
+            "title": "CHERRY DOLL",
+            "artist": "Colorful Sounds Port",
+            "audioAddress": "song.osu-1640166-cherry-doll.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-cherry-doll.jacket",
+            "bpm": 137.00000000000003,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.3",
+                    "tier": "Normal",
+                    "level": 3,
+                    "keyCount": 6,
+                    "noteCount": 419,
+                    "beatmapAddress": "song.osu-1640166-cherry-doll.6k.lv-3-1.beatmap",
+                    "coverAddress": "song.osu-1640166-cherry-doll.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-charlene",
+            "title": "Charlene",
+            "artist": "MISSING HEART",
+            "audioAddress": "song.osu-1640166-charlene.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-charlene.jacket",
+            "bpm": 138.00000000000006,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.3",
+                    "tier": "Normal",
+                    "level": 3,
+                    "keyCount": 6,
+                    "noteCount": 376,
+                    "beatmapAddress": "song.osu-1640166-charlene.6k.lv-3-1.beatmap",
+                    "coverAddress": "song.osu-1640166-charlene.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-mythology",
+            "title": "Mythology",
+            "artist": "Digital Explosion",
+            "audioAddress": "song.osu-1640166-mythology.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-mythology.jacket",
+            "bpm": 138.00000000000006,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.4",
+                    "tier": "Easy",
+                    "level": 4,
+                    "keyCount": 6,
+                    "noteCount": 474,
+                    "beatmapAddress": "song.osu-1640166-mythology.6k.lv-4-1.beatmap",
+                    "coverAddress": "song.osu-1640166-mythology.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-hands-up",
+            "title": "Hands Up!",
+            "artist": "LAGOONA",
+            "audioAddress": "song.osu-1640166-hands-up.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-hands-up.jacket",
+            "bpm": 150.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.4",
+                    "tier": "Easy",
+                    "level": 4,
+                    "keyCount": 6,
+                    "noteCount": 432,
+                    "beatmapAddress": "song.osu-1640166-hands-up.6k.lv-4-1.beatmap",
+                    "coverAddress": "song.osu-1640166-hands-up.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-canon-blazing-summer-mix",
+            "title": "Canon (blazing summer mix)",
+            "artist": "Uesugi Uta with HoshiA",
+            "audioAddress": "song.osu-1640166-canon-blazing-summer-mix.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-canon-blazing-summer-mix.jacket",
+            "bpm": 144.99999999999994,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.4",
+                    "tier": "Easy",
+                    "level": 4,
+                    "keyCount": 6,
+                    "noteCount": 474,
+                    "beatmapAddress": "song.osu-1640166-canon-blazing-summer-mix.6k.lv-4-1.beatmap",
+                    "coverAddress": "song.osu-1640166-canon-blazing-summer-mix.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-the-beginning",
+            "title": "The Beginning",
+            "artist": "DJ Doo",
+            "audioAddress": "song.osu-1640166-the-beginning.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-the-beginning.jacket",
+            "bpm": 132.29999999999998,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.5",
+                    "tier": "Easy",
+                    "level": 5,
+                    "keyCount": 6,
+                    "noteCount": 574,
+                    "beatmapAddress": "song.osu-1640166-the-beginning.6k.lv-5-1.beatmap",
+                    "coverAddress": "song.osu-1640166-the-beginning.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-fantasia",
+            "title": "Fantasia",
+            "artist": "Smiley",
+            "audioAddress": "song.osu-1640166-fantasia.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-fantasia.jacket",
+            "bpm": 164.99999999999983,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.5",
+                    "tier": "Easy",
+                    "level": 5,
+                    "keyCount": 6,
+                    "noteCount": 488,
+                    "beatmapAddress": "song.osu-1640166-fantasia.6k.lv-5-1.beatmap",
+                    "coverAddress": "song.osu-1640166-fantasia.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-tough-enough",
+            "title": "Tough Enough",
+            "artist": "Vanilla Ninja",
+            "audioAddress": "song.osu-1640166-tough-enough.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-tough-enough.jacket",
+            "bpm": 97.99999999999996,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.5",
+                    "tier": "Easy",
+                    "level": 5,
+                    "keyCount": 6,
+                    "noteCount": 406,
+                    "beatmapAddress": "song.osu-1640166-tough-enough.6k.lv-5-1.beatmap",
+                    "coverAddress": "song.osu-1640166-tough-enough.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-sweet-things",
+            "title": "Sweet Things",
+            "artist": "Andreas Viklund",
+            "audioAddress": "song.osu-1640166-sweet-things.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-sweet-things.jacket",
+            "bpm": 131.25000000000003,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.6",
+                    "tier": "Normal",
+                    "level": 6,
+                    "keyCount": 6,
+                    "noteCount": 605,
+                    "beatmapAddress": "song.osu-1640166-sweet-things.6k.lv-6-1.beatmap",
+                    "coverAddress": "song.osu-1640166-sweet-things.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-queen-of-light",
+            "title": "Queen of Light",
+            "artist": "MISSING HEART",
+            "audioAddress": "song.osu-1640166-queen-of-light.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-queen-of-light.jacket",
+            "bpm": 131.99999999999986,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.6",
+                    "tier": "Normal",
+                    "level": 6,
+                    "keyCount": 6,
+                    "noteCount": 629,
+                    "beatmapAddress": "song.osu-1640166-queen-of-light.6k.lv-6-1.beatmap",
+                    "coverAddress": "song.osu-1640166-queen-of-light.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-kagami",
+            "title": "Kagami",
+            "artist": "KaW",
+            "audioAddress": "song.osu-1640166-kagami.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-kagami.jacket",
+            "bpm": 146.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.7",
+                    "tier": "Normal",
+                    "level": 7,
+                    "keyCount": 6,
+                    "noteCount": 854,
+                    "beatmapAddress": "song.osu-1640166-kagami.6k.lv-7-1.beatmap",
+                    "coverAddress": "song.osu-1640166-kagami.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-let-my-love-go-blind",
+            "title": "Let My Love Go Blind",
+            "artist": "Nina",
+            "audioAddress": "song.osu-1640166-let-my-love-go-blind.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-let-my-love-go-blind.jacket",
+            "bpm": 160.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.7",
+                    "tier": "Normal",
+                    "level": 7,
+                    "keyCount": 6,
+                    "noteCount": 788,
+                    "beatmapAddress": "song.osu-1640166-let-my-love-go-blind.6k.lv-7-1.beatmap",
+                    "coverAddress": "song.osu-1640166-let-my-love-go-blind.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-deep-blue-sunrise",
+            "title": "deep blue sunrise",
+            "artist": "Xacla a.k.a. fen",
+            "audioAddress": "song.osu-1640166-deep-blue-sunrise.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-deep-blue-sunrise.jacket",
+            "bpm": 135.00000000000014,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.7",
+                    "tier": "Normal",
+                    "level": 7,
+                    "keyCount": 6,
+                    "noteCount": 949,
+                    "beatmapAddress": "song.osu-1640166-deep-blue-sunrise.6k.lv-7-1.beatmap",
+                    "coverAddress": "song.osu-1640166-deep-blue-sunrise.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-the-island-of-albatross",
+            "title": "The Island of Albatross",
+            "artist": "anubasu-anubasu",
+            "audioAddress": "song.osu-1640166-the-island-of-albatross.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-the-island-of-albatross.jacket",
+            "bpm": 148.00000000000014,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.7",
+                    "tier": "Normal",
+                    "level": 7,
+                    "keyCount": 6,
+                    "noteCount": 778,
+                    "beatmapAddress": "song.osu-1640166-the-island-of-albatross.6k.lv-7-1.beatmap",
+                    "coverAddress": "song.osu-1640166-the-island-of-albatross.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-sensitive",
+            "title": "sensitive",
+            "artist": "white crystal",
+            "audioAddress": "song.osu-1640166-sensitive.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-sensitive.jacket",
+            "bpm": 139.99999999999986,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.7",
+                    "tier": "Normal",
+                    "level": 7,
+                    "keyCount": 6,
+                    "noteCount": 701,
+                    "beatmapAddress": "song.osu-1640166-sensitive.6k.lv-7-1.beatmap",
+                    "coverAddress": "song.osu-1640166-sensitive.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-touch-me",
+            "title": "Touch Me",
+            "artist": "E-Rotic",
+            "audioAddress": "song.osu-1640166-touch-me.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-touch-me.jacket",
+            "bpm": 138.00000000000006,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.8",
+                    "tier": "Normal",
+                    "level": 8,
+                    "keyCount": 6,
+                    "noteCount": 829,
+                    "beatmapAddress": "song.osu-1640166-touch-me.6k.lv-8-1.beatmap",
+                    "coverAddress": "song.osu-1640166-touch-me.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-the-universe-summer-festival-mix",
+            "title": "The Universe (Summer Festival Mix)",
+            "artist": "F Rabbeat",
+            "audioAddress": "song.osu-1640166-the-universe-summer-festival-mix.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-the-universe-summer-festival-mix.jacket",
+            "bpm": 128.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.8",
+                    "tier": "Normal",
+                    "level": 8,
+                    "keyCount": 6,
+                    "noteCount": 1113,
+                    "beatmapAddress": "song.osu-1640166-the-universe-summer-festival-mix.6k.lv-8-1.beatmap",
+                    "coverAddress": "song.osu-1640166-the-universe-summer-festival-mix.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-qualia",
+            "title": "Qualia",
+            "artist": "Junk",
+            "audioAddress": "song.osu-1640166-qualia.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-qualia.jacket",
+            "bpm": 133.00000000000006,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.8",
+                    "tier": "Normal",
+                    "level": 8,
+                    "keyCount": 6,
+                    "noteCount": 1061,
+                    "beatmapAddress": "song.osu-1640166-qualia.6k.lv-8-1.beatmap",
+                    "coverAddress": "song.osu-1640166-qualia.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-oasis",
+            "title": "Oasis",
+            "artist": "KaW",
+            "audioAddress": "song.osu-1640166-oasis.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-oasis.jacket",
+            "bpm": 144.99999999999994,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.8",
+                    "tier": "Normal",
+                    "level": 8,
+                    "keyCount": 6,
+                    "noteCount": 861,
+                    "beatmapAddress": "song.osu-1640166-oasis.6k.lv-8-1.beatmap",
+                    "coverAddress": "song.osu-1640166-oasis.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-twilight",
+            "title": "Twilight",
+            "artist": "KaW",
+            "audioAddress": "song.osu-1640166-twilight.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-twilight.jacket",
+            "bpm": 136.00000000000009,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.8",
+                    "tier": "Normal",
+                    "level": 8,
+                    "keyCount": 6,
+                    "noteCount": 822,
+                    "beatmapAddress": "song.osu-1640166-twilight.6k.lv-8-1.beatmap",
+                    "coverAddress": "song.osu-1640166-twilight.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-da-roots-folk-mix",
+            "title": "Da Roots (Folk Mix)",
+            "artist": "Mind Reflection",
+            "audioAddress": "song.osu-1640166-da-roots-folk-mix.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-da-roots-folk-mix.jacket",
+            "bpm": 122.48000000000005,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.8",
+                    "tier": "Normal",
+                    "level": 8,
+                    "keyCount": 6,
+                    "noteCount": 1000,
+                    "beatmapAddress": "song.osu-1640166-da-roots-folk-mix.6k.lv-8-1.beatmap",
+                    "coverAddress": "song.osu-1640166-da-roots-folk-mix.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-king-kong",
+            "title": "King Kong",
+            "artist": "SHANADOO",
+            "audioAddress": "song.osu-1640166-king-kong.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-king-kong.jacket",
+            "bpm": 142.99999999999986,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.8",
+                    "tier": "Normal",
+                    "level": 8,
+                    "keyCount": 6,
+                    "noteCount": 896,
+                    "beatmapAddress": "song.osu-1640166-king-kong.6k.lv-8-1.beatmap",
+                    "coverAddress": "song.osu-1640166-king-kong.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-lemmings-on-the-run",
+            "title": "Lemmings on the Run",
+            "artist": "E-Rotic",
+            "audioAddress": "song.osu-1640166-lemmings-on-the-run.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-lemmings-on-the-run.jacket",
+            "bpm": 133.99999999999991,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.9",
+                    "tier": "Normal",
+                    "level": 9,
+                    "keyCount": 6,
+                    "noteCount": 702,
+                    "beatmapAddress": "song.osu-1640166-lemmings-on-the-run.6k.lv-9-1.beatmap",
+                    "coverAddress": "song.osu-1640166-lemmings-on-the-run.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-land-of-imagination",
+            "title": "Land of Imagination",
+            "artist": "LAGOONA",
+            "audioAddress": "song.osu-1640166-land-of-imagination.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-land-of-imagination.jacket",
+            "bpm": 136.00000000000009,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.9",
+                    "tier": "Normal",
+                    "level": 9,
+                    "keyCount": 6,
+                    "noteCount": 977,
+                    "beatmapAddress": "song.osu-1640166-land-of-imagination.6k.lv-9-1.beatmap",
+                    "coverAddress": "song.osu-1640166-land-of-imagination.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-lacertid",
+            "title": "Lacertid",
+            "artist": "Nick Furry vs. Warui Kemono-A",
+            "audioAddress": "song.osu-1640166-lacertid.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-lacertid.jacket",
+            "bpm": 219.9999999999998,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.9",
+                    "tier": "Normal",
+                    "level": 9,
+                    "keyCount": 6,
+                    "noteCount": 1222,
+                    "beatmapAddress": "song.osu-1640166-lacertid.6k.lv-9-1.beatmap",
+                    "coverAddress": "song.osu-1640166-lacertid.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-horizon",
+            "title": "horizon",
+            "artist": "Shiraishi",
+            "audioAddress": "song.osu-1640166-horizon.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-horizon.jacket",
+            "bpm": 174.99999999999991,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.9",
+                    "tier": "Normal",
+                    "level": 9,
+                    "keyCount": 6,
+                    "noteCount": 1046,
+                    "beatmapAddress": "song.osu-1640166-horizon.6k.lv-9-1.beatmap",
+                    "coverAddress": "song.osu-1640166-horizon.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-galaxy-in-toybox",
+            "title": "Galaxy in Toybox",
+            "artist": "Umeboshi Chazuke",
+            "audioAddress": "song.osu-1640166-galaxy-in-toybox.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-galaxy-in-toybox.jacket",
+            "bpm": 120.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.9",
+                    "tier": "Normal",
+                    "level": 9,
+                    "keyCount": 6,
+                    "noteCount": 1486,
+                    "beatmapAddress": "song.osu-1640166-galaxy-in-toybox.6k.lv-9-1.beatmap",
+                    "coverAddress": "song.osu-1640166-galaxy-in-toybox.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1640166-d-period-moonlit-world-line",
+            "title": "D-period -moonlit world line-",
+            "artist": "kozato",
+            "audioAddress": "song.osu-1640166-d-period-moonlit-world-line.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1640166-d-period-moonlit-world-line.jacket",
+            "bpm": 144.99999999999994,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Lv.9",
+                    "tier": "Normal",
+                    "level": 9,
+                    "keyCount": 6,
+                    "noteCount": 789,
+                    "beatmapAddress": "song.osu-1640166-d-period-moonlit-world-line.6k.lv-9-1.beatmap",
+                    "coverAddress": "song.osu-1640166-d-period-moonlit-world-line.jacket"
+                }
+            ]
         }
     ]
 }

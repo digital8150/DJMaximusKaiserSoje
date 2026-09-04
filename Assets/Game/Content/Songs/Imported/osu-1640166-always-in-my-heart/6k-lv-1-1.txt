@@ -1,0 +1,154 @@
+osu file format v14
+
+[General]
+AudioFilename: Always in My Heart.mp3
+AudioLeadIn: 0
+PreviewTime: 75000
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1.3
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1.3
+
+[Metadata]
+Title:6K Starter Practice Pack
+TitleUnicode:6K Starter Practice Pack
+Artist:Various Artists
+ArtistUnicode:Various Artists
+Creator:QQwiwi2012
+Version:[1] LAGOONA - Always in My Heart
+Source:
+Tags:itg in the groove kyle ward bms Lagoona Always in my Uniq Amore DJ Doo Do U Love Me Cyrex Starfield Missing Heart Charlene Banzai Zodiac カラフル・サウンズ・ポート CHERRY DOLL Colorful Sounds Port Hands up! Digital Explosion Mythology 上杉うた with 星明 Canon (blazing summer mix) celas with StarL Vanilla Ninja Tough Enough The Beginning Queen of Light Smiley Fantasia Andreas Viklund Sweet Things Xacla a.k.a. fen deep blue sunrise anubasu-anubasu The Island of Albatross Nina Let My Go Blind KaW Kagami E-Rotic Touch Me Erotic Twilight white crystal sensitive Shiraishi horizon しらいし Lemmings on the Run Oasis F Rabbeat The Universe Festival MD10 Junk Qualia SHANADOO King Kong Land of imagination 梅干茶漬け Galaxy in Toybox Umeboshi Chazuke kozato D-period -moonlit world line- Nick Furry vs. 悪いケモノ-A 蝎虎天体 Warui Kemono-A Lacertid Mind Reflection Da Roots (Folk YOASOBI 夜に駆ける Yoru ni Kakeru Rochelle Mouth BeautifulDay Feel The O2Jam! in Belize Crispy Bubble Dancer Lime Daydreamer SHK 月哀月夜 Sad of the Moon Night of the
+BeatmapID:3347769
+BeatmapSetID:1640166
+
+[Difficulty]
+HPDrainRate:0
+CircleSize:6
+OverallDifficulty:4
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Always In My Heart.png",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+0,428.571428571429,4,2,0,5,1,0
+
+
+[HitObjects]
+384,192,0,5,0,0:0:0:0:
+298,192,1714,1,0,0:0:0:0:
+213,192,3000,1,0,0:0:0:0:
+128,192,3428,1,0,0:0:0:0:
+42,192,6428,1,0,0:0:0:0:
+469,192,7178,1,0,0:0:0:0:
+384,192,8571,1,0,0:0:0:0:
+42,192,10500,1,0,0:0:0:0:
+128,192,12000,1,0,0:0:0:0:
+298,192,13071,1,0,0:0:0:0:
+213,192,13714,1,0,0:0:0:0:
+384,192,15750,1,0,0:0:0:0:
+128,192,16500,1,0,0:0:0:0:
+469,192,17142,1,0,0:0:0:0:
+128,192,19714,1,0,0:0:0:0:
+298,192,20357,1,0,0:0:0:0:
+384,192,22285,1,0,0:0:0:0:
+298,192,23142,1,0,0:0:0:0:
+128,192,24000,128,0,24857:0:0:0:0:
+469,192,26142,1,0,0:0:0:0:
+384,192,27428,1,0,0:0:0:0:
+42,192,29571,1,0,0:0:0:0:
+213,192,30857,1,0,0:0:0:0:
+298,192,33428,1,0,0:0:0:0:
+384,192,34285,1,0,0:0:0:0:
+42,192,36000,1,0,0:0:0:0:
+42,192,36642,1,0,0:0:0:0:
+213,192,37714,1,0,0:0:0:0:
+213,192,38357,1,0,0:0:0:0:
+384,192,42000,1,0,0:0:0:0:
+128,192,42642,1,0,0:0:0:0:
+128,192,43071,1,0,0:0:0:0:
+128,192,43500,1,0,0:0:0:0:
+128,192,43928,1,0,0:0:0:0:
+469,192,44571,128,0,46285:0:0:0:0:
+42,192,47142,128,0,48000:0:0:0:0:
+213,192,48000,1,0,0:0:0:0:
+298,192,48428,1,0,0:0:0:0:
+298,192,49285,1,0,0:0:0:0:
+469,192,50142,1,0,0:0:0:0:
+469,192,51000,1,0,0:0:0:0:
+128,192,51857,1,0,0:0:0:0:
+128,192,52714,1,0,0:0:0:0:
+42,192,53571,1,0,0:0:0:0:
+42,192,54428,1,0,0:0:0:0:
+298,192,55285,1,0,0:0:0:0:
+298,192,56142,1,0,0:0:0:0:
+469,192,57000,1,0,0:0:0:0:
+469,192,57857,1,0,0:0:0:0:
+128,192,58714,1,0,0:0:0:0:
+128,192,59571,1,0,0:0:0:0:
+384,192,60428,1,0,0:0:0:0:
+384,192,61285,1,0,0:0:0:0:
+298,192,61714,1,0,0:0:0:0:
+213,192,62142,1,0,0:0:0:0:
+213,192,63000,1,0,0:0:0:0:
+42,192,63857,1,0,0:0:0:0:
+42,192,64714,1,0,0:0:0:0:
+384,192,65571,1,0,0:0:0:0:
+384,192,66428,1,0,0:0:0:0:
+469,192,67285,1,0,0:0:0:0:
+469,192,68142,1,0,0:0:0:0:
+213,192,69000,1,0,0:0:0:0:
+213,192,69857,1,0,0:0:0:0:
+42,192,70714,1,0,0:0:0:0:
+42,192,71571,1,0,0:0:0:0:
+384,192,72428,1,0,0:0:0:0:
+384,192,73285,1,0,0:0:0:0:
+128,192,74142,1,0,0:0:0:0:
+213,192,74571,128,0,75428:0:0:0:0:
+469,192,75428,1,0,0:0:0:0:
+128,192,76928,1,0,0:0:0:0:
+298,192,78000,1,0,0:0:0:0:
+384,192,78857,1,0,0:0:0:0:
+384,192,79178,1,0,0:0:0:0:
+384,192,79607,1,0,0:0:0:0:
+42,192,81000,1,0,0:0:0:0:
+42,192,81642,1,0,0:0:0:0:
+213,192,82285,1,0,0:0:0:0:
+213,192,82928,1,0,0:0:0:0:
+128,192,84428,1,0,0:0:0:0:
+298,192,84857,1,0,0:0:0:0:
+469,192,85285,1,0,0:0:0:0:
+469,192,85928,1,0,0:0:0:0:
+298,192,88285,1,0,0:0:0:0:
+213,192,89142,1,0,0:0:0:0:
+42,192,90857,1,0,0:0:0:0:
+42,192,91500,1,0,0:0:0:0:
+469,192,92571,1,0,0:0:0:0:
+469,192,93214,1,0,0:0:0:0:
+128,192,96857,1,0,0:0:0:0:
+384,192,97500,1,0,0:0:0:0:
+384,192,97928,1,0,0:0:0:0:
+384,192,98357,1,0,0:0:0:0:
+384,192,98785,1,0,0:0:0:0:
+469,192,99428,128,0,101142:0:0:0:0:
+42,192,102000,128,0,102857:0:0:0:0:
+213,192,102857,1,0,0:0:0:0:

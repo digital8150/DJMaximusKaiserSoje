@@ -23,7 +23,11 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
 
         private sealed class FakeSession : IPlaySession
         {
-            public FakeSession(PlayStyle style) => Layout = LaneLayout.Create(style);
+            public FakeSession(PlayStyle style, IReadOnlyList<ActiveNote> notes = null)
+            {
+                Layout = LaneLayout.Create(style);
+                PendingNotes = notes ?? Array.Empty<ActiveNote>();
+            }
 
             public string SongId => "song";
             public string ChartId => "chart";
@@ -37,9 +41,10 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             public double SongLengthMs => 1000.0;
             public double ResumeCountdownRemainingMs => 0.0;
             public double Progress01 => 0.0;
-            public IReadOnlyList<ActiveNote> PendingNotes { get; } = Array.Empty<ActiveNote>();
+            public IReadOnlyList<ActiveNote> PendingNotes { get; }
 
             public event Action<JudgementEvent> Judged;
+            public event Action<HoldTickEvent> HoldTicked;
             public event Action<int> LanePressed;
             public event Action<int> LaneReleased;
 
@@ -56,6 +61,8 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
 
             public void Judge(int lane, JudgementGrade grade) =>
                 Judged?.Invoke(new JudgementEvent(lane, grade, JudgementTiming.Exact, 0.0, 1, false));
+
+            public void HoldTick(int lane, int combo) => HoldTicked?.Invoke(new HoldTickEvent(lane, combo));
 
             public void Pause() { }
             public void Resume() { }
@@ -110,6 +117,71 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             view.UpdateEffects(0.016f);
 
             Assert.That(Alpha(view, "KeyBurst0"), Is.EqualTo(0f));
+        }
+
+        [Test]
+        public void LongNoteTick_PulsesTheHeldKeyBeamAndHitBurst()
+        {
+            var session = new FakeSession(PlayStyle.FourKey);
+            PlayfieldView view = BuildPlayfield(session, null);
+            session.Press(1);
+            view.UpdateEffects(1f);
+            float heldAlpha = Alpha(view, "KeyBeam1");
+
+            session.HoldTick(1, 2);
+            view.UpdateEffects(0.01f);
+
+            Assert.That(Alpha(view, "KeyBeam1"), Is.GreaterThan(heldAlpha));
+            Assert.That(Alpha(view, "KeyBurst1"), Is.GreaterThan(0f));
+        }
+
+        [Test]
+        public void HeldLongNote_KeepsItsFullColorAtTheJudgementLine()
+        {
+            var notes = new[] { new ActiveNote(1, 0, 0.0, 1000.0, headJudged: true) };
+            var session = new FakeSession(PlayStyle.FourKey, notes);
+            PlayfieldView view = BuildPlayfield(session, null);
+
+            view.UpdateNotes(session.SongTimeMs);
+
+            Assert.That(Alpha(view, "Note"), Is.EqualTo(1f));
+        }
+
+        [TestCase(PlayStyle.FourKey, 1)]
+        [TestCase(PlayStyle.FourKeyFx, 2)]
+        [TestCase(PlayStyle.SixKey, 1)]
+        [TestCase(PlayStyle.SixKeyFx, 2)]
+        public void BlueLane_DrawsItsNormalNoteCyan(PlayStyle style, int lane)
+        {
+            var notes = new[] { new ActiveNote(1, lane, 0.0, 0.0, headJudged: false) };
+            var session = new FakeSession(style, notes);
+            PlayfieldView view = BuildPlayfield(session, null);
+
+            view.UpdateNotes(session.SongTimeMs);
+
+            Color noteColor = Find(view, "Note").GetComponent<Image>().color;
+            Assert.That(noteColor, Is.EqualTo(UiPalette.Cyan));
+        }
+
+        [Test]
+        public void LongNoteTick_ShowsPerfectFeedbackAndUpdatedCombo()
+        {
+            root = new GameObject("Feedback");
+            var view = root.AddComponent<JudgementFeedbackView>();
+            view.judgementGroup = root.AddComponent<CanvasGroup>();
+            view.comboGroup = new GameObject("ComboGroup").AddComponent<CanvasGroup>();
+            view.comboGroup.transform.SetParent(root.transform, false);
+            view.gradeLabel = NewLabel("Grade", root.transform);
+            view.gradeSuffixLabel = NewLabel("Suffix", root.transform);
+            view.timingLabel = NewLabel("Timing", root.transform);
+            view.comboLabel = NewLabel("Combo", root.transform);
+
+            view.ShowHoldTick(new HoldTickEvent(2, 17));
+
+            Assert.That(view.gradeLabel.text, Is.EqualTo("PERFECT"));
+            Assert.That(view.comboLabel.text, Is.EqualTo("17"));
+            Assert.That(view.judgementGroup.alpha, Is.EqualTo(1f));
+            Assert.That(view.comboGroup.alpha, Is.EqualTo(1f));
         }
 
         [Test]
@@ -206,6 +278,13 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             rect.anchoredPosition = position;
             rect.sizeDelta = size;
             return rect;
+        }
+
+        private static TMP_Text NewLabel(string name, Transform parent)
+        {
+            var label = new GameObject(name).AddComponent<TextMeshProUGUI>();
+            label.transform.SetParent(parent, false);
+            return label;
         }
 
         private static RectTransform Find(PlayfieldView view, string name)

@@ -118,7 +118,8 @@ namespace DJMaximusKaiserSoje.Editor
                 .Set(Anchor.Centre, 0f, 0f, laneSpan + 160f * GearScale, 190f * GearScale);
             glow.type = Image.Type.Simple;
             var bar = Ui.Image("JudgementBar", judgementAnchor, Ui.Chrome("Bar"), UiPalette.Cyan)
-                .Set(Anchor.Centre, 0f, 0f, laneSpan + 12f * GearScale, 6f * GearScale);
+                .Set(Anchor.Centre, 0f, 0f, laneSpan + 12f * GearScale, 6f * GearScale)
+                .Fit(GearScale);
 
             // Outside the mask so a hit burst is not sliced off at the judgement line.
             var burstLayer = Ui.Node("BurstLayer", gear)
@@ -335,8 +336,11 @@ namespace DJMaximusKaiserSoje.Editor
             float elapsedWidth = 190f * GearScale;
             var track = Ui.Image("Track", bar, Ui.Chrome("Bar"), UiPalette.Night)
                 .Set(Anchor.MiddleLeft, barInset, 0f,
-                    PlayBarWidth - barInset * 2f - elapsedWidth, 14f * GearScale);
-            var fill = Ui.Image("Fill", track.transform, Ui.Chrome("Bar"), UiPalette.Magenta).Stretch();
+                    PlayBarWidth - barInset * 2f - elapsedWidth, 14f * GearScale)
+                .Fit(GearScale);
+            // A filled Image ignores the 9-slice and stretches the whole sprite, so the pill would be
+            // drawn as one wide ellipse. The plain rectangle is the shape that survives being filled.
+            var fill = Ui.Image("Fill", track.transform, Ui.Chrome("Solid"), UiPalette.Magenta).Stretch();
             fill.type = Image.Type.Filled;
             fill.fillMethod = Image.FillMethod.Horizontal;
             fill.fillAmount = 0f;

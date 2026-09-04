@@ -2,14 +2,13 @@ using System;
 using DJMaximusKaiserSoje.Core;
 using TMPro;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace DJMaximusKaiserSoje.Presentation
 {
     /// <summary>A single song in the list, with the level of each difficulty it offers.</summary>
     [DisallowMultipleComponent]
-    public sealed class SongRowView : MonoBehaviour, IPointerEnterHandler
+    public sealed class SongRowView : MonoBehaviour
     {
         [SerializeField] internal RectTransform root;
         [SerializeField] internal Image background;
@@ -25,6 +24,7 @@ namespace DJMaximusKaiserSoje.Presentation
         private Action<int> selected;
         private Action<int> committed;
         private bool isSelected;
+        private bool isClickArmed;
 
         private void Awake()
         {
@@ -59,6 +59,7 @@ namespace DJMaximusKaiserSoje.Presentation
         public void SetSelected(bool value)
         {
             isSelected = value;
+            if (!value) isClickArmed = false;
             if (background != null)
                 background.color = value ? UiPalette.PanelRaised : UiPalette.Panel.WithAlpha(0.72f);
             if (selectionEdge != null) selectionEdge.enabled = value;
@@ -72,12 +73,11 @@ namespace DJMaximusKaiserSoje.Presentation
                 chips[chipIndex].SetSelected(isSelected && chips[chipIndex].Tier == tier);
         }
 
-        public void OnPointerEnter(PointerEventData eventData) => selected?.Invoke(index);
-
-        private void OnClick()
+        internal void OnClick()
         {
-            if (!isSelected)
+            if (!isSelected || !isClickArmed)
             {
+                isClickArmed = true;
                 selected?.Invoke(index);
                 return;
             }

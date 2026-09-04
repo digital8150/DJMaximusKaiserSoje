@@ -112,13 +112,17 @@ layout change is a code change, not a manual re-drag.
 
 ## Importing osu!mania song sets
 
-`Tools > DJ Maximus > Import osu!mania .osz` opens a file picker and imports one set. The importer
-accepts 4K, 6K, and 8K mania charts, copies only referenced audio/jacket/video files, writes the
-versioned remote song catalog, assigns stable `song.<id>.*` addresses, and runs the Addressables
-content build. Output is written under `ServerData/[BuildTarget]`; set the active profile's
-`Remote.LoadPath` to the deployment URL (a new profile starts at
-`http://localhost:8000/[BuildTarget]`). The player tries `catalog.rhythm.remote` first and falls
-back to the bundled `catalog.rhythm.bootstrap` when remote content is unavailable.
+`Tools > DJ Maximus > Import osu!mania .osz` opens a file picker and imports one set; the adjacent
+folder command imports a batch and builds content once. The importer accepts 4K, 6K, and 8K mania
+charts. A normal set becomes one catalog song, while a compilation pack is split by referenced
+audio and its per-track `Version` labels are mapped back to artist/title/difficulty metadata.
+Malformed or placeholder tracks are reported and skipped without discarding the rest of a pack.
+The importer copies only referenced audio/jacket/video files, writes the versioned remote song
+catalog, assigns stable `song.<id>.*` addresses, and runs the Addressables content build. Output is
+written under `ServerData/[BuildTarget]`; set the active profile's `Remote.LoadPath` to the
+deployment URL (a new profile starts at `http://localhost:8000/[BuildTarget]`). The player tries
+`catalog.rhythm.remote` first and falls back to the bundled `catalog.rhythm.bootstrap` when remote
+content is unavailable.
 
 Archive handling uses the maintained `System.IO.Compression.ZipArchive` implementation bundled
 with Unity. The existing `OsuManiaBeatmapParser`, catalog schema, and Addressables editor APIs are

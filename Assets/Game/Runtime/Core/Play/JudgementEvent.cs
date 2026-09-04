@@ -25,4 +25,20 @@ namespace DJMaximusKaiserSoje.Core
 
         public bool IsHoldRelease { get; }
     }
+
+    /// <summary>
+    /// A visual-only pulse earned while a long note remains held. It advances the displayed combo,
+    /// but is deliberately not a scored judgement and cannot alter health or accuracy.
+    /// </summary>
+    public readonly struct HoldTickEvent
+    {
+        public HoldTickEvent(int lane, int combo)
+        {
+            Lane = lane;
+            Combo = combo;
+        }
+
+        public int Lane { get; }
+        public int Combo { get; }
+    }
 }

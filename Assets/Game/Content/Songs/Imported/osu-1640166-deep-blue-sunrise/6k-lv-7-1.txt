@@ -1,0 +1,1914 @@
+osu file format v14
+
+[General]
+AudioFilename: deep blue sunrise.mp3
+AudioLeadIn: 0
+PreviewTime: 58555
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 1
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.3
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 2.2
+
+[Metadata]
+Title:6K Starter Practice Pack
+TitleUnicode:6K Starter Practice Pack
+Artist:Various Artists
+ArtistUnicode:Various Artists
+Creator:QQwiwi2012
+Version:[7] Xacla a.k.a. fen - deep blue sunrise
+Source:
+Tags:itg in the groove kyle ward bms Lagoona Always in my Uniq Amore DJ Doo Do U Love Me Cyrex Starfield Missing Heart Charlene Banzai Zodiac カラフル・サウンズ・ポート CHERRY DOLL Colorful Sounds Port Hands up! Digital Explosion Mythology 上杉うた with 星明 Canon (blazing summer mix) celas with StarL Vanilla Ninja Tough Enough The Beginning Queen of Light Smiley Fantasia Andreas Viklund Sweet Things Xacla a.k.a. fen deep blue sunrise anubasu-anubasu The Island of Albatross Nina Let My Go Blind KaW Kagami E-Rotic Touch Me Erotic Twilight white crystal sensitive Shiraishi horizon しらいし Lemmings on the Run Oasis F Rabbeat The Universe Festival MD10 Junk Qualia SHANADOO King Kong Land of imagination 梅干茶漬け Galaxy in Toybox Umeboshi Chazuke kozato D-period -moonlit world line- Nick Furry vs. 悪いケモノ-A 蝎虎天体 Warui Kemono-A Lacertid Mind Reflection Da Roots (Folk YOASOBI 夜に駆ける Yoru ni Kakeru Rochelle Mouth BeautifulDay Feel The O2Jam! in Belize Crispy Bubble Dancer Lime Daydreamer SHK 月哀月夜 Sad of the Moon Night of the
+BeatmapID:3347807
+BeatmapSetID:1640166
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:6
+OverallDifficulty:7
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"deep blue sunrise.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+Sample,1777,0,"loop_hh 001.ogg",70
+Sample,1777,0,"pad_intro.ogg",70
+Sample,1777,0,"se2001_deepkick.ogg",70
+Sample,2222,0,"loop_hh 003.ogg",70
+Sample,2777,0,"loop_hh 005.ogg",70
+Sample,3111,0,"loop_hh 007.ogg",70
+Sample,3555,0,"loop_hh 001.ogg",70
+Sample,4000,0,"loop_hh 003.ogg",70
+Sample,4555,0,"loop_hh 005.ogg",70
+Sample,4888,0,"loop_hh 007.ogg",70
+Sample,5333,0,"loop_hh 001.ogg",70
+Sample,5777,0,"loop_hh 003.ogg",70
+Sample,6333,0,"loop_hh 005.ogg",70
+Sample,6666,0,"loop_hh 007.ogg",70
+Sample,7111,0,"loop_hh 001.ogg",70
+Sample,7555,0,"loop_hh 003.ogg",70
+Sample,8111,0,"loop_hh 005.ogg",70
+Sample,8444,0,"loop_hh 007.ogg",70
+Sample,8888,0,"loop_hh 001.ogg",70
+Sample,9333,0,"fill3101.ogg",70
+Sample,9333,0,"loop_hh 003.ogg",70
+Sample,9888,0,"loop_hh 005.ogg",70
+Sample,10222,0,"loop_hh 007.ogg",70
+Sample,10666,0,"loop_hh 001.ogg",70
+Sample,10666,0,"fill4101.ogg",70
+Sample,11111,0,"loop_hh 003.ogg",70
+Sample,11666,0,"loop_hh 005.ogg",70
+Sample,12000,0,"loop_hh 007.ogg",70
+Sample,12444,0,"fill1101.ogg",70
+Sample,12444,0,"loop_hh 001.ogg",70
+Sample,12888,0,"loop_hh 003.ogg",70
+Sample,13444,0,"loop_hh 005.ogg",70
+Sample,13777,0,"loop_hh 007.ogg",70
+Sample,14222,0,"loop_hh 001.ogg",70
+Sample,14666,0,"loop_hh 003.ogg",70
+Sample,14888,0,"fill2101_shortfill.ogg",70
+Sample,15222,0,"loop_hh 005.ogg",70
+Sample,15555,0,"loop_hh 007.ogg",70
+Sample,16000,0,"se2101_deepkick.ogg",70
+Sample,16000,0,"pad1.ogg",70
+Sample,16000,0,"bass2101.ogg",70
+Sample,17777,0,"bass2101.ogg",70
+Sample,19555,0,"bass2101.ogg",70
+Sample,21333,0,"bass2101.ogg",70
+Sample,23111,0,"bass2101.ogg",70
+Sample,23111,0,"se2201_deepkick.ogg",70
+Sample,24888,0,"bass2101.ogg",70
+Sample,26666,0,"bass2101.ogg",70
+Sample,28444,0,"bass2101.ogg",70
+Sample,28444,0,"fill5101_bb.ogg",70
+Sample,30222,0,"bass1101_ 001.ogg",70
+Sample,30222,0,"se2301_deepkick.ogg",70
+Sample,30222,0,"bass2101.ogg",70
+Sample,30222,0,"pad1.ogg",70
+Sample,30444,0,"bass1101_ 002.ogg",70
+Sample,30555,0,"bass1101_ 003.ogg",70
+Sample,30777,0,"bass1101_ 004.ogg",70
+Sample,30888,0,"bass1101_ 005.ogg",70
+Sample,31000,0,"bass1101_ 006.ogg",70
+Sample,31111,0,"bass1101_ 007.ogg",70
+Sample,31333,0,"bass1101_ 008.ogg",70
+Sample,31444,0,"bass1101_ 009.ogg",70
+Sample,31666,0,"bass1101_ 010.ogg",70
+Sample,31777,0,"bass1101_ 011.ogg",70
+Sample,31888,0,"bass1101_ 012.ogg",70
+Sample,32000,0,"bass1101_ 001.ogg",70
+Sample,32000,0,"bass2101.ogg",70
+Sample,32222,0,"bass1101_ 002.ogg",70
+Sample,32333,0,"bass1101_ 003.ogg",70
+Sample,32555,0,"bass1101_ 004.ogg",70
+Sample,32666,0,"bass1101_ 005.ogg",70
+Sample,32777,0,"bass1101_ 006.ogg",70
+Sample,32888,0,"bass1101_ 007.ogg",70
+Sample,33111,0,"bass1101_ 008.ogg",70
+Sample,33222,0,"bass1101_ 009.ogg",70
+Sample,33444,0,"bass1101_ 010.ogg",70
+Sample,33555,0,"bass1101_ 011.ogg",70
+Sample,33666,0,"bass1101_ 012.ogg",70
+Sample,33777,0,"bass2101.ogg",70
+Sample,33777,0,"bass1101_ 001.ogg",70
+Sample,34000,0,"bass1101_ 002.ogg",70
+Sample,34111,0,"bass1101_ 003.ogg",70
+Sample,34333,0,"bass1101_ 004.ogg",70
+Sample,34444,0,"bass1101_ 005.ogg",70
+Sample,34555,0,"bass1101_ 006.ogg",70
+Sample,34666,0,"bass1101_ 007.ogg",70
+Sample,34888,0,"bass1101_ 008.ogg",70
+Sample,35000,0,"bass1101_ 009.ogg",70
+Sample,35222,0,"bass1101_ 010.ogg",70
+Sample,35333,0,"bass1101_ 011.ogg",70
+Sample,35444,0,"bass1101_ 012.ogg",70
+Sample,35555,0,"bass1101_ 001.ogg",70
+Sample,35555,0,"bass2101.ogg",70
+Sample,35777,0,"bass1101_ 002.ogg",70
+Sample,35888,0,"bass1101_ 003.ogg",70
+Sample,36111,0,"bass1101_ 004.ogg",70
+Sample,36222,0,"bass1101_ 005.ogg",70
+Sample,36333,0,"bass1101_ 006.ogg",70
+Sample,36444,0,"bass1101_ 007.ogg",70
+Sample,36666,0,"bass1101_ 008.ogg",70
+Sample,36777,0,"bass1101_ 009.ogg",70
+Sample,37000,0,"bass1101_ 010.ogg",70
+Sample,37111,0,"bass1101_ 011.ogg",70
+Sample,37222,0,"bass1101_ 012.ogg",70
+Sample,37333,0,"bass2101.ogg",70
+Sample,37333,0,"loop_hh 001.ogg",70
+Sample,37555,0,"loop_hh 002.ogg",70
+Sample,37777,0,"loop_hh 003.ogg",70
+Sample,38000,0,"loop_hh 004.ogg",70
+Sample,38333,0,"loop_hh 005.ogg",70
+Sample,38444,0,"loop_hh 006.ogg",70
+Sample,38666,0,"loop_hh 007.ogg",70
+Sample,38888,0,"loop_hh 008.ogg",70
+Sample,39111,0,"fill4101.ogg",70
+Sample,39111,0,"loop_hh 001.ogg",70
+Sample,39111,0,"bass2101.ogg",70
+Sample,39333,0,"loop_hh 002.ogg",70
+Sample,39555,0,"loop_hh 003.ogg",70
+Sample,39777,0,"loop_hh 004.ogg",70
+Sample,40111,0,"loop_hh 005.ogg",70
+Sample,40222,0,"loop_hh 006.ogg",70
+Sample,40444,0,"loop_hh 007.ogg",70
+Sample,40666,0,"loop_hh 008.ogg",70
+Sample,40888,0,"loop_hh 001.ogg",70
+Sample,40888,0,"bass2101.ogg",70
+Sample,41111,0,"loop_hh 002.ogg",70
+Sample,41333,0,"loop_hh 003.ogg",70
+Sample,41555,0,"loop_hh 004.ogg",70
+Sample,41888,0,"loop_hh 005.ogg",70
+Sample,42000,0,"loop_hh 006.ogg",70
+Sample,42222,0,"loop_hh 007.ogg",70
+Sample,42444,0,"loop_hh 008.ogg",70
+Sample,42666,0,"bass2101.ogg",70
+Sample,42666,0,"loop_hh 001.ogg",70
+Sample,42888,0,"loop_hh 002.ogg",70
+Sample,43111,0,"loop_hh 003.ogg",70
+Sample,43333,0,"loop_hh 004.ogg",70
+Sample,43333,0,"fill2101_shortfill.ogg",70
+Sample,43666,0,"loop_hh 005.ogg",70
+Sample,43777,0,"loop_hh 006.ogg",70
+Sample,44000,0,"loop_hh 007.ogg",70
+Sample,44222,0,"loop_hh 008.ogg",70
+Sample,44444,0,"loop_hh 001.ogg",70
+Sample,44444,0,"se3101.ogg",70
+Sample,44444,0,"bass2101.ogg",70
+Sample,44444,0,"bass1101_ 001.ogg",70
+Sample,44444,0,"synth_arp1_ 129.ogg",70
+Sample,44444,0,"se2102_deepkick.ogg",70
+Sample,44666,0,"bass1101_ 002.ogg",70
+Sample,44777,0,"bass1101_ 003.ogg",70
+Sample,44888,0,"loop_hh 003.ogg",70
+Sample,45000,0,"bass1101_ 004.ogg",70
+Sample,45111,0,"bass1101_ 005.ogg",70
+Sample,45222,0,"bass1101_ 006.ogg",70
+Sample,45333,0,"bass1101_ 007.ogg",70
+Sample,45444,0,"loop_hh 005.ogg",70
+Sample,45555,0,"bass1101_ 008.ogg",70
+Sample,45666,0,"bass1101_ 009.ogg",70
+Sample,45777,0,"loop_hh 007.ogg",70
+Sample,45888,0,"bass1101_ 010.ogg",70
+Sample,46000,0,"bass1101_ 011.ogg",70
+Sample,46111,0,"bass1101_ 012.ogg",70
+Sample,46222,0,"bass2101.ogg",70
+Sample,46222,0,"loop_hh 001.ogg",70
+Sample,46222,0,"bass1101_ 001.ogg",70
+Sample,46444,0,"bass1101_ 002.ogg",70
+Sample,46555,0,"bass1101_ 003.ogg",70
+Sample,46666,0,"loop_hh 003.ogg",70
+Sample,46777,0,"bass1101_ 004.ogg",70
+Sample,46888,0,"bass1101_ 005.ogg",70
+Sample,47000,0,"bass1101_ 006.ogg",70
+Sample,47111,0,"bass1101_ 007.ogg",70
+Sample,47222,0,"loop_hh 005.ogg",70
+Sample,47333,0,"bass1101_ 008.ogg",70
+Sample,47444,0,"bass1101_ 009.ogg",70
+Sample,47555,0,"loop_hh 007.ogg",70
+Sample,47666,0,"bass1101_ 010.ogg",70
+Sample,47777,0,"bass1101_ 011.ogg",70
+Sample,47888,0,"bass1101_ 012.ogg",70
+Sample,48000,0,"bass1101_ 001.ogg",70
+Sample,48000,0,"loop_hh 001.ogg",70
+Sample,48000,0,"bass2101.ogg",70
+Sample,48222,0,"bass1101_ 002.ogg",70
+Sample,48333,0,"bass1101_ 003.ogg",70
+Sample,48444,0,"loop_hh 003.ogg",70
+Sample,48555,0,"bass1101_ 004.ogg",70
+Sample,48666,0,"bass1101_ 005.ogg",70
+Sample,48777,0,"bass1101_ 006.ogg",70
+Sample,48888,0,"bass1101_ 007.ogg",70
+Sample,49000,0,"loop_hh 005.ogg",70
+Sample,49111,0,"bass1101_ 008.ogg",70
+Sample,49222,0,"bass1101_ 009.ogg",70
+Sample,49333,0,"loop_hh 007.ogg",70
+Sample,49444,0,"bass1101_ 010.ogg",70
+Sample,49555,0,"bass1101_ 011.ogg",70
+Sample,49666,0,"bass1101_ 012.ogg",70
+Sample,49777,0,"bass2101.ogg",70
+Sample,49777,0,"loop_hh 001.ogg",70
+Sample,49777,0,"bass1101_ 001.ogg",70
+Sample,50000,0,"bass1101_ 002.ogg",70
+Sample,50111,0,"bass1101_ 003.ogg",70
+Sample,50222,0,"loop_hh 003.ogg",70
+Sample,50333,0,"bass1101_ 004.ogg",70
+Sample,50444,0,"bass1101_ 005.ogg",70
+Sample,50555,0,"bass1101_ 006.ogg",70
+Sample,50666,0,"bass1101_ 007.ogg",70
+Sample,50777,0,"loop_hh 005.ogg",70
+Sample,50888,0,"bass1101_ 008.ogg",70
+Sample,51000,0,"bass1101_ 009.ogg",70
+Sample,51111,0,"loop_hh 007.ogg",70
+Sample,51222,0,"bass1101_ 010.ogg",70
+Sample,51333,0,"bass1101_ 011.ogg",70
+Sample,51444,0,"bass1101_ 012.ogg",70
+Sample,51555,0,"bass1102.ogg",70
+Sample,51555,0,"loop_hh 001.ogg",70
+Sample,51555,0,"bass2102.ogg",70
+Sample,52000,0,"loop_hh 003.ogg",70
+Sample,52555,0,"loop_hh 005.ogg",70
+Sample,52888,0,"loop_hh 007.ogg",70
+Sample,53333,0,"bass1102.ogg",70
+Sample,53333,0,"loop_hh 001.ogg",70
+Sample,53333,0,"bass2102.ogg",70
+Sample,53777,0,"loop_hh 003.ogg",70
+Sample,54333,0,"loop_hh 005.ogg",70
+Sample,54666,0,"loop_hh 007.ogg",70
+Sample,55111,0,"bass1103.ogg",70
+Sample,55111,0,"loop_hh 001.ogg",70
+Sample,55111,0,"bass2103.ogg",70
+Sample,55555,0,"loop_hh 003.ogg",70
+Sample,56111,0,"loop_hh 005.ogg",70
+Sample,56444,0,"loop_hh 007.ogg",70
+Sample,56888,0,"bass1103.ogg",70
+Sample,56888,0,"loop_hh 001.ogg",70
+Sample,56888,0,"bass2103.ogg",70
+Sample,57333,0,"loop_hh 003.ogg",70
+Sample,57888,0,"loop_hh 005.ogg",70
+Sample,58222,0,"loop_hh 007.ogg",70
+Sample,58666,0,"bass2101.ogg",70
+Sample,58666,0,"pad2.ogg",70
+Sample,58666,0,"bass1101_ 001.ogg",70
+Sample,58666,0,"piano22.ogg",70
+Sample,58888,0,"bass1101_ 002.ogg",70
+Sample,59000,0,"bass1101_ 003.ogg",70
+Sample,59222,0,"bass1101_ 004.ogg",70
+Sample,59333,0,"bass1101_ 005.ogg",70
+Sample,59444,0,"bass1101_ 006.ogg",70
+Sample,59555,0,"bass1101_ 007.ogg",70
+Sample,59777,0,"bass1101_ 008.ogg",70
+Sample,59888,0,"bass1101_ 009.ogg",70
+Sample,60111,0,"bass1101_ 010.ogg",70
+Sample,60222,0,"bass1101_ 011.ogg",70
+Sample,60333,0,"bass1101_ 012.ogg",70
+Sample,60444,0,"bass2101.ogg",70
+Sample,60444,0,"bass1101_ 001.ogg",70
+Sample,60666,0,"bass1101_ 002.ogg",70
+Sample,60777,0,"bass1101_ 003.ogg",70
+Sample,61000,0,"bass1101_ 004.ogg",70
+Sample,61111,0,"bass1101_ 005.ogg",70
+Sample,61222,0,"bass1101_ 006.ogg",70
+Sample,61333,0,"bass1101_ 007.ogg",70
+Sample,61555,0,"bass1101_ 008.ogg",70
+Sample,61666,0,"bass1101_ 009.ogg",70
+Sample,61888,0,"bass1101_ 010.ogg",70
+Sample,62000,0,"bass1101_ 011.ogg",70
+Sample,62111,0,"bass1101_ 012.ogg",70
+Sample,62222,0,"bass1102.ogg",70
+Sample,62222,0,"bass2102.ogg",70
+Sample,64000,0,"bass1102.ogg",70
+Sample,64000,0,"bass2102.ogg",70
+Sample,65777,0,"bass2104.ogg",70
+Sample,65777,0,"bass1104.ogg",70
+Sample,67555,0,"bass2104.ogg",70
+Sample,67555,0,"bass1104.ogg",70
+Sample,69333,0,"bass2105.ogg",70
+Sample,69333,0,"bass1105.ogg",70
+Sample,71111,0,"bass2105.ogg",70
+Sample,71111,0,"bass1105.ogg",70
+Sample,71777,0,"fill2101_shortfill.ogg",70
+Sample,72888,0,"bass2101.ogg",70
+Sample,72888,0,"loop_hh 001.ogg",70
+Sample,72888,0,"bass1101_ 001.ogg",70
+Sample,72888,0,"synth_seq1_ 113.ogg",70
+Sample,73111,0,"bass1101_ 002.ogg",70
+Sample,73222,0,"bass1101_ 003.ogg",70
+Sample,73333,0,"loop_hh 003.ogg",70
+Sample,73444,0,"bass1101_ 004.ogg",70
+Sample,73555,0,"bass1101_ 005.ogg",70
+Sample,73666,0,"bass1101_ 006.ogg",70
+Sample,73777,0,"bass1101_ 007.ogg",70
+Sample,73888,0,"loop_hh 005.ogg",70
+Sample,74000,0,"bass1101_ 008.ogg",70
+Sample,74111,0,"bass1101_ 009.ogg",70
+Sample,74222,0,"loop_hh 007.ogg",70
+Sample,74333,0,"bass1101_ 010.ogg",70
+Sample,74444,0,"bass1101_ 011.ogg",70
+Sample,74555,0,"bass1101_ 012.ogg",70
+Sample,74666,0,"bass2101.ogg",70
+Sample,74666,0,"loop_hh 001.ogg",70
+Sample,74666,0,"bass1101_ 001.ogg",70
+Sample,74888,0,"bass1101_ 002.ogg",70
+Sample,75000,0,"bass1101_ 003.ogg",70
+Sample,75111,0,"loop_hh 003.ogg",70
+Sample,75222,0,"bass1101_ 004.ogg",70
+Sample,75333,0,"bass1101_ 005.ogg",70
+Sample,75444,0,"bass1101_ 006.ogg",70
+Sample,75555,0,"bass1101_ 007.ogg",70
+Sample,75666,0,"loop_hh 005.ogg",70
+Sample,75777,0,"bass1101_ 008.ogg",70
+Sample,75888,0,"bass1101_ 009.ogg",70
+Sample,76000,0,"loop_hh 007.ogg",70
+Sample,76111,0,"bass1101_ 010.ogg",70
+Sample,76222,0,"bass1101_ 011.ogg",70
+Sample,76333,0,"bass1101_ 012.ogg",70
+Sample,76444,0,"bass1102.ogg",70
+Sample,76444,0,"loop_hh 001.ogg",70
+Sample,76444,0,"bass2102.ogg",70
+Sample,76888,0,"loop_hh 003.ogg",70
+Sample,77444,0,"loop_hh 005.ogg",70
+Sample,77777,0,"loop_hh 007.ogg",70
+Sample,78222,0,"bass1102.ogg",70
+Sample,78222,0,"loop_hh 001.ogg",70
+Sample,78222,0,"bass2102.ogg",70
+Sample,78666,0,"loop_hh 003.ogg",70
+Sample,79222,0,"loop_hh 005.ogg",70
+Sample,79555,0,"loop_hh 007.ogg",70
+Sample,80000,0,"bass2104.ogg",70
+Sample,80000,0,"loop_hh 001.ogg",70
+Sample,80000,0,"bass1104.ogg",70
+Sample,80444,0,"loop_hh 003.ogg",70
+Sample,81000,0,"loop_hh 005.ogg",70
+Sample,81333,0,"loop_hh 007.ogg",70
+Sample,81777,0,"bass2104.ogg",70
+Sample,81777,0,"loop_hh 001.ogg",70
+Sample,81777,0,"bass1104.ogg",70
+Sample,81777,0,"fill4101.ogg",70
+Sample,82222,0,"loop_hh 003.ogg",70
+Sample,82777,0,"loop_hh 005.ogg",70
+Sample,83111,0,"loop_hh 007.ogg",70
+Sample,83555,0,"bass1105.ogg",70
+Sample,83555,0,"fill1101.ogg",70
+Sample,83555,0,"bass2105.ogg",70
+Sample,83555,0,"loop_hh 001.ogg",70
+Sample,84000,0,"loop_hh 003.ogg",70
+Sample,84555,0,"loop_hh 005.ogg",70
+Sample,84888,0,"loop_hh 007.ogg",70
+Sample,85333,0,"bass2105.ogg",70
+Sample,85333,0,"fill5201_bb.ogg",70
+Sample,85333,0,"bass1105.ogg",70
+Sample,85333,0,"loop_hh 001.ogg",70
+Sample,85555,0,"loop_hh 002.ogg",70
+Sample,85777,0,"loop_hh 003.ogg",70
+Sample,86000,0,"fill2101_shortfill.ogg",70
+Sample,86000,0,"loop_hh 004.ogg",70
+Sample,86333,0,"loop_hh 005.ogg",70
+Sample,86444,0,"loop_hh 006.ogg",70
+Sample,86666,0,"loop_hh 007.ogg",70
+Sample,86888,0,"loop_hh 008.ogg",70
+Sample,87111,0,"se4101.ogg",70
+Sample,87111,0,"pad3.ogg",70
+Sample,96000,0,"fill4101.ogg",70
+Sample,97777,0,"fill3201.ogg",70
+Sample,100111,0,"fill2101_shortfill.ogg",70
+Sample,101333,0,"piano52_ 001.ogg",70
+Sample,101333,0,"loop_bb1.ogg",70
+Sample,101333,0,"pad3.ogg",70
+Sample,101333,0,"piano51_ 001.ogg",70
+Sample,101555,0,"piano51_ 002.ogg",70
+Sample,101777,0,"piano51_ 003.ogg",70
+Sample,102000,0,"piano51_ 004.ogg",70
+Sample,102222,0,"piano51_ 005.ogg",70
+Sample,102222,0,"loop_bb21_ 006.ogg",70
+Sample,102222,0,"piano52_ 002.ogg",70
+Sample,102444,0,"piano51_ 006.ogg",70
+Sample,102666,0,"piano51_ 007.ogg",70
+Sample,102888,0,"piano51_ 008.ogg",70
+Sample,103111,0,"piano51_ 005.ogg",70
+Sample,103111,0,"piano52_ 003.ogg",70
+Sample,103111,0,"loop_bb1.ogg",70
+Sample,103333,0,"piano51_ 006.ogg",70
+Sample,103555,0,"piano51_ 007.ogg",70
+Sample,103777,0,"piano51_ 008.ogg",70
+Sample,104000,0,"piano52_ 004.ogg",70
+Sample,104000,0,"piano51_ 005.ogg",70
+Sample,104222,0,"piano51_ 006.ogg",70
+Sample,104444,0,"piano51_ 007.ogg",70
+Sample,104666,0,"piano51_ 008.ogg",70
+Sample,104888,0,"piano52_ 005.ogg",70
+Sample,104888,0,"piano51_ 005.ogg",70
+Sample,105111,0,"piano51_ 006.ogg",70
+Sample,105333,0,"piano51_ 007.ogg",70
+Sample,105555,0,"piano51_ 008.ogg",70
+Sample,105777,0,"piano51_ 005.ogg",70
+Sample,105777,0,"piano52_ 006.ogg",70
+Sample,106000,0,"piano51_ 006.ogg",70
+Sample,106222,0,"piano51_ 007.ogg",70
+Sample,106444,0,"piano51_ 008.ogg",70
+Sample,106666,0,"piano52_ 007.ogg",70
+Sample,106666,0,"piano51_ 005.ogg",70
+Sample,106888,0,"piano51_ 006.ogg",70
+Sample,107111,0,"piano51_ 007.ogg",70
+Sample,107333,0,"piano51_ 008.ogg",70
+Sample,107555,0,"piano51_ 005.ogg",70
+Sample,107555,0,"piano52_ 004.ogg",70
+Sample,107777,0,"piano51_ 006.ogg",70
+Sample,108000,0,"piano51_ 007.ogg",70
+Sample,108222,0,"piano51_ 008.ogg",70
+Sample,108444,0,"piano52_ 005.ogg",70
+Sample,108444,0,"piano51_ 005.ogg",70
+Sample,108666,0,"piano51_ 006.ogg",70
+Sample,108888,0,"piano51_ 007.ogg",70
+Sample,109111,0,"piano51_ 008.ogg",70
+Sample,109333,0,"piano51_ 005.ogg",70
+Sample,109333,0,"piano52_ 006.ogg",70
+Sample,109555,0,"piano51_ 006.ogg",70
+Sample,109777,0,"piano51_ 007.ogg",70
+Sample,110000,0,"piano51_ 008.ogg",70
+Sample,110222,0,"fill4101.ogg",70
+Sample,110222,0,"piano52_ 007.ogg",70
+Sample,110222,0,"piano51_ 005.ogg",70
+Sample,110444,0,"piano51_ 006.ogg",70
+Sample,110666,0,"piano51_ 007.ogg",70
+Sample,110888,0,"piano51_ 008.ogg",70
+Sample,111111,0,"piano51_ 005.ogg",70
+Sample,111111,0,"piano52_ 004.ogg",70
+Sample,111333,0,"piano51_ 006.ogg",70
+Sample,111555,0,"piano51_ 007.ogg",70
+Sample,111777,0,"piano51_ 008.ogg",70
+Sample,112000,0,"piano51_ 005.ogg",70
+Sample,112000,0,"piano52_ 005.ogg",70
+Sample,112000,0,"fill3201.ogg",70
+Sample,112222,0,"piano51_ 006.ogg",70
+Sample,112444,0,"piano51_ 007.ogg",70
+Sample,112666,0,"piano51_ 008.ogg",70
+Sample,112888,0,"piano52_ 006.ogg",70
+Sample,112888,0,"piano51_ 005.ogg",70
+Sample,113111,0,"piano51_ 006.ogg",70
+Sample,113333,0,"piano51_ 007.ogg",70
+Sample,113555,0,"piano51_ 008.ogg",70
+Sample,113777,0,"piano52_ 007.ogg",70
+Sample,113777,0,"piano51_ 005.ogg",70
+Sample,114000,0,"piano51_ 006.ogg",70
+Sample,114222,0,"piano51_ 007.ogg",70
+Sample,114444,0,"fill2101_shortfill.ogg",70
+Sample,114444,0,"piano51_ 008.ogg",70
+Sample,114666,0,"piano52_ 008.ogg",70
+Sample,114666,0,"piano51_ 005.ogg",70
+Sample,114888,0,"piano51_ 006.ogg",70
+Sample,115111,0,"piano51_ 007.ogg",70
+Sample,115333,0,"piano51_ 008.ogg",70
+Sample,115555,0,"pad5.ogg",70
+Sample,115555,0,"loop_hh 001.ogg",70
+Sample,115555,0,"bass1101_ 001.ogg",70
+Sample,115555,0,"piano22.ogg",70
+Sample,115555,0,"se3201.ogg",70
+Sample,115555,0,"bass2101.ogg",70
+Sample,115555,0,"se4101.ogg",70
+Sample,115555,0,"synth_arp22_ 001.ogg",70
+Sample,115555,0,"se2302_deepkick.ogg",70
+Sample,115777,0,"bass1101_ 002.ogg",70
+Sample,115888,0,"bass1101_ 003.ogg",70
+Sample,116000,0,"loop_hh 003.ogg",70
+Sample,116111,0,"bass1101_ 004.ogg",70
+Sample,116222,0,"bass1101_ 005.ogg",70
+Sample,116333,0,"bass1101_ 006.ogg",70
+Sample,116444,0,"synth_arp22_ 002.ogg",70
+Sample,116444,0,"bass1101_ 007.ogg",70
+Sample,116555,0,"loop_hh 005.ogg",70
+Sample,116666,0,"bass1101_ 008.ogg",70
+Sample,116777,0,"bass1101_ 009.ogg",70
+Sample,116888,0,"loop_hh 007.ogg",70
+Sample,117000,0,"bass1101_ 010.ogg",70
+Sample,117111,0,"bass1101_ 011.ogg",70
+Sample,117222,0,"bass1101_ 012.ogg",70
+Sample,117333,0,"bass1101_ 001.ogg",70
+Sample,117333,0,"synth_arp22_ 003.ogg",70
+Sample,117333,0,"bass2101.ogg",70
+Sample,117333,0,"loop_hh 001.ogg",70
+Sample,117555,0,"bass1101_ 002.ogg",70
+Sample,117666,0,"bass1101_ 003.ogg",70
+Sample,117777,0,"loop_hh 003.ogg",70
+Sample,117888,0,"bass1101_ 004.ogg",70
+Sample,118000,0,"bass1101_ 005.ogg",70
+Sample,118111,0,"bass1101_ 006.ogg",70
+Sample,118222,0,"bass1101_ 007.ogg",70
+Sample,118222,0,"synth_arp22_ 004.ogg",70
+Sample,118333,0,"loop_hh 005.ogg",70
+Sample,118444,0,"bass1101_ 008.ogg",70
+Sample,118555,0,"bass1101_ 009.ogg",70
+Sample,118666,0,"loop_hh 007.ogg",70
+Sample,118777,0,"bass1101_ 010.ogg",70
+Sample,118888,0,"bass1101_ 011.ogg",70
+Sample,119000,0,"bass1101_ 012.ogg",70
+Sample,119111,0,"bass2102.ogg",70
+Sample,119111,0,"synth_arp22_ 005.ogg",70
+Sample,119111,0,"bass1102.ogg",70
+Sample,119111,0,"loop_hh 001.ogg",70
+Sample,119555,0,"loop_hh 003.ogg",70
+Sample,120000,0,"synth_arp22_ 002.ogg",70
+Sample,120111,0,"loop_hh 005.ogg",70
+Sample,120444,0,"loop_hh 007.ogg",70
+Sample,120888,0,"bass2102.ogg",70
+Sample,120888,0,"synth_arp22_ 003.ogg",70
+Sample,120888,0,"bass1102.ogg",70
+Sample,120888,0,"loop_hh 001.ogg",70
+Sample,121333,0,"loop_hh 003.ogg",70
+Sample,121777,0,"synth_arp22_ 004.ogg",70
+Sample,121888,0,"loop_hh 005.ogg",70
+Sample,122222,0,"loop_hh 007.ogg",70
+Sample,122666,0,"bass1104.ogg",70
+Sample,122666,0,"synth_arp22_ 005.ogg",70
+Sample,122666,0,"bass2104.ogg",70
+Sample,122666,0,"loop_hh 001.ogg",70
+Sample,123111,0,"loop_hh 003.ogg",70
+Sample,123555,0,"synth_arp22_ 002.ogg",70
+Sample,123666,0,"loop_hh 005.ogg",70
+Sample,124000,0,"loop_hh 007.ogg",70
+Sample,124444,0,"bass1104.ogg",70
+Sample,124444,0,"synth_arp22_ 003.ogg",70
+Sample,124444,0,"bass2104.ogg",70
+Sample,124444,0,"loop_hh 001.ogg",70
+Sample,124888,0,"loop_hh 003.ogg",70
+Sample,125333,0,"synth_arp22_ 004.ogg",70
+Sample,125444,0,"loop_hh 005.ogg",70
+Sample,125777,0,"loop_hh 007.ogg",70
+Sample,126222,0,"bass1105.ogg",70
+Sample,126222,0,"synth_arp22_ 005.ogg",70
+Sample,126222,0,"bass2105.ogg",70
+Sample,126222,0,"loop_hh 001.ogg",70
+Sample,126666,0,"loop_hh 003.ogg",70
+Sample,127111,0,"synth_arp22_ 002.ogg",70
+Sample,127222,0,"loop_hh 005.ogg",70
+Sample,127555,0,"loop_hh 007.ogg",70
+Sample,128000,0,"bass1105.ogg",70
+Sample,128000,0,"synth_arp22_ 003.ogg",70
+Sample,128000,0,"bass2105.ogg",70
+Sample,128000,0,"loop_hh 001.ogg",70
+Sample,128444,0,"loop_hh 003.ogg",70
+Sample,128666,0,"fill2101_shortfill.ogg",70
+Sample,128888,0,"synth_arp22_ 006.ogg",70
+Sample,129000,0,"loop_hh 005.ogg",70
+Sample,129333,0,"loop_hh 007.ogg",70
+Sample,129777,0,"se2302_deepkick.ogg",70
+Sample,129777,0,"synth_arp22_ 001.ogg",70
+Sample,129777,0,"piano22.ogg",70
+Sample,129777,0,"pad5.ogg",70
+Sample,129777,0,"bass2101.ogg",70
+Sample,129777,0,"loop_hh 001.ogg",70
+Sample,129777,0,"se3301.ogg",70
+Sample,129777,0,"bass1101_ 001.ogg",70
+Sample,130000,0,"bass1101_ 002.ogg",70
+Sample,130111,0,"bass1101_ 003.ogg",70
+Sample,130222,0,"loop_hh 003.ogg",70
+Sample,130333,0,"bass1101_ 004.ogg",70
+Sample,130444,0,"bass1101_ 005.ogg",70
+Sample,130555,0,"bass1101_ 006.ogg",70
+Sample,130666,0,"bass1101_ 007.ogg",70
+Sample,130666,0,"synth_arp22_ 002.ogg",70
+Sample,130777,0,"loop_hh 005.ogg",70
+Sample,130888,0,"bass1101_ 008.ogg",70
+Sample,131000,0,"bass1101_ 009.ogg",70
+Sample,131111,0,"loop_hh 007.ogg",70
+Sample,131222,0,"bass1101_ 010.ogg",70
+Sample,131333,0,"bass1101_ 011.ogg",70
+Sample,131444,0,"bass1101_ 012.ogg",70
+Sample,131555,0,"bass2101.ogg",70
+Sample,131555,0,"loop_hh 001.ogg",70
+Sample,131555,0,"bass1101_ 001.ogg",70
+Sample,131555,0,"synth_arp22_ 003.ogg",70
+Sample,131777,0,"bass1101_ 002.ogg",70
+Sample,131888,0,"bass1101_ 003.ogg",70
+Sample,132000,0,"loop_hh 003.ogg",70
+Sample,132111,0,"bass1101_ 004.ogg",70
+Sample,132222,0,"bass1101_ 005.ogg",70
+Sample,132333,0,"bass1101_ 006.ogg",70
+Sample,132444,0,"synth_arp22_ 004.ogg",70
+Sample,132444,0,"bass1101_ 007.ogg",70
+Sample,132555,0,"loop_hh 005.ogg",70
+Sample,132666,0,"bass1101_ 008.ogg",70
+Sample,132777,0,"bass1101_ 009.ogg",70
+Sample,132888,0,"loop_hh 007.ogg",70
+Sample,133000,0,"bass1101_ 010.ogg",70
+Sample,133111,0,"bass1101_ 011.ogg",70
+Sample,133222,0,"bass1101_ 012.ogg",70
+Sample,133333,0,"bass1102.ogg",70
+Sample,133333,0,"loop_hh 001.ogg",70
+Sample,133333,0,"bass2102.ogg",70
+Sample,133333,0,"synth_arp22_ 005.ogg",70
+Sample,133777,0,"loop_hh 003.ogg",70
+Sample,134222,0,"synth_arp22_ 002.ogg",70
+Sample,134333,0,"loop_hh 005.ogg",70
+Sample,134666,0,"loop_hh 007.ogg",70
+Sample,135111,0,"bass1102.ogg",70
+Sample,135111,0,"loop_hh 001.ogg",70
+Sample,135111,0,"bass2102.ogg",70
+Sample,135111,0,"synth_arp22_ 003.ogg",70
+Sample,135555,0,"loop_hh 003.ogg",70
+Sample,136000,0,"synth_arp22_ 004.ogg",70
+Sample,136111,0,"loop_hh 005.ogg",70
+Sample,136444,0,"loop_hh 007.ogg",70
+Sample,136888,0,"bass2104.ogg",70
+Sample,136888,0,"loop_hh 001.ogg",70
+Sample,136888,0,"bass1104.ogg",70
+Sample,136888,0,"synth_arp22_ 005.ogg",70
+Sample,137333,0,"loop_hh 003.ogg",70
+Sample,137777,0,"synth_arp22_ 002.ogg",70
+Sample,137888,0,"loop_hh 005.ogg",70
+Sample,138222,0,"loop_hh 007.ogg",70
+Sample,138666,0,"bass2104.ogg",70
+Sample,138666,0,"loop_hh 001.ogg",70
+Sample,138666,0,"bass1104.ogg",70
+Sample,138666,0,"synth_arp22_ 003.ogg",70
+Sample,139111,0,"loop_hh 003.ogg",70
+Sample,139555,0,"synth_arp22_ 004.ogg",70
+Sample,139666,0,"loop_hh 005.ogg",70
+Sample,140000,0,"loop_hh 007.ogg",70
+Sample,140444,0,"bass2105.ogg",70
+Sample,140444,0,"loop_hh 001.ogg",70
+Sample,140444,0,"fill1101.ogg",70
+Sample,140444,0,"synth_arp22_ 005.ogg",70
+Sample,140444,0,"se3401.ogg",70
+Sample,140444,0,"bass1105.ogg",70
+Sample,140888,0,"loop_hh 003.ogg",70
+Sample,141333,0,"synth_arp22_ 002.ogg",70
+Sample,141444,0,"loop_hh 005.ogg",70
+Sample,141777,0,"loop_hh 007.ogg",70
+Sample,142222,0,"bass2105.ogg",70
+Sample,142222,0,"loop_hh 001.ogg",70
+Sample,142222,0,"bass1105.ogg",70
+Sample,142222,0,"synth_arp22_ 003.ogg",70
+Sample,142444,0,"loop_hh 002.ogg",70
+Sample,142666,0,"loop_hh 003.ogg",70
+Sample,142888,0,"loop_hh 004.ogg",70
+Sample,142888,0,"fill2101_shortfill.ogg",70
+Sample,143111,0,"synth_arp22_ 006.ogg",70
+Sample,143222,0,"loop_hh 005.ogg",70
+Sample,143333,0,"loop_hh 006.ogg",70
+Sample,143555,0,"loop_hh 007.ogg",70
+Sample,143777,0,"loop_hh 008.ogg",70
+Sample,144000,0,"loop_hh 001.ogg",70
+Sample,144000,0,"loop_bb1.ogg",70
+Sample,144000,0,"bass1201_ 001.ogg",70
+Sample,144000,0,"se3501.ogg",70
+Sample,144000,0,"synth_arp22_ 001.ogg",70
+Sample,144000,0,"se2302_deepkick.ogg",70
+Sample,144000,0,"pad4.ogg",70
+Sample,144333,0,"bass1201_ 002.ogg",70
+Sample,144444,0,"loop_hh 003.ogg",70
+Sample,144666,0,"bass1201_ 003.ogg",70
+Sample,144888,0,"synth_arp22_ 002.ogg",70
+Sample,145000,0,"bass1201_ 004.ogg",70
+Sample,145000,0,"loop_hh 005.ogg",70
+Sample,145333,0,"loop_hh 007.ogg",70
+Sample,145333,0,"bass1201_ 005.ogg",70
+Sample,145444,0,"bass1201_ 006.ogg",70
+Sample,145555,0,"bass1201_ 007.ogg",70
+Sample,145777,0,"synth_arp22_ 003.ogg",70
+Sample,145777,0,"loop_bb1.ogg",70
+Sample,145777,0,"bass1201_ 001.ogg",70
+Sample,145777,0,"loop_hh 001.ogg",70
+Sample,146111,0,"bass1201_ 002.ogg",70
+Sample,146222,0,"loop_hh 003.ogg",70
+Sample,146444,0,"bass1201_ 003.ogg",70
+Sample,146666,0,"synth_arp22_ 004.ogg",70
+Sample,146777,0,"loop_hh 005.ogg",70
+Sample,146777,0,"bass1201_ 004.ogg",70
+Sample,147111,0,"loop_hh 007.ogg",70
+Sample,147111,0,"bass1201_ 005.ogg",70
+Sample,147222,0,"bass1201_ 006.ogg",70
+Sample,147333,0,"bass1201_ 007.ogg",70
+Sample,147555,0,"synth_arp22_ 005.ogg",70
+Sample,147555,0,"loop_bb1.ogg",70
+Sample,147555,0,"bass1201_ 001.ogg",70
+Sample,147555,0,"loop_hh 001.ogg",70
+Sample,147888,0,"bass1201_ 002.ogg",70
+Sample,148000,0,"loop_hh 003.ogg",70
+Sample,148222,0,"bass1201_ 003.ogg",70
+Sample,148444,0,"synth_arp22_ 002.ogg",70
+Sample,148555,0,"loop_hh 005.ogg",70
+Sample,148555,0,"bass1201_ 004.ogg",70
+Sample,148888,0,"loop_hh 007.ogg",70
+Sample,148888,0,"bass1201_ 005.ogg",70
+Sample,149000,0,"bass1201_ 006.ogg",70
+Sample,149111,0,"bass1201_ 007.ogg",70
+Sample,149333,0,"synth_arp22_ 003.ogg",70
+Sample,149333,0,"loop_bb1.ogg",70
+Sample,149333,0,"bass1201_ 001.ogg",70
+Sample,149333,0,"loop_hh 001.ogg",70
+Sample,149666,0,"bass1201_ 002.ogg",70
+Sample,149777,0,"loop_hh 003.ogg",70
+Sample,150000,0,"bass1201_ 003.ogg",70
+Sample,150222,0,"synth_arp22_ 004.ogg",70
+Sample,150333,0,"loop_hh 005.ogg",70
+Sample,150333,0,"bass1201_ 004.ogg",70
+Sample,150666,0,"loop_hh 007.ogg",70
+Sample,150666,0,"bass1201_ 005.ogg",70
+Sample,150777,0,"bass1201_ 006.ogg",70
+Sample,150888,0,"bass1201_ 007.ogg",70
+Sample,151111,0,"synth_arp22_ 005.ogg",70
+Sample,151111,0,"loop_bb1.ogg",70
+Sample,151111,0,"bass1201_ 001.ogg",70
+Sample,151111,0,"loop_hh 001.ogg",70
+Sample,151444,0,"bass1201_ 002.ogg",70
+Sample,151555,0,"loop_hh 003.ogg",70
+Sample,151777,0,"bass1201_ 003.ogg",70
+Sample,152000,0,"synth_arp22_ 002.ogg",70
+Sample,152111,0,"bass1201_ 004.ogg",70
+Sample,152111,0,"loop_hh 005.ogg",70
+Sample,152444,0,"loop_hh 007.ogg",70
+Sample,152444,0,"bass1201_ 005.ogg",70
+Sample,152555,0,"bass1201_ 006.ogg",70
+Sample,152666,0,"bass1201_ 007.ogg",70
+Sample,152888,0,"synth_arp22_ 003.ogg",70
+Sample,152888,0,"loop_bb1.ogg",70
+Sample,152888,0,"bass1201_ 001.ogg",70
+Sample,152888,0,"loop_hh 001.ogg",70
+Sample,153222,0,"bass1201_ 002.ogg",70
+Sample,153333,0,"loop_hh 003.ogg",70
+Sample,153555,0,"bass1201_ 003.ogg",70
+Sample,153777,0,"synth_arp22_ 004.ogg",70
+Sample,153888,0,"bass1201_ 004.ogg",70
+Sample,153888,0,"loop_hh 005.ogg",70
+Sample,154222,0,"loop_hh 007.ogg",70
+Sample,154222,0,"bass1201_ 005.ogg",70
+Sample,154333,0,"bass1201_ 006.ogg",70
+Sample,154444,0,"bass1201_ 007.ogg",70
+Sample,154666,0,"synth_arp22_ 005.ogg",70
+Sample,154666,0,"loop_bb1.ogg",70
+Sample,154666,0,"bass1201_ 001.ogg",70
+Sample,154666,0,"loop_hh 001.ogg",70
+Sample,155000,0,"bass1201_ 002.ogg",70
+Sample,155111,0,"loop_hh 003.ogg",70
+Sample,155333,0,"bass1201_ 003.ogg",70
+Sample,155555,0,"synth_arp22_ 002.ogg",70
+Sample,155666,0,"bass1201_ 004.ogg",70
+Sample,155666,0,"loop_hh 005.ogg",70
+Sample,156000,0,"loop_hh 007.ogg",70
+Sample,156000,0,"bass1201_ 005.ogg",70
+Sample,156111,0,"bass1201_ 006.ogg",70
+Sample,156222,0,"bass1201_ 007.ogg",70
+Sample,156444,0,"synth_arp22_ 003.ogg",70
+Sample,156444,0,"loop_bb1.ogg",70
+Sample,156444,0,"bass1201_ 001.ogg",70
+Sample,156444,0,"loop_hh 001.ogg",70
+Sample,156777,0,"bass1201_ 002.ogg",70
+Sample,156888,0,"loop_hh 003.ogg",70
+Sample,157111,0,"bass1201_ 003.ogg",70
+Sample,157333,0,"synth_arp22_ 006.ogg",70
+Sample,157444,0,"bass1201_ 004.ogg",70
+Sample,157444,0,"loop_hh 005.ogg",70
+Sample,157777,0,"loop_hh 007.ogg",70
+Sample,157777,0,"bass1201_ 005.ogg",70
+Sample,157888,0,"bass1201_ 006.ogg",70
+Sample,158000,0,"bass1201_ 007.ogg",70
+Sample,158222,0,"loop_hh 001.ogg",70
+Sample,158222,0,"bass1201_ 001.ogg",70
+Sample,158222,0,"pad4.ogg",70
+Sample,158222,0,"kick1001.ogg",70
+Sample,158444,0,"loop_hh 002.ogg",70
+Sample,158555,0,"bass1201_ 002.ogg",70
+Sample,158666,0,"kick1001.ogg",70
+Sample,158666,0,"loop_hh 003.ogg",70
+Sample,158888,0,"bass1201_ 003.ogg",70
+Sample,158888,0,"loop_hh 004.ogg",70
+Sample,159111,0,"kick1001.ogg",70
+Sample,159222,0,"loop_hh 005.ogg",70
+Sample,159222,0,"bass1201_ 004.ogg",70
+Sample,159333,0,"loop_hh 006.ogg",70
+Sample,159555,0,"bass1201_ 005.ogg",70
+Sample,159555,0,"loop_hh 007.ogg",70
+Sample,159555,0,"kick1001.ogg",70
+Sample,159666,0,"bass1201_ 006.ogg",70
+Sample,159777,0,"bass1201_ 007.ogg",70
+Sample,159777,0,"loop_hh 008.ogg",70
+Sample,160000,0,"kick1001.ogg",70
+Sample,160000,0,"loop_hh 001.ogg",70
+Sample,160000,0,"bass1201_ 001.ogg",70
+Sample,160222,0,"loop_hh 002.ogg",70
+Sample,160333,0,"bass1201_ 002.ogg",70
+Sample,160444,0,"loop_hh 003.ogg",70
+Sample,160444,0,"kick1001.ogg",70
+Sample,160666,0,"loop_hh 004.ogg",70
+Sample,160666,0,"bass1201_ 003.ogg",70
+Sample,160888,0,"kick1001.ogg",70
+Sample,161000,0,"bass1201_ 004.ogg",70
+Sample,161000,0,"loop_hh 005.ogg",70
+Sample,161111,0,"loop_hh 006.ogg",70
+Sample,161333,0,"loop_hh 007.ogg",70
+Sample,161333,0,"kick1001.ogg",70
+Sample,161333,0,"bass1201_ 005.ogg",70
+Sample,161444,0,"bass1201_ 006.ogg",70
+Sample,161555,0,"loop_hh 008.ogg",70
+Sample,161555,0,"bass1201_ 007.ogg",70
+Sample,161777,0,"bass1201_ 001.ogg",70
+Sample,161777,0,"loop_hh 001.ogg",70
+Sample,161777,0,"kick1001.ogg",70
+Sample,162000,0,"loop_hh 002.ogg",70
+Sample,162111,0,"bass1201_ 002.ogg",70
+Sample,162222,0,"kick1001.ogg",70
+Sample,162222,0,"loop_hh 003.ogg",70
+Sample,162444,0,"bass1201_ 003.ogg",70
+Sample,162444,0,"loop_hh 004.ogg",70
+Sample,162666,0,"kick1001.ogg",70
+Sample,162777,0,"loop_hh 005.ogg",70
+Sample,162777,0,"bass1201_ 004.ogg",70
+Sample,162888,0,"loop_hh 006.ogg",70
+Sample,163111,0,"bass1201_ 005.ogg",70
+Sample,163111,0,"loop_hh 007.ogg",70
+Sample,163111,0,"kick1001.ogg",70
+Sample,163222,0,"bass1201_ 006.ogg",70
+Sample,163333,0,"bass1201_ 007.ogg",70
+Sample,163333,0,"loop_hh 008.ogg",70
+Sample,163555,0,"kick1001.ogg",70
+Sample,163555,0,"loop_hh 001.ogg",70
+Sample,163555,0,"bass1201_ 001.ogg",70
+Sample,163777,0,"loop_hh 002.ogg",70
+Sample,163888,0,"bass1201_ 002.ogg",70
+Sample,164000,0,"loop_hh 003.ogg",70
+Sample,164000,0,"kick1001.ogg",70
+Sample,164222,0,"loop_hh 004.ogg",70
+Sample,164222,0,"bass1201_ 003.ogg",70
+Sample,164444,0,"kick1001.ogg",70
+Sample,164555,0,"bass1201_ 004.ogg",70
+Sample,164555,0,"loop_hh 005.ogg",70
+Sample,164666,0,"loop_hh 006.ogg",70
+Sample,164888,0,"kick1001.ogg",70
+Sample,164888,0,"loop_hh 007.ogg",70
+Sample,164888,0,"bass1201_ 005.ogg",70
+Sample,165000,0,"bass1201_ 006.ogg",70
+Sample,165111,0,"loop_hh 008.ogg",70
+Sample,165111,0,"bass1201_ 007.ogg",70
+Sample,165333,0,"bass1201_ 001.ogg",70
+Sample,165333,0,"loop_hh 001.ogg",70
+Sample,165333,0,"kick1001.ogg",70
+Sample,165555,0,"loop_hh 002.ogg",70
+Sample,165666,0,"bass1201_ 002.ogg",70
+Sample,165777,0,"kick1001.ogg",70
+Sample,165777,0,"loop_hh 003.ogg",70
+Sample,166000,0,"bass1201_ 003.ogg",70
+Sample,166000,0,"loop_hh 004.ogg",70
+Sample,166222,0,"kick1001.ogg",70
+Sample,166333,0,"loop_hh 005.ogg",70
+Sample,166333,0,"bass1201_ 004.ogg",70
+Sample,166444,0,"loop_hh 006.ogg",70
+Sample,166666,0,"bass1201_ 005.ogg",70
+Sample,166666,0,"loop_hh 007.ogg",70
+Sample,166666,0,"kick1001.ogg",70
+Sample,166777,0,"bass1201_ 006.ogg",70
+Sample,166888,0,"bass1201_ 007.ogg",70
+Sample,166888,0,"loop_hh 008.ogg",70
+Sample,167111,0,"kick1001.ogg",70
+Sample,167111,0,"loop_hh 001.ogg",70
+Sample,167111,0,"bass1201_ 001.ogg",70
+Sample,167333,0,"loop_hh 002.ogg",70
+Sample,167444,0,"bass1201_ 002.ogg",70
+Sample,167555,0,"loop_hh 003.ogg",70
+Sample,167555,0,"kick1001.ogg",70
+Sample,167777,0,"loop_hh 004.ogg",70
+Sample,167777,0,"bass1201_ 003.ogg",70
+Sample,168000,0,"kick1001.ogg",70
+Sample,168111,0,"bass1201_ 004.ogg",70
+Sample,168111,0,"loop_hh 005.ogg",70
+Sample,168222,0,"loop_hh 006.ogg",70
+Sample,168444,0,"kick1001.ogg",70
+Sample,168444,0,"loop_hh 007.ogg",70
+Sample,168444,0,"bass1201_ 005.ogg",70
+Sample,168555,0,"bass1201_ 006.ogg",70
+Sample,168666,0,"loop_hh 008.ogg",70
+Sample,168666,0,"bass1201_ 007.ogg",70
+Sample,168888,0,"bass1201_ 001.ogg",70
+Sample,168888,0,"loop_hh 001.ogg",70
+Sample,168888,0,"kick1001.ogg",70
+Sample,169111,0,"loop_hh 002.ogg",70
+Sample,169222,0,"bass1201_ 002.ogg",70
+Sample,169333,0,"kick1001.ogg",70
+Sample,169333,0,"loop_hh 003.ogg",70
+Sample,169555,0,"bass1201_ 003.ogg",70
+Sample,169555,0,"loop_hh 004.ogg",70
+Sample,169777,0,"kick1001.ogg",70
+Sample,169888,0,"loop_hh 005.ogg",70
+Sample,169888,0,"bass1201_ 004.ogg",70
+Sample,170000,0,"loop_hh 006.ogg",70
+Sample,170222,0,"bass1201_ 005.ogg",70
+Sample,170222,0,"kick1001.ogg",70
+Sample,170222,0,"loop_hh 007.ogg",70
+Sample,170333,0,"bass1201_ 006.ogg",70
+Sample,170444,0,"bass1201_ 007.ogg",70
+Sample,170444,0,"loop_hh 008.ogg",70
+Sample,170666,0,"kick1001.ogg",70
+Sample,170666,0,"loop_hh 001.ogg",70
+Sample,170666,0,"bass1201_ 001.ogg",70
+Sample,170888,0,"loop_hh 002.ogg",70
+Sample,171000,0,"bass1201_ 002.ogg",70
+Sample,171111,0,"loop_hh 003.ogg",70
+Sample,171111,0,"kick1001.ogg",70
+Sample,171333,0,"fill2101_shortfill.ogg",70
+Sample,171333,0,"loop_hh 004.ogg",70
+Sample,171333,0,"bass1201_ 003.ogg",70
+Sample,171555,0,"kick1001.ogg",70
+Sample,171666,0,"bass1201_ 004.ogg",70
+Sample,171666,0,"loop_hh 005.ogg",70
+Sample,171777,0,"loop_hh 006.ogg",70
+Sample,172000,0,"kick1001.ogg",70
+Sample,172000,0,"loop_hh 007.ogg",70
+Sample,172000,0,"bass1201_ 005.ogg",70
+Sample,172111,0,"bass1201_ 006.ogg",70
+Sample,172222,0,"bass1201_ 007.ogg",70
+Sample,172222,0,"loop_hh 008.ogg",70
+
+[TimingPoints]
+-15,444.444444444444,4,2,0,5,1,0
+129777,-100,4,2,0,5,0,1
+143999,-100,4,2,0,5,0,0
+
+
+[HitObjects]
+384,192,1762,5,0,0:0:0:0:
+469,192,1984,1,0,0:0:0:0:
+42,192,2207,1,0,0:0:0:0:
+469,192,2429,1,0,0:0:0:0:
+298,192,2651,1,0,0:0:0:0:
+469,192,2873,1,0,0:0:0:0:
+42,192,3096,1,0,0:0:0:0:
+469,192,3318,1,0,0:0:0:0:
+384,192,3540,1,0,0:0:0:0:
+469,192,3762,1,0,0:0:0:0:
+42,192,3984,1,0,0:0:0:0:
+469,192,4207,1,0,0:0:0:0:
+298,192,4429,1,0,0:0:0:0:
+469,192,4651,1,0,0:0:0:0:
+42,192,4873,1,0,0:0:0:0:
+469,192,5096,1,0,0:0:0:0:
+384,192,5318,1,0,0:0:0:0:
+469,192,5540,1,0,0:0:0:0:
+42,192,5762,1,0,0:0:0:0:
+469,192,5984,1,0,0:0:0:0:
+298,192,6207,1,0,0:0:0:0:
+469,192,6429,1,0,0:0:0:0:
+42,192,6651,1,0,0:0:0:0:
+469,192,6873,1,0,0:0:0:0:
+384,192,7096,1,0,0:0:0:0:
+469,192,7318,1,0,0:0:0:0:
+42,192,7540,1,0,0:0:0:0:
+469,192,7762,1,0,0:0:0:0:
+298,192,7984,1,0,0:0:0:0:
+469,192,8207,1,0,0:0:0:0:
+42,192,8429,1,0,0:0:0:0:
+469,192,8651,1,0,0:0:0:0:
+128,192,8873,1,0,0:0:0:0:
+42,192,9096,1,0,0:0:0:0:
+469,192,9318,1,0,0:0:0:0:
+42,192,9540,1,0,0:0:0:0:
+213,192,9762,1,0,0:0:0:0:
+42,192,9984,1,0,0:0:0:0:
+469,192,10207,1,0,0:0:0:0:
+42,192,10429,1,0,0:0:0:0:
+128,192,10651,1,0,0:0:0:0:
+42,192,10873,1,0,0:0:0:0:
+469,192,11096,1,0,0:0:0:0:
+42,192,11318,1,0,0:0:0:0:
+213,192,11540,1,0,0:0:0:0:
+42,192,11762,1,0,0:0:0:0:
+469,192,11984,1,0,0:0:0:0:
+42,192,12207,1,0,0:0:0:0:
+128,192,12429,1,0,0:0:0:0:
+42,192,12651,1,0,0:0:0:0:
+469,192,12873,1,0,0:0:0:0:
+42,192,13096,1,0,0:0:0:0:
+213,192,13318,1,0,0:0:0:0:
+42,192,13540,1,0,0:0:0:0:
+469,192,13762,1,0,0:0:0:0:
+42,192,13984,1,0,0:0:0:0:
+128,192,14207,1,0,0:0:0:0:
+298,192,14207,128,0,15984:0:0:0:0:
+42,192,14429,1,0,0:0:0:0:
+469,192,14651,1,0,0:0:0:0:
+42,192,14873,1,0,0:0:0:0:
+213,192,15096,1,0,0:0:0:0:
+469,192,15540,1,0,0:0:0:0:
+469,192,15762,1,0,0:0:0:0:
+384,192,15984,1,0,0:0:0:0:
+213,192,16207,1,0,0:0:0:0:
+128,192,16318,1,0,0:0:0:0:
+42,192,16429,1,0,0:0:0:0:
+213,192,16651,1,0,0:0:0:0:
+384,192,16762,1,0,0:0:0:0:
+298,192,16873,1,0,0:0:0:0:
+128,192,17096,1,0,0:0:0:0:
+213,192,17207,1,0,0:0:0:0:
+42,192,17318,1,0,0:0:0:0:
+298,192,17540,1,0,0:0:0:0:
+128,192,17651,1,0,0:0:0:0:
+384,192,17762,1,0,0:0:0:0:
+213,192,17984,1,0,0:0:0:0:
+128,192,18096,1,0,0:0:0:0:
+42,192,18207,1,0,0:0:0:0:
+384,192,18429,1,0,0:0:0:0:
+213,192,18540,1,0,0:0:0:0:
+298,192,18651,1,0,0:0:0:0:
+128,192,18873,1,0,0:0:0:0:
+213,192,18984,1,0,0:0:0:0:
+42,192,19096,1,0,0:0:0:0:
+298,192,19318,1,0,0:0:0:0:
+213,192,19429,1,0,0:0:0:0:
+384,192,19540,1,0,0:0:0:0:
+213,192,19762,1,0,0:0:0:0:
+128,192,19873,1,0,0:0:0:0:
+42,192,19984,1,0,0:0:0:0:
+213,192,20207,1,0,0:0:0:0:
+384,192,20318,1,0,0:0:0:0:
+298,192,20429,1,0,0:0:0:0:
+128,192,20651,1,0,0:0:0:0:
+469,192,20762,1,0,0:0:0:0:
+42,192,20873,1,0,0:0:0:0:
+128,192,21096,1,0,0:0:0:0:
+213,192,21207,1,0,0:0:0:0:
+384,192,21318,1,0,0:0:0:0:
+213,192,21540,1,0,0:0:0:0:
+298,192,21651,1,0,0:0:0:0:
+42,192,21762,1,0,0:0:0:0:
+213,192,21984,1,0,0:0:0:0:
+384,192,22096,1,0,0:0:0:0:
+298,192,22207,1,0,0:0:0:0:
+128,192,22429,1,0,0:0:0:0:
+213,192,22540,1,0,0:0:0:0:
+42,192,22651,1,0,0:0:0:0:
+469,192,22651,128,0,23096:0:0:0:0:
+384,192,22873,1,0,0:0:0:0:
+213,192,22984,1,0,0:0:0:0:
+128,192,23096,1,0,0:0:0:0:
+298,192,23318,1,0,0:0:0:0:
+384,192,23429,1,0,0:0:0:0:
+469,192,23540,1,0,0:0:0:0:
+128,192,23762,1,0,0:0:0:0:
+298,192,23873,1,0,0:0:0:0:
+213,192,23984,1,0,0:0:0:0:
+384,192,24207,1,0,0:0:0:0:
+42,192,24318,1,0,0:0:0:0:
+469,192,24429,1,0,0:0:0:0:
+298,192,24651,1,0,0:0:0:0:
+213,192,24762,1,0,0:0:0:0:
+128,192,24873,1,0,0:0:0:0:
+298,192,25096,1,0,0:0:0:0:
+213,192,25207,1,0,0:0:0:0:
+469,192,25318,1,0,0:0:0:0:
+384,192,25540,1,0,0:0:0:0:
+128,192,25651,1,0,0:0:0:0:
+213,192,25762,1,0,0:0:0:0:
+384,192,25984,1,0,0:0:0:0:
+298,192,26096,1,0,0:0:0:0:
+469,192,26207,1,0,0:0:0:0:
+213,192,26429,1,0,0:0:0:0:
+42,192,26540,1,0,0:0:0:0:
+128,192,26651,1,0,0:0:0:0:
+298,192,26873,1,0,0:0:0:0:
+384,192,26984,1,0,0:0:0:0:
+469,192,27096,1,0,0:0:0:0:
+298,192,27318,1,0,0:0:0:0:
+128,192,27429,1,0,0:0:0:0:
+213,192,27540,1,0,0:0:0:0:
+384,192,27762,1,0,0:0:0:0:
+298,192,27873,1,0,0:0:0:0:
+469,192,27984,1,0,0:0:0:0:
+213,192,28207,1,0,0:0:0:0:
+384,192,28318,1,0,0:0:0:0:
+128,192,28429,1,0,0:0:0:0:
+298,192,28651,1,0,0:0:0:0:
+213,192,28762,1,0,0:0:0:0:
+469,192,28873,1,0,0:0:0:0:
+384,192,29096,1,0,0:0:0:0:
+128,192,29096,1,0,0:0:0:0:
+213,192,29318,1,0,0:0:0:0:
+469,192,29318,1,0,0:0:0:0:
+298,192,29540,1,0,0:0:0:0:
+213,192,29651,1,0,0:0:0:0:
+42,192,29651,1,0,0:0:0:0:
+384,192,29762,1,0,0:0:0:0:
+42,192,29984,1,0,0:0:0:0:
+469,192,29984,1,0,0:0:0:0:
+128,192,30207,1,0,0:0:0:0:
+384,192,30207,1,0,0:0:0:0:
+298,192,30318,1,0,0:0:0:0:
+213,192,30429,1,0,0:0:0:0:
+469,192,30540,1,0,0:0:0:0:
+42,192,30651,1,0,0:0:0:0:
+128,192,30762,1,0,0:0:0:0:
+469,192,30873,1,0,0:0:0:0:
+213,192,30984,1,0,0:0:0:0:
+298,192,31096,1,0,0:0:0:0:
+384,192,31207,1,0,0:0:0:0:
+128,192,31318,1,0,0:0:0:0:
+469,192,31429,1,0,0:0:0:0:
+42,192,31540,1,0,0:0:0:0:
+298,192,31651,1,0,0:0:0:0:
+213,192,31762,1,0,0:0:0:0:
+128,192,31873,1,0,0:0:0:0:
+384,192,31984,1,0,0:0:0:0:
+298,192,32096,1,0,0:0:0:0:
+213,192,32207,1,0,0:0:0:0:
+469,192,32318,1,0,0:0:0:0:
+42,192,32429,1,0,0:0:0:0:
+298,192,32540,1,0,0:0:0:0:
+128,192,32651,1,0,0:0:0:0:
+384,192,32762,1,0,0:0:0:0:
+298,192,32873,1,0,0:0:0:0:
+42,192,32984,1,0,0:0:0:0:
+128,192,33096,1,0,0:0:0:0:
+213,192,33207,1,0,0:0:0:0:
+42,192,33318,1,0,0:0:0:0:
+384,192,33429,1,0,0:0:0:0:
+298,192,33540,1,0,0:0:0:0:
+128,192,33651,1,0,0:0:0:0:
+384,192,33762,1,0,0:0:0:0:
+298,192,33873,1,0,0:0:0:0:
+213,192,33984,1,0,0:0:0:0:
+469,192,34096,1,0,0:0:0:0:
+42,192,34207,1,0,0:0:0:0:
+213,192,34318,1,0,0:0:0:0:
+469,192,34429,1,0,0:0:0:0:
+128,192,34540,1,0,0:0:0:0:
+298,192,34651,1,0,0:0:0:0:
+384,192,34762,1,0,0:0:0:0:
+128,192,34873,1,0,0:0:0:0:
+298,192,34984,1,0,0:0:0:0:
+42,192,35096,1,0,0:0:0:0:
+469,192,35207,1,0,0:0:0:0:
+213,192,35318,1,0,0:0:0:0:
+128,192,35429,1,0,0:0:0:0:
+384,192,35540,1,0,0:0:0:0:
+42,192,35651,1,0,0:0:0:0:
+213,192,35762,1,0,0:0:0:0:
+298,192,35873,1,0,0:0:0:0:
+42,192,35984,1,0,0:0:0:0:
+384,192,36096,1,0,0:0:0:0:
+469,192,36207,1,0,0:0:0:0:
+213,192,36318,1,0,0:0:0:0:
+298,192,36429,1,0,0:0:0:0:
+42,192,36540,1,0,0:0:0:0:
+128,192,36651,1,0,0:0:0:0:
+384,192,36762,1,0,0:0:0:0:
+42,192,36873,1,0,0:0:0:0:
+298,192,36984,1,0,0:0:0:0:
+213,192,37096,1,0,0:0:0:0:
+469,192,37207,1,0,0:0:0:0:
+128,192,37318,1,0,0:0:0:0:
+384,192,37429,1,0,0:0:0:0:
+298,192,37540,1,0,0:0:0:0:
+42,192,37651,1,0,0:0:0:0:
+469,192,37762,1,0,0:0:0:0:
+213,192,37873,1,0,0:0:0:0:
+384,192,37984,1,0,0:0:0:0:
+128,192,38096,1,0,0:0:0:0:
+213,192,38207,1,0,0:0:0:0:
+298,192,38318,1,0,0:0:0:0:
+384,192,38429,1,0,0:0:0:0:
+42,192,38540,1,0,0:0:0:0:
+469,192,38651,1,0,0:0:0:0:
+213,192,38762,1,0,0:0:0:0:
+298,192,38873,1,0,0:0:0:0:
+469,192,38984,1,0,0:0:0:0:
+128,192,39096,1,0,0:0:0:0:
+42,192,39207,1,0,0:0:0:0:
+298,192,39318,1,0,0:0:0:0:
+213,192,39429,1,0,0:0:0:0:
+469,192,39540,1,0,0:0:0:0:
+384,192,39651,1,0,0:0:0:0:
+42,192,39762,1,0,0:0:0:0:
+298,192,39873,1,0,0:0:0:0:
+213,192,39984,1,0,0:0:0:0:
+469,192,40096,1,0,0:0:0:0:
+384,192,40207,1,0,0:0:0:0:
+128,192,40318,1,0,0:0:0:0:
+469,192,40429,1,0,0:0:0:0:
+298,192,40540,1,0,0:0:0:0:
+213,192,40651,1,0,0:0:0:0:
+384,192,40762,1,0,0:0:0:0:
+128,192,40873,1,0,0:0:0:0:
+42,192,40984,1,0,0:0:0:0:
+298,192,41096,1,0,0:0:0:0:
+213,192,41207,1,0,0:0:0:0:
+469,192,41318,1,0,0:0:0:0:
+384,192,41429,1,0,0:0:0:0:
+42,192,41540,1,0,0:0:0:0:
+298,192,41651,1,0,0:0:0:0:
+213,192,41762,1,0,0:0:0:0:
+128,192,41873,1,0,0:0:0:0:
+384,192,41984,1,0,0:0:0:0:
+298,192,42096,1,0,0:0:0:0:
+469,192,42207,1,0,0:0:0:0:
+42,192,42318,1,0,0:0:0:0:
+298,192,42429,1,0,0:0:0:0:
+213,192,42540,1,0,0:0:0:0:
+128,192,42651,1,0,0:0:0:0:
+384,192,42762,1,0,0:0:0:0:
+298,192,42873,1,0,0:0:0:0:
+42,192,42984,1,0,0:0:0:0:
+469,192,43096,1,0,0:0:0:0:
+213,192,43207,1,0,0:0:0:0:
+384,192,43318,1,0,0:0:0:0:
+128,192,43429,1,0,0:0:0:0:
+42,192,43540,1,0,0:0:0:0:
+469,192,43540,1,0,0:0:0:0:
+42,192,43873,1,0,0:0:0:0:
+469,192,43873,1,0,0:0:0:0:
+42,192,44207,1,0,0:0:0:0:
+469,192,44207,1,0,0:0:0:0:
+384,192,44429,1,0,0:0:0:0:
+213,192,44429,1,0,0:0:0:0:
+128,192,44429,1,0,0:0:0:0:
+469,192,44873,1,0,0:0:0:0:
+469,192,45318,1,0,0:0:0:0:
+469,192,45762,1,0,0:0:0:0:
+298,192,46207,1,0,0:0:0:0:
+128,192,46207,1,0,0:0:0:0:
+42,192,46207,1,0,0:0:0:0:
+469,192,46207,1,0,0:0:0:0:
+469,192,46651,1,0,0:0:0:0:
+298,192,46873,1,0,0:0:0:0:
+213,192,46873,1,0,0:0:0:0:
+384,192,46873,1,0,0:0:0:0:
+469,192,47096,1,0,0:0:0:0:
+469,192,47540,1,0,0:0:0:0:
+213,192,47984,1,0,0:0:0:0:
+384,192,47984,1,0,0:0:0:0:
+298,192,47984,1,0,0:0:0:0:
+469,192,47984,1,0,0:0:0:0:
+469,192,48429,1,0,0:0:0:0:
+469,192,48873,1,0,0:0:0:0:
+469,192,49318,1,0,0:0:0:0:
+128,192,49762,1,0,0:0:0:0:
+42,192,49762,1,0,0:0:0:0:
+298,192,49762,1,0,0:0:0:0:
+469,192,49762,1,0,0:0:0:0:
+469,192,50207,1,0,0:0:0:0:
+298,192,50429,1,0,0:0:0:0:
+213,192,50429,1,0,0:0:0:0:
+128,192,50429,1,0,0:0:0:0:
+469,192,50651,1,0,0:0:0:0:
+469,192,51096,1,0,0:0:0:0:
+128,192,51540,1,0,0:0:0:0:
+384,192,51540,1,0,0:0:0:0:
+469,192,51540,1,0,0:0:0:0:
+298,192,51540,1,0,0:0:0:0:
+469,192,51984,1,0,0:0:0:0:
+469,192,52429,1,0,0:0:0:0:
+469,192,52873,1,0,0:0:0:0:
+298,192,53318,1,0,0:0:0:0:
+384,192,53318,1,0,0:0:0:0:
+469,192,53318,1,0,0:0:0:0:
+42,192,53318,1,0,0:0:0:0:
+469,192,53762,1,0,0:0:0:0:
+469,192,54207,1,0,0:0:0:0:
+469,192,54651,1,0,0:0:0:0:
+213,192,55096,1,0,0:0:0:0:
+42,192,55096,1,0,0:0:0:0:
+469,192,55096,1,0,0:0:0:0:
+298,192,55096,1,0,0:0:0:0:
+469,192,55540,1,0,0:0:0:0:
+469,192,55984,1,0,0:0:0:0:
+469,192,56429,1,0,0:0:0:0:
+128,192,56873,1,0,0:0:0:0:
+298,192,56873,1,0,0:0:0:0:
+384,192,56873,1,0,0:0:0:0:
+469,192,56873,1,0,0:0:0:0:
+469,192,57318,1,0,0:0:0:0:
+213,192,57762,1,0,0:0:0:0:
+298,192,57762,1,0,0:0:0:0:
+469,192,57762,1,0,0:0:0:0:
+384,192,57762,1,0,0:0:0:0:
+469,192,58096,1,0,0:0:0:0:
+469,192,58429,1,0,0:0:0:0:
+384,192,58651,1,0,0:0:0:0:
+128,192,58651,1,0,0:0:0:0:
+42,192,58762,1,0,0:0:0:0:
+213,192,58873,1,0,0:0:0:0:
+469,192,58984,1,0,0:0:0:0:
+298,192,59096,1,0,0:0:0:0:
+384,192,59207,1,0,0:0:0:0:
+42,192,59318,1,0,0:0:0:0:
+298,192,59540,1,0,0:0:0:0:
+128,192,59651,1,0,0:0:0:0:
+298,192,59762,1,0,0:0:0:0:
+213,192,59984,1,0,0:0:0:0:
+469,192,60096,1,0,0:0:0:0:
+298,192,60207,1,0,0:0:0:0:
+42,192,60207,1,0,0:0:0:0:
+128,192,60318,1,0,0:0:0:0:
+469,192,60429,1,0,0:0:0:0:
+213,192,60540,1,0,0:0:0:0:
+298,192,60651,1,0,0:0:0:0:
+469,192,60762,1,0,0:0:0:0:
+384,192,60873,1,0,0:0:0:0:
+213,192,61096,1,0,0:0:0:0:
+128,192,61318,1,0,0:0:0:0:
+384,192,61429,1,0,0:0:0:0:
+213,192,61540,1,0,0:0:0:0:
+42,192,61651,1,0,0:0:0:0:
+298,192,61762,1,0,0:0:0:0:
+213,192,61984,1,0,0:0:0:0:
+384,192,62207,1,0,0:0:0:0:
+298,192,62318,1,0,0:0:0:0:
+128,192,62429,1,0,0:0:0:0:
+213,192,62540,1,0,0:0:0:0:
+469,192,62651,1,0,0:0:0:0:
+298,192,62873,1,0,0:0:0:0:
+384,192,62984,1,0,0:0:0:0:
+469,192,63096,1,0,0:0:0:0:
+384,192,63207,1,0,0:0:0:0:
+42,192,63318,1,0,0:0:0:0:
+213,192,63540,1,0,0:0:0:0:
+298,192,63651,1,0,0:0:0:0:
+128,192,63762,1,0,0:0:0:0:
+298,192,63984,1,0,0:0:0:0:
+384,192,64096,1,0,0:0:0:0:
+213,192,64207,1,0,0:0:0:0:
+42,192,64318,1,0,0:0:0:0:
+469,192,64429,1,0,0:0:0:0:
+384,192,64651,1,0,0:0:0:0:
+298,192,64762,1,0,0:0:0:0:
+384,192,64873,1,0,0:0:0:0:
+469,192,64984,1,0,0:0:0:0:
+213,192,65096,1,0,0:0:0:0:
+42,192,65318,1,0,0:0:0:0:
+384,192,65429,1,0,0:0:0:0:
+213,192,65540,1,0,0:0:0:0:
+298,192,65651,1,0,0:0:0:0:
+128,192,65762,1,0,0:0:0:0:
+469,192,65873,1,0,0:0:0:0:
+213,192,65984,1,0,0:0:0:0:
+298,192,66096,1,0,0:0:0:0:
+42,192,66207,1,0,0:0:0:0:
+469,192,66429,1,0,0:0:0:0:
+213,192,66651,1,0,0:0:0:0:
+42,192,66762,1,0,0:0:0:0:
+213,192,66873,1,0,0:0:0:0:
+298,192,66984,1,0,0:0:0:0:
+128,192,67096,1,0,0:0:0:0:
+469,192,67207,1,0,0:0:0:0:
+298,192,67318,1,0,0:0:0:0:
+384,192,67429,1,0,0:0:0:0:
+42,192,67540,1,0,0:0:0:0:
+213,192,67762,1,0,0:0:0:0:
+384,192,67984,1,0,0:0:0:0:
+469,192,68096,1,0,0:0:0:0:
+298,192,68207,1,0,0:0:0:0:
+213,192,68318,1,0,0:0:0:0:
+128,192,68429,1,0,0:0:0:0:
+42,192,68540,1,0,0:0:0:0:
+298,192,68651,1,0,0:0:0:0:
+384,192,68873,1,0,0:0:0:0:
+469,192,68984,1,0,0:0:0:0:
+42,192,69096,1,0,0:0:0:0:
+128,192,69207,1,0,0:0:0:0:
+469,192,69318,1,0,0:0:0:0:
+384,192,69429,1,0,0:0:0:0:
+298,192,69540,1,0,0:0:0:0:
+128,192,69651,1,0,0:0:0:0:
+213,192,69762,1,0,0:0:0:0:
+469,192,69873,1,0,0:0:0:0:
+298,192,69984,1,0,0:0:0:0:
+42,192,70096,1,0,0:0:0:0:
+213,192,70207,1,0,0:0:0:0:
+298,192,70429,1,0,0:0:0:0:
+213,192,70651,1,0,0:0:0:0:
+128,192,70762,1,0,0:0:0:0:
+42,192,70873,1,0,0:0:0:0:
+384,192,70984,1,0,0:0:0:0:
+213,192,71096,1,0,0:0:0:0:
+42,192,71207,1,0,0:0:0:0:
+128,192,71318,1,0,0:0:0:0:
+298,192,71429,1,0,0:0:0:0:
+469,192,71540,1,0,0:0:0:0:
+42,192,71651,1,0,0:0:0:0:
+213,192,71762,1,0,0:0:0:0:
+128,192,71984,1,0,0:0:0:0:
+384,192,72096,1,0,0:0:0:0:
+469,192,72207,1,0,0:0:0:0:
+42,192,72429,1,0,0:0:0:0:
+298,192,72429,1,0,0:0:0:0:
+298,192,72651,1,0,0:0:0:0:
+42,192,72651,1,0,0:0:0:0:
+128,192,72873,1,0,0:0:0:0:
+384,192,72873,1,0,0:0:0:0:
+469,192,72984,1,0,0:0:0:0:
+298,192,73096,1,0,0:0:0:0:
+42,192,73207,1,0,0:0:0:0:
+213,192,73318,1,0,0:0:0:0:
+128,192,73429,1,0,0:0:0:0:
+469,192,73540,1,0,0:0:0:0:
+213,192,73762,1,0,0:0:0:0:
+384,192,73873,1,0,0:0:0:0:
+213,192,73984,1,0,0:0:0:0:
+128,192,74207,1,0,0:0:0:0:
+42,192,74318,1,0,0:0:0:0:
+469,192,74429,1,0,0:0:0:0:
+384,192,74540,1,0,0:0:0:0:
+42,192,74651,1,0,0:0:0:0:
+298,192,74762,1,0,0:0:0:0:
+213,192,74873,1,0,0:0:0:0:
+42,192,74984,1,0,0:0:0:0:
+128,192,75096,1,0,0:0:0:0:
+298,192,75318,1,0,0:0:0:0:
+213,192,75540,1,0,0:0:0:0:
+128,192,75651,1,0,0:0:0:0:
+42,192,75762,1,0,0:0:0:0:
+469,192,75873,1,0,0:0:0:0:
+213,192,75984,1,0,0:0:0:0:
+298,192,76207,1,0,0:0:0:0:
+469,192,76429,1,0,0:0:0:0:
+213,192,76540,1,0,0:0:0:0:
+384,192,76651,1,0,0:0:0:0:
+298,192,76762,1,0,0:0:0:0:
+42,192,76873,1,0,0:0:0:0:
+213,192,77096,1,0,0:0:0:0:
+128,192,77207,1,0,0:0:0:0:
+42,192,77318,1,0,0:0:0:0:
+128,192,77429,1,0,0:0:0:0:
+469,192,77540,1,0,0:0:0:0:
+42,192,77762,1,0,0:0:0:0:
+213,192,77873,1,0,0:0:0:0:
+384,192,77984,1,0,0:0:0:0:
+213,192,78207,1,0,0:0:0:0:
+128,192,78318,1,0,0:0:0:0:
+298,192,78429,1,0,0:0:0:0:
+469,192,78540,1,0,0:0:0:0:
+384,192,78651,1,0,0:0:0:0:
+128,192,78873,1,0,0:0:0:0:
+213,192,78984,1,0,0:0:0:0:
+128,192,79096,1,0,0:0:0:0:
+42,192,79207,1,0,0:0:0:0:
+298,192,79318,1,0,0:0:0:0:
+384,192,79540,1,0,0:0:0:0:
+128,192,79651,1,0,0:0:0:0:
+298,192,79762,1,0,0:0:0:0:
+213,192,79873,1,0,0:0:0:0:
+469,192,79984,1,0,0:0:0:0:
+42,192,80096,1,0,0:0:0:0:
+298,192,80207,1,0,0:0:0:0:
+213,192,80318,1,0,0:0:0:0:
+469,192,80429,1,0,0:0:0:0:
+128,192,80651,1,0,0:0:0:0:
+298,192,80873,1,0,0:0:0:0:
+469,192,80984,1,0,0:0:0:0:
+298,192,81096,1,0,0:0:0:0:
+213,192,81207,1,0,0:0:0:0:
+42,192,81318,1,0,0:0:0:0:
+128,192,81429,1,0,0:0:0:0:
+469,192,81540,1,0,0:0:0:0:
+384,192,81651,1,0,0:0:0:0:
+298,192,81762,1,0,0:0:0:0:
+213,192,81984,1,0,0:0:0:0:
+128,192,82207,1,0,0:0:0:0:
+42,192,82318,1,0,0:0:0:0:
+469,192,82429,1,0,0:0:0:0:
+298,192,82540,1,0,0:0:0:0:
+384,192,82651,1,0,0:0:0:0:
+469,192,82762,1,0,0:0:0:0:
+213,192,82873,1,0,0:0:0:0:
+128,192,83096,1,0,0:0:0:0:
+42,192,83207,1,0,0:0:0:0:
+469,192,83318,1,0,0:0:0:0:
+384,192,83429,1,0,0:0:0:0:
+298,192,83540,1,0,0:0:0:0:
+128,192,83651,1,0,0:0:0:0:
+213,192,83762,1,0,0:0:0:0:
+384,192,83873,1,0,0:0:0:0:
+298,192,83984,1,0,0:0:0:0:
+42,192,84096,1,0,0:0:0:0:
+213,192,84207,5,0,0:0:0:0:
+469,192,84318,1,0,0:0:0:0:
+298,192,84429,1,0,0:0:0:0:
+213,192,84651,1,0,0:0:0:0:
+298,192,84873,1,0,0:0:0:0:
+384,192,84984,1,0,0:0:0:0:
+213,192,85096,1,0,0:0:0:0:
+128,192,85207,1,0,0:0:0:0:
+298,192,85318,5,0,0:0:0:0:
+469,192,85318,1,0,0:0:0:0:
+213,192,85540,1,0,0:0:0:0:
+42,192,85540,1,0,0:0:0:0:
+298,192,85762,5,0,0:0:0:0:
+469,192,85762,1,0,0:0:0:0:
+384,192,85762,1,0,0:0:0:0:
+213,192,85984,1,0,0:0:0:0:
+42,192,85984,1,0,0:0:0:0:
+298,192,86207,1,0,0:0:0:0:
+469,192,86207,1,0,0:0:0:0:
+128,192,86429,1,0,0:0:0:0:
+42,192,86429,1,0,0:0:0:0:
+213,192,86429,1,0,0:0:0:0:
+384,192,86651,1,0,0:0:0:0:
+42,192,86762,1,0,0:0:0:0:
+128,192,86762,1,0,0:0:0:0:
+384,192,87096,5,0,0:0:0:0:
+469,192,87096,1,0,0:0:0:0:
+298,192,87318,1,0,0:0:0:0:
+213,192,87540,1,0,0:0:0:0:
+128,192,87762,1,0,0:0:0:0:
+298,192,87984,1,0,0:0:0:0:
+213,192,88207,1,0,0:0:0:0:
+128,192,88429,1,0,0:0:0:0:
+42,192,88651,1,0,0:0:0:0:
+298,192,88873,1,0,0:0:0:0:
+213,192,89096,1,0,0:0:0:0:
+128,192,89318,1,0,0:0:0:0:
+42,192,89540,1,0,0:0:0:0:
+298,192,89762,1,0,0:0:0:0:
+213,192,89984,1,0,0:0:0:0:
+128,192,90207,1,0,0:0:0:0:
+42,192,90429,1,0,0:0:0:0:
+384,192,90651,1,0,0:0:0:0:
+298,192,90873,1,0,0:0:0:0:
+213,192,91096,1,0,0:0:0:0:
+128,192,91318,1,0,0:0:0:0:
+298,192,91540,1,0,0:0:0:0:
+213,192,91762,1,0,0:0:0:0:
+128,192,91984,1,0,0:0:0:0:
+42,192,92207,1,0,0:0:0:0:
+298,192,92429,1,0,0:0:0:0:
+213,192,92651,1,0,0:0:0:0:
+128,192,92873,1,0,0:0:0:0:
+42,192,93096,1,0,0:0:0:0:
+298,192,93318,1,0,0:0:0:0:
+213,192,93540,1,0,0:0:0:0:
+128,192,93762,1,0,0:0:0:0:
+42,192,93984,1,0,0:0:0:0:
+128,192,94207,1,0,0:0:0:0:
+213,192,94429,1,0,0:0:0:0:
+298,192,94651,1,0,0:0:0:0:
+384,192,94873,1,0,0:0:0:0:
+213,192,95096,1,0,0:0:0:0:
+298,192,95318,1,0,0:0:0:0:
+384,192,95540,1,0,0:0:0:0:
+469,192,95762,1,0,0:0:0:0:
+213,192,95984,1,0,0:0:0:0:
+298,192,96207,1,0,0:0:0:0:
+384,192,96429,1,0,0:0:0:0:
+469,192,96651,1,0,0:0:0:0:
+213,192,96873,1,0,0:0:0:0:
+298,192,97096,1,0,0:0:0:0:
+384,192,97318,1,0,0:0:0:0:
+469,192,97540,1,0,0:0:0:0:
+128,192,97762,1,0,0:0:0:0:
+213,192,97984,1,0,0:0:0:0:
+298,192,98207,1,0,0:0:0:0:
+384,192,98429,1,0,0:0:0:0:
+213,192,98651,1,0,0:0:0:0:
+298,192,98873,1,0,0:0:0:0:
+384,192,99096,1,0,0:0:0:0:
+469,192,99318,1,0,0:0:0:0:
+213,192,99540,1,0,0:0:0:0:
+298,192,99762,1,0,0:0:0:0:
+384,192,99984,1,0,0:0:0:0:
+469,192,100207,1,0,0:0:0:0:
+213,192,100429,1,0,0:0:0:0:
+298,192,100651,1,0,0:0:0:0:
+384,192,100873,1,0,0:0:0:0:
+469,192,101096,1,0,0:0:0:0:
+213,192,101318,1,0,0:0:0:0:
+42,192,101318,1,0,0:0:0:0:
+469,192,101540,1,0,0:0:0:0:
+298,192,101651,1,0,0:0:0:0:
+384,192,101762,1,0,0:0:0:0:
+213,192,101984,1,0,0:0:0:0:
+128,192,101984,1,0,0:0:0:0:
+213,192,102318,1,0,0:0:0:0:
+128,192,102318,1,0,0:0:0:0:
+298,192,102651,128,0,103096:0:0:0:0:
+384,192,102651,1,0,0:0:0:0:
+469,192,102873,1,0,0:0:0:0:
+384,192,102984,1,0,0:0:0:0:
+213,192,103096,1,0,0:0:0:0:
+42,192,103096,1,0,0:0:0:0:
+469,192,103318,1,0,0:0:0:0:
+298,192,103429,1,0,0:0:0:0:
+384,192,103540,1,0,0:0:0:0:
+213,192,103762,1,0,0:0:0:0:
+128,192,103762,1,0,0:0:0:0:
+128,192,104096,1,0,0:0:0:0:
+213,192,104096,1,0,0:0:0:0:
+384,192,104429,128,0,104873:0:0:0:0:
+298,192,104429,1,0,0:0:0:0:
+469,192,104651,1,0,0:0:0:0:
+298,192,104762,1,0,0:0:0:0:
+213,192,104873,1,0,0:0:0:0:
+42,192,104873,1,0,0:0:0:0:
+298,192,105096,1,0,0:0:0:0:
+469,192,105207,1,0,0:0:0:0:
+384,192,105318,1,0,0:0:0:0:
+213,192,105540,1,0,0:0:0:0:
+128,192,105540,1,0,0:0:0:0:
+128,192,105873,1,0,0:0:0:0:
+213,192,105873,1,0,0:0:0:0:
+469,192,106207,128,0,106651:0:0:0:0:
+298,192,106207,1,0,0:0:0:0:
+384,192,106429,1,0,0:0:0:0:
+298,192,106540,1,0,0:0:0:0:
+213,192,106651,1,0,0:0:0:0:
+42,192,106651,1,0,0:0:0:0:
+298,192,106873,1,0,0:0:0:0:
+469,192,106984,1,0,0:0:0:0:
+384,192,107096,1,0,0:0:0:0:
+213,192,107318,1,0,0:0:0:0:
+128,192,107318,1,0,0:0:0:0:
+128,192,107651,1,0,0:0:0:0:
+213,192,107651,1,0,0:0:0:0:
+298,192,107984,128,0,108429:0:0:0:0:
+384,192,107984,1,0,0:0:0:0:
+469,192,108207,1,0,0:0:0:0:
+384,192,108318,1,0,0:0:0:0:
+213,192,108429,1,0,0:0:0:0:
+42,192,108429,1,0,0:0:0:0:
+213,192,108651,1,0,0:0:0:0:
+42,192,108762,1,0,0:0:0:0:
+128,192,108873,1,0,0:0:0:0:
+298,192,109096,1,0,0:0:0:0:
+384,192,109096,1,0,0:0:0:0:
+298,192,109429,1,0,0:0:0:0:
+384,192,109429,1,0,0:0:0:0:
+213,192,109762,128,0,110207:0:0:0:0:
+128,192,109762,1,0,0:0:0:0:
+42,192,109984,1,0,0:0:0:0:
+128,192,110096,1,0,0:0:0:0:
+298,192,110207,1,0,0:0:0:0:
+469,192,110207,1,0,0:0:0:0:
+213,192,110429,1,0,0:0:0:0:
+42,192,110540,1,0,0:0:0:0:
+128,192,110651,1,0,0:0:0:0:
+298,192,110873,1,0,0:0:0:0:
+384,192,110873,1,0,0:0:0:0:
+384,192,111207,1,0,0:0:0:0:
+298,192,111207,1,0,0:0:0:0:
+128,192,111540,128,0,111984:0:0:0:0:
+213,192,111540,1,0,0:0:0:0:
+42,192,111762,1,0,0:0:0:0:
+213,192,111873,1,0,0:0:0:0:
+298,192,111984,1,0,0:0:0:0:
+469,192,111984,1,0,0:0:0:0:
+42,192,112207,1,0,0:0:0:0:
+213,192,112318,1,0,0:0:0:0:
+128,192,112429,1,0,0:0:0:0:
+298,192,112651,1,0,0:0:0:0:
+384,192,112651,1,0,0:0:0:0:
+298,192,112984,1,0,0:0:0:0:
+384,192,112984,1,0,0:0:0:0:
+42,192,113318,128,0,113762:0:0:0:0:
+213,192,113318,1,0,0:0:0:0:
+128,192,113540,1,0,0:0:0:0:
+213,192,113651,1,0,0:0:0:0:
+298,192,113762,1,0,0:0:0:0:
+469,192,113762,1,0,0:0:0:0:
+384,192,113984,1,0,0:0:0:0:
+298,192,114096,1,0,0:0:0:0:
+213,192,114207,1,0,0:0:0:0:
+298,192,114429,1,0,0:0:0:0:
+384,192,114429,1,0,0:0:0:0:
+469,192,114651,128,0,114762:0:0:0:0:
+42,192,114651,1,0,0:0:0:0:
+384,192,114762,128,0,114873:0:0:0:0:
+298,192,114873,128,0,115096:0:0:0:0:
+213,192,114873,1,0,0:0:0:0:
+42,192,115096,128,0,115540:0:0:0:0:
+469,192,115318,1,0,0:0:0:0:
+213,192,115318,128,0,115540:0:0:0:0:
+298,192,115429,1,0,0:0:0:0:
+128,192,115540,1,0,0:0:0:0:
+384,192,115540,1,0,0:0:0:0:
+298,192,115762,1,0,0:0:0:0:
+213,192,115984,1,0,0:0:0:0:
+469,192,116207,1,0,0:0:0:0:
+42,192,116207,1,0,0:0:0:0:
+298,192,116873,1,0,0:0:0:0:
+128,192,116873,1,0,0:0:0:0:
+469,192,117096,1,0,0:0:0:0:
+213,192,117096,1,0,0:0:0:0:
+42,192,117318,1,0,0:0:0:0:
+213,192,117540,1,0,0:0:0:0:
+128,192,117762,1,0,0:0:0:0:
+384,192,118207,1,0,0:0:0:0:
+298,192,118429,1,0,0:0:0:0:
+42,192,118651,1,0,0:0:0:0:
+213,192,118651,1,0,0:0:0:0:
+298,192,118873,1,0,0:0:0:0:
+469,192,119096,1,0,0:0:0:0:
+128,192,119096,1,0,0:0:0:0:
+384,192,119762,1,0,0:0:0:0:
+213,192,119762,1,0,0:0:0:0:
+298,192,120429,1,0,0:0:0:0:
+128,192,120651,1,0,0:0:0:0:
+469,192,120651,1,0,0:0:0:0:
+42,192,121318,1,0,0:0:0:0:
+384,192,121318,1,0,0:0:0:0:
+298,192,121984,1,0,0:0:0:0:
+213,192,121984,1,0,0:0:0:0:
+384,192,122651,1,0,0:0:0:0:
+128,192,122651,1,0,0:0:0:0:
+298,192,122873,1,0,0:0:0:0:
+469,192,123096,1,0,0:0:0:0:
+213,192,123318,1,0,0:0:0:0:
+42,192,123318,1,0,0:0:0:0:
+384,192,123984,1,0,0:0:0:0:
+128,192,123984,1,0,0:0:0:0:
+213,192,124207,1,0,0:0:0:0:
+298,192,124207,1,0,0:0:0:0:
+469,192,124429,1,0,0:0:0:0:
+298,192,124651,1,0,0:0:0:0:
+384,192,124873,1,0,0:0:0:0:
+213,192,125096,1,0,0:0:0:0:
+213,192,125540,1,0,0:0:0:0:
+384,192,125762,1,0,0:0:0:0:
+128,192,125762,1,0,0:0:0:0:
+469,192,125984,1,0,0:0:0:0:
+213,192,125984,1,0,0:0:0:0:
+42,192,126207,1,0,0:0:0:0:
+298,192,126207,1,0,0:0:0:0:
+298,192,127540,1,0,0:0:0:0:
+128,192,127540,1,0,0:0:0:0:
+213,192,127762,1,0,0:0:0:0:
+469,192,127762,1,0,0:0:0:0:
+128,192,128207,1,0,0:0:0:0:
+384,192,128207,1,0,0:0:0:0:
+42,192,128651,1,0,0:0:0:0:
+298,192,128651,1,0,0:0:0:0:
+42,192,129096,1,0,0:0:0:0:
+213,192,129096,1,0,0:0:0:0:
+384,192,129318,1,0,0:0:0:0:
+128,192,129318,1,0,0:0:0:0:
+384,192,129540,1,0,0:0:0:0:
+128,192,129540,1,0,0:0:0:0:
+42,192,129762,1,0,0:0:0:0:
+469,192,129762,1,0,0:0:0:0:
+298,192,129762,1,0,0:0:0:0:
+128,192,129873,1,0,0:0:0:0:
+213,192,129984,1,0,0:0:0:0:
+469,192,130096,1,0,0:0:0:0:
+298,192,130207,1,0,0:0:0:0:
+384,192,130318,1,0,0:0:0:0:
+42,192,130429,1,0,0:0:0:0:
+469,192,130429,1,0,0:0:0:0:
+298,192,130651,1,0,0:0:0:0:
+128,192,130762,1,0,0:0:0:0:
+298,192,130873,1,0,0:0:0:0:
+384,192,131096,1,0,0:0:0:0:
+213,192,131096,1,0,0:0:0:0:
+469,192,131207,1,0,0:0:0:0:
+42,192,131318,1,0,0:0:0:0:
+298,192,131318,1,0,0:0:0:0:
+128,192,131429,1,0,0:0:0:0:
+469,192,131540,1,0,0:0:0:0:
+384,192,131540,1,0,0:0:0:0:
+213,192,131651,1,0,0:0:0:0:
+298,192,131762,1,0,0:0:0:0:
+469,192,131873,1,0,0:0:0:0:
+384,192,131984,1,0,0:0:0:0:
+213,192,132207,1,0,0:0:0:0:
+128,192,132429,1,0,0:0:0:0:
+469,192,132429,1,0,0:0:0:0:
+384,192,132540,1,0,0:0:0:0:
+213,192,132651,1,0,0:0:0:0:
+298,192,132651,1,0,0:0:0:0:
+42,192,132762,1,0,0:0:0:0:
+298,192,132873,1,0,0:0:0:0:
+469,192,132873,1,0,0:0:0:0:
+213,192,133096,1,0,0:0:0:0:
+384,192,133318,1,0,0:0:0:0:
+42,192,133318,1,0,0:0:0:0:
+298,192,133429,1,0,0:0:0:0:
+128,192,133540,1,0,0:0:0:0:
+213,192,133651,1,0,0:0:0:0:
+469,192,133762,1,0,0:0:0:0:
+298,192,133984,1,0,0:0:0:0:
+128,192,133984,1,0,0:0:0:0:
+384,192,134096,1,0,0:0:0:0:
+469,192,134207,1,0,0:0:0:0:
+384,192,134318,1,0,0:0:0:0:
+42,192,134429,1,0,0:0:0:0:
+213,192,134651,1,0,0:0:0:0:
+469,192,134651,1,0,0:0:0:0:
+298,192,134762,1,0,0:0:0:0:
+128,192,134873,1,0,0:0:0:0:
+384,192,134873,1,0,0:0:0:0:
+298,192,135096,1,0,0:0:0:0:
+469,192,135207,1,0,0:0:0:0:
+213,192,135318,1,0,0:0:0:0:
+42,192,135429,1,0,0:0:0:0:
+469,192,135540,1,0,0:0:0:0:
+128,192,135540,1,0,0:0:0:0:
+384,192,135762,1,0,0:0:0:0:
+298,192,135873,1,0,0:0:0:0:
+384,192,135984,1,0,0:0:0:0:
+469,192,136096,1,0,0:0:0:0:
+213,192,136207,1,0,0:0:0:0:
+128,192,136207,1,0,0:0:0:0:
+42,192,136429,1,0,0:0:0:0:
+384,192,136540,1,0,0:0:0:0:
+213,192,136651,1,0,0:0:0:0:
+298,192,136762,1,0,0:0:0:0:
+128,192,136873,1,0,0:0:0:0:
+384,192,136873,1,0,0:0:0:0:
+469,192,136984,1,0,0:0:0:0:
+213,192,137096,1,0,0:0:0:0:
+298,192,137207,1,0,0:0:0:0:
+42,192,137318,1,0,0:0:0:0:
+469,192,137540,1,0,0:0:0:0:
+128,192,137540,1,0,0:0:0:0:
+213,192,137762,1,0,0:0:0:0:
+42,192,137873,1,0,0:0:0:0:
+213,192,137984,1,0,0:0:0:0:
+298,192,138096,1,0,0:0:0:0:
+128,192,138207,1,0,0:0:0:0:
+384,192,138207,1,0,0:0:0:0:
+469,192,138318,1,0,0:0:0:0:
+298,192,138429,1,0,0:0:0:0:
+213,192,138429,1,0,0:0:0:0:
+384,192,138540,1,0,0:0:0:0:
+42,192,138651,1,0,0:0:0:0:
+213,192,138873,1,0,0:0:0:0:
+384,192,139096,1,0,0:0:0:0:
+469,192,139207,1,0,0:0:0:0:
+298,192,139318,1,0,0:0:0:0:
+42,192,139318,1,0,0:0:0:0:
+213,192,139429,1,0,0:0:0:0:
+128,192,139540,1,0,0:0:0:0:
+42,192,139651,1,0,0:0:0:0:
+298,192,139762,1,0,0:0:0:0:
+469,192,139762,1,0,0:0:0:0:
+384,192,139984,1,0,0:0:0:0:
+213,192,139984,1,0,0:0:0:0:
+469,192,140096,1,0,0:0:0:0:
+42,192,140207,1,0,0:0:0:0:
+298,192,140207,1,0,0:0:0:0:
+128,192,140318,1,0,0:0:0:0:
+469,192,140429,1,0,0:0:0:0:
+213,192,140429,1,0,0:0:0:0:
+384,192,140540,1,0,0:0:0:0:
+298,192,140651,1,0,0:0:0:0:
+128,192,140762,1,0,0:0:0:0:
+213,192,140873,1,0,0:0:0:0:
+469,192,140984,1,0,0:0:0:0:
+298,192,141096,1,0,0:0:0:0:
+42,192,141207,1,0,0:0:0:0:
+213,192,141318,1,0,0:0:0:0:
+298,192,141540,1,0,0:0:0:0:
+213,192,141762,1,0,0:0:0:0:
+384,192,141762,1,0,0:0:0:0:
+128,192,141873,1,0,0:0:0:0:
+298,192,141984,1,0,0:0:0:0:
+469,192,141984,1,0,0:0:0:0:
+384,192,142096,1,0,0:0:0:0:
+213,192,142207,1,0,0:0:0:0:
+42,192,142207,1,0,0:0:0:0:
+298,192,142429,1,0,0:0:0:0:
+469,192,142429,1,0,0:0:0:0:
+213,192,142651,1,0,0:0:0:0:
+42,192,142651,1,0,0:0:0:0:
+298,192,142873,1,0,0:0:0:0:
+469,192,142873,1,0,0:0:0:0:
+42,192,143096,1,0,0:0:0:0:
+384,192,143096,128,0,143984:0:0:0:0:
+213,192,143096,1,0,0:0:0:0:
+298,192,143318,128,0,143984:0:0:0:0:
+213,192,143651,128,0,143984:0:0:0:0:
+128,192,143984,1,0,0:0:0:0:
+42,192,143984,1,0,0:0:0:0:
+469,192,143984,1,0,0:0:0:0:
