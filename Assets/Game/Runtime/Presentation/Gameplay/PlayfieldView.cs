@@ -46,7 +46,17 @@ namespace DJMaximusKaiserSoje.Presentation
         [SerializeField] internal float geometryScale = 1f;
         [SerializeField] internal float notePadding = 10f;
         [SerializeField] internal float noteHeight = 30f;
-        [SerializeField] internal float keyCapHeight = 96f;
+
+        [Tooltip("Where the lettered caps start, measured up from the bottom of the deck band.")]
+        [SerializeField] internal float keyCapBottom = 24f;
+
+        [Tooltip("Fallback cap height for when there is no deck band to measure.")]
+        [SerializeField] internal float keyCapHeight = 60f;
+
+        [SerializeField] internal float fxKeyCapHeight = 22f;
+
+        [Tooltip("How far up the screen a held key's beam reaches.")]
+        [SerializeField] internal float beamScreenFraction = 0.5f;
 
         [Header("Scroll")]
         [SerializeField] internal float basePixelsPerMillisecond = 0.086f;
@@ -62,12 +72,14 @@ namespace DJMaximusKaiserSoje.Presentation
 
         private IPlaySession session;
         private LaneLayout layout;
+        private IReadOnlyList<string> keyBindings;
         private Image[] lanePlates;
         private Image[] laneGuides;
         private Image[] receptors;
         private Image[] beams;
         private Image[] bursts;
         private RectTransform[] keyCaps;
+        private TMP_Text[] keyCapLabels;
         private float[] beamLevel;
         private float[] burstRemaining;
         private bool[] laneHeld;
@@ -94,6 +106,17 @@ namespace DJMaximusKaiserSoje.Presentation
         private double LookaheadMs =>
             (LaneHeight + 160f * GeometryScale) / Mathf.Max(0.0001f, PixelsPerMillisecond);
 
+        /// <summary>The screen the gear sits on, so a beam can be sized against it rather than the lanes.</summary>
+        private float ScreenHeight
+        {
+            get
+            {
+                var canvas = laneViewport == null ? null : laneViewport.GetComponentInParent<Canvas>();
+                var root = canvas == null ? null : canvas.rootCanvas;
+                return root == null ? LaneHeight : ((RectTransform)root.transform).rect.height;
+            }
+        }
+
         private sealed class NoteView
         {
             public GameObject GameObject;
@@ -102,12 +125,17 @@ namespace DJMaximusKaiserSoje.Presentation
             public int Stamp;
         }
 
-        public void Bind(IPlaySession playSession, float speed)
+        /// <param name="bindings">
+        /// The keys this run is played with, so a cap shows the key that actually fires its lane.
+        /// Falls back to the layout's own defaults when omitted.
+        /// </param>
+        public void Bind(IPlaySession playSession, float speed, IReadOnlyList<string> bindings = null)
         {
             Unbind();
 
             session = playSession;
             layout = playSession.Layout;
+            keyBindings = bindings;
             scrollSpeed = ScrollSpeedRange.Clamp(speed);
 
             BuildLanes();
@@ -116,10 +144,20 @@ namespace DJMaximusKaiserSoje.Presentation
             session.LanePressed += OnLanePressed;
             session.LaneReleased += OnLaneReleased;
             session.StateChanged += OnSessionStateChanged;
+            session.Judged += OnJudged;
             lastRenderedSongTimeMs = session.SongTimeMs;
         }
 
         public void SetScrollSpeed(float speed) => scrollSpeed = ScrollSpeedRange.Clamp(speed);
+
+        public void SetKeyBindings(IReadOnlyList<string> bindings)
+        {
+            keyBindings = bindings;
+            if (keyCapLabels == null) return;
+            for (int laneIndex = 0; laneIndex < keyCapLabels.Length; laneIndex++)
+                if (keyCapLabels[laneIndex] != null)
+                    keyCapLabels[laneIndex].text = KeyLabel(laneIndex);
+        }
 
         private void OnDestroy() => Unbind();
 
@@ -129,7 +167,14 @@ namespace DJMaximusKaiserSoje.Presentation
             session.LanePressed -= OnLanePressed;
             session.LaneReleased -= OnLaneReleased;
             session.StateChanged -= OnSessionStateChanged;
+            session.Judged -= OnJudged;
             session = null;
+        }
+
+        private string KeyLabel(int laneIndex)
+        {
+            string bound = keyBindings != null && laneIndex < keyBindings.Count ? keyBindings[laneIndex] : null;
+            return UiNaming.KeyLabel(string.IsNullOrWhiteSpace(bound) ? layout.Lanes[laneIndex].KeyName : bound);
         }
 
         // --- Construction ----------------------------------------------------------------------
@@ -168,6 +213,7 @@ namespace DJMaximusKaiserSoje.Presentation
             beams = new Image[count];
             bursts = new Image[count];
             keyCaps = new RectTransform[count];
+            keyCapLabels = new TMP_Text[count];
             beamLevel = new float[count];
             burstRemaining = new float[count];
             laneHeld = new bool[count];
@@ -207,11 +253,11 @@ namespace DJMaximusKaiserSoje.Presentation
             cap.sprite = keyCapSprite;
             cap.type = keyCapSprite == null ? Image.Type.Simple : Image.Type.Sliced;
 
-            var label = NewText("Label", cap.rectTransform,
-                spec.KeyName == "Semicolon" ? ";" : spec.KeyName,
+            var label = NewText("Label", cap.rectTransform, KeyLabel(laneIndex),
                 (spec.IsFx ? 17f : 26f) * GeometryScale, keyFont);
             label.color = spec.IsFx ? UiPalette.Magenta : UiPalette.TextSecondary;
             Stretch(label.rectTransform);
+            keyCapLabels[laneIndex] = label;
 
             return cap.rectTransform;
         }
@@ -240,13 +286,21 @@ namespace DJMaximusKaiserSoje.Presentation
             for (int index = 0; index < laneGuides.Length; index++)
                 Place(laneGuides[index].rectTransform, (index + 1) * baseWidth - 1f, 0f, 2f, height);
 
+            // The caps are measured against the deck band they sit in, so they can never grow past it
+            // and over the play bar underneath.
+            float deckHeight = deckLayer == null ? keyCapHeight * GeometryScale : deckLayer.rect.height;
+            float fxCapHeight = fxKeyCapHeight * GeometryScale;
+            float coreCapBottom = keyCapBottom * GeometryScale;
+            float coreCapHeight = Mathf.Max(1f, deckHeight - coreCapBottom);
+            float beamHeight = ScreenHeight * Mathf.Max(0.01f, beamScreenFraction);
+
             for (int laneIndex = 0; laneIndex < layout.Lanes.Count; laneIndex++)
             {
                 var spec = layout.Lanes[laneIndex];
                 float x = spec.BaseLaneStart * baseWidth;
                 float laneSpan = spec.BaseLaneSpan * baseWidth;
 
-                Place(beams[laneIndex].rectTransform, x, 0f, laneSpan, laneSpan * 1.6f);
+                Place(beams[laneIndex].rectTransform, x, 0f, laneSpan, beamHeight);
 
                 float receptorInset = 4f * GeometryScale;
                 float receptorHeight = (spec.IsFx ? 18f : 46f) * GeometryScale;
@@ -259,9 +313,8 @@ namespace DJMaximusKaiserSoje.Presentation
 
                 // FX keys sit on a low strip beneath the core key caps rather than over them.
                 float capInset = (spec.IsFx ? 10f : 5f) * GeometryScale;
-                Place(keyCaps[laneIndex], x + capInset, spec.IsFx ? 0f : 34f * GeometryScale,
-                    laneSpan - capInset * 2f,
-                    (spec.IsFx ? 28f : keyCapHeight) * GeometryScale);
+                Place(keyCaps[laneIndex], x + capInset, spec.IsFx ? 0f : coreCapBottom,
+                    laneSpan - capInset * 2f, spec.IsFx ? fxCapHeight : coreCapHeight);
             }
 
             if (judgementBar != null)
@@ -408,12 +461,23 @@ namespace DJMaximusKaiserSoje.Presentation
             pool.Push(view);
         }
 
+        /// <summary>
+        /// The burst belongs to a note, not to a keypress: pressing an empty lane lights the beam and
+        /// nothing else, so a player can tell a hit from a swing at thin air.
+        /// </summary>
+        private void OnJudged(JudgementEvent judgement)
+        {
+            if (bursts == null || judgement.Grade == JudgementGrade.Miss) return;
+            int lane = judgement.Lane;
+            if (lane < 0 || lane >= bursts.Length) return;
+            burstRemaining[lane] = burstDuration;
+        }
+
         private void OnLanePressed(int lane)
         {
             if (beams == null || lane < 0 || lane >= beams.Length) return;
             laneHeld[lane] = true;
             beamLevel[lane] = 1f;
-            burstRemaining[lane] = burstDuration;
 
             bool isFx = layout.Lanes[lane].IsFx;
             receptors[lane].color = isFx ? UiPalette.Magenta.WithAlpha(0.95f) : UiPalette.Cyan.WithAlpha(0.92f);
@@ -436,7 +500,8 @@ namespace DJMaximusKaiserSoje.Presentation
                     : UiPalette.PanelRaised.WithAlpha(0.9f);
         }
 
-        private void UpdateEffects(float deltaTime)
+        /// <summary>Advances the lit beams and hit bursts by one frame.</summary>
+        internal void UpdateEffects(float deltaTime)
         {
             if (beams == null) return;
 

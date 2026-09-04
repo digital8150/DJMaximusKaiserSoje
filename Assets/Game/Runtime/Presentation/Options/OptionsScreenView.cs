@@ -201,7 +201,7 @@ namespace DJMaximusKaiserSoje.Presentation
                     normalIndex++;
                 }
 
-                keyLabels[index].text = index == listeningLane ? "키를 눌러 주세요" : PrettyKey(bindings[index]);
+                keyLabels[index].text = index == listeningLane ? "키를 눌러 주세요" : UiNaming.KeyLabel(bindings[index]);
             }
         }
 
@@ -310,9 +310,5 @@ namespace DJMaximusKaiserSoje.Presentation
                 default: return "테두리 없는 창";
             }
         }
-
-        private static string PrettyKey(string keyName) => string.Equals(keyName, "semicolon", StringComparison.OrdinalIgnoreCase)
-            ? ";"
-            : keyName.ToUpperInvariant();
     }
 }

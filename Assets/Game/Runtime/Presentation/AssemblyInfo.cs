@@ -6,3 +6,4 @@ using System.Runtime.CompilerServices;
 
 // The smoke tests read back what a screen is currently showing.
 [assembly: InternalsVisibleTo("DJMaximusKaiserSoje.Tests.PlayMode")]
+[assembly: InternalsVisibleTo("DJMaximusKaiserSoje.Tests.EditMode")]

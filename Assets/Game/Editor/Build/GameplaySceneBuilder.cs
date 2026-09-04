@@ -24,8 +24,34 @@ namespace DJMaximusKaiserSoje.Editor
         private const float LaneBottom = 388f * GearScale;
         private const float LaneWidth = 674f * GearScale;
         private const float LaneHeight = (SourceGearHeight - 388f) * GearScale;
-        private const float DeckBottom = 248f * GearScale;
-        private const float DeckHeight = 140f * GearScale;
+
+        // The plate between the lanes and the play bar. The key caps live inside it, so they stop
+        // short of the bar rather than running over it.
+        private const float DeckBottom = 302f * GearScale;
+        private const float DeckHeight = 84f * GearScale;
+
+        // The empty inset bar under the deck, and the hatched panel under that with its outlined
+        // square and the wide slot beside it.
+        private const float PlayBarLeft = 28f * GearScale;
+        private const float PlayBarBottom = 252f * GearScale;
+        private const float PlayBarWidth = 676f * GearScale;
+        private const float PlayBarHeight = 48f * GearScale;
+        private const float SectionBoxLeft = 51f * GearScale;
+        private const float SectionBoxBottom = 105f * GearScale;
+        private const float SectionBoxWidth = 108f * GearScale;
+        private const float SectionBoxHeight = 110f * GearScale;
+        private const float SectionNameLeft = 236f * GearScale;
+        private const float SectionNameBottom = 88f * GearScale;
+        private const float SectionNameWidth = 396f * GearScale;
+        private const float SectionNameHeight = 150f * GearScale;
+
+        // The gauge well beside the lanes. The frame bakes a full bar into it, so the live fill has
+        // to cover the well exactly or the painted bar shows through and never moves.
+        private const float GaugeLeft = 729f * GearScale;
+        private const float GaugeBottom = 360f * GearScale;
+        private const float GaugeWidth = 21f * GearScale;
+        private const float GaugeHeight = 608f * GearScale;
+
         private const float ColumnWidth = 430f;
 
         public static string Build()
@@ -47,7 +73,7 @@ namespace DJMaximusKaiserSoje.Editor
 
             BuildLeftColumn(screen, view);
             BuildRightColumn(screen, view);
-            BuildBottom(screen, view);
+            BuildBottom(screen, (RectTransform)view.playfield.transform, view);
             BuildPauseOverlay(screen, view);
 
             return SceneScaffold.Save(scene, SceneName);
@@ -129,13 +155,13 @@ namespace DJMaximusKaiserSoje.Editor
             // The source art already supplies the casing and droplet. This opaque inner track masks
             // the baked full bar so the live fill can continue to communicate the current health.
             var gaugeRoot = Ui.Node("HealthGauge", gear)
-                .Set(Anchor.BottomLeft, 727f * GearScale, 363f * GearScale,
-                    24f * GearScale, 608f * GearScale);
+                .Set(Anchor.BottomLeft, GaugeLeft, GaugeBottom, GaugeWidth, GaugeHeight);
             var gauge = gaugeRoot.gameObject.AddComponent<HealthGaugeView>();
 
-            Ui.Image("Track", gaugeRoot, null, UiPalette.Night).Stretch();
-            float inset = 2f * GearScale;
-            var fill = Ui.Image("Fill", gaugeRoot, null, UiPalette.Cyan).Stretch(inset, inset, inset, inset);
+            Ui.Image("Track", gaugeRoot, Ui.Chrome("Solid"), UiPalette.Night).Stretch();
+            float inset = 1f * GearScale;
+            var fill = Ui.Image("Fill", gaugeRoot, Ui.Chrome("Solid"), UiPalette.Cyan)
+                .Stretch(inset, inset, inset, inset);
             fill.type = Image.Type.Filled;
             fill.fillMethod = Image.FillMethod.Vertical;
             fill.fillOrigin = (int)Image.OriginVertical.Bottom;
@@ -293,36 +319,39 @@ namespace DJMaximusKaiserSoje.Editor
             mascot.color = Color.white.WithAlpha(0.95f);
         }
 
-        private static void BuildBottom(RectTransform screen, GameplayScreenView view)
+        /// <summary>
+        /// The run's position in the song, dropped into the openings the frame already draws for it:
+        /// the empty inset bar under the deck, and the outlined square and wide slot below that.
+        /// </summary>
+        private static void BuildBottom(RectTransform screen, RectTransform gear, GameplayScreenView view)
         {
-            var strip = Ui.Image("ProgressStrip", screen, Ui.Chrome("PanelCut"), UiPalette.Panel)
-                .Set(Anchor.BottomCentre, 0f, 34f * GearScale, GearWidth, 66f * GearScale);
+            var strip = Ui.Node("ProgressStrip", gear).Stretch();
             var progress = strip.gameObject.AddComponent<ProgressStripView>();
 
-            var badge = Ui.Image("SectionBadge", strip.transform, Ui.Chrome("Bar"), UiPalette.Cyan.WithAlpha(0.22f))
-                .Set(Anchor.MiddleLeft, 12f * GearScale, 0f, 92f * GearScale, 46f * GearScale);
-            Ui.Text("Caption", badge.transform, "SECTION", 12f * GearScale, Weight.Medium, UiPalette.TextMuted,
-                TextAlignmentOptions.Center)
-                .Set(Anchor.TopCentre, 0f, -4f * GearScale, 92f * GearScale, 16f * GearScale);
-            var sectionIndex = Ui.Text("Index", badge.transform, "1", 24f * GearScale, Weight.Black, UiPalette.Cyan,
-                TextAlignmentOptions.Center)
-                .Set(Anchor.TopCentre, 0f, -18f * GearScale, 92f * GearScale, 28f * GearScale);
+            var bar = Ui.Node("PlayBar", strip)
+                .Set(Anchor.BottomLeft, PlayBarLeft, PlayBarBottom, PlayBarWidth, PlayBarHeight);
 
-            var sectionName = Ui.Text("SectionName", strip.transform, string.Empty, 22f * GearScale, Weight.Bold,
-                UiPalette.TextSecondary).Set(Anchor.MiddleLeft, 118f * GearScale, 12f * GearScale,
-                    400f * GearScale, 28f * GearScale);
-
-            var track = Ui.Image("Track", strip.transform, Ui.Chrome("Bar"), UiPalette.Night)
-                .Set(Anchor.MiddleLeft, 118f * GearScale, -16f * GearScale,
-                    520f * GearScale, 10f * GearScale);
+            float barInset = 12f * GearScale;
+            float elapsedWidth = 190f * GearScale;
+            var track = Ui.Image("Track", bar, Ui.Chrome("Bar"), UiPalette.Night)
+                .Set(Anchor.MiddleLeft, barInset, 0f,
+                    PlayBarWidth - barInset * 2f - elapsedWidth, 14f * GearScale);
             var fill = Ui.Image("Fill", track.transform, Ui.Chrome("Bar"), UiPalette.Magenta).Stretch();
             fill.type = Image.Type.Filled;
             fill.fillMethod = Image.FillMethod.Horizontal;
             fill.fillAmount = 0f;
 
-            var elapsed = Ui.Text("Elapsed", strip.transform, "00:00 / 00:00", 20f * GearScale, Weight.Medium,
-                UiPalette.TextMuted, TextAlignmentOptions.Right).Set(Anchor.MiddleRight,
-                    -16f * GearScale, 0f, 190f * GearScale, 28f * GearScale);
+            var elapsed = Ui.Text("Elapsed", bar, "00:00 / 00:00", 24f * GearScale, Weight.Medium,
+                UiPalette.TextSecondary, TextAlignmentOptions.Right)
+                .Set(Anchor.MiddleRight, -barInset, 0f, elapsedWidth - barInset, PlayBarHeight);
+
+            var sectionIndex = Ui.Text("SectionIndex", strip, "1", 52f * GearScale, Weight.Black, UiPalette.Cyan,
+                TextAlignmentOptions.Center)
+                .Set(Anchor.BottomLeft, SectionBoxLeft, SectionBoxBottom, SectionBoxWidth, SectionBoxHeight);
+
+            var sectionName = Ui.Text("SectionName", strip, string.Empty, 44f * GearScale, Weight.Bold,
+                UiPalette.TextPrimary)
+                .Set(Anchor.BottomLeft, SectionNameLeft, SectionNameBottom, SectionNameWidth, SectionNameHeight);
 
             progress.fill = fill;
             progress.sectionIndexLabel = sectionIndex;

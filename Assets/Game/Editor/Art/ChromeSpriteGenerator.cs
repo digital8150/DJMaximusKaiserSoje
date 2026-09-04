@@ -18,6 +18,7 @@ namespace DJMaximusKaiserSoje.Editor
         {
             Directory.CreateDirectory(OutputFolder);
 
+            Write("Solid", Solid(), Vector4.zero);
             Write("Panel", Panel(), new Vector4(20f, 20f, 20f, 20f));
             Write("PanelOutline", PanelOutline(), new Vector4(20f, 20f, 20f, 20f));
             Write("PanelCut", PanelCut(), new Vector4(26f, 20f, 26f, 20f));
@@ -44,6 +45,17 @@ namespace DJMaximusKaiserSoje.Editor
         }
 
         // --- Shapes ---------------------------------------------------------------------------
+
+        /// <summary>
+        /// A plain rectangle. Bars that grow and shrink need one: an Image with no sprite draws a
+        /// full quad and ignores its fill amount, so a gauge built without this never moves.
+        /// </summary>
+        private static Texture2D Solid()
+        {
+            var canvas = new ShapeCanvas(8, 8);
+            canvas.Fill(canvas.RoundedRect(new Rect(0f, 0f, 8f, 8f), 0f), Color.white);
+            return canvas.ToTexture();
+        }
 
         private static Texture2D Panel()
         {
@@ -185,15 +197,15 @@ namespace DJMaximusKaiserSoje.Editor
             return canvas.ToTexture();
         }
 
+        /// <summary>
+        /// A square that fades out with height. It is stretched across a whole lane, so the fade runs
+        /// top to bottom only: any narrowing across the square would pull the beam off the lane edges.
+        /// </summary>
         private static Texture2D KeyBeam()
         {
             var canvas = new ShapeCanvas(256, 256);
             canvas.FillShaded(canvas.RoundedRect(new Rect(0f, 0f, 256f, 256f), 0f), point =>
-            {
-                float vertical = Mathf.Pow(1f - point.y / 256f, 2.2f);
-                float horizontal = 1f - Mathf.Pow(Mathf.Abs(point.x / 256f - 0.5f) * 2f, 2f);
-                return Color.white.WithAlphaValue(Mathf.Clamp01(vertical * horizontal));
-            });
+                Color.white.WithAlphaValue(Mathf.Clamp01(Mathf.Pow(1f - point.y / 256f, 2.2f))));
             return canvas.ToTexture();
         }
 

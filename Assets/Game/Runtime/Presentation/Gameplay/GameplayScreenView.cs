@@ -75,7 +75,9 @@ namespace DJMaximusKaiserSoje.Presentation
             lastCountdown = null;
             countdownShown = false;
 
-            if (playfield != null) playfield.Bind(session, services.Preferences.ScrollSpeed);
+            if (playfield != null)
+                playfield.Bind(session, services.Preferences.ScrollSpeed,
+                    services.Preferences.GetKeyBindings(session.Layout.Style));
             if (feedback != null) feedback.Clear();
 
             if (songCard != null)
@@ -229,6 +231,8 @@ namespace DJMaximusKaiserSoje.Presentation
             float speed = services.Preferences.ScrollSpeed;
             if (speedLabel != null) speedLabel.text = UiFormat.Speed(speed);
             playfield?.SetScrollSpeed(speed);
+            if (playfield != null && session != null)
+                playfield.SetKeyBindings(services.Preferences.GetKeyBindings(session.Layout.Style));
         }
 
         private void HookButtons()

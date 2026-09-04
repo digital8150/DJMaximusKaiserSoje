@@ -1,3 +1,4 @@
+using System;
 using DJMaximusKaiserSoje.Core;
 using UnityEngine;
 
@@ -121,6 +122,16 @@ namespace DJMaximusKaiserSoje.Presentation
         }
 
         public static string RankName(Rank rank) => rank.ToString();
+
+        /// <summary>How a bound key reads on a key cap and in the key list.</summary>
+        public static string KeyLabel(string keyName)
+        {
+            if (string.IsNullOrWhiteSpace(keyName)) return string.Empty;
+            string trimmed = keyName.Trim();
+            return string.Equals(trimmed, "semicolon", StringComparison.OrdinalIgnoreCase)
+                ? ";"
+                : trimmed.ToUpperInvariant();
+        }
 
         public static string StyleName(PlayStyle style)
         {

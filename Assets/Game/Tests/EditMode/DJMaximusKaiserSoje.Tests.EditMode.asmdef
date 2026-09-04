@@ -6,7 +6,10 @@
     "DJMaximusKaiserSoje.Content",
     "DJMaximusKaiserSoje.Gameplay",
     "DJMaximusKaiserSoje.App",
-    "DJMaximusKaiserSoje.Editor"
+    "DJMaximusKaiserSoje.Presentation",
+    "DJMaximusKaiserSoje.Editor",
+    "Unity.ugui",
+    "Unity.TextMeshPro"
   ],
   "includePlatforms": ["Editor"],
   "excludePlatforms": [],
