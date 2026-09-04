@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using DJMaximusKaiserSoje.Core;
 using UnityEngine;
 
@@ -9,17 +10,39 @@ namespace DJMaximusKaiserSoje.App
         public const string ScrollSpeedKey = "rhythm.play.scroll-speed";
         public const string JudgementOffsetKey = "rhythm.play.judgement-offset-ms";
         public const string PlayStyleKey = "rhythm.play.style";
+        public const string AudioBufferSizeKey = "rhythm.audio.buffer-size";
+        public const string QualityLevelKey = "rhythm.graphics.quality";
+        public const string VSyncKey = "rhythm.graphics.vsync";
+        public const string DisplayModeKey = "rhythm.graphics.display-mode";
+        public const string ResolutionWidthKey = "rhythm.graphics.width";
+        public const string ResolutionHeightKey = "rhythm.graphics.height";
+        private const string BindingKeyPrefix = "rhythm.input.bindings.";
 
         public PlayerPrefsPlayPreferences()
         {
             scrollSpeed = ScrollSpeedRange.Clamp(PlayerPrefs.GetFloat(ScrollSpeedKey, ScrollSpeedRange.Default));
             judgementOffsetMs = JudgementOffsetRange.Clamp(PlayerPrefs.GetFloat(JudgementOffsetKey, 0.0f));
             playStyle = ReadStyle(PlayerPrefs.GetInt(PlayStyleKey, 0));
+            audioBufferSize = GameOptionRules.NormalizeAudioBufferSize(
+                PlayerPrefs.GetInt(AudioBufferSizeKey, AudioSettings.GetConfiguration().dspBufferSize));
+            qualityLevel = Mathf.Clamp(PlayerPrefs.GetInt(QualityLevelKey, QualitySettings.GetQualityLevel()),
+                0, Mathf.Max(0, QualitySettings.names.Length - 1));
+            vSync = PlayerPrefs.GetInt(VSyncKey, QualitySettings.vSyncCount > 0 ? 1 : 0) != 0;
+            displayMode = ReadDisplayMode(PlayerPrefs.GetInt(DisplayModeKey, (int)CurrentDisplayMode()));
+            resolutionWidth = Mathf.Max(640, PlayerPrefs.GetInt(ResolutionWidthKey, Screen.width));
+            resolutionHeight = Mathf.Max(360, PlayerPrefs.GetInt(ResolutionHeightKey, Screen.height));
+            ApplyAll();
         }
 
         private float scrollSpeed;
         private double judgementOffsetMs;
         private PlayStyle playStyle;
+        private int audioBufferSize;
+        private int qualityLevel;
+        private bool vSync;
+        private DisplayMode displayMode;
+        private int resolutionWidth;
+        private int resolutionHeight;
 
         public float ScrollSpeed
         {
@@ -60,6 +83,97 @@ namespace DJMaximusKaiserSoje.App
             }
         }
 
+        public int AudioBufferSize
+        {
+            get => audioBufferSize;
+            set
+            {
+                int normalized = GameOptionRules.NormalizeAudioBufferSize(value);
+                if (audioBufferSize == normalized) return;
+                audioBufferSize = normalized;
+                PlayerPrefs.SetInt(AudioBufferSizeKey, normalized);
+                ApplyAudioBuffer();
+                SaveAndNotify();
+            }
+        }
+
+        public int QualityLevel
+        {
+            get => qualityLevel;
+            set
+            {
+                int clamped = Mathf.Clamp(value, 0, Mathf.Max(0, QualitySettings.names.Length - 1));
+                if (qualityLevel == clamped) return;
+                qualityLevel = clamped;
+                PlayerPrefs.SetInt(QualityLevelKey, qualityLevel);
+                QualitySettings.SetQualityLevel(qualityLevel, true);
+                SaveAndNotify();
+            }
+        }
+
+        public bool VSync
+        {
+            get => vSync;
+            set
+            {
+                if (vSync == value) return;
+                vSync = value;
+                PlayerPrefs.SetInt(VSyncKey, value ? 1 : 0);
+                QualitySettings.vSyncCount = value ? 1 : 0;
+                SaveAndNotify();
+            }
+        }
+
+        public DisplayMode DisplayMode
+        {
+            get => displayMode;
+            set
+            {
+                if (!Enum.IsDefined(typeof(DisplayMode), value)) value = DisplayMode.Borderless;
+                if (displayMode == value) return;
+                displayMode = value;
+                PlayerPrefs.SetInt(DisplayModeKey, (int)value);
+                ApplyResolution();
+                SaveAndNotify();
+            }
+        }
+
+        public int ResolutionWidth => resolutionWidth;
+        public int ResolutionHeight => resolutionHeight;
+
+        public void SetResolution(int width, int height)
+        {
+            width = Mathf.Max(640, width);
+            height = Mathf.Max(360, height);
+            if (resolutionWidth == width && resolutionHeight == height) return;
+            resolutionWidth = width;
+            resolutionHeight = height;
+            PlayerPrefs.SetInt(ResolutionWidthKey, width);
+            PlayerPrefs.SetInt(ResolutionHeightKey, height);
+            ApplyResolution();
+            SaveAndNotify();
+        }
+
+        public IReadOnlyList<string> GetKeyBindings(PlayStyle style)
+        {
+            string serialized = PlayerPrefs.GetString(BindingKey(style), string.Empty);
+            string[] values = string.IsNullOrWhiteSpace(serialized) ? null : serialized.Split('|');
+            return GameOptionRules.NormalizeBindings(style, values);
+        }
+
+        public void SetKeyBinding(PlayStyle style, int lane, string keyName)
+        {
+            string[] values = GameOptionRules.Rebind(style, GetKeyBindings(style), lane, keyName);
+            PlayerPrefs.SetString(BindingKey(style), string.Join("|", values));
+            SaveAndNotify();
+        }
+
+        public void ResetKeyBindings(PlayStyle style)
+        {
+            PlayerPrefs.DeleteKey(BindingKey(style));
+            SaveAndNotify();
+        }
+
         public event Action Changed;
 
         private void SaveAndNotify()
@@ -72,6 +186,50 @@ namespace DJMaximusKaiserSoje.App
 
         private static bool IsDefined(PlayStyle style) =>
             style >= DJMaximusKaiserSoje.Core.PlayStyle.FourKey && style <= DJMaximusKaiserSoje.Core.PlayStyle.SixKeyFx;
+
+        private void ApplyAll()
+        {
+            QualitySettings.SetQualityLevel(qualityLevel, true);
+            QualitySettings.vSyncCount = vSync ? 1 : 0;
+            ApplyAudioBuffer();
+            ApplyResolution();
+        }
+
+        private void ApplyAudioBuffer()
+        {
+            AudioConfiguration configuration = AudioSettings.GetConfiguration();
+            if (configuration.dspBufferSize == audioBufferSize) return;
+            configuration.dspBufferSize = audioBufferSize;
+            if (!AudioSettings.Reset(configuration)) Debug.LogWarning("선택한 오디오 버퍼 크기를 적용하지 못했습니다.");
+        }
+
+        private void ApplyResolution() => Screen.SetResolution(resolutionWidth, resolutionHeight, ToUnityMode(displayMode));
+
+        private static string BindingKey(PlayStyle style) => BindingKeyPrefix + style;
+
+        private static DisplayMode ReadDisplayMode(int value) => Enum.IsDefined(typeof(DisplayMode), value)
+            ? (DisplayMode)value
+            : DisplayMode.Borderless;
+
+        private static DisplayMode CurrentDisplayMode()
+        {
+            switch (Screen.fullScreenMode)
+            {
+                case FullScreenMode.ExclusiveFullScreen: return DisplayMode.Fullscreen;
+                case FullScreenMode.Windowed: return DisplayMode.Windowed;
+                default: return DisplayMode.Borderless;
+            }
+        }
+
+        private static FullScreenMode ToUnityMode(DisplayMode mode)
+        {
+            switch (mode)
+            {
+                case DisplayMode.Fullscreen: return FullScreenMode.ExclusiveFullScreen;
+                case DisplayMode.Windowed: return FullScreenMode.Windowed;
+                default: return FullScreenMode.FullScreenWindow;
+            }
+        }
     }
 
     public sealed class LocalPlayerProfile : IPlayerProfile

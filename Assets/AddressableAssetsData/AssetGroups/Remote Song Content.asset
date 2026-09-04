@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Remote Song Content
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Remote Song Content
+  m_GUID: f068481379b6f2949a8640b4d8812636
+  m_SerializeEntries:
+  - m_GUID: 0392f18b5fad8aa43ae72ca1cc078fd5
+    m_Address: song.osu-2389723.audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09bee5fbe76e8b5409ad591d73011a01
+    m_Address: song.osu-2382059.audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d8a2f1c086b96e4abf2653ed41693a9
+    m_Address: song.osu-2382059.4k.insane-4.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 188f10a16cd3823429a765cb34abfb1a
+    m_Address: song.osu-2382059.4k.normal-2.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dfc55a65203b9a42bf1e353ca5a6903
+    m_Address: song.osu-1908399.4k.four-dimensions-ultra-5.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 217cfcc55d51c774fa5ce69306af3de5
+    m_Address: song.osu-1921061.4k.easy-1.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22196b23745e32940ad4f28748ea75d3
+    m_Address: song.osu-2389723.6k.menphuno-s-hard-3.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 234b40b994655ef4fb56e6063f3a4ebe
+    m_Address: song.osu-1908399.4k.three-dimensions-lami-s-extra-3.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 253ff0168b6700a4f957bba2260a0654
+    m_Address: song.osu-2389723.jacket
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26bd03a35e255ec46b85ce4c05ad6a5e
+    m_Address: song.osu-1921061.4k.normal-2.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 273d3017faa68994ba8718c9ebac08cf
+    m_Address: song.osu-2603242.4k.4k-i-didn-t-miss-the-cold-weather-i-just-missed-you-2.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29963b291b724ab4bb669ac897c820f4
+    m_Address: song.osu-1908399.4k.full-dimensions-4.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f0cc23692c7ea04eafb07b7d3acb9b9
+    m_Address: song.osu-2603242.4k.4k-hard-1.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33faeb7defc7a8240b2f2185ff4294d7
+    m_Address: song.osu-933882.4k.daeng-s-normal-2.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b5db8a9014378c40a3b5b3fe1bfc230
+    m_Address: catalog.rhythm.remote
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cf226dd3f1ac38479dd9b153e1bf333
+    m_Address: song.osu-1921061.4k.lunatic-4.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5552bf1bec1fdc24fa345214853f2e1b
+    m_Address: song.osu-933882.4k.ating-s-another-4.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b38d6523c295fc4399608a6d273d375
+    m_Address: song.osu-1921061.audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c287f747f39db340918cbd578299de5
+    m_Address: song.osu-1921061.4k.maze-of-love-5.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67b68226f11237a4983512f207118958
+    m_Address: song.osu-2603242.audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 703289800c2542e4c974dd8940f23f6e
+    m_Address: song.osu-1921061.4k.hard-3.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73abb15f21e44f046969453fe76e5513
+    m_Address: song.osu-2382059.jacket
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d61dca5bf6cffe4c81a1c13761886f7
+    m_Address: song.osu-2382059.4k.hard-3.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80df4fc83eade4546971f8a5291e946c
+    m_Address: song.osu-2389723.6k.intermediate-1.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81112d508f66a5a44a74b523de3c1209
+    m_Address: song.osu-2382059.4k.expert-5.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88aca41dc9be7034fb1509f8b0d2070c
+    m_Address: song.osu-1908399.4k.dimension-fapu-s-hyper-1.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bc4a80f5cac54d41af6be5275e50b71
+    m_Address: song.osu-1908399.4k.two-dimensions-denyi-s-another-2.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8de0765b559aa7142a8f2669f08cb7ba
+    m_Address: song.osu-2382059.4k.easy-1.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90493ede18e217c42a5b9f83b66d2a47
+    m_Address: song.osu-1908399.audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95e0cae8baf2f5b44afc84830b9299d3
+    m_Address: song.osu-933882.4k.asha-s-hyper-3.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a955a4ec5a4b30141b0dfe05f8a351ab
+    m_Address: song.osu-1908399.jacket
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b02c032a6dab6b049a8bd9f2aa82125e
+    m_Address: song.osu-2389723.6k.advanced-2.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b953ba317be02ce4581c3e33fcf4e990
+    m_Address: song.osu-2603242.6k.6k-i-didn-t-miss-the-sweater-weather-i-just-missed-you-2.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b98036cad25cefb4895eb72485804dfc
+    m_Address: song.osu-933882.jacket
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb55eb2e12bcf0447888a1f0cefe6bea
+    m_Address: song.osu-2603242.jacket
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d32280bcdbae49540af770f048bf49d3
+    m_Address: song.osu-933882.audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d73d0ebb5514f554b92bcf12873bc7e6
+    m_Address: song.osu-933882.4k.xo-5.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e437fae1a72fe8042a02b79e524331ce
+    m_Address: song.osu-2389723.6k.insane-4.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8f7157996144cb4aaa599dbf30da453
+    m_Address: song.osu-1921061.jacket
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee56d23320620424cacabeb4136ea8a9
+    m_Address: song.osu-2603242.6k.6k-hard-1.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4cabcf880de6184fa84663d648c886b
+    m_Address: song.osu-933882.4k.beginner-1.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb57f7a7d28b07945b9f180f7c20364c
+    m_Address: song.osu-2389723.6k.another-5.beatmap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote-song-content
+    - song-content
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e9aa2d4934ee7e84a99b8ee52f6aeaa6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 23ec128c32f8ccb498dd7a647aa00268, type: 2}
+    - {fileID: 11400000, guid: 77be76ffb7ac4b74e926164bf81237ac, type: 2}
+    m_SchemaDisplayOrder:
+    - Remote Song Content_ContentUpdateGroupSchema
+    - Remote Song Content_BundledAssetGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

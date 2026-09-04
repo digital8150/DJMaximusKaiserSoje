@@ -2,6 +2,7 @@ using System;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.LowLevel;
 using DJMaximusKaiserSoje.Core;
+using System.Collections.Generic;
 
 namespace DJMaximusKaiserSoje.Gameplay
 {
@@ -23,14 +24,15 @@ namespace DJMaximusKaiserSoje.Gameplay
         private readonly InputAction[] actions;
         private bool disposed;
 
-        public LaneInput(LaneLayout layout)
+        public LaneInput(LaneLayout layout, IReadOnlyList<string> keyBindings = null)
         {
             if (layout == null) throw new ArgumentNullException(nameof(layout));
+            string[] bindings = GameOptionRules.NormalizeBindings(layout.Style, keyBindings);
             actions = new InputAction[layout.Lanes.Count];
             for (int index = 0; index < layout.Lanes.Count; index++)
             {
                 int capturedIndex = index;
-                string control = layout.Lanes[index].KeyName.ToLowerInvariant();
+                string control = bindings[index].ToLowerInvariant();
                 var action = new InputAction("Lane" + index, InputActionType.Button, "<Keyboard>/" + control);
                 action.performed += context => Pressed?.Invoke(capturedIndex, context.time);
                 action.canceled += context => Released?.Invoke(capturedIndex, context.time);

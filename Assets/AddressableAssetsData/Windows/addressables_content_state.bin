@@ -1,0 +1,9 @@
+ACS@AddressablesContentState?IdÇKhttp://schemas.datacontract.org/2004/07/UnityEditor.AddressableAssets.Build	i)http://www.w3.org/2001/XMLSchema-instance	z3http://schemas.microsoft.com/2003/10/Serialization/@cachedBundles?Idà?Sizeà@CachedBundleState?Idà@bundleFileId?Idàòë{UnityEngine.AddressableAssets.Addressables.RuntimePath}\StandaloneWindows64\defaultlocalgroup_assets_all_12ed4c3509924fa80d00bdb916309f90.bundle@data.typeòa:AssetBundleRequestOptions?Idà	aXhttp://schemas.datacontract.org/2004/07/UnityEngine.ResourceManagement.ResourceProviders^AssetLoadModeôRequestedAssetAndDependencies^
+BundleName?Idàô d96a77f428aa7abf8428d4b89b4ea3a2^
+BundleSizeçÜK3^ChunkedTransferÖ^"ClearOtherCachedVersionsWhenLoadedÖ^CrcçC E^Hash?Idàô 12ed4c3509924fa80d00bdb916309f90^RedirectLimitâˇ^
+RetryCountÅ^TimeoutÅ^UseCrcForCachedBundleá^!UseUnityWebRequestForLocalBundlesÖ@CachedBundleState?Idà@bundleFileId?Idà	òähttp://localhost:8000/StandaloneWindows64/remotesongcontent_assets_remote-song-contentsong-content_396c9b267f4bd5f6f07435c2abbfaa5b.bundle@data.typeòa:AssetBundleRequestOptions?Idà
+	aXhttp://schemas.datacontract.org/2004/07/UnityEngine.ResourceManagement.ResourceProviders^AssetLoadModeôRequestedAssetAndDependencies^
+BundleName?Idàô 2464c20d2cb63d97a623c3b0aec019b8^
+BundleSizeçØí^^ChunkedTransferÖ^"ClearOtherCachedVersionsWhenLoadedÖ^Crcçãúj^Hash?Idàô 396c9b267f4bd5f6f07435c2abbfaa5b^RedirectLimitâˇ^
+RetryCountÅ^TimeoutÅ^UseCrcForCachedBundleá^!UseUnityWebRequestForLocalBundlesÖ@cachedInfos?Idà?SizeÄ@editorVersion?Idàô
+6000.6.0f1@playerVersion?Idàô1.0@remoteCatalogLoadPath?Idàô)http://localhost:8000/StandaloneWindows64@typeTreeHashes?Idà?SizeÄ	a3http://schemas.datacontract.org/2004/07/UnityEngine

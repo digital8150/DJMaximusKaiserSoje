@@ -67,6 +67,20 @@ then crossfades from the screen theme into the chart's preview point (osu `Previ
 the way in when the chart declares none). Moving off the song before the dwell elapses cancels the
 request; leaving the screen returns to the theme. The debounce is testable with an injected clock.
 
+## Options and BGA
+
+The options screen persists judgement offset, audio buffer size, display mode, resolution, quality,
+V-Sync, and a separate key layout for 4K, 4K+2, 6K, and 6K+2. In FX modes, the left and right FX
+bindings are shown separately from the regular lanes. Key assignments use Unity's existing Input
+System control names and duplicate assignments swap lanes, so no custom input serialization or
+additional input package is needed.
+
+Playable video continues through the existing catalog `videoAddress` and Addressables loader. A
+built-in `VideoPlayer` renders it on the gameplay camera's far plane with its audio disabled, while
+the chart's video start offset and the DSP-backed session clock determine its position. This reuses
+Unity's maintained video module and keeps BGA files remote-content compatible; no codec or playback
+layer is implemented in project code.
+
 ## Art pipeline
 
 Generated art is produced against a pure chroma background (`#00ff00`, or `#ff00ff` when the subject

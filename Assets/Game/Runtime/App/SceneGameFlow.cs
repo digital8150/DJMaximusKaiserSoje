@@ -12,6 +12,7 @@ namespace DJMaximusKaiserSoje.App
         public const string Boot = "Boot";
         public const string Title = "Title";
         public const string SongSelect = "SongSelect";
+        public const string Options = "Options";
         public const string Gameplay = "Gameplay";
         public const string Result = "Result";
     }
@@ -27,6 +28,7 @@ namespace DJMaximusKaiserSoje.App
         private string pendingFocusSongId;
         private string pendingFocusChartId;
         private bool loading;
+        private string optionsReturnScene = SceneNames.Title;
 
         public bool CanRetry => lastRequest != null;
 
@@ -39,6 +41,15 @@ namespace DJMaximusKaiserSoje.App
         public void ShowTitle() => Load(SceneNames.Title);
 
         public void ShowSongSelect() => Load(SceneNames.SongSelect);
+
+        public void ShowOptions()
+        {
+            string current = SceneManager.GetActiveScene().name;
+            optionsReturnScene = current == SceneNames.SongSelect ? SceneNames.SongSelect : SceneNames.Title;
+            Load(SceneNames.Options);
+        }
+
+        public void CloseOptions() => Load(optionsReturnScene);
 
         public void StartPlay(PlayRequest request)
         {

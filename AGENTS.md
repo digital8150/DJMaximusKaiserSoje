@@ -36,6 +36,7 @@ DJ막시무스 카이저 쏘제 is an extensible, single-player keyboard rhythm 
 - Abstract clocks, file access, network access, and random sources behind injectable interfaces.
 - Name tests by observable behavior, for example `Parse_WhenTimingPointIsMalformed_ReturnsDiagnostic`.
 - Run the smallest relevant test suite while iterating and the full EditMode suite before merging.
+- Do not directly run complex PlayMode verification that requires visual judgment, gameplay interaction, or UI clicking. Provide the player-facing manual verification steps and delegate those checks to the user.
 
 ## Unity asset discipline
 
@@ -44,6 +45,16 @@ DJ막시무스 카이저 쏘제 is an extensible, single-player keyboard rhythm 
 - Keep `Library`, `Temp`, `Logs`, `obj`, build output, user settings, and Addressables build/cache output out of Git.
 - Store large binary audio, artwork, video, and source assets through Git LFS.
 - Avoid introducing packages that duplicate template-provided capabilities. Add packages through Unity Package Manager APIs and document their purpose.
+
+## Unity Pipeline workflow
+
+- This project includes `com.unity.pipeline` and the Unity CLI. When the Unity Editor is open, treat its live Pipeline HTTP server as the primary automation path.
+- Before assuming that the open Editor cannot be controlled, inspect `Packages/manifest.json`, `Library/Pipeline/.unity-pipeline-port`, and the commands exposed by `unity command --project-path <project-path>`.
+- Use `unity command --project-path <project-path> menu --path "<menu-path>"` to execute an existing Editor menu item.
+- Use the live Editor's `eval`, `run_script`, `run_tests`, `capture_game_view`, and other Pipeline commands when no more specific registered command exists.
+- Do not launch a second Unity Editor in batch mode for this project while the main Editor is open. Do not create or copy a temporary Unity project merely to bypass the project lock.
+- Use `Unity.exe -batchmode -executeMethod ...` only when no Editor instance for this project is running or when the user explicitly requests batch-mode execution.
+- Keeping Unity open is helpful and expected: it enables automatic import/compilation and lets automation rebuild scenes, run tests, and capture results through the existing Editor process.
 
 ## UI/UX copy rules (frontend)
 

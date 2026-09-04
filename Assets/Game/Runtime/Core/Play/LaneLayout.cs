@@ -11,20 +11,28 @@ namespace DJMaximusKaiserSoje.Core
         SixKeyFx
     }
 
+    public enum LaneRole
+    {
+        Normal,
+        LeftFx,
+        RightFx
+    }
+
     public readonly struct LaneSpec
     {
-        public LaneSpec(string keyName, int baseLaneStart, int baseLaneSpan, bool isFx)
+        public LaneSpec(string keyName, int baseLaneStart, int baseLaneSpan, LaneRole role)
         {
             KeyName = keyName;
             BaseLaneStart = baseLaneStart;
             BaseLaneSpan = baseLaneSpan;
-            IsFx = isFx;
+            Role = role;
         }
 
         public string KeyName { get; }
         public int BaseLaneStart { get; }
         public int BaseLaneSpan { get; }
-        public bool IsFx { get; }
+        public LaneRole Role { get; }
+        public bool IsFx => Role != LaneRole.Normal;
     }
 
     /// <summary>
@@ -67,20 +75,26 @@ namespace DJMaximusKaiserSoje.Core
                         Normal("D", 0), Normal("F", 1), Normal("J", 2), Normal("K", 3));
                 case PlayStyle.FourKeyFx:
                     return new LaneLayout(style, "4K + 2 FX", 4,
-                        Fx("S", 0, 2), Normal("D", 0), Normal("F", 1), Normal("J", 2), Normal("K", 3), Fx("L", 2, 2));
+                        Fx("S", 0, 2, LaneRole.LeftFx),
+                        Normal("D", 0), Normal("F", 1), Normal("J", 2), Normal("K", 3),
+                        Fx("L", 2, 2, LaneRole.RightFx));
                 case PlayStyle.SixKey:
                     return new LaneLayout(style, "6K", 6,
                         Normal("S", 0), Normal("D", 1), Normal("F", 2), Normal("J", 3), Normal("K", 4), Normal("L", 5));
                 case PlayStyle.SixKeyFx:
                     return new LaneLayout(style, "6K + 2 FX", 6,
-                        Fx("A", 0, 3), Normal("S", 0), Normal("D", 1), Normal("F", 2), Normal("J", 3), Normal("K", 4), Normal("L", 5), Fx("Semicolon", 3, 3));
+                        Fx("A", 0, 3, LaneRole.LeftFx),
+                        Normal("S", 0), Normal("D", 1), Normal("F", 2), Normal("J", 3), Normal("K", 4), Normal("L", 5),
+                        Fx("Semicolon", 3, 3, LaneRole.RightFx));
                 default:
                     throw new ArgumentOutOfRangeException(nameof(style), style, null);
             }
         }
 
-        private static LaneSpec Normal(string keyName, int baseLane) => new LaneSpec(keyName, baseLane, 1, false);
+        private static LaneSpec Normal(string keyName, int baseLane) =>
+            new LaneSpec(keyName, baseLane, 1, LaneRole.Normal);
 
-        private static LaneSpec Fx(string keyName, int baseLane, int span) => new LaneSpec(keyName, baseLane, span, true);
+        private static LaneSpec Fx(string keyName, int baseLane, int span, LaneRole role) =>
+            new LaneSpec(keyName, baseLane, span, role);
     }
 }

@@ -47,6 +47,14 @@ namespace DJMaximusKaiserSoje.Tests.PlayMode
                 "The list did not build one row per song compatible with the selected key mode.");
 
             yield return Capture("Runtime-SongSelect");
+
+            Assert.That(select.optionsButton, Is.Not.Null, "Song select has no visible settings button.");
+            select.optionsButton.onClick.Invoke();
+            yield return WaitForScene("Options");
+            var options = Object.FindFirstObjectByType<OptionsScreenView>();
+            Assert.That(options, Is.Not.Null);
+            options.backButton.onClick.Invoke();
+            yield return WaitForScene("SongSelect");
         }
 
         [UnityTest]
@@ -64,6 +72,11 @@ namespace DJMaximusKaiserSoje.Tests.PlayMode
 
             var gameplay = Object.FindFirstObjectByType<GameplayScreenView>();
             Assert.That(gameplay, Is.Not.Null, "The gameplay scene has no screen view.");
+            Assert.That(GameObject.Find("OffsetChip"), Is.Null,
+                "Judgement offset belongs in options, not the gameplay HUD.");
+            Assert.That(gameplay.playfield.fxNoteLayer.GetSiblingIndex(),
+                Is.LessThan(gameplay.playfield.noteLayer.GetSiblingIndex()),
+                "FX notes must render behind regular notes.");
 
             float waited = 0f;
             while (waited < Timeout && gameplay.Session == null)
@@ -85,6 +98,9 @@ namespace DJMaximusKaiserSoje.Tests.PlayMode
 
             Assert.That(play.Chart, Is.Not.Null, "The session has no chart loaded.");
             Assert.That(play.PendingNotes.Count, Is.GreaterThan(0), "The chart produced no notes.");
+            var bga = Object.FindFirstObjectByType<DJMaximusKaiserSoje.Gameplay.BgaPlayback>();
+            Assert.That(bga, Is.Not.Null, "The song video was loaded but no BGA playback was created.");
+            Assert.That(bga.Clip, Is.Not.Null);
 
             yield return Capture("Runtime-Gameplay");
 
@@ -98,6 +114,83 @@ namespace DJMaximusKaiserSoje.Tests.PlayMode
             gameplay.resumeButton.onClick.Invoke();
             Assert.That(play.State, Is.EqualTo(PlaySessionState.Resuming));
             Assert.That(play.ResumeCountdownRemainingMs, Is.EqualTo(3000.0).Within(20.0));
+        }
+
+        [UnityTest]
+        public IEnumerator StartingAChart_WithoutVideo_UsesJacketAsBackdrop()
+        {
+            yield return EnsureAtTitle();
+
+            var bootstrap = Object.FindFirstObjectByType<GameBootstrap>();
+            var services = bootstrap.Services;
+            SongSummary song = null;
+            foreach (SongSummary candidate in services.Songs.Songs)
+                if (candidate.Id == "last-fortune")
+                {
+                    song = candidate;
+                    break;
+                }
+
+            Assert.That(song, Is.Not.Null, "The no-video fixture song is missing from the catalog.");
+            var chart = song.Charts[0];
+            services.Flow.StartPlay(new PlayRequest(song.Id, chart.Id, PlayStyle.FourKey, 5f, 0.0));
+            yield return WaitForScene("Gameplay");
+            yield return null;
+            yield return null;
+
+            var bga = Object.FindFirstObjectByType<DJMaximusKaiserSoje.Gameplay.BgaPlayback>();
+            Assert.That(bga, Is.Not.Null, "No gameplay backdrop was created.");
+            Assert.That(bga.Clip, Is.Null, "The fixture unexpectedly loaded a video.");
+            Assert.That(bga.Jacket, Is.Not.Null, "The chart jacket was not loaded for fallback.");
+            Assert.That(bga.VisualMode, Is.EqualTo(DJMaximusKaiserSoje.Gameplay.BgaVisualMode.Jacket));
+
+            yield return Capture("Runtime-Gameplay-JacketFallback");
+        }
+
+        [UnityTest]
+        public IEnumerator Options_FromTitle_BindsSettingsAndReturnsToTitle()
+        {
+            yield return EnsureAtTitle();
+
+            var bootstrap = Object.FindFirstObjectByType<GameBootstrap>();
+            double originalOffset = bootstrap.Services.Preferences.JudgementOffsetMs;
+            bootstrap.Services.Preferences.JudgementOffsetMs = 0.0;
+            var title = Object.FindFirstObjectByType<TitleScreenView>();
+            Assert.That(title, Is.Not.Null);
+            Assert.That(title.optionsButton, Is.Not.Null, "The title screen has no visible settings button.");
+            title.optionsButton.onClick.Invoke();
+            yield return WaitForScene("Options");
+            yield return null;
+
+            var options = Object.FindFirstObjectByType<OptionsScreenView>();
+            Assert.That(options, Is.Not.Null, "The options scene has no screen view.");
+            Assert.That(options.styleTabs.Length, Is.EqualTo(4));
+            Assert.That(options.keyButtons.Length, Is.EqualTo(8));
+            Assert.That(options.judgementOffsetLabel, Is.Not.Null);
+            Assert.That(options.judgementOffsetDownButton, Is.Not.Null);
+            Assert.That(options.judgementOffsetUpButton, Is.Not.Null);
+            options.judgementOffsetUpButton.onClick.Invoke();
+            Assert.That(bootstrap.Services.Preferences.JudgementOffsetMs, Is.EqualTo(5.0));
+            Assert.That(options.judgementOffsetLabel.text, Is.EqualTo("+5 ms"));
+
+            options.styleTabs[(int)PlayStyle.FourKeyFx].button.onClick.Invoke();
+            Assert.That(options.keyRoleLabels[0].text, Is.EqualTo("왼쪽"));
+            Assert.That(options.keyRoleLabels[5].text, Is.EqualTo("오른쪽"));
+            Assert.That(options.keyButtons[0].GetComponent<RectTransform>().anchoredPosition.y,
+                Is.LessThan(options.keyButtons[1].GetComponent<RectTransform>().anchoredPosition.y),
+                "FX bindings must be displayed separately below regular lanes.");
+
+            options.styleTabs[(int)PlayStyle.SixKeyFx].button.onClick.Invoke();
+            Assert.That(options.keyRoleLabels[0].text, Is.EqualTo("왼쪽"));
+            Assert.That(options.keyRoleLabels[7].text, Is.EqualTo("오른쪽"));
+            Assert.That(options.keyButtons[0].GetComponent<RectTransform>().anchoredPosition.y,
+                Is.LessThan(options.keyButtons[4].GetComponent<RectTransform>().anchoredPosition.y));
+
+            yield return Capture("Runtime-Options");
+
+            bootstrap.Services.Preferences.JudgementOffsetMs = originalOffset;
+            options.backButton.onClick.Invoke();
+            yield return WaitForScene("Title");
         }
 
         /// <summary>
@@ -128,6 +221,8 @@ namespace DJMaximusKaiserSoje.Tests.PlayMode
 
             bootstrap.Services.Flow.ShowTitle();
             yield return WaitForScene("Title");
+            // The scene name changes before LoadSceneAsync.completed clears the flow's loading flag.
+            yield return null;
         }
 
         private static IEnumerator WaitForScene(string sceneName)

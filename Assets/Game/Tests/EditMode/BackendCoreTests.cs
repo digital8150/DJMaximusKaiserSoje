@@ -46,14 +46,32 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
         }
 
         [Test]
-        public void Health_MissesEventuallyEmptyTheGauge()
+        public void Health_TenfoldGaugeKeepsExistingDamagePerMiss()
         {
             var rules = new HealthRules();
             HealthState health = rules.StartingHealth;
-            for (int index = 0; index < 5; index++) health = rules.Apply(health, JudgementGrade.Miss);
+            for (int index = 0; index < 49; index++) health = rules.Apply(health, JudgementGrade.Miss);
 
+            Assert.That(health.Value, Is.EqualTo(0.2).Within(0.000001));
+            Assert.That(health.IsEmpty, Is.False);
+
+            health = rules.Apply(health, JudgementGrade.Miss);
             Assert.That(health.IsEmpty, Is.True);
             Assert.That(rules.HasFailed(health), Is.True);
+        }
+
+        [Test]
+        public void Health_RecoveryIsTenfoldWhileDamageIsUnchanged()
+        {
+            var rules = new HealthRules(initialValue: 5.0);
+
+            HealthState recovered = rules.Apply(rules.StartingHealth, JudgementGrade.PerfectHigh);
+            HealthState damaged = rules.Apply(recovered, JudgementGrade.Miss);
+
+            Assert.That(HealthState.Maximum, Is.EqualTo(10.0));
+            Assert.That(recovered.Value, Is.EqualTo(5.1).Within(0.000001));
+            Assert.That(damaged.Value, Is.EqualTo(4.9).Within(0.000001));
+            Assert.That(HealthRules.MissDelta, Is.EqualTo(-0.2));
         }
 
         [Test]
@@ -95,6 +113,52 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             var chart = new BeatmapHeader("T", "A", "N", 4, previewTimeMs: 1250.0);
 
             Assert.That(PreviewPointResolver.Resolve(chart, 20000.0), Is.EqualTo(1250.0));
+        }
+
+        [TestCase(64, 128)]
+        [TestCase(300, 256)]
+        [TestCase(900, 1024)]
+        public void Options_AudioBufferUsesNearestSupportedSize(int requested, int expected)
+        {
+            Assert.That(GameOptionRules.NormalizeAudioBufferSize(requested), Is.EqualTo(expected));
+        }
+
+        [Test]
+        public void Options_RebindingUsedKeySwapsLanesAndKeepsBindingsUnique()
+        {
+            string[] defaults = GameOptionRules.DefaultBindings(PlayStyle.FourKey);
+
+            string[] result = GameOptionRules.Rebind(PlayStyle.FourKey, defaults, 0, defaults[1]);
+
+            Assert.That(result, Is.EqualTo(new[] { "F", "D", "J", "K" }));
+        }
+
+        [Test]
+        public void Options_MalformedBindingListFallsBackToModeDefaults()
+        {
+            string[] result = GameOptionRules.NormalizeBindings(PlayStyle.SixKeyFx,
+                new[] { "A", "A" });
+
+            Assert.That(result, Is.EqualTo(GameOptionRules.DefaultBindings(PlayStyle.SixKeyFx)));
+        }
+
+        [Test]
+        public void Options_JudgementOffsetStepsAndClampsToSupportedRange()
+        {
+            Assert.That(JudgementOffsetRange.Stepped(-110.0, 1), Is.EqualTo(-105.0));
+            Assert.That(JudgementOffsetRange.Stepped(JudgementOffsetRange.MaximumMs, 1),
+                Is.EqualTo(JudgementOffsetRange.MaximumMs));
+            Assert.That(JudgementOffsetRange.Stepped(JudgementOffsetRange.MinimumMs, -1),
+                Is.EqualTo(JudgementOffsetRange.MinimumMs));
+        }
+
+        [TestCase(PlayStyle.FourKeyFx, 0, LaneRole.LeftFx)]
+        [TestCase(PlayStyle.FourKeyFx, 5, LaneRole.RightFx)]
+        [TestCase(PlayStyle.SixKeyFx, 0, LaneRole.LeftFx)]
+        [TestCase(PlayStyle.SixKeyFx, 7, LaneRole.RightFx)]
+        public void FxPlayStyle_IdentifiesLeftAndRightBindings(PlayStyle style, int lane, LaneRole expected)
+        {
+            Assert.That(LaneLayout.Create(style).Lanes[lane].Role, Is.EqualTo(expected));
         }
 
         [TestCase(PlayStyle.FourKey, 4)]

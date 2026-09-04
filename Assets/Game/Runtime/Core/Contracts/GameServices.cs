@@ -56,6 +56,10 @@ namespace DJMaximusKaiserSoje.Core
         void BindSession(IPlaySession session);
     }
 
+    public interface IOptionsScreenView : IScreenView
+    {
+    }
+
     public interface IResultScreenView : IScreenView
     {
         void ShowResult(PlayResult result);

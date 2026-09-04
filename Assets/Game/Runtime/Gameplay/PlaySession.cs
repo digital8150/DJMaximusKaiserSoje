@@ -495,6 +495,7 @@ namespace DJMaximusKaiserSoje.Gameplay
     {
         private PlaySession session;
         private LoadedSongContent content;
+        private BgaPlayback bga;
 
         public void Bind(PlaySession value)
         {
@@ -505,9 +506,15 @@ namespace DJMaximusKaiserSoje.Gameplay
         {
             Bind(value);
             content = loadedContent;
+            bga = gameObject.AddComponent<BgaPlayback>();
+            bga.Bind(session, content?.Video, content?.Jacket);
         }
 
-        private void Update() => session?.Tick();
+        private void Update()
+        {
+            session?.Tick();
+            bga?.Tick();
+        }
 
         private void OnDestroy()
         {

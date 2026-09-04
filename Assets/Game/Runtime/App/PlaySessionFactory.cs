@@ -68,7 +68,7 @@ namespace DJMaximusKaiserSoje.App
             var audioSource = runtimeObject.AddComponent<AudioSource>();
             var audio = new UnityAudioPlayback(audioSource);
             audio.SetClip(loaded.Value.Audio);
-            var input = new LaneInput(LaneLayout.Create(request.Style));
+            var input = new LaneInput(LaneLayout.Create(request.Style), request.KeyBindings);
             PlaySession session;
             try
             {

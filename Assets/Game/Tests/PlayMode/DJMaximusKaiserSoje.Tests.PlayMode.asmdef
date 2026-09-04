@@ -7,6 +7,7 @@
     "DJMaximusKaiserSoje.Gameplay",
     "DJMaximusKaiserSoje.App",
     "DJMaximusKaiserSoje.Presentation",
+    "Unity.TextMeshPro",
     "Unity.Addressables",
     "Unity.ResourceManager",
     "Unity.InputSystem"

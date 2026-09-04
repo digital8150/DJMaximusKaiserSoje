@@ -5,24 +5,24 @@ namespace DJMaximusKaiserSoje.Core
     /// <summary>Deterministic gauge changes shared by gameplay and tests.</summary>
     public sealed class HealthRules
     {
-        public const double PerfectHighDelta = 0.010;
-        public const double PerfectDelta = 0.008;
-        public const double GreatDelta = 0.004;
+        public const double PerfectHighDelta = 0.100;
+        public const double PerfectDelta = 0.080;
+        public const double GreatDelta = 0.040;
         public const double GoodDelta = -0.010;
         public const double MissDelta = -0.200;
 
         public static HealthRules Default { get; } = new HealthRules();
 
-        public HealthRules(double initialValue01 = 1.0)
+        public HealthRules(double initialValue = HealthState.Maximum)
         {
-            StartingHealth = new HealthState(initialValue01);
+            StartingHealth = new HealthState(initialValue);
         }
 
         public HealthState StartingHealth { get; }
 
         public HealthState Apply(HealthState current, JudgementGrade grade)
         {
-            return new HealthState(current.Value01 + DeltaFor(grade));
+            return new HealthState(current.Value + DeltaFor(grade));
         }
 
         public HealthState Update(HealthState current, JudgementGrade grade) => Apply(current, grade);

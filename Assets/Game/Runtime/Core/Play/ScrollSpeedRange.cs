@@ -23,5 +23,7 @@ namespace DJMaximusKaiserSoje.Core
         public const double StepMs = 5.0;
 
         public static double Clamp(double value) => Math.Max(MinimumMs, Math.Min(MaximumMs, value));
+
+        public static double Stepped(double value, int steps) => Clamp(value + steps * StepMs);
     }
 }

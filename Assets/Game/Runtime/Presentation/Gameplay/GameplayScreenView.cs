@@ -31,7 +31,6 @@ namespace DJMaximusKaiserSoje.Presentation
 
         [Header("Chips")]
         [SerializeField] internal TMP_Text speedLabel;
-        [SerializeField] internal TMP_Text offsetLabel;
         [SerializeField] internal TMP_Text keyGuideLabel;
 
         [Header("Pause")]
@@ -59,7 +58,6 @@ namespace DJMaximusKaiserSoje.Presentation
             if (playerNameLabel != null) playerNameLabel.text = services.Profile.DisplayName;
             if (playerTagLabel != null) playerTagLabel.text = services.Profile.Tag;
             if (speedLabel != null) speedLabel.text = UiFormat.Speed(services.Preferences.ScrollSpeed);
-            if (offsetLabel != null) offsetLabel.text = UiFormat.Offset(services.Preferences.JudgementOffsetMs);
             if (keyGuideLabel != null) keyGuideLabel.text = "F1 / F2 노트 속도    Esc 일시정지";
             if (pauseTitleLabel != null) pauseTitleLabel.text = "일시정지";
             if (pauseGuideLabel != null) pauseGuideLabel.text = "계속할 준비가 되면 재개를 눌러 주세요";
@@ -161,13 +159,10 @@ namespace DJMaximusKaiserSoje.Presentation
             var keyboard = Keyboard.current;
             if (keyboard == null) return;
 
-            if (keyboard.spaceKey.wasPressedThisFrame) TogglePause();
             if (keyboard.f5Key.wasPressedThisFrame) Restart();
             if (keyboard.escapeKey.wasPressedThisFrame) TogglePause();
             if (keyboard.f1Key.wasPressedThisFrame) NudgeSpeed(-1);
             if (keyboard.f2Key.wasPressedThisFrame) NudgeSpeed(1);
-            if (keyboard.leftBracketKey.wasPressedThisFrame) NudgeOffset(-JudgementOffsetRange.StepMs);
-            if (keyboard.rightBracketKey.wasPressedThisFrame) NudgeOffset(JudgementOffsetRange.StepMs);
         }
 
         private void UpdateCountdown()
@@ -221,13 +216,6 @@ namespace DJMaximusKaiserSoje.Presentation
             leaving = true;
             session.Abort();
             services.Flow.ShowSongSelect();
-        }
-
-        private void NudgeOffset(double deltaMs)
-        {
-            services.Preferences.JudgementOffsetMs =
-                JudgementOffsetRange.Clamp(services.Preferences.JudgementOffsetMs + deltaMs);
-            if (offsetLabel != null) offsetLabel.text = UiFormat.Offset(services.Preferences.JudgementOffsetMs);
         }
 
         private void NudgeSpeed(int steps)

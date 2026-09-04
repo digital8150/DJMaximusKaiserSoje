@@ -1,0 +1,464 @@
+{
+    "schemaVersion": 2,
+    "songs": [
+        {
+            "id": "shooting-star",
+            "title": "Shooting Star",
+            "artist": "StelLive Cliche",
+            "audioAddress": "song.shooting-star.audio",
+            "videoAddress": "song.shooting-star.video",
+            "jacketAddress": "",
+            "bpm": 190.0,
+            "category": "Prototype",
+            "charts": [
+                {
+                    "difficulty": "Easy",
+                    "tier": "Easy",
+                    "level": 1,
+                    "keyCount": 4,
+                    "noteCount": 695,
+                    "beatmapAddress": "song.shooting-star.easy.beatmap",
+                    "coverAddress": "song.shooting-star.cover.1"
+                },
+                {
+                    "difficulty": "Normal",
+                    "tier": "Normal",
+                    "level": 5,
+                    "keyCount": 4,
+                    "noteCount": 1100,
+                    "beatmapAddress": "song.shooting-star.normal.beatmap",
+                    "coverAddress": "song.shooting-star.cover.2"
+                },
+                {
+                    "difficulty": "Hard",
+                    "tier": "Hard",
+                    "level": 10,
+                    "keyCount": 4,
+                    "noteCount": 1678,
+                    "beatmapAddress": "song.shooting-star.hard.beatmap",
+                    "coverAddress": "song.shooting-star.cover.2"
+                },
+                {
+                    "difficulty": "Insane",
+                    "tier": "SuperHard",
+                    "level": 15,
+                    "keyCount": 4,
+                    "noteCount": 1935,
+                    "beatmapAddress": "song.shooting-star.insane.beatmap",
+                    "coverAddress": "song.shooting-star.cover.3"
+                },
+                {
+                    "difficulty": "Satellite",
+                    "tier": "Over",
+                    "level": 20,
+                    "keyCount": 4,
+                    "noteCount": 2325,
+                    "beatmapAddress": "song.shooting-star.satellite.beatmap",
+                    "coverAddress": "song.shooting-star.cover.1"
+                }
+            ]
+        },
+        {
+            "id": "last-fortune",
+            "title": "last fortune",
+            "artist": "fripSide",
+            "audioAddress": "song.last-fortune.audio",
+            "videoAddress": "",
+            "jacketAddress": "",
+            "bpm": 134.0,
+            "category": "Prototype",
+            "charts": [
+                {
+                    "difficulty": "Lv.1",
+                    "tier": "Easy",
+                    "level": 1,
+                    "keyCount": 4,
+                    "noteCount": 844,
+                    "beatmapAddress": "song.last-fortune.lv1.beatmap",
+                    "coverAddress": "song.last-fortune.cover"
+                },
+                {
+                    "difficulty": "Lv.20",
+                    "tier": "Hard",
+                    "level": 20,
+                    "keyCount": 4,
+                    "noteCount": 2387,
+                    "beatmapAddress": "song.last-fortune.lv20.beatmap",
+                    "coverAddress": "song.last-fortune.cover"
+                },
+                {
+                    "difficulty": "Lv.45",
+                    "tier": "Over",
+                    "level": 45,
+                    "keyCount": 4,
+                    "noteCount": 3624,
+                    "beatmapAddress": "song.last-fortune.lv45.beatmap",
+                    "coverAddress": "song.last-fortune.cover"
+                }
+            ]
+        },
+        {
+            "id": "disconnected-trance",
+            "title": "Disconnected Trance",
+            "artist": "DJ Banzai",
+            "audioAddress": "song.disconnected-trance.audio",
+            "videoAddress": "",
+            "jacketAddress": "",
+            "bpm": 148.0,
+            "category": "Prototype",
+            "charts": [
+                {
+                    "difficulty": "Insane",
+                    "tier": "SuperHard",
+                    "level": 15,
+                    "keyCount": 4,
+                    "noteCount": 1674,
+                    "beatmapAddress": "song.disconnected-trance.insane.beatmap",
+                    "coverAddress": "song.disconnected-trance.cover"
+                },
+                {
+                    "difficulty": "STEPMANIA",
+                    "tier": "Over",
+                    "level": 20,
+                    "keyCount": 4,
+                    "noteCount": 1775,
+                    "beatmapAddress": "song.disconnected-trance.stepmania.beatmap",
+                    "coverAddress": "song.disconnected-trance.cover"
+                }
+            ]
+        },
+        {
+            "id": "osu-1908399",
+            "title": "FREEDOM DiVE",
+            "artist": "xi",
+            "audioAddress": "song.osu-1908399.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1908399.jacket",
+            "bpm": 222.22000000000023,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "DiMENSiON / Fapu's Hyper",
+                    "tier": "Normal",
+                    "level": 5,
+                    "keyCount": 4,
+                    "noteCount": 3114,
+                    "beatmapAddress": "song.osu-1908399.4k.dimension-fapu-s-hyper-1.beatmap",
+                    "coverAddress": "song.osu-1908399.jacket"
+                },
+                {
+                    "difficulty": "TWO DiMENSiONS / DenYi's Another",
+                    "tier": "Easy",
+                    "level": 1,
+                    "keyCount": 4,
+                    "noteCount": 3984,
+                    "beatmapAddress": "song.osu-1908399.4k.two-dimensions-denyi-s-another-2.beatmap",
+                    "coverAddress": "song.osu-1908399.jacket"
+                },
+                {
+                    "difficulty": "THREE DiMENSiONS / Lami's Extra",
+                    "tier": "Hard",
+                    "level": 10,
+                    "keyCount": 4,
+                    "noteCount": 4523,
+                    "beatmapAddress": "song.osu-1908399.4k.three-dimensions-lami-s-extra-3.beatmap",
+                    "coverAddress": "song.osu-1908399.jacket"
+                },
+                {
+                    "difficulty": "FULL DiMENSiONS",
+                    "tier": "SuperHard",
+                    "level": 15,
+                    "keyCount": 4,
+                    "noteCount": 4985,
+                    "beatmapAddress": "song.osu-1908399.4k.full-dimensions-4.beatmap",
+                    "coverAddress": "song.osu-1908399.jacket"
+                },
+                {
+                    "difficulty": "FOUR DiMENSiONS / Ultra",
+                    "tier": "Over",
+                    "level": 20,
+                    "keyCount": 4,
+                    "noteCount": 5020,
+                    "beatmapAddress": "song.osu-1908399.4k.four-dimensions-ultra-5.beatmap",
+                    "coverAddress": "song.osu-1908399.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-2389723",
+            "title": "Freedom Dive",
+            "artist": "xi",
+            "audioAddress": "song.osu-2389723.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-2389723.jacket",
+            "bpm": 222.22000000000023,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Intermediate",
+                    "tier": "Normal",
+                    "level": 5,
+                    "keyCount": 6,
+                    "noteCount": 915,
+                    "beatmapAddress": "song.osu-2389723.6k.intermediate-1.beatmap",
+                    "coverAddress": "song.osu-2389723.jacket"
+                },
+                {
+                    "difficulty": "Advanced",
+                    "tier": "Hard",
+                    "level": 10,
+                    "keyCount": 6,
+                    "noteCount": 1625,
+                    "beatmapAddress": "song.osu-2389723.6k.advanced-2.beatmap",
+                    "coverAddress": "song.osu-2389723.jacket"
+                },
+                {
+                    "difficulty": "Menphuno's Hard",
+                    "tier": "SuperHard",
+                    "level": 15,
+                    "keyCount": 6,
+                    "noteCount": 2606,
+                    "beatmapAddress": "song.osu-2389723.6k.menphuno-s-hard-3.beatmap",
+                    "coverAddress": "song.osu-2389723.jacket"
+                },
+                {
+                    "difficulty": "Insane",
+                    "tier": "Over",
+                    "level": 20,
+                    "keyCount": 6,
+                    "noteCount": 3506,
+                    "beatmapAddress": "song.osu-2389723.6k.insane-4.beatmap",
+                    "coverAddress": "song.osu-2389723.jacket"
+                },
+                {
+                    "difficulty": "Another",
+                    "tier": "Easy",
+                    "level": 1,
+                    "keyCount": 6,
+                    "noteCount": 4076,
+                    "beatmapAddress": "song.osu-2389723.6k.another-5.beatmap",
+                    "coverAddress": "song.osu-2389723.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-933882",
+            "title": "MilK",
+            "artist": "Morimori Atsushi",
+            "audioAddress": "song.osu-933882.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-933882.jacket",
+            "bpm": 150.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Beginner",
+                    "tier": "Easy",
+                    "level": 1,
+                    "keyCount": 4,
+                    "noteCount": 350,
+                    "beatmapAddress": "song.osu-933882.4k.beginner-1.beatmap",
+                    "coverAddress": "song.osu-933882.jacket"
+                },
+                {
+                    "difficulty": "Daeng's Normal",
+                    "tier": "Normal",
+                    "level": 5,
+                    "keyCount": 4,
+                    "noteCount": 625,
+                    "beatmapAddress": "song.osu-933882.4k.daeng-s-normal-2.beatmap",
+                    "coverAddress": "song.osu-933882.jacket"
+                },
+                {
+                    "difficulty": "Asha's Hyper",
+                    "tier": "Hard",
+                    "level": 10,
+                    "keyCount": 4,
+                    "noteCount": 840,
+                    "beatmapAddress": "song.osu-933882.4k.asha-s-hyper-3.beatmap",
+                    "coverAddress": "song.osu-933882.jacket"
+                },
+                {
+                    "difficulty": "ATing's Another",
+                    "tier": "SuperHard",
+                    "level": 15,
+                    "keyCount": 4,
+                    "noteCount": 1178,
+                    "beatmapAddress": "song.osu-933882.4k.ating-s-another-4.beatmap",
+                    "coverAddress": "song.osu-933882.jacket"
+                },
+                {
+                    "difficulty": "XO",
+                    "tier": "Over",
+                    "level": 20,
+                    "keyCount": 4,
+                    "noteCount": 1217,
+                    "beatmapAddress": "song.osu-933882.4k.xo-5.beatmap",
+                    "coverAddress": "song.osu-933882.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-1921061",
+            "title": "Tear Rain feat. Emmy",
+            "artist": "cYsmix",
+            "audioAddress": "song.osu-1921061.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-1921061.jacket",
+            "bpm": 128.0,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Easy",
+                    "tier": "Easy",
+                    "level": 1,
+                    "keyCount": 4,
+                    "noteCount": 776,
+                    "beatmapAddress": "song.osu-1921061.4k.easy-1.beatmap",
+                    "coverAddress": "song.osu-1921061.jacket"
+                },
+                {
+                    "difficulty": "Normal",
+                    "tier": "Normal",
+                    "level": 5,
+                    "keyCount": 4,
+                    "noteCount": 1549,
+                    "beatmapAddress": "song.osu-1921061.4k.normal-2.beatmap",
+                    "coverAddress": "song.osu-1921061.jacket"
+                },
+                {
+                    "difficulty": "Hard",
+                    "tier": "Hard",
+                    "level": 10,
+                    "keyCount": 4,
+                    "noteCount": 2495,
+                    "beatmapAddress": "song.osu-1921061.4k.hard-3.beatmap",
+                    "coverAddress": "song.osu-1921061.jacket"
+                },
+                {
+                    "difficulty": "Lunatic",
+                    "tier": "SuperHard",
+                    "level": 15,
+                    "keyCount": 4,
+                    "noteCount": 3126,
+                    "beatmapAddress": "song.osu-1921061.4k.lunatic-4.beatmap",
+                    "coverAddress": "song.osu-1921061.jacket"
+                },
+                {
+                    "difficulty": "Maze of Love",
+                    "tier": "Over",
+                    "level": 20,
+                    "keyCount": 4,
+                    "noteCount": 3525,
+                    "beatmapAddress": "song.osu-1921061.4k.maze-of-love-5.beatmap",
+                    "coverAddress": "song.osu-1921061.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-2382059",
+            "title": "Pixel Planet",
+            "artist": "Lime",
+            "audioAddress": "song.osu-2382059.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-2382059.jacket",
+            "bpm": 222.00000000000023,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "Easy",
+                    "tier": "Easy",
+                    "level": 1,
+                    "keyCount": 4,
+                    "noteCount": 480,
+                    "beatmapAddress": "song.osu-2382059.4k.easy-1.beatmap",
+                    "coverAddress": "song.osu-2382059.jacket"
+                },
+                {
+                    "difficulty": "Normal",
+                    "tier": "Normal",
+                    "level": 5,
+                    "keyCount": 4,
+                    "noteCount": 737,
+                    "beatmapAddress": "song.osu-2382059.4k.normal-2.beatmap",
+                    "coverAddress": "song.osu-2382059.jacket"
+                },
+                {
+                    "difficulty": "Hard",
+                    "tier": "Hard",
+                    "level": 10,
+                    "keyCount": 4,
+                    "noteCount": 1165,
+                    "beatmapAddress": "song.osu-2382059.4k.hard-3.beatmap",
+                    "coverAddress": "song.osu-2382059.jacket"
+                },
+                {
+                    "difficulty": "Insane",
+                    "tier": "SuperHard",
+                    "level": 15,
+                    "keyCount": 4,
+                    "noteCount": 1578,
+                    "beatmapAddress": "song.osu-2382059.4k.insane-4.beatmap",
+                    "coverAddress": "song.osu-2382059.jacket"
+                },
+                {
+                    "difficulty": "Expert",
+                    "tier": "Over",
+                    "level": 20,
+                    "keyCount": 4,
+                    "noteCount": 2000,
+                    "beatmapAddress": "song.osu-2382059.4k.expert-5.beatmap",
+                    "coverAddress": "song.osu-2382059.jacket"
+                }
+            ]
+        },
+        {
+            "id": "osu-2603242",
+            "title": "cold weather",
+            "artist": "glass beach",
+            "audioAddress": "song.osu-2603242.audio",
+            "videoAddress": "",
+            "jacketAddress": "song.osu-2603242.jacket",
+            "bpm": 190.0000000000003,
+            "category": "osu!mania",
+            "charts": [
+                {
+                    "difficulty": "4K Hard",
+                    "tier": "Hard",
+                    "level": 4,
+                    "keyCount": 4,
+                    "noteCount": 1311,
+                    "beatmapAddress": "song.osu-2603242.4k.4k-hard-1.beatmap",
+                    "coverAddress": "song.osu-2603242.jacket"
+                },
+                {
+                    "difficulty": "4K I didn't miss the cold weather, I just missed you",
+                    "tier": "Easy",
+                    "level": 4,
+                    "keyCount": 4,
+                    "noteCount": 1663,
+                    "beatmapAddress": "song.osu-2603242.4k.4k-i-didn-t-miss-the-cold-weather-i-just-missed-you-2.beatmap",
+                    "coverAddress": "song.osu-2603242.jacket"
+                },
+                {
+                    "difficulty": "6K Hard",
+                    "tier": "Hard",
+                    "level": 6,
+                    "keyCount": 6,
+                    "noteCount": 1362,
+                    "beatmapAddress": "song.osu-2603242.6k.6k-hard-1.beatmap",
+                    "coverAddress": "song.osu-2603242.jacket"
+                },
+                {
+                    "difficulty": "6K I didn't miss the sweater weather, I just missed you",
+                    "tier": "Normal",
+                    "level": 6,
+                    "keyCount": 6,
+                    "noteCount": 1671,
+                    "beatmapAddress": "song.osu-2603242.6k.6k-i-didn-t-miss-the-sweater-weather-i-just-missed-you-2.beatmap",
+                    "coverAddress": "song.osu-2603242.jacket"
+                }
+            ]
+        }
+    ]
+}

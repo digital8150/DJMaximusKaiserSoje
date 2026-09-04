@@ -53,6 +53,29 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             public ChartRecord Submit(PlayResult result) => result == null ? null : Get(result.ChartId);
         }
 
+        [TestCase(499.9, false, 0.0)]
+        [TestCase(500.0, true, 0.0)]
+        [TestCase(1750.0, true, 1.25)]
+        [TestCase(2500.0, false, 2.0)]
+        public void BgaTimeline_AppliesBeatmapStartAndStopsAtVideoEnd(
+            double songTimeMs, bool expectedVisible, double expectedVideoTime)
+        {
+            bool visible = BgaTimeline.TryResolveTime(songTimeMs, 500.0, 2.0, out double videoTime);
+
+            Assert.That(visible, Is.EqualTo(expectedVisible));
+            Assert.That(videoTime, Is.EqualTo(expectedVideoTime).Within(0.000001));
+        }
+
+        [TestCase(true, true, BgaVisualMode.Video)]
+        [TestCase(true, false, BgaVisualMode.Video)]
+        [TestCase(false, true, BgaVisualMode.Jacket)]
+        [TestCase(false, false, BgaVisualMode.None)]
+        public void BgaVisual_UsesJacketOnlyWhenVideoIsUnavailable(
+            bool hasVideo, bool hasJacket, BgaVisualMode expected)
+        {
+            Assert.That(BgaTimeline.ResolveVisual(hasVideo, hasJacket), Is.EqualTo(expected));
+        }
+
         [Test]
         public void Session_SchedulesAudioFromDspClockAndTranslatesInputTimestamp()
         {

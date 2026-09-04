@@ -167,7 +167,7 @@ namespace DJMaximusKaiserSoje.Presentation
             burstRemaining = new float[count];
             laneHeld = new bool[count];
 
-            // FX lanes draw over the core lanes, so lay the core ones down first.
+            // FX controls still sit over the core controls; note draw order is handled by their layers.
             for (int pass = 0; pass < 2; pass++)
             {
                 bool fxPass = pass == 1;
@@ -334,17 +334,18 @@ namespace DJMaximusKaiserSoje.Presentation
                     ? Mathf.Max(noteHeight, (float)((note.EndTimeMs - note.StartTimeMs) * PixelsPerMillisecond) + noteHeight)
                     : noteHeight;
 
+                Color noteColor = spec.IsFx ? UiPalette.FxRed : Color.white;
                 if (note.IsHold && note.HeadJudged)
                 {
                     // A held note stops falling: its head stays pinned to the judgement line.
                     float tail = (float)((note.EndTimeMs - songTimeMs) * PixelsPerMillisecond);
                     y = 0f;
                     height = Mathf.Max(noteHeight, tail + noteHeight);
-                    view.Image.color = Color.white.WithAlpha(0.62f);
+                    view.Image.color = noteColor.WithAlpha(0.62f);
                 }
                 else
                 {
-                    view.Image.color = Color.white;
+                    view.Image.color = noteColor;
                 }
 
                 Place(view.Rect, x, y, spec.BaseLaneSpan * baseWidth - notePadding, height);

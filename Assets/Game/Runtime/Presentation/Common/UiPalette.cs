@@ -25,6 +25,7 @@ namespace DJMaximusKaiserSoje.Presentation
         public static readonly Color Mint = new Color32(0x7C, 0xFF, 0xC4, 0xFF);
         public static readonly Color Amber = new Color32(0xFF, 0xC8, 0x5C, 0xFF);
         public static readonly Color Rose = new Color32(0xFF, 0x5E, 0x7A, 0xFF);
+        public static readonly Color FxRed = new Color32(0xFF, 0x36, 0x48, 0xFF);
         public static readonly Color Violet = new Color32(0x94, 0x84, 0xFF, 0xFF);
 
         public static Color GradeColor(JudgementGrade grade)
@@ -137,9 +138,9 @@ namespace DJMaximusKaiserSoje.Presentation
             switch (style)
             {
                 case PlayStyle.FourKey: return "4K";
-                case PlayStyle.FourKeyFx: return "4K+";
+                case PlayStyle.FourKeyFx: return "4K+2";
                 case PlayStyle.SixKey: return "6K";
-                default: return "6K+";
+                default: return "6K+2";
             }
         }
     }

@@ -48,6 +48,7 @@ namespace DJMaximusKaiserSoje.Presentation
 
         [Header("Actions")]
         [SerializeField] internal Button playButton;
+        [SerializeField] internal Button optionsButton;
         [SerializeField] internal RecordPanelView recordPanel;
         [SerializeField] internal TMP_Text keyGuideLabel;
         [SerializeField] internal TMP_Text emptyLibraryLabel;
@@ -74,6 +75,9 @@ namespace DJMaximusKaiserSoje.Presentation
             if (keyGuideLabel != null)
                 keyGuideLabel.text = "↑↓ 곡 고르기    ←→ 난이도    Enter 시작    Tab 키 모드    F1 / F2 노트 속도    Esc 뒤로";
 
+            if (keyGuideLabel != null)
+                keyGuideLabel.text = "↑↓ 곡 선택   ←→ 난이도   Enter 시작   Tab 키 모드   F1/F2 속도   Esc 뒤로";
+
             services.Music.PlayTheme(ScreenTheme.SongSelect);
             OnPreferencesChanged();
         }
@@ -92,6 +96,7 @@ namespace DJMaximusKaiserSoje.Presentation
 
         private void OnDestroy()
         {
+            if (optionsButton != null) optionsButton.onClick.RemoveListener(OpenOptions);
             if (services != null) services.Preferences.Changed -= OnPreferencesChanged;
         }
 
@@ -118,6 +123,11 @@ namespace DJMaximusKaiserSoje.Presentation
         private void HookButtons()
         {
             if (playButton != null) playButton.onClick.AddListener(StartSelected);
+            if (optionsButton != null)
+            {
+                optionsButton.onClick.RemoveListener(OpenOptions);
+                optionsButton.onClick.AddListener(OpenOptions);
+            }
             if (speedDownButton != null) speedDownButton.onClick.AddListener(() => NudgeSpeed(-1));
             if (speedUpButton != null) speedUpButton.onClick.AddListener(() => NudgeSpeed(1));
 
@@ -139,6 +149,11 @@ namespace DJMaximusKaiserSoje.Presentation
 
             if (keyboard.f1Key.wasPressedThisFrame) NudgeSpeed(-1);
             if (keyboard.f2Key.wasPressedThisFrame) NudgeSpeed(1);
+            if (keyboard.oKey.wasPressedThisFrame)
+            {
+                OpenOptions();
+                return;
+            }
             if (keyboard.tabKey.wasPressedThisFrame) CycleStyle();
             if (keyboard.escapeKey.wasPressedThisFrame)
             {
@@ -360,7 +375,15 @@ namespace DJMaximusKaiserSoje.Presentation
                 chart.Id,
                 services.Preferences.PlayStyle,
                 services.Preferences.ScrollSpeed,
-                services.Preferences.JudgementOffsetMs));
+                services.Preferences.JudgementOffsetMs,
+                services.Preferences.GetKeyBindings(services.Preferences.PlayStyle)));
+        }
+
+        private void OpenOptions()
+        {
+            starting = true;
+            services.Music.CancelSongPreview();
+            services.Flow.ShowOptions();
         }
 
         private void LeaveToTitle()

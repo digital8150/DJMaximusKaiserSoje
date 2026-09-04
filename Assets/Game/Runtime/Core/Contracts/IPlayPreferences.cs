@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace DJMaximusKaiserSoje.Core
 {
@@ -15,6 +16,26 @@ namespace DJMaximusKaiserSoje.Core
         double JudgementOffsetMs { get; set; }
 
         PlayStyle PlayStyle { get; set; }
+
+        int AudioBufferSize { get; set; }
+
+        int QualityLevel { get; set; }
+
+        bool VSync { get; set; }
+
+        DisplayMode DisplayMode { get; set; }
+
+        int ResolutionWidth { get; }
+
+        int ResolutionHeight { get; }
+
+        void SetResolution(int width, int height);
+
+        IReadOnlyList<string> GetKeyBindings(PlayStyle style);
+
+        void SetKeyBinding(PlayStyle style, int lane, string keyName);
+
+        void ResetKeyBindings(PlayStyle style);
 
         event Action Changed;
     }

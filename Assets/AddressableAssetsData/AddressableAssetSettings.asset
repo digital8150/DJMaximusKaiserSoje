@@ -15,11 +15,11 @@ MonoBehaviour:
   m_DefaultGroup: 7bd51be2a9bf48d4cb6bca659352dc87
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 19890fe0bc6eb4b87a03a9810376ee4f
   m_ExtractTypeTreeData: 0
   m_DisableWriteTypeTree: 0
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
@@ -64,9 +64,9 @@ MonoBehaviour:
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: 857915f96d07c9547b65f61d76ab57e1
   m_RemoteCatalogLoadPath:
-    m_Id: 
+    m_Id: 2de8e536e6c31064b876f9dff3246fc3
   m_ContentStateBuildPathProfileVariableName: 
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
@@ -74,6 +74,7 @@ MonoBehaviour:
   m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
   m_GroupAssets:
   - {fileID: 11400000, guid: 5b35ac3ce57eb594a82dd34f0669a057, type: 2}
+  - {fileID: 11400000, guid: 83503442f0bdda7489755be6147715ce, type: 2}
   m_BuildSettings:
     m_LogResourceManagerExceptions: 1
     m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
@@ -86,7 +87,7 @@ MonoBehaviour:
       - m_Id: 2550d692c68c02b468eb82d5c25b476a
         m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: 2de8e536e6c31064b876f9dff3246fc3
-        m_Value: <undefined>
+        m_Value: 'http://localhost:8000/[BuildTarget]'
       - m_Id: 579ba6818d79dcb478438d83730566c9
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 857915f96d07c9547b65f61d76ab57e1
@@ -115,6 +116,7 @@ MonoBehaviour:
     - default
     - rhythm-prototype
     - song-content
+    - remote-song-content
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 531ae72fdab70904982ca5ad0a84ad2a, type: 2}
