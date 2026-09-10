@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: faac378f7872f6c409177fb62eb04744
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5816915348572976813
+    second: Ren Source_0
+  - first:
+      213: 7198487860891143704
+    second: Ren Source_1
+  - first:
+      213: 811935369710581498
+    second: Ren Source_2
+  - first:
+      213: -1305599536757950678
+    second: Ren Source_3
+  - first:
+      213: -4064994378798447105
+    second: Ren Source_4
+  - first:
+      213: -417943388106879692
+    second: Ren Source_5
+  - first:
+      213: -3067068893716148347
+    second: Ren Source_6
+  - first:
+      213: 8571766928363789529
+    second: Ren Source_7
+  - first:
+      213: 5989453450570034854
+    second: Ren Source_8
+  - first:
+      213: -9071582888042381286
+    second: Ren Source_9
+  - first:
+      213: -9165054689454332828
+    second: Ren Source_10
+  - first:
+      213: 5566370345226883270
+    second: Ren Source_11
+  - first:
+      213: -8439303155708581040
+    second: Ren Source_12
+  - first:
+      213: -1271726308934829526
+    second: Ren Source_13
+  - first:
+      213: 8688316139472325983
+    second: Ren Source_14
+  - first:
+      213: 4309218668146664492
+    second: Ren Source_15
+  - first:
+      213: -8141928209616190846
+    second: Ren Source_16
+  - first:
+      213: 4763931513822843183
+    second: Ren Source_17
+  - first:
+      213: -3406838827723700072
+    second: Ren Source_18
+  - first:
+      213: -9175226515659484064
+    second: Ren Source_19
+  - first:
+      213: 1619140814027978086
+    second: Ren Source_20
+  - first:
+      213: -6955004450114740266
+    second: Ren Source_21
+  - first:
+      213: 1948146473924392894
+    second: Ren Source_22
+  - first:
+      213: 1833861741498791160
+    second: Ren Source_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ren Source_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1130
+        width: 14
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3594acf4f4a264fa0800000000000000
+      internalID: -5816915348572976813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1121
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ec06cf19a26e360800000000000000
+      internalID: 7198487860891143704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 526
+        height: 1216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6bc2cbae2944b00800000000000000
+      internalID: 811935369710581498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1094
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27b0a0832491ede0800000000000000
+      internalID: -1305599536757950678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1089
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff542c5562d3697c0800000000000000
+      internalID: -4064994378798447105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1037
+        width: 13
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d8aafe3ba233af0800000000000000
+      internalID: -417943388106879692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1090
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f066857159f65d0800000000000000
+      internalID: -3067068893716148347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 915
+        width: 13
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc909e2b9805f670800000000000000
+      internalID: 8571766928363789529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 13
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aee6f70e20de1350800000000000000
+      internalID: 5989453450570034854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 773
+        width: 13
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10c8b73d634b1280800000000000000
+      internalID: -9071582888042381286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 731
+        width: 13
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464eb08815f2fc080800000000000000
+      internalID: -9165054689454332828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 713
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0548b4658bf3d40800000000000000
+      internalID: 5566370345226883270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 701
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b28244e7291ea80800000000000000
+      internalID: -8439303155708581040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 13
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2abb60f8abe95ee0800000000000000
+      internalID: -1271726308934829526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 541
+        width: 13
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d8a850f79139870800000000000000
+      internalID: 8688316139472325983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 503
+        width: 13
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c242d562c8b6dcb30800000000000000
+      internalID: 4309218668146664492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 482
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282481f5e6f020f80800000000000000
+      internalID: -8141928209616190846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 357
+        width: 13
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2113bfa872ec1240800000000000000
+      internalID: 4763931513822843183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898458ae22a78b0d0800000000000000
+      internalID: -3406838827723700072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 13
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0641f50b81c0ba080800000000000000
+      internalID: -9175226515659484064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 221
+        width: 13
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6657975edf7587610800000000000000
+      internalID: 1619140814027978086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df56a34d4cda7f90800000000000000
+      internalID: -6955004450114740266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 13
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb771b475e4390b10800000000000000
+      internalID: 1948146473924392894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Source_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 13
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4f635a98f237910800000000000000
+      internalID: 1833861741498791160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ren Source_0: -5816915348572976813
+      Ren Source_1: 7198487860891143704
+      Ren Source_10: -9165054689454332828
+      Ren Source_11: 5566370345226883270
+      Ren Source_12: -8439303155708581040
+      Ren Source_13: -1271726308934829526
+      Ren Source_14: 8688316139472325983
+      Ren Source_15: 4309218668146664492
+      Ren Source_16: -8141928209616190846
+      Ren Source_17: 4763931513822843183
+      Ren Source_18: -3406838827723700072
+      Ren Source_19: -9175226515659484064
+      Ren Source_2: 811935369710581498
+      Ren Source_20: 1619140814027978086
+      Ren Source_21: -6955004450114740266
+      Ren Source_22: 1948146473924392894
+      Ren Source_23: 1833861741498791160
+      Ren Source_3: -1305599536757950678
+      Ren Source_4: -4064994378798447105
+      Ren Source_5: -417943388106879692
+      Ren Source_6: -3067068893716148347
+      Ren Source_7: 8571766928363789529
+      Ren Source_8: 5989453450570034854
+      Ren Source_9: -9071582888042381286
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

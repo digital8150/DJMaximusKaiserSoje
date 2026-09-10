@@ -1,0 +1,1796 @@
+fileFormatVersion: 2
+guid: 7337ff2234adb7349af98686b49b4880
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7478941652692848892
+    second: Aira Idle_0
+  - first:
+      213: -7648437570147892643
+    second: Aira Idle_1
+  - first:
+      213: -7069827088151345896
+    second: Aira Idle_2
+  - first:
+      213: -7166789485728238265
+    second: Aira Idle_3
+  - first:
+      213: 8254232917022862272
+    second: Aira Idle_4
+  - first:
+      213: 368166651921431245
+    second: Aira Idle_5
+  - first:
+      213: 163987428742075865
+    second: Aira Idle_6
+  - first:
+      213: 4708918230774271550
+    second: Aira Idle_7
+  - first:
+      213: 2982786279761925593
+    second: Aira Idle_8
+  - first:
+      213: 6400205282435326447
+    second: Aira Idle_9
+  - first:
+      213: 8961224942992941927
+    second: Aira Idle_10
+  - first:
+      213: 7484975240113234972
+    second: Aira Idle_11
+  - first:
+      213: 5000499851438156235
+    second: Aira Idle_12
+  - first:
+      213: 2422322837631744286
+    second: Aira Idle_13
+  - first:
+      213: -6342932322341479971
+    second: Aira Idle_14
+  - first:
+      213: 2254630639020194719
+    second: Aira Idle_15
+  - first:
+      213: -4375411952513471215
+    second: Aira Idle_16
+  - first:
+      213: 5594523310370121791
+    second: Aira Idle_17
+  - first:
+      213: 7978573439685811813
+    second: Aira Idle_18
+  - first:
+      213: -7467161913988800864
+    second: Aira Idle_19
+  - first:
+      213: 90687109729700671
+    second: Aira Idle_20
+  - first:
+      213: -2862986577042267942
+    second: Aira Idle_21
+  - first:
+      213: 6599694253966025822
+    second: Aira Idle_22
+  - first:
+      213: 6534562865586636953
+    second: Aira Idle_23
+  - first:
+      213: 8045483181841485284
+    second: Aira Idle_24
+  - first:
+      213: 2977741079549453420
+    second: Aira Idle_25
+  - first:
+      213: -4714908465833394379
+    second: Aira Idle_26
+  - first:
+      213: 435449637284959483
+    second: Aira Idle_27
+  - first:
+      213: -3903524800866568923
+    second: Aira Idle_28
+  - first:
+      213: 1125039284144733625
+    second: Aira Idle_29
+  - first:
+      213: 5413332690470793385
+    second: Aira Idle_30
+  - first:
+      213: -3813400100216358712
+    second: Aira Idle_31
+  - first:
+      213: 987274343093847604
+    second: Aira Idle_32
+  - first:
+      213: -2196692960737217730
+    second: Aira Idle_33
+  - first:
+      213: -4448286838580381379
+    second: Aira Idle_34
+  - first:
+      213: 4202833143963294500
+    second: Aira Idle_35
+  - first:
+      213: -4664847184190042306
+    second: Aira Idle_36
+  - first:
+      213: -7845308834136411597
+    second: Aira Idle_37
+  - first:
+      213: 5422387020153715227
+    second: Aira Idle_38
+  - first:
+      213: 1238446704846180079
+    second: Aira Idle_39
+  - first:
+      213: -2661440778438472706
+    second: Aira Idle_40
+  - first:
+      213: -6068473195671780213
+    second: Aira Idle_41
+  - first:
+      213: -5776191101128953052
+    second: Aira Idle_42
+  - first:
+      213: 8135591530261873125
+    second: Aira Idle_43
+  - first:
+      213: 1989858581621038864
+    second: Aira Idle_44
+  - first:
+      213: -8659453009664611642
+    second: Aira Idle_45
+  - first:
+      213: 2848657213647954323
+    second: Aira Idle_46
+  - first:
+      213: -6916066448949944253
+    second: Aira Idle_47
+  - first:
+      213: -4771790793579294348
+    second: Aira Idle_48
+  - first:
+      213: 5377799168463140434
+    second: Aira Idle_49
+  - first:
+      213: 8817862196342192297
+    second: Aira Idle_50
+  - first:
+      213: -1867751168342964891
+    second: Aira Idle_51
+  - first:
+      213: -2504909053169044313
+    second: Aira Idle_52
+  - first:
+      213: -700953807560054917
+    second: Aira Idle_53
+  - first:
+      213: 9047216599540940249
+    second: Aira Idle_54
+  - first:
+      213: 7709907197746500892
+    second: Aira Idle_55
+  - first:
+      213: 7393033854101879215
+    second: Aira Idle_56
+  - first:
+      213: 7158561738056042207
+    second: Aira Idle_57
+  - first:
+      213: -5887923342374592626
+    second: Aira Idle_58
+  - first:
+      213: 8975714256121883468
+    second: Aira Idle_59
+  - first:
+      213: 402897164836554160
+    second: Aira Idle_60
+  - first:
+      213: 341588505157014119
+    second: Aira Idle_61
+  - first:
+      213: 1723382871155547125
+    second: Aira Idle_62
+  - first:
+      213: 8880565278217798218
+    second: Aira Idle_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aira Idle_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 8615
+        width: 582
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf051a8dec98ac760800000000000000
+      internalID: 7478941652692848892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_1
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 8615
+        width: 582
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5245989d8a4bd590800000000000000
+      internalID: -7648437570147892643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 8615
+        width: 582
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8150e4b88bde2ed90800000000000000
+      internalID: -7069827088151345896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 8615
+        width: 583
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745f92b1fe27a8c90800000000000000
+      internalID: -7166789485728238265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_4
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 8615
+        width: 574
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbeb70fa1dec8270800000000000000
+      internalID: 8254232917022862272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_5
+      rect:
+        serializedVersion: 2
+        x: 4289
+        y: 8615
+        width: 564
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcafbe98e9dfb1500800000000000000
+      internalID: 368166651921431245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_6
+      rect:
+        serializedVersion: 2
+        x: 5123
+        y: 8615
+        width: 561
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d51dc592b9964200800000000000000
+      internalID: 163987428742075865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_7
+      rect:
+        serializedVersion: 2
+        x: 5953
+        y: 8615
+        width: 564
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e49a59e20795140800000000000000
+      internalID: 4708918230774271550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 7399
+        width: 568
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d55e16615cf46920800000000000000
+      internalID: 2982786279761925593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_9
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 7399
+        width: 582
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1e22d6bc812d850800000000000000
+      internalID: 6400205282435326447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_10
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 7398
+        width: 597
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763e6776b9aac5c70800000000000000
+      internalID: 8961224942992941927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_11
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 7399
+        width: 606
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c142b83e259ffd760800000000000000
+      internalID: 7484975240113234972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_12
+      rect:
+        serializedVersion: 2
+        x: 3451
+        y: 7399
+        width: 607
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc96d500f18556540800000000000000
+      internalID: 5000499851438156235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_13
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 7399
+        width: 604
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e193b5c69c1dd9120800000000000000
+      internalID: 2422322837631744286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_14
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 7399
+        width: 597
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd91e7cb8a069f7a0800000000000000
+      internalID: -6342932322341479971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_15
+      rect:
+        serializedVersion: 2
+        x: 5956
+        y: 7399
+        width: 584
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bb282ee9e0a4f10800000000000000
+      internalID: 2254630639020194719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 6183
+        width: 570
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11daf68d20a6743c0800000000000000
+      internalID: -4375411952513471215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_17
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 6183
+        width: 562
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38e04a4f4db3ad40800000000000000
+      internalID: 5594523310370121791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_18
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 6183
+        width: 556
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ed6d6654699be60800000000000000
+      internalID: 7978573439685811813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_19
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 6183
+        width: 558
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae1f5c4dcf4f5890800000000000000
+      internalID: -7467161913988800864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_20
+      rect:
+        serializedVersion: 2
+        x: 3454
+        y: 6183
+        width: 567
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b4521227f224100800000000000000
+      internalID: 90687109729700671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_21
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 6183
+        width: 576
+        height: 952
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad02fae70e0a448d0800000000000000
+      internalID: -2862986577042267942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_22
+      rect:
+        serializedVersion: 2
+        x: 5115
+        y: 6183
+        width: 586
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54e4d115f2d69b50800000000000000
+      internalID: 6599694253966025822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_23
+      rect:
+        serializedVersion: 2
+        x: 5947
+        y: 6183
+        width: 594
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99800cdfd4e6faa50800000000000000
+      internalID: 6534562865586636953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_24
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 4967
+        width: 597
+        height: 952
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed8a0cb35c47af60800000000000000
+      internalID: 8045483181841485284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_25
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 4967
+        width: 599
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6422af2cbf035920800000000000000
+      internalID: 2977741079549453420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_26
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 4967
+        width: 597
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fb4812bb7419eb0800000000000000
+      internalID: -4714908465833394379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_27
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 4967
+        width: 592
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf451f353270b0600800000000000000
+      internalID: 435449637284959483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_28
+      rect:
+        serializedVersion: 2
+        x: 3458
+        y: 4967
+        width: 588
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525bb6810e4e3d9c0800000000000000
+      internalID: -3903524800866568923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_29
+      rect:
+        serializedVersion: 2
+        x: 4288
+        y: 4967
+        width: 585
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd7ec9a441fc9f00800000000000000
+      internalID: 1125039284144733625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_30
+      rect:
+        serializedVersion: 2
+        x: 5118
+        y: 4967
+        width: 585
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a07582a665002b40800000000000000
+      internalID: 5413332690470793385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_31
+      rect:
+        serializedVersion: 2
+        x: 5948
+        y: 4967
+        width: 583
+        height: 952
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c83a2820d4141bc0800000000000000
+      internalID: -3813400100216358712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_32
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 3751
+        width: 582
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43647f3c8c083bd00800000000000000
+      internalID: 987274343093847604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_33
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 3751
+        width: 578
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3338aa0467c381e0800000000000000
+      internalID: -2196692960737217730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_34
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 3751
+        width: 571
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39fe5730b28442c0800000000000000
+      internalID: -4448286838580381379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_35
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 3751
+        width: 565
+        height: 951
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b9b241a76735a30800000000000000
+      internalID: 4202833143963294500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_36
+      rect:
+        serializedVersion: 2
+        x: 3461
+        y: 3751
+        width: 559
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f0fde8332234fb0800000000000000
+      internalID: -4664847184190042306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_37
+      rect:
+        serializedVersion: 2
+        x: 4294
+        y: 3751
+        width: 557
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332b01c7e2ddf1390800000000000000
+      internalID: -7845308834136411597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_38
+      rect:
+        serializedVersion: 2
+        x: 5126
+        y: 3751
+        width: 559
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a73fa0440304b40800000000000000
+      internalID: 5422387020153715227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_39
+      rect:
+        serializedVersion: 2
+        x: 5954
+        y: 3751
+        width: 568
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee0c9b67b8df2110800000000000000
+      internalID: 1238446704846180079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_40
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2535
+        width: 573
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb8f6286b9a01bd0800000000000000
+      internalID: -2661440778438472706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_41
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 2535
+        width: 585
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84010bd7c378cba0800000000000000
+      internalID: -6068473195671780213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_42
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 2535
+        width: 597
+        height: 952
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423bf6e0cc8d6dfa0800000000000000
+      internalID: -5776191101128953052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_43
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 2535
+        width: 607
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e18fee746d67e070800000000000000
+      internalID: 8135591530261873125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_44
+      rect:
+        serializedVersion: 2
+        x: 3452
+        y: 2535
+        width: 611
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fd8c656d56d9b10800000000000000
+      internalID: 1989858581621038864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_45
+      rect:
+        serializedVersion: 2
+        x: 4286
+        y: 2535
+        width: 608
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cae0c11e5173d780800000000000000
+      internalID: -8659453009664611642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_46
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2535
+        width: 601
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391275a94a6788720800000000000000
+      internalID: 2848657213647954323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_47
+      rect:
+        serializedVersion: 2
+        x: 5957
+        y: 2535
+        width: 587
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340675325323500a0800000000000000
+      internalID: -6916066448949944253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_48
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1319
+        width: 575
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4711a362e8137cdb0800000000000000
+      internalID: -4771790793579294348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_49
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1319
+        width: 566
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256f2a5d9d7c1aa40800000000000000
+      internalID: 5377799168463140434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_50
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1319
+        width: 565
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a87253d2f65f5a70800000000000000
+      internalID: 8817862196342192297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_51
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 1319
+        width: 569
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565c81a453a6416e0800000000000000
+      internalID: -1867751168342964891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_52
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 1319
+        width: 574
+        height: 952
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4f23bdc76cc3dd0800000000000000
+      internalID: -2504909053169044313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_53
+      rect:
+        serializedVersion: 2
+        x: 4281
+        y: 1319
+        width: 581
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77ec60d936b546f0800000000000000
+      internalID: -700953807560054917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_54
+      rect:
+        serializedVersion: 2
+        x: 5113
+        y: 1319
+        width: 583
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddb7a5209b2e8d70800000000000000
+      internalID: 9047216599540940249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_55
+      rect:
+        serializedVersion: 2
+        x: 5945
+        y: 1319
+        width: 583
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1558ec5fb71ffa60800000000000000
+      internalID: 7709907197746500892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_56
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 103
+        width: 583
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9fd2ece15599660800000000000000
+      internalID: 7393033854101879215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_57
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 103
+        width: 583
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6888b19f1585360800000000000000
+      internalID: 7158561738056042207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_58
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 103
+        width: 583
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f18096ae4e94ea0800000000000000
+      internalID: -5887923342374592626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_59
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 103
+        width: 583
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bed818f84209c70800000000000000
+      internalID: 8975714256121883468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_60
+      rect:
+        serializedVersion: 2
+        x: 3449
+        y: 103
+        width: 583
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5481736d0679500800000000000000
+      internalID: 402897164836554160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_61
+      rect:
+        serializedVersion: 2
+        x: 4281
+        y: 103
+        width: 583
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7629d358fe09db400800000000000000
+      internalID: 341588505157014119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_62
+      rect:
+        serializedVersion: 2
+        x: 5113
+        y: 103
+        width: 583
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb1837279faae710800000000000000
+      internalID: 1723382871155547125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Idle_63
+      rect:
+        serializedVersion: 2
+        x: 5945
+        y: 103
+        width: 583
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4207dcb11b1e3b70800000000000000
+      internalID: 8880565278217798218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Aira Idle_0: 7478941652692848892
+      Aira Idle_1: -7648437570147892643
+      Aira Idle_10: 8961224942992941927
+      Aira Idle_11: 7484975240113234972
+      Aira Idle_12: 5000499851438156235
+      Aira Idle_13: 2422322837631744286
+      Aira Idle_14: -6342932322341479971
+      Aira Idle_15: 2254630639020194719
+      Aira Idle_16: -4375411952513471215
+      Aira Idle_17: 5594523310370121791
+      Aira Idle_18: 7978573439685811813
+      Aira Idle_19: -7467161913988800864
+      Aira Idle_2: -7069827088151345896
+      Aira Idle_20: 90687109729700671
+      Aira Idle_21: -2862986577042267942
+      Aira Idle_22: 6599694253966025822
+      Aira Idle_23: 6534562865586636953
+      Aira Idle_24: 8045483181841485284
+      Aira Idle_25: 2977741079549453420
+      Aira Idle_26: -4714908465833394379
+      Aira Idle_27: 435449637284959483
+      Aira Idle_28: -3903524800866568923
+      Aira Idle_29: 1125039284144733625
+      Aira Idle_3: -7166789485728238265
+      Aira Idle_30: 5413332690470793385
+      Aira Idle_31: -3813400100216358712
+      Aira Idle_32: 987274343093847604
+      Aira Idle_33: -2196692960737217730
+      Aira Idle_34: -4448286838580381379
+      Aira Idle_35: 4202833143963294500
+      Aira Idle_36: -4664847184190042306
+      Aira Idle_37: -7845308834136411597
+      Aira Idle_38: 5422387020153715227
+      Aira Idle_39: 1238446704846180079
+      Aira Idle_4: 8254232917022862272
+      Aira Idle_40: -2661440778438472706
+      Aira Idle_41: -6068473195671780213
+      Aira Idle_42: -5776191101128953052
+      Aira Idle_43: 8135591530261873125
+      Aira Idle_44: 1989858581621038864
+      Aira Idle_45: -8659453009664611642
+      Aira Idle_46: 2848657213647954323
+      Aira Idle_47: -6916066448949944253
+      Aira Idle_48: -4771790793579294348
+      Aira Idle_49: 5377799168463140434
+      Aira Idle_5: 368166651921431245
+      Aira Idle_50: 8817862196342192297
+      Aira Idle_51: -1867751168342964891
+      Aira Idle_52: -2504909053169044313
+      Aira Idle_53: -700953807560054917
+      Aira Idle_54: 9047216599540940249
+      Aira Idle_55: 7709907197746500892
+      Aira Idle_56: 7393033854101879215
+      Aira Idle_57: 7158561738056042207
+      Aira Idle_58: -5887923342374592626
+      Aira Idle_59: 8975714256121883468
+      Aira Idle_6: 163987428742075865
+      Aira Idle_60: 402897164836554160
+      Aira Idle_61: 341588505157014119
+      Aira Idle_62: 1723382871155547125
+      Aira Idle_63: 8880565278217798218
+      Aira Idle_7: 4708918230774271550
+      Aira Idle_8: 2982786279761925593
+      Aira Idle_9: 6400205282435326447
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

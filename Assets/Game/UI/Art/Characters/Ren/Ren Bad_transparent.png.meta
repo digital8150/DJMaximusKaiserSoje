@@ -1,0 +1,1796 @@
+fileFormatVersion: 2
+guid: 7e734a6a5f3f2b843b698e83713206fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2954304146709065932
+    second: Ren Bad_transparent_0
+  - first:
+      213: 8179925751952927804
+    second: Ren Bad_transparent_1
+  - first:
+      213: -4879616628774051190
+    second: Ren Bad_transparent_2
+  - first:
+      213: -5310800417165157481
+    second: Ren Bad_transparent_3
+  - first:
+      213: -7784640083886854810
+    second: Ren Bad_transparent_4
+  - first:
+      213: 5794867132183590637
+    second: Ren Bad_transparent_5
+  - first:
+      213: 2235125608581947615
+    second: Ren Bad_transparent_6
+  - first:
+      213: -82631461019441714
+    second: Ren Bad_transparent_7
+  - first:
+      213: 5511297777741586338
+    second: Ren Bad_transparent_8
+  - first:
+      213: 66682391836772770
+    second: Ren Bad_transparent_9
+  - first:
+      213: -6308006730442399257
+    second: Ren Bad_transparent_10
+  - first:
+      213: 2995707595582767086
+    second: Ren Bad_transparent_11
+  - first:
+      213: 1261661899494884554
+    second: Ren Bad_transparent_12
+  - first:
+      213: -5282054637014201427
+    second: Ren Bad_transparent_13
+  - first:
+      213: -4022306257407636979
+    second: Ren Bad_transparent_14
+  - first:
+      213: 1122762678443729123
+    second: Ren Bad_transparent_15
+  - first:
+      213: -5897624007134534654
+    second: Ren Bad_transparent_16
+  - first:
+      213: 1599101574450198287
+    second: Ren Bad_transparent_17
+  - first:
+      213: -7064804724122493348
+    second: Ren Bad_transparent_18
+  - first:
+      213: -939005730592666124
+    second: Ren Bad_transparent_19
+  - first:
+      213: 3928096102121564737
+    second: Ren Bad_transparent_20
+  - first:
+      213: -2923592316810611652
+    second: Ren Bad_transparent_21
+  - first:
+      213: 7276856530817943608
+    second: Ren Bad_transparent_22
+  - first:
+      213: -4272673987255764215
+    second: Ren Bad_transparent_23
+  - first:
+      213: 7402377971029585667
+    second: Ren Bad_transparent_24
+  - first:
+      213: -8440516922169201063
+    second: Ren Bad_transparent_25
+  - first:
+      213: 1296762581690878944
+    second: Ren Bad_transparent_26
+  - first:
+      213: 5584056220354844510
+    second: Ren Bad_transparent_27
+  - first:
+      213: 2849425358467407074
+    second: Ren Bad_transparent_28
+  - first:
+      213: -1646723911309539097
+    second: Ren Bad_transparent_29
+  - first:
+      213: -1561969811892334891
+    second: Ren Bad_transparent_30
+  - first:
+      213: -6547805400107046951
+    second: Ren Bad_transparent_31
+  - first:
+      213: -3552985547940921
+    second: Ren Bad_transparent_32
+  - first:
+      213: -7587818962723053005
+    second: Ren Bad_transparent_33
+  - first:
+      213: -8537995383537133475
+    second: Ren Bad_transparent_34
+  - first:
+      213: -2546846423562963987
+    second: Ren Bad_transparent_35
+  - first:
+      213: -1110517718374674302
+    second: Ren Bad_transparent_36
+  - first:
+      213: -8130581538741888081
+    second: Ren Bad_transparent_37
+  - first:
+      213: -3324038400943465637
+    second: Ren Bad_transparent_38
+  - first:
+      213: 430147322495662553
+    second: Ren Bad_transparent_39
+  - first:
+      213: 5536200432382614689
+    second: Ren Bad_transparent_40
+  - first:
+      213: -1796952506179975527
+    second: Ren Bad_transparent_41
+  - first:
+      213: 1390642688244593272
+    second: Ren Bad_transparent_42
+  - first:
+      213: -4620819856807614499
+    second: Ren Bad_transparent_43
+  - first:
+      213: 1579196569422623821
+    second: Ren Bad_transparent_44
+  - first:
+      213: -1461312350511612610
+    second: Ren Bad_transparent_45
+  - first:
+      213: -4341501247959320394
+    second: Ren Bad_transparent_46
+  - first:
+      213: -7571590443311154212
+    second: Ren Bad_transparent_47
+  - first:
+      213: 6004274203947076250
+    second: Ren Bad_transparent_48
+  - first:
+      213: 3546635160767367904
+    second: Ren Bad_transparent_49
+  - first:
+      213: -1063501231270980927
+    second: Ren Bad_transparent_50
+  - first:
+      213: -320241683897649819
+    second: Ren Bad_transparent_51
+  - first:
+      213: 4639549574903190240
+    second: Ren Bad_transparent_52
+  - first:
+      213: 5462900199624334165
+    second: Ren Bad_transparent_53
+  - first:
+      213: 4169104269844922532
+    second: Ren Bad_transparent_54
+  - first:
+      213: -8148439665383189163
+    second: Ren Bad_transparent_55
+  - first:
+      213: -2450033323965003484
+    second: Ren Bad_transparent_56
+  - first:
+      213: -8742437748974389897
+    second: Ren Bad_transparent_57
+  - first:
+      213: 7789467687091647289
+    second: Ren Bad_transparent_58
+  - first:
+      213: 5979198622067605612
+    second: Ren Bad_transparent_59
+  - first:
+      213: -1135759410047956131
+    second: Ren Bad_transparent_60
+  - first:
+      213: 4408904815581418951
+    second: Ren Bad_transparent_61
+  - first:
+      213: -4650758322661837231
+    second: Ren Bad_transparent_62
+  - first:
+      213: 1711058647944032397
+    second: Ren Bad_transparent_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ren Bad_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 8651
+        width: 407
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f41f8f7043007d0800000000000000
+      internalID: -2954304146709065932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 8651
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c693ed12fe48170800000000000000
+      internalID: 8179925751952927804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 8651
+        width: 412
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8265d9878e184cb0800000000000000
+      internalID: -4879616628774051190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 8651
+        width: 427
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bdfdd882f3c46b0800000000000000
+      internalID: -5310800417165157481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 8651
+        width: 447
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d28a7a61767f390800000000000000
+      internalID: -7784640083886854810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 8651
+        width: 465
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6b36644f08b6050800000000000000
+      internalID: 5794867132183590637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 5143
+        y: 8651
+        width: 475
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0e7e716e2c40f10800000000000000
+      internalID: 2235125608581947615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 5976
+        y: 8651
+        width: 475
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec52aaebf1f6adef0800000000000000
+      internalID: -82631461019441714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 7435
+        width: 473
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afdfa5f0201c7c40800000000000000
+      internalID: 5511297777741586338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 7435
+        width: 472
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a944363847ece000800000000000000
+      internalID: 66682391836772770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 7435
+        width: 473
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e12537cc457578a0800000000000000
+      internalID: -6308006730442399257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 7435
+        width: 472
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef76adaf24e29920800000000000000
+      internalID: 2995707595582767086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 3492
+        y: 7435
+        width: 468
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4890220d2528110800000000000000
+      internalID: 1261661899494884554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 4325
+        y: 7435
+        width: 468
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab409c0b4f52b6b0800000000000000
+      internalID: -5282054637014201427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 5159
+        y: 7435
+        width: 466
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a036d15c5ed28c0800000000000000
+      internalID: -4022306257407636979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 5992
+        y: 7435
+        width: 466
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e064b715bad49f00800000000000000
+      internalID: 1122762678443729123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 6219
+        width: 466
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2042ee3663e672ea0800000000000000
+      internalID: -5897624007134534654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 6219
+        width: 466
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f073fd8d866213610800000000000000
+      internalID: 1599101574450198287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 6219
+        width: 465
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e5d2bc885c4fd90800000000000000
+      internalID: -7064804724122493348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 6219
+        width: 465
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdc7f9534bf7f2f0800000000000000
+      internalID: -939005730592666124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 6219
+        width: 465
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a6d8ac796638630800000000000000
+      internalID: 3928096102121564737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 4330
+        y: 6219
+        width: 464
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34317817405d67d0800000000000000
+      internalID: -2923592316810611652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 5163
+        y: 6219
+        width: 463
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83882e8d5769cf460800000000000000
+      internalID: 7276856530817943608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 5995
+        y: 6219
+        width: 462
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b719c65a964b4c0800000000000000
+      internalID: -4272673987255764215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 5003
+        width: 462
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f25609b878ab660800000000000000
+      internalID: 7402377971029585667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 5003
+        width: 459
+        height: 928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e6e6d34924dda80800000000000000
+      internalID: -8440516922169201063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 5003
+        width: 460
+        height: 927
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb04bf82b60ff110800000000000000
+      internalID: 1296762581690878944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 5003
+        width: 457
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e579f0cfb8d8e7d40800000000000000
+      internalID: 5584056220354844510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 3502
+        y: 5003
+        width: 457
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec907144413b8720800000000000000
+      internalID: 2849425358467407074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 4335
+        y: 5003
+        width: 456
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8c04fc359a529e0800000000000000
+      internalID: -1646723911309539097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_30
+      rect:
+        serializedVersion: 2
+        x: 5167
+        y: 5003
+        width: 455
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de06445bb4c25ae0800000000000000
+      internalID: -1561969811892334891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_31
+      rect:
+        serializedVersion: 2
+        x: 5999
+        y: 5003
+        width: 455
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d72c3c2ea58125a0800000000000000
+      internalID: -6547805400107046951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_32
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 3787
+        width: 455
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbd586149063fff0800000000000000
+      internalID: -3552985547940921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_33
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 3787
+        width: 455
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3326beafad6a2b690800000000000000
+      internalID: -7587818962723053005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_34
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 3787
+        width: 457
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5818565f62f28980800000000000000
+      internalID: -8537995383537133475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_35
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 3787
+        width: 461
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de33e0aeba8c7acd0800000000000000
+      internalID: -2546846423562963987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_36
+      rect:
+        serializedVersion: 2
+        x: 3492
+        y: 3787
+        width: 466
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2801087d406a690f0800000000000000
+      internalID: -1110517718374674302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_37
+      rect:
+        serializedVersion: 2
+        x: 4319
+        y: 3787
+        width: 471
+        height: 927
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabd0fd0b2f5a2f80800000000000000
+      internalID: -8130581538741888081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_38
+      rect:
+        serializedVersion: 2
+        x: 5153
+        y: 3787
+        width: 469
+        height: 928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5bd1049fa4aed1d0800000000000000
+      internalID: -3324038400943465637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_39
+      rect:
+        serializedVersion: 2
+        x: 5980
+        y: 3787
+        width: 473
+        height: 928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d97076f5b038f500800000000000000
+      internalID: 430147322495662553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_40
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2571
+        width: 476
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac978116f884dc40800000000000000
+      internalID: 5536200432382614689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_41
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 2571
+        width: 473
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99605ee5731ff07e0800000000000000
+      internalID: -1796952506179975527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_42
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 2571
+        width: 466
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8723052382e8c4310800000000000000
+      internalID: 1390642688244593272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_43
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 2571
+        width: 457
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd729e782dc8fdfb0800000000000000
+      internalID: -4620819856807614499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_44
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 2571
+        width: 446
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4473f6b9ee6ae510800000000000000
+      internalID: 1579196569422623821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_45
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 2571
+        width: 433
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d3dd9d82068bbe0800000000000000
+      internalID: -1461312350511612610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_46
+      rect:
+        serializedVersion: 2
+        x: 5194
+        y: 2571
+        width: 423
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b838730e93efb3c0800000000000000
+      internalID: -4341501247959320394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_47
+      rect:
+        serializedVersion: 2
+        x: 6034
+        y: 2571
+        width: 415
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb32b99b9e4ce690800000000000000
+      internalID: -7571590443311154212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_48
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1355
+        width: 411
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a8e449397735350800000000000000
+      internalID: 6004274203947076250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_49
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1355
+        width: 409
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea037943ed283130800000000000000
+      internalID: 3546635160767367904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_50
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1355
+        width: 409
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c217ebc34fad31f0800000000000000
+      internalID: -1063501231270980927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_51
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 1355
+        width: 409
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565f10d92e54e8bf0800000000000000
+      internalID: -320241683897649819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_52
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 1355
+        width: 409
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e25be9c1cdf26040800000000000000
+      internalID: 4639549574903190240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_53
+      rect:
+        serializedVersion: 2
+        x: 4375
+        y: 1355
+        width: 407
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bd402b9ce10db40800000000000000
+      internalID: 5462900199624334165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_54
+      rect:
+        serializedVersion: 2
+        x: 5207
+        y: 1355
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0cbab9e32abd930800000000000000
+      internalID: 4169104269844922532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_55
+      rect:
+        serializedVersion: 2
+        x: 6038
+        y: 1355
+        width: 409
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555d12feb4deaee80800000000000000
+      internalID: -8148439665383189163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_56
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 139
+        width: 409
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42942353cabbffdd0800000000000000
+      internalID: -2450033323965003484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_57
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 139
+        width: 409
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7757a6dcf2f9ca680800000000000000
+      internalID: -8742437748974389897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_58
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 139
+        width: 409
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9333b7e479fb91c60800000000000000
+      internalID: 7789467687091647289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_59
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 139
+        width: 409
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6048d5b7716af250800000000000000
+      internalID: 5979198622067605612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_60
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 139
+        width: 409
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bc8c585d8fc30f0800000000000000
+      internalID: -1135759410047956131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_61
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 139
+        width: 409
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c55d3502939f2d30800000000000000
+      internalID: 4408904815581418951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_62
+      rect:
+        serializedVersion: 2
+        x: 5206
+        y: 139
+        width: 409
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156bc8142ff257fb0800000000000000
+      internalID: -4650758322661837231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Bad_transparent_63
+      rect:
+        serializedVersion: 2
+        x: 6038
+        y: 139
+        width: 409
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80709456c6eeb710800000000000000
+      internalID: 1711058647944032397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ren Bad_transparent_0: -2954304146709065932
+      Ren Bad_transparent_1: 8179925751952927804
+      Ren Bad_transparent_10: -6308006730442399257
+      Ren Bad_transparent_11: 2995707595582767086
+      Ren Bad_transparent_12: 1261661899494884554
+      Ren Bad_transparent_13: -5282054637014201427
+      Ren Bad_transparent_14: -4022306257407636979
+      Ren Bad_transparent_15: 1122762678443729123
+      Ren Bad_transparent_16: -5897624007134534654
+      Ren Bad_transparent_17: 1599101574450198287
+      Ren Bad_transparent_18: -7064804724122493348
+      Ren Bad_transparent_19: -939005730592666124
+      Ren Bad_transparent_2: -4879616628774051190
+      Ren Bad_transparent_20: 3928096102121564737
+      Ren Bad_transparent_21: -2923592316810611652
+      Ren Bad_transparent_22: 7276856530817943608
+      Ren Bad_transparent_23: -4272673987255764215
+      Ren Bad_transparent_24: 7402377971029585667
+      Ren Bad_transparent_25: -8440516922169201063
+      Ren Bad_transparent_26: 1296762581690878944
+      Ren Bad_transparent_27: 5584056220354844510
+      Ren Bad_transparent_28: 2849425358467407074
+      Ren Bad_transparent_29: -1646723911309539097
+      Ren Bad_transparent_3: -5310800417165157481
+      Ren Bad_transparent_30: -1561969811892334891
+      Ren Bad_transparent_31: -6547805400107046951
+      Ren Bad_transparent_32: -3552985547940921
+      Ren Bad_transparent_33: -7587818962723053005
+      Ren Bad_transparent_34: -8537995383537133475
+      Ren Bad_transparent_35: -2546846423562963987
+      Ren Bad_transparent_36: -1110517718374674302
+      Ren Bad_transparent_37: -8130581538741888081
+      Ren Bad_transparent_38: -3324038400943465637
+      Ren Bad_transparent_39: 430147322495662553
+      Ren Bad_transparent_4: -7784640083886854810
+      Ren Bad_transparent_40: 5536200432382614689
+      Ren Bad_transparent_41: -1796952506179975527
+      Ren Bad_transparent_42: 1390642688244593272
+      Ren Bad_transparent_43: -4620819856807614499
+      Ren Bad_transparent_44: 1579196569422623821
+      Ren Bad_transparent_45: -1461312350511612610
+      Ren Bad_transparent_46: -4341501247959320394
+      Ren Bad_transparent_47: -7571590443311154212
+      Ren Bad_transparent_48: 6004274203947076250
+      Ren Bad_transparent_49: 3546635160767367904
+      Ren Bad_transparent_5: 5794867132183590637
+      Ren Bad_transparent_50: -1063501231270980927
+      Ren Bad_transparent_51: -320241683897649819
+      Ren Bad_transparent_52: 4639549574903190240
+      Ren Bad_transparent_53: 5462900199624334165
+      Ren Bad_transparent_54: 4169104269844922532
+      Ren Bad_transparent_55: -8148439665383189163
+      Ren Bad_transparent_56: -2450033323965003484
+      Ren Bad_transparent_57: -8742437748974389897
+      Ren Bad_transparent_58: 7789467687091647289
+      Ren Bad_transparent_59: 5979198622067605612
+      Ren Bad_transparent_6: 2235125608581947615
+      Ren Bad_transparent_60: -1135759410047956131
+      Ren Bad_transparent_61: 4408904815581418951
+      Ren Bad_transparent_62: -4650758322661837231
+      Ren Bad_transparent_63: 1711058647944032397
+      Ren Bad_transparent_7: -82631461019441714
+      Ren Bad_transparent_8: 5511297777741586338
+      Ren Bad_transparent_9: 66682391836772770
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

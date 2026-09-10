@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: a33093eaeaecf4c4fa79e8a8081be7db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6343299834643206003
+    second: Kai Source_0
+  - first:
+      213: 751664922760595147
+    second: Kai Source_1
+  - first:
+      213: 7721544533641485641
+    second: Kai Source_2
+  - first:
+      213: 469574061193146901
+    second: Kai Source_3
+  - first:
+      213: -3077741493885552994
+    second: Kai Source_4
+  - first:
+      213: 1599267169558458765
+    second: Kai Source_5
+  - first:
+      213: 8766590261426658802
+    second: Kai Source_6
+  - first:
+      213: 4648716498383737813
+    second: Kai Source_7
+  - first:
+      213: -7812796412035868222
+    second: Kai Source_8
+  - first:
+      213: -8377330238670999892
+    second: Kai Source_9
+  - first:
+      213: -8200473573021736091
+    second: Kai Source_10
+  - first:
+      213: -3031120935577791183
+    second: Kai Source_11
+  - first:
+      213: -1290714732532116089
+    second: Kai Source_12
+  - first:
+      213: 2769842645378355589
+    second: Kai Source_13
+  - first:
+      213: 4910388447251445997
+    second: Kai Source_14
+  - first:
+      213: 2789360390399493481
+    second: Kai Source_15
+  - first:
+      213: 8651968291327176053
+    second: Kai Source_16
+  - first:
+      213: 6623831892143450288
+    second: Kai Source_17
+  - first:
+      213: 4638057265372676394
+    second: Kai Source_18
+  - first:
+      213: 6178946635113692046
+    second: Kai Source_19
+  - first:
+      213: 2483163160126651772
+    second: Kai Source_20
+  - first:
+      213: 2749510096936649066
+    second: Kai Source_21
+  - first:
+      213: 1039333121740619148
+    second: Kai Source_22
+  - first:
+      213: -5761933310520483217
+    second: Kai Source_23
+  - first:
+      213: -8202711019921934509
+    second: Kai Source_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kai Source_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1189
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d803c4c986218f7a0800000000000000
+      internalID: -6343299834643206003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1129
+        width: 14
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc64447c3437e6a00800000000000000
+      internalID: 751664922760595147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 698
+        height: 1212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d5f05c7df682b60800000000000000
+      internalID: 7721544533641485641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1052
+        width: 14
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512b729ee13448600800000000000000
+      internalID: 469574061193146901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1036
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96b87afa6aa945d0800000000000000
+      internalID: -3077741493885552994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 975
+        width: 14
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81f976740db13610800000000000000
+      internalID: 1599267169558458765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1035
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd1cb7356f29a970800000000000000
+      internalID: 8766590261426658802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 933
+        width: 14
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d319ab760f838040800000000000000
+      internalID: 4648716498383737813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 893
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9d726ae0f539390800000000000000
+      internalID: -7812796412035868222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 835
+        width: 14
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae60ed688ebdbb80800000000000000
+      internalID: -8377330238670999892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 749
+        width: 13
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563af0abbb0123e80800000000000000
+      internalID: -8200473573021736091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 718
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135d2a3919b4fe5d0800000000000000
+      internalID: -3031120935577791183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 705
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7855f0d0ac5761ee0800000000000000
+      internalID: -1290714732532116089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 703
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5815181f535707620800000000000000
+      internalID: 2769842645378355589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 637
+        width: 13
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8ba93c644352440800000000000000
+      internalID: 4910388447251445997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 13
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9658e441f7cc5b620800000000000000
+      internalID: 2789360390399493481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 13
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57def742257f11870800000000000000
+      internalID: 8651968291327176053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 405
+        width: 13
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b82d17e2049ceb50800000000000000
+      internalID: 6623831892143450288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2145766280bd5040800000000000000
+      internalID: 4638057265372676394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 13
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bfb082a3700c550800000000000000
+      internalID: 6178946635113692046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d7faedcb7f57220800000000000000
+      internalID: 2483163160126651772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 283
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61424a9dd8382620800000000000000
+      internalID: 2749510096936649066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 13
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8db5a4b7f37c6e00800000000000000
+      internalID: 1039333121740619148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 13
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62afee9e208900b0800000000000000
+      internalID: -5761933310520483217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Source_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357fe5689cd1a2e80800000000000000
+      internalID: -8202711019921934509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Kai Source_0: -6343299834643206003
+      Kai Source_1: 751664922760595147
+      Kai Source_10: -8200473573021736091
+      Kai Source_11: -3031120935577791183
+      Kai Source_12: -1290714732532116089
+      Kai Source_13: 2769842645378355589
+      Kai Source_14: 4910388447251445997
+      Kai Source_15: 2789360390399493481
+      Kai Source_16: 8651968291327176053
+      Kai Source_17: 6623831892143450288
+      Kai Source_18: 4638057265372676394
+      Kai Source_19: 6178946635113692046
+      Kai Source_2: 7721544533641485641
+      Kai Source_20: 2483163160126651772
+      Kai Source_21: 2749510096936649066
+      Kai Source_22: 1039333121740619148
+      Kai Source_23: -5761933310520483217
+      Kai Source_24: -8202711019921934509
+      Kai Source_3: 469574061193146901
+      Kai Source_4: -3077741493885552994
+      Kai Source_5: 1599267169558458765
+      Kai Source_6: 8766590261426658802
+      Kai Source_7: 4648716498383737813
+      Kai Source_8: -7812796412035868222
+      Kai Source_9: -8377330238670999892
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

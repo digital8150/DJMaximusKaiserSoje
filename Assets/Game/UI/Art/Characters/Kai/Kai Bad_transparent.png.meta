@@ -1,0 +1,1796 @@
+fileFormatVersion: 2
+guid: 4d0cca3641b0f234d80afaf5aa4804a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6680522407438734038
+    second: Kai Bad_transparent_0
+  - first:
+      213: -3919867660817651815
+    second: Kai Bad_transparent_1
+  - first:
+      213: 15885247462436609
+    second: Kai Bad_transparent_2
+  - first:
+      213: 8884672028483011564
+    second: Kai Bad_transparent_3
+  - first:
+      213: 2905472858463830634
+    second: Kai Bad_transparent_4
+  - first:
+      213: -582217823909896653
+    second: Kai Bad_transparent_5
+  - first:
+      213: -2029478346478622220
+    second: Kai Bad_transparent_6
+  - first:
+      213: -4611988169387646094
+    second: Kai Bad_transparent_7
+  - first:
+      213: -4579778449840166601
+    second: Kai Bad_transparent_8
+  - first:
+      213: -4720440748796931366
+    second: Kai Bad_transparent_9
+  - first:
+      213: 778856861674859561
+    second: Kai Bad_transparent_10
+  - first:
+      213: -7206961466741640863
+    second: Kai Bad_transparent_11
+  - first:
+      213: -6066108627216801878
+    second: Kai Bad_transparent_12
+  - first:
+      213: -4888716983234354728
+    second: Kai Bad_transparent_13
+  - first:
+      213: -6990769632577197267
+    second: Kai Bad_transparent_14
+  - first:
+      213: -148977101029101815
+    second: Kai Bad_transparent_15
+  - first:
+      213: 3954441855189253590
+    second: Kai Bad_transparent_16
+  - first:
+      213: 679715260268822034
+    second: Kai Bad_transparent_17
+  - first:
+      213: -1640311675906639934
+    second: Kai Bad_transparent_18
+  - first:
+      213: -9008750469000357871
+    second: Kai Bad_transparent_19
+  - first:
+      213: -912814045828655540
+    second: Kai Bad_transparent_20
+  - first:
+      213: 5158050147342403627
+    second: Kai Bad_transparent_21
+  - first:
+      213: -6823202485740382918
+    second: Kai Bad_transparent_22
+  - first:
+      213: 4989709526529979674
+    second: Kai Bad_transparent_23
+  - first:
+      213: 6888314839407598139
+    second: Kai Bad_transparent_24
+  - first:
+      213: 8911893823132984923
+    second: Kai Bad_transparent_25
+  - first:
+      213: -606279886682988846
+    second: Kai Bad_transparent_26
+  - first:
+      213: 6588830463384179458
+    second: Kai Bad_transparent_27
+  - first:
+      213: -5756450873403360828
+    second: Kai Bad_transparent_28
+  - first:
+      213: -6959313712472529223
+    second: Kai Bad_transparent_29
+  - first:
+      213: -4292948640262026466
+    second: Kai Bad_transparent_30
+  - first:
+      213: -5686103906106886551
+    second: Kai Bad_transparent_31
+  - first:
+      213: 1459377406190597900
+    second: Kai Bad_transparent_32
+  - first:
+      213: -2618476274305979283
+    second: Kai Bad_transparent_33
+  - first:
+      213: 97738695092988220
+    second: Kai Bad_transparent_34
+  - first:
+      213: -5622970495144732161
+    second: Kai Bad_transparent_35
+  - first:
+      213: -8354362711189685328
+    second: Kai Bad_transparent_36
+  - first:
+      213: 657128063441374075
+    second: Kai Bad_transparent_37
+  - first:
+      213: -6828876700320347749
+    second: Kai Bad_transparent_38
+  - first:
+      213: 4019544091525033626
+    second: Kai Bad_transparent_39
+  - first:
+      213: -1425941739796099448
+    second: Kai Bad_transparent_40
+  - first:
+      213: 5132484266414747793
+    second: Kai Bad_transparent_41
+  - first:
+      213: 1987770528612022334
+    second: Kai Bad_transparent_42
+  - first:
+      213: -2299035704287732564
+    second: Kai Bad_transparent_43
+  - first:
+      213: 6378546248516280340
+    second: Kai Bad_transparent_44
+  - first:
+      213: -8276449924789556994
+    second: Kai Bad_transparent_45
+  - first:
+      213: 7378464140796487251
+    second: Kai Bad_transparent_46
+  - first:
+      213: 8966475533841657896
+    second: Kai Bad_transparent_47
+  - first:
+      213: 6527617023203294204
+    second: Kai Bad_transparent_48
+  - first:
+      213: 5063135293818522377
+    second: Kai Bad_transparent_49
+  - first:
+      213: -1588902525075797983
+    second: Kai Bad_transparent_50
+  - first:
+      213: -3670379501319789653
+    second: Kai Bad_transparent_51
+  - first:
+      213: -2629764398890158849
+    second: Kai Bad_transparent_52
+  - first:
+      213: 2390451468673861331
+    second: Kai Bad_transparent_53
+  - first:
+      213: 4189327659133464527
+    second: Kai Bad_transparent_54
+  - first:
+      213: 2438135722765407855
+    second: Kai Bad_transparent_55
+  - first:
+      213: -3221958769105548136
+    second: Kai Bad_transparent_56
+  - first:
+      213: -4673592121911818960
+    second: Kai Bad_transparent_57
+  - first:
+      213: 164300211873484395
+    second: Kai Bad_transparent_58
+  - first:
+      213: -5849055427383792082
+    second: Kai Bad_transparent_59
+  - first:
+      213: -5541700659331865602
+    second: Kai Bad_transparent_60
+  - first:
+      213: -1799686007769819112
+    second: Kai Bad_transparent_61
+  - first:
+      213: 9004739538150504476
+    second: Kai Bad_transparent_62
+  - first:
+      213: -4007760004621836681
+    second: Kai Bad_transparent_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kai Bad_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 8648
+        width: 538
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d25c611cbbf5bc50800000000000000
+      internalID: 6680522407438734038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 8648
+        width: 544
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9972c6e7125d999c0800000000000000
+      internalID: -3919867660817651815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 8648
+        width: 554
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fea246c8f683000800000000000000
+      internalID: 15885247462436609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 8648
+        width: 567
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3449b0322bc4b70800000000000000
+      internalID: 8884672028483011564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 3449
+        y: 8648
+        width: 580
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a628641cb20525820800000000000000
+      internalID: 2905472858463830634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 4275
+        y: 8648
+        width: 586
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e13ff49fb8be7f0800000000000000
+      internalID: -582217823909896653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 5109
+        y: 8648
+        width: 584
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f96bce4238d5d3e0800000000000000
+      internalID: -2029478346478622220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 5944
+        y: 8648
+        width: 582
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273685ff13deeffb0800000000000000
+      internalID: -4611988169387646094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 7432
+        width: 581
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739a94bb3cb5170c0800000000000000
+      internalID: -4579778449840166601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 7432
+        width: 581
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad21ea02620ad7eb0800000000000000
+      internalID: -4720440748796931366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 7432
+        width: 583
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c610b603e0fca00800000000000000
+      internalID: 778856861674859561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 7432
+        width: 586
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161bfe8eababbfb90800000000000000
+      internalID: -7206961466741640863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 3445
+        y: 7432
+        width: 586
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf5fc9d75ad0dba0800000000000000
+      internalID: -6066108627216801878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 4276
+        y: 7432
+        width: 587
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1a5e62ec9c72cb0800000000000000
+      internalID: -4888716983234354728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 5107
+        y: 7432
+        width: 588
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2be5afce0ccbfe90800000000000000
+      internalID: -6990769632577197267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 5941
+        y: 7432
+        width: 586
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f2e7dad1abeedf0800000000000000
+      internalID: -148977101029101815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 6216
+        width: 583
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddfd7f6aeff0e630800000000000000
+      internalID: 3954441855189253590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 6216
+        width: 580
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e3cbc8d65de6900800000000000000
+      internalID: 679715260268822034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 6216
+        width: 574
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7b8a4b8317c39e0800000000000000
+      internalID: -1640311675906639934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 6216
+        width: 570
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1189919cd2d7af280800000000000000
+      internalID: -9008750469000357871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 6216
+        width: 564
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46556c26780553f0800000000000000
+      internalID: -912814045828655540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 4298
+        y: 6216
+        width: 561
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28cefdc743159740800000000000000
+      internalID: 5158050147342403627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 5134
+        y: 6216
+        width: 558
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35d1e67d7d1f41a0800000000000000
+      internalID: -6823202485740382918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 6216
+        width: 556
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15b335b0620f3540800000000000000
+      internalID: 4989709526529979674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 5000
+        width: 556
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a11ffb9d5389f50800000000000000
+      internalID: 6888314839407598139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 5000
+        width: 555
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56e6d307386dab70800000000000000
+      internalID: 8911893823132984923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 5000
+        width: 555
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dedbcfb7af0697f0800000000000000
+      internalID: -606279886682988846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 5000
+        width: 555
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2035947b56a307b50800000000000000
+      internalID: 6588830463384179458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 3474
+        y: 5000
+        width: 554
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c93ecbfd6afc10b0800000000000000
+      internalID: -5756450873403360828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 5000
+        width: 555
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6e19fec0d8b6f90800000000000000
+      internalID: -6959313712472529223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_30
+      rect:
+        serializedVersion: 2
+        x: 5137
+        y: 5000
+        width: 555
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b8f2ae4f16c64c0800000000000000
+      internalID: -4292948640262026466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_31
+      rect:
+        serializedVersion: 2
+        x: 5969
+        y: 5000
+        width: 555
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966b988af96e611b0800000000000000
+      internalID: -5686103906106886551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_32
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3784
+        width: 555
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07b831d400c04410800000000000000
+      internalID: 1459377406190597900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_33
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 3784
+        width: 556
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c2439a3bd49abd0800000000000000
+      internalID: -2618476274305979283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_34
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 3784
+        width: 557
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39e3d943dc3b5100800000000000000
+      internalID: 97738695092988220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_35
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 3784
+        width: 559
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9556e502237f1b0800000000000000
+      internalID: -5622970495144732161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_36
+      rect:
+        serializedVersion: 2
+        x: 3467
+        y: 3784
+        width: 561
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbf4c2a0675f0c80800000000000000
+      internalID: -8354362711189685328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_37
+      rect:
+        serializedVersion: 2
+        x: 4298
+        y: 3784
+        width: 562
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b0d59fd769e1900800000000000000
+      internalID: 657128063441374075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_38
+      rect:
+        serializedVersion: 2
+        x: 5130
+        y: 3784
+        width: 562
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99c67e62d4fa31a0800000000000000
+      internalID: -6828876700320347749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_39
+      rect:
+        serializedVersion: 2
+        x: 5959
+        y: 3784
+        width: 565
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9eae560e0a48c730800000000000000
+      internalID: 4019544091525033626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_40
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2568
+        width: 567
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e0d09ea89063ce0800000000000000
+      internalID: -1425941739796099448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_41
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 2568
+        width: 572
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190beea4f3f3a3740800000000000000
+      internalID: 5132484266414747793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_42
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 2568
+        width: 572
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38f8ec93caf59b10800000000000000
+      internalID: 1987770528612022334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_43
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 2568
+        width: 570
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac5dff253f2810e0800000000000000
+      internalID: -2299035704287732564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_44
+      rect:
+        serializedVersion: 2
+        x: 3459
+        y: 2568
+        width: 568
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410a63e9406258850800000000000000
+      internalID: 6378546248516280340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_45
+      rect:
+        serializedVersion: 2
+        x: 4291
+        y: 2568
+        width: 568
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef82c97d4a4242d80800000000000000
+      internalID: -8276449924789556994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_46
+      rect:
+        serializedVersion: 2
+        x: 5129
+        y: 2568
+        width: 562
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356e1241b02956660800000000000000
+      internalID: 7378464140796487251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_47
+      rect:
+        serializedVersion: 2
+        x: 5969
+        y: 2568
+        width: 554
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820fcd9ddf15f6c70800000000000000
+      internalID: 8966475533841657896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_48
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1352
+        width: 546
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb33d90911c69a50800000000000000
+      internalID: 6527617023203294204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_49
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1352
+        width: 541
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bcbcd59bed34640800000000000000
+      internalID: 5063135293818522377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_50
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1352
+        width: 539
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128c222629513f9e0800000000000000
+      internalID: -1588902525075797983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_51
+      rect:
+        serializedVersion: 2
+        x: 2657
+        y: 1352
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba365f04a41301dc0800000000000000
+      internalID: -3670379501319789653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_52
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 1352
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4fe295633318bd0800000000000000
+      internalID: -2629764398890158849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_53
+      rect:
+        serializedVersion: 2
+        x: 4321
+        y: 1352
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6cd1312f69c2120800000000000000
+      internalID: 2390451468673861331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_54
+      rect:
+        serializedVersion: 2
+        x: 5153
+        y: 1352
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf6e5a5f4b732a30800000000000000
+      internalID: 4189327659133464527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_55
+      rect:
+        serializedVersion: 2
+        x: 5985
+        y: 1352
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f665f95a58ff5d120800000000000000
+      internalID: 2438135722765407855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_56
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 136
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c4286f19d4943d0800000000000000
+      internalID: -3221958769105548136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_57
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 136
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035c1641ab0142fb0800000000000000
+      internalID: -4673592121911818960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_58
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 136
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e8d351c26b74200800000000000000
+      internalID: 164300211873484395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_59
+      rect:
+        serializedVersion: 2
+        x: 2657
+        y: 136
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ee733141bf3dea0800000000000000
+      internalID: -5849055427383792082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_60
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 136
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3e9fc8c9ce713b0800000000000000
+      internalID: -5541700659331865602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_61
+      rect:
+        serializedVersion: 2
+        x: 4321
+        y: 136
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81893af6c1b3607e0800000000000000
+      internalID: -1799686007769819112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_62
+      rect:
+        serializedVersion: 2
+        x: 5153
+        y: 136
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18306a96e247fc70800000000000000
+      internalID: 9004739538150504476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Bad_transparent_63
+      rect:
+        serializedVersion: 2
+        x: 5985
+        y: 136
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e5f7382839168c0800000000000000
+      internalID: -4007760004621836681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Kai Bad_transparent_0: 6680522407438734038
+      Kai Bad_transparent_1: -3919867660817651815
+      Kai Bad_transparent_10: 778856861674859561
+      Kai Bad_transparent_11: -7206961466741640863
+      Kai Bad_transparent_12: -6066108627216801878
+      Kai Bad_transparent_13: -4888716983234354728
+      Kai Bad_transparent_14: -6990769632577197267
+      Kai Bad_transparent_15: -148977101029101815
+      Kai Bad_transparent_16: 3954441855189253590
+      Kai Bad_transparent_17: 679715260268822034
+      Kai Bad_transparent_18: -1640311675906639934
+      Kai Bad_transparent_19: -9008750469000357871
+      Kai Bad_transparent_2: 15885247462436609
+      Kai Bad_transparent_20: -912814045828655540
+      Kai Bad_transparent_21: 5158050147342403627
+      Kai Bad_transparent_22: -6823202485740382918
+      Kai Bad_transparent_23: 4989709526529979674
+      Kai Bad_transparent_24: 6888314839407598139
+      Kai Bad_transparent_25: 8911893823132984923
+      Kai Bad_transparent_26: -606279886682988846
+      Kai Bad_transparent_27: 6588830463384179458
+      Kai Bad_transparent_28: -5756450873403360828
+      Kai Bad_transparent_29: -6959313712472529223
+      Kai Bad_transparent_3: 8884672028483011564
+      Kai Bad_transparent_30: -4292948640262026466
+      Kai Bad_transparent_31: -5686103906106886551
+      Kai Bad_transparent_32: 1459377406190597900
+      Kai Bad_transparent_33: -2618476274305979283
+      Kai Bad_transparent_34: 97738695092988220
+      Kai Bad_transparent_35: -5622970495144732161
+      Kai Bad_transparent_36: -8354362711189685328
+      Kai Bad_transparent_37: 657128063441374075
+      Kai Bad_transparent_38: -6828876700320347749
+      Kai Bad_transparent_39: 4019544091525033626
+      Kai Bad_transparent_4: 2905472858463830634
+      Kai Bad_transparent_40: -1425941739796099448
+      Kai Bad_transparent_41: 5132484266414747793
+      Kai Bad_transparent_42: 1987770528612022334
+      Kai Bad_transparent_43: -2299035704287732564
+      Kai Bad_transparent_44: 6378546248516280340
+      Kai Bad_transparent_45: -8276449924789556994
+      Kai Bad_transparent_46: 7378464140796487251
+      Kai Bad_transparent_47: 8966475533841657896
+      Kai Bad_transparent_48: 6527617023203294204
+      Kai Bad_transparent_49: 5063135293818522377
+      Kai Bad_transparent_5: -582217823909896653
+      Kai Bad_transparent_50: -1588902525075797983
+      Kai Bad_transparent_51: -3670379501319789653
+      Kai Bad_transparent_52: -2629764398890158849
+      Kai Bad_transparent_53: 2390451468673861331
+      Kai Bad_transparent_54: 4189327659133464527
+      Kai Bad_transparent_55: 2438135722765407855
+      Kai Bad_transparent_56: -3221958769105548136
+      Kai Bad_transparent_57: -4673592121911818960
+      Kai Bad_transparent_58: 164300211873484395
+      Kai Bad_transparent_59: -5849055427383792082
+      Kai Bad_transparent_6: -2029478346478622220
+      Kai Bad_transparent_60: -5541700659331865602
+      Kai Bad_transparent_61: -1799686007769819112
+      Kai Bad_transparent_62: 9004739538150504476
+      Kai Bad_transparent_63: -4007760004621836681
+      Kai Bad_transparent_7: -4611988169387646094
+      Kai Bad_transparent_8: -4579778449840166601
+      Kai Bad_transparent_9: -4720440748796931366
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

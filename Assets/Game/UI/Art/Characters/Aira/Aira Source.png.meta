@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: 1276714fa600071409198475a8f7555a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 441354245517169930
+    second: Aira Source_0
+  - first:
+      213: 318460644614068443
+    second: Aira Source_1
+  - first:
+      213: -3595490738590109802
+    second: Aira Source_2
+  - first:
+      213: -6003145388671780099
+    second: Aira Source_3
+  - first:
+      213: 3622883442550893605
+    second: Aira Source_4
+  - first:
+      213: 5315403891327332396
+    second: Aira Source_5
+  - first:
+      213: -21805889822451534
+    second: Aira Source_6
+  - first:
+      213: -2936003130619610287
+    second: Aira Source_7
+  - first:
+      213: -3420239624525548599
+    second: Aira Source_8
+  - first:
+      213: -1027044949774150500
+    second: Aira Source_9
+  - first:
+      213: -7291332239947737259
+    second: Aira Source_10
+  - first:
+      213: -8904526919258926847
+    second: Aira Source_11
+  - first:
+      213: -2121619544308051956
+    second: Aira Source_12
+  - first:
+      213: -8460380436376598267
+    second: Aira Source_13
+  - first:
+      213: -1260977935203468313
+    second: Aira Source_14
+  - first:
+      213: -6687003686670489574
+    second: Aira Source_15
+  - first:
+      213: -8039627153121729765
+    second: Aira Source_16
+  - first:
+      213: -4127102743415306182
+    second: Aira Source_17
+  - first:
+      213: -4068353396320513370
+    second: Aira Source_18
+  - first:
+      213: -1912519546683525978
+    second: Aira Source_19
+  - first:
+      213: -5447773779700551074
+    second: Aira Source_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aira Source_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1161
+        width: 14
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0559201951002600800000000000000
+      internalID: 441354245517169930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1061
+        width: 14
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8d92dd4466b6400800000000000000
+      internalID: 318460644614068443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 709
+        height: 1163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f212519304a1ec0800000000000000
+      internalID: -3595490738590109802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 980
+        width: 14
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfab135331b80bca0800000000000000
+      internalID: -6003145388671780099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 14
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ce3efcb41174230800000000000000
+      internalID: 3622883442550893605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 868
+        width: 13
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c207b4c4dab14c940800000000000000
+      internalID: 5315403891327332396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b81f13a8a782bff0800000000000000
+      internalID: -21805889822451534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 794
+        width: 13
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bbbf355b83147d0800000000000000
+      internalID: -2936003130619610287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 747
+        width: 13
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c37075ce2ed880d0800000000000000
+      internalID: -3420239624525548599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 743
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c945a584f043fb1f0800000000000000
+      internalID: -1027044949774150500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 679
+        width: 13
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557df8a75fbffca90800000000000000
+      internalID: -7291332239947737259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 740
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1011ba4f1f3cc6480800000000000000
+      internalID: -8904526919258926847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 664
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c001ef8e34e7e82e0800000000000000
+      internalID: -2121619544308051956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 586
+        width: 13
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509cb1171d0b69a80800000000000000
+      internalID: -8460380436376598267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 13
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb7796bf3b108ee0800000000000000
+      internalID: -1260977935203468313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 453
+        width: 13
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a182744839df233a0800000000000000
+      internalID: -6687003686670489574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 406
+        width: 13
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13289333b18d6090800000000000000
+      internalID: -8039627153121729765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 13
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38c033dbe599b6c0800000000000000
+      internalID: -4127102743415306182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 13
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2df8f142e4a87c0800000000000000
+      internalID: -4068353396320513370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 13
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4ffe1fa9d5575e0800000000000000
+      internalID: -1912519546683525978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Source_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 13
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52f2446c9e9564b0800000000000000
+      internalID: -5447773779700551074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Aira Source_0: 441354245517169930
+      Aira Source_1: 318460644614068443
+      Aira Source_10: -7291332239947737259
+      Aira Source_11: -8904526919258926847
+      Aira Source_12: -2121619544308051956
+      Aira Source_13: -8460380436376598267
+      Aira Source_14: -1260977935203468313
+      Aira Source_15: -6687003686670489574
+      Aira Source_16: -8039627153121729765
+      Aira Source_17: -4127102743415306182
+      Aira Source_18: -4068353396320513370
+      Aira Source_19: -1912519546683525978
+      Aira Source_2: -3595490738590109802
+      Aira Source_20: -5447773779700551074
+      Aira Source_3: -6003145388671780099
+      Aira Source_4: 3622883442550893605
+      Aira Source_5: 5315403891327332396
+      Aira Source_6: -21805889822451534
+      Aira Source_7: -2936003130619610287
+      Aira Source_8: -3420239624525548599
+      Aira Source_9: -1027044949774150500
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

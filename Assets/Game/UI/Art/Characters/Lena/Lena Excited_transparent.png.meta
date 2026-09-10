@@ -1,0 +1,1796 @@
+fileFormatVersion: 2
+guid: c54ea51b7025def40ae566109be426ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7558283024401002155
+    second: Lena Excited_transparent_0
+  - first:
+      213: 4134599079731286119
+    second: Lena Excited_transparent_1
+  - first:
+      213: 2932820847714378885
+    second: Lena Excited_transparent_2
+  - first:
+      213: -7388626876087155402
+    second: Lena Excited_transparent_3
+  - first:
+      213: 7572092246465064756
+    second: Lena Excited_transparent_4
+  - first:
+      213: 7532827970606505115
+    second: Lena Excited_transparent_5
+  - first:
+      213: 973301470005735785
+    second: Lena Excited_transparent_6
+  - first:
+      213: 7840343163474585319
+    second: Lena Excited_transparent_7
+  - first:
+      213: -1507085455505507141
+    second: Lena Excited_transparent_8
+  - first:
+      213: 5186358501732017304
+    second: Lena Excited_transparent_9
+  - first:
+      213: -3902159318243187434
+    second: Lena Excited_transparent_10
+  - first:
+      213: -989399095273032141
+    second: Lena Excited_transparent_11
+  - first:
+      213: -5399218670932254460
+    second: Lena Excited_transparent_12
+  - first:
+      213: -4044817605772769699
+    second: Lena Excited_transparent_13
+  - first:
+      213: 1148053173459825095
+    second: Lena Excited_transparent_14
+  - first:
+      213: -7892254416307721965
+    second: Lena Excited_transparent_15
+  - first:
+      213: 8763500917411202553
+    second: Lena Excited_transparent_16
+  - first:
+      213: -113731652425067044
+    second: Lena Excited_transparent_17
+  - first:
+      213: -7226251933260336279
+    second: Lena Excited_transparent_18
+  - first:
+      213: 7931690668320371855
+    second: Lena Excited_transparent_19
+  - first:
+      213: 6271100719589263450
+    second: Lena Excited_transparent_20
+  - first:
+      213: 8731347700632697116
+    second: Lena Excited_transparent_21
+  - first:
+      213: 5195134181560553264
+    second: Lena Excited_transparent_22
+  - first:
+      213: -1035439961304702600
+    second: Lena Excited_transparent_23
+  - first:
+      213: -224824190464729092
+    second: Lena Excited_transparent_24
+  - first:
+      213: 5634543412446009111
+    second: Lena Excited_transparent_25
+  - first:
+      213: 4155643904174721509
+    second: Lena Excited_transparent_26
+  - first:
+      213: 4454891224702186397
+    second: Lena Excited_transparent_27
+  - first:
+      213: 2001973668685223749
+    second: Lena Excited_transparent_28
+  - first:
+      213: 7566049132009647218
+    second: Lena Excited_transparent_29
+  - first:
+      213: -7137874869813589726
+    second: Lena Excited_transparent_30
+  - first:
+      213: -8385173540618537023
+    second: Lena Excited_transparent_31
+  - first:
+      213: -5852962988779514592
+    second: Lena Excited_transparent_32
+  - first:
+      213: 8802564920786199018
+    second: Lena Excited_transparent_33
+  - first:
+      213: -6440620457701498516
+    second: Lena Excited_transparent_34
+  - first:
+      213: 7931653382591850889
+    second: Lena Excited_transparent_35
+  - first:
+      213: 6141589926748285818
+    second: Lena Excited_transparent_36
+  - first:
+      213: 5954046886483538705
+    second: Lena Excited_transparent_37
+  - first:
+      213: -2897912533694889691
+    second: Lena Excited_transparent_38
+  - first:
+      213: -5127481024054328085
+    second: Lena Excited_transparent_39
+  - first:
+      213: -500713259913275803
+    second: Lena Excited_transparent_40
+  - first:
+      213: 129717424142696958
+    second: Lena Excited_transparent_41
+  - first:
+      213: 3058768104530149560
+    second: Lena Excited_transparent_42
+  - first:
+      213: -5167682158671235206
+    second: Lena Excited_transparent_43
+  - first:
+      213: -2755422092964366017
+    second: Lena Excited_transparent_44
+  - first:
+      213: 8759832595426312369
+    second: Lena Excited_transparent_45
+  - first:
+      213: -4681507500613919458
+    second: Lena Excited_transparent_46
+  - first:
+      213: -5733942109241521530
+    second: Lena Excited_transparent_47
+  - first:
+      213: 7887656939292095416
+    second: Lena Excited_transparent_48
+  - first:
+      213: 5304711522522053105
+    second: Lena Excited_transparent_49
+  - first:
+      213: -2014559850467095796
+    second: Lena Excited_transparent_50
+  - first:
+      213: -6661840419061782670
+    second: Lena Excited_transparent_51
+  - first:
+      213: 7778407632707909337
+    second: Lena Excited_transparent_52
+  - first:
+      213: 1625329609169743521
+    second: Lena Excited_transparent_53
+  - first:
+      213: -8688730359694694178
+    second: Lena Excited_transparent_54
+  - first:
+      213: 7708381658501032381
+    second: Lena Excited_transparent_55
+  - first:
+      213: 5587430342324605064
+    second: Lena Excited_transparent_56
+  - first:
+      213: 6789889468741642693
+    second: Lena Excited_transparent_57
+  - first:
+      213: 980724585350042918
+    second: Lena Excited_transparent_58
+  - first:
+      213: -8169768933799077744
+    second: Lena Excited_transparent_59
+  - first:
+      213: 5909590015727940331
+    second: Lena Excited_transparent_60
+  - first:
+      213: 7105259590512779143
+    second: Lena Excited_transparent_61
+  - first:
+      213: -3636291007771530033
+    second: Lena Excited_transparent_62
+  - first:
+      213: 6015195410917665765
+    second: Lena Excited_transparent_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lena Excited_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 8651
+        width: 414
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55196b282a59b1790800000000000000
+      internalID: -7558283024401002155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 8651
+        width: 414
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7605a0cf4fb016930800000000000000
+      internalID: 4134599079731286119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 8651
+        width: 414
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58420e1b50973b820800000000000000
+      internalID: 2932820847714378885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 8651
+        width: 414
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635cbe8b003567990800000000000000
+      internalID: -7388626876087155402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 3521
+        y: 8651
+        width: 414
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f2a0d87c9751960800000000000000
+      internalID: 7572092246465064756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 4353
+        y: 8651
+        width: 414
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c902ee02bf98860800000000000000
+      internalID: 7532827970606505115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 5185
+        y: 8651
+        width: 414
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961be0bb78cd18d00800000000000000
+      internalID: 973301470005735785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 6017
+        y: 8651
+        width: 414
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6a018319e7ecc60800000000000000
+      internalID: 7840343163474585319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 7435
+        width: 414
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcbf6a53c1c51be0800000000000000
+      internalID: -1507085455505507141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 7435
+        width: 417
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894609d2495a9f740800000000000000
+      internalID: 5186358501732017304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 7435
+        width: 432
+        height: 951
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615622b46ceb8d9c0800000000000000
+      internalID: -3902159318243187434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 7435
+        width: 447
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3367821d3c2f442f0800000000000000
+      internalID: -989399095273032141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 7435
+        width: 462
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4012d6e993f1215b0800000000000000
+      internalID: -5399218670932254460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 4330
+        y: 7435
+        width: 451
+        height: 952
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d560ba261dbedd7c0800000000000000
+      internalID: -4044817605772769699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 5168
+        y: 7435
+        width: 440
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c135535744beef00800000000000000
+      internalID: 1148053173459825095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 7435
+        width: 441
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31968fe5c64197290800000000000000
+      internalID: -7892254416307721965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 6219
+        width: 444
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5ca1347a53e9970800000000000000
+      internalID: 8763500917411202553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 6219
+        width: 446
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd55c792aa1fb6ef0800000000000000
+      internalID: -113731652425067044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 6219
+        width: 446
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963b98c272237bb90800000000000000
+      internalID: -7226251933260336279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 2669
+        y: 6219
+        width: 446
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84348193a6031e60800000000000000
+      internalID: 7931690668320371855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 6219
+        width: 446
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5880d5f0ec670750800000000000000
+      internalID: 6271100719589263450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 4333
+        y: 6219
+        width: 446
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19b2aa197afb2970800000000000000
+      internalID: 8731347700632697116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 5165
+        y: 6219
+        width: 446
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f086c5303d81840800000000000000
+      internalID: 5195134181560553264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 5997
+        y: 6219
+        width: 446
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871603857d061a1f0800000000000000
+      internalID: -1035439961304702600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 5003
+        width: 446
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff5f66079341ecf0800000000000000
+      internalID: -224824190464729092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 5003
+        width: 446
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7179c5a616be13e40800000000000000
+      internalID: 5634543412446009111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 5003
+        width: 439
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e90a510d10dba930800000000000000
+      internalID: 4155643904174721509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 5003
+        width: 427
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93f06147f3f2dd30800000000000000
+      internalID: 4454891224702186397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 5003
+        width: 421
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5471babd17078cb10800000000000000
+      internalID: 2001973668685223749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 4346
+        y: 5003
+        width: 421
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c66925991000960800000000000000
+      internalID: 7566049132009647218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_30
+      rect:
+        serializedVersion: 2
+        x: 5179
+        y: 5003
+        width: 420
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229c29dbf9c21fc90800000000000000
+      internalID: -7137874869813589726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_31
+      rect:
+        serializedVersion: 2
+        x: 6015
+        y: 5003
+        width: 416
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c77d636711e1ab80800000000000000
+      internalID: -8385173540618537023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_32
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 3787
+        width: 413
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025d94a0c2916cea0800000000000000
+      internalID: -5852962988779514592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_33
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 3787
+        width: 413
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1a6cf482ef82a70800000000000000
+      internalID: 8802564920786199018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_34
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 3787
+        width: 413
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61a69d41d15e96a0800000000000000
+      internalID: -6440620457701498516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_35
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 3787
+        width: 414
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989a9ee4ab4e21e60800000000000000
+      internalID: 7931653382591850889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_36
+      rect:
+        serializedVersion: 2
+        x: 3521
+        y: 3787
+        width: 414
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7be2f3bf7f4b3550800000000000000
+      internalID: 6141589926748285818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_37
+      rect:
+        serializedVersion: 2
+        x: 4353
+        y: 3787
+        width: 414
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1133fdce81601a250800000000000000
+      internalID: 5954046886483538705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_38
+      rect:
+        serializedVersion: 2
+        x: 5185
+        y: 3787
+        width: 414
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521c6f687eb88c7d0800000000000000
+      internalID: -2897912533694889691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_39
+      rect:
+        serializedVersion: 2
+        x: 6017
+        y: 3787
+        width: 414
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be48fa8dc2787d8b0800000000000000
+      internalID: -5127481024054328085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_40
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2571
+        width: 414
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5669a8861fb1d09f0800000000000000
+      internalID: -500713259913275803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_41
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 2571
+        width: 414
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1443b5f49dcc100800000000000000
+      internalID: 129717424142696958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_42
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 2571
+        width: 414
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b080d0926de27a20800000000000000
+      internalID: 3058768104530149560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_43
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 2571
+        width: 414
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77f64cc474b848b0800000000000000
+      internalID: -5167682158671235206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_44
+      rect:
+        serializedVersion: 2
+        x: 3521
+        y: 2571
+        width: 414
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39789e8436c2c9d0800000000000000
+      internalID: -2755422092964366017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_45
+      rect:
+        serializedVersion: 2
+        x: 4353
+        y: 2571
+        width: 414
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0064e755d219970800000000000000
+      internalID: 8759832595426312369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_46
+      rect:
+        serializedVersion: 2
+        x: 5185
+        y: 2571
+        width: 414
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d949c5bb1f70fb0800000000000000
+      internalID: -4681507500613919458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_47
+      rect:
+        serializedVersion: 2
+        x: 6018
+        y: 2571
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a41080802fc60b0800000000000000
+      internalID: -5733942109241521530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_48
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1355
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b376a81236967d60800000000000000
+      internalID: 7887656939292095416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_49
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1355
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f939df260f1e9940800000000000000
+      internalID: 5304711522522053105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_50
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 1355
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b05265d78da04e0800000000000000
+      internalID: -2014559850467095796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_51
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 1355
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277ab7f4f636c83a0800000000000000
+      internalID: -6661840419061782670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_52
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 1355
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6fdb9b78472fb60800000000000000
+      internalID: 7778407632707909337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_53
+      rect:
+        serializedVersion: 2
+        x: 4354
+        y: 1355
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aeac7d0ba45e8610800000000000000
+      internalID: 1625329609169743521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_54
+      rect:
+        serializedVersion: 2
+        x: 5186
+        y: 1355
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8ee31d5cd6b6780800000000000000
+      internalID: -8688730359694694178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_55
+      rect:
+        serializedVersion: 2
+        x: 6018
+        y: 1355
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db92714174ca9fa60800000000000000
+      internalID: 7708381658501032381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_56
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 139
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8805f79fa4a8a8d40800000000000000
+      internalID: 5587430342324605064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_57
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 139
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9e2885f788a3e50800000000000000
+      internalID: 6789889468741642693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_58
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 139
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625184470db3c9d00800000000000000
+      internalID: 980724585350042918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_59
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 139
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09852e3a0762f9e80800000000000000
+      internalID: -8169768933799077744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_60
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 139
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2b8a71fc4130250800000000000000
+      internalID: 5909590015727940331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_61
+      rect:
+        serializedVersion: 2
+        x: 4354
+        y: 139
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f9379c3f3fa9260800000000000000
+      internalID: 7105259590512779143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_62
+      rect:
+        serializedVersion: 2
+        x: 5186
+        y: 139
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcca4d5289c498dc0800000000000000
+      internalID: -3636291007771530033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Excited_transparent_63
+      rect:
+        serializedVersion: 2
+        x: 6018
+        y: 139
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebae4a3b544a7350800000000000000
+      internalID: 6015195410917665765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lena Excited_transparent_0: -7558283024401002155
+      Lena Excited_transparent_1: 4134599079731286119
+      Lena Excited_transparent_10: -3902159318243187434
+      Lena Excited_transparent_11: -989399095273032141
+      Lena Excited_transparent_12: -5399218670932254460
+      Lena Excited_transparent_13: -4044817605772769699
+      Lena Excited_transparent_14: 1148053173459825095
+      Lena Excited_transparent_15: -7892254416307721965
+      Lena Excited_transparent_16: 8763500917411202553
+      Lena Excited_transparent_17: -113731652425067044
+      Lena Excited_transparent_18: -7226251933260336279
+      Lena Excited_transparent_19: 7931690668320371855
+      Lena Excited_transparent_2: 2932820847714378885
+      Lena Excited_transparent_20: 6271100719589263450
+      Lena Excited_transparent_21: 8731347700632697116
+      Lena Excited_transparent_22: 5195134181560553264
+      Lena Excited_transparent_23: -1035439961304702600
+      Lena Excited_transparent_24: -224824190464729092
+      Lena Excited_transparent_25: 5634543412446009111
+      Lena Excited_transparent_26: 4155643904174721509
+      Lena Excited_transparent_27: 4454891224702186397
+      Lena Excited_transparent_28: 2001973668685223749
+      Lena Excited_transparent_29: 7566049132009647218
+      Lena Excited_transparent_3: -7388626876087155402
+      Lena Excited_transparent_30: -7137874869813589726
+      Lena Excited_transparent_31: -8385173540618537023
+      Lena Excited_transparent_32: -5852962988779514592
+      Lena Excited_transparent_33: 8802564920786199018
+      Lena Excited_transparent_34: -6440620457701498516
+      Lena Excited_transparent_35: 7931653382591850889
+      Lena Excited_transparent_36: 6141589926748285818
+      Lena Excited_transparent_37: 5954046886483538705
+      Lena Excited_transparent_38: -2897912533694889691
+      Lena Excited_transparent_39: -5127481024054328085
+      Lena Excited_transparent_4: 7572092246465064756
+      Lena Excited_transparent_40: -500713259913275803
+      Lena Excited_transparent_41: 129717424142696958
+      Lena Excited_transparent_42: 3058768104530149560
+      Lena Excited_transparent_43: -5167682158671235206
+      Lena Excited_transparent_44: -2755422092964366017
+      Lena Excited_transparent_45: 8759832595426312369
+      Lena Excited_transparent_46: -4681507500613919458
+      Lena Excited_transparent_47: -5733942109241521530
+      Lena Excited_transparent_48: 7887656939292095416
+      Lena Excited_transparent_49: 5304711522522053105
+      Lena Excited_transparent_5: 7532827970606505115
+      Lena Excited_transparent_50: -2014559850467095796
+      Lena Excited_transparent_51: -6661840419061782670
+      Lena Excited_transparent_52: 7778407632707909337
+      Lena Excited_transparent_53: 1625329609169743521
+      Lena Excited_transparent_54: -8688730359694694178
+      Lena Excited_transparent_55: 7708381658501032381
+      Lena Excited_transparent_56: 5587430342324605064
+      Lena Excited_transparent_57: 6789889468741642693
+      Lena Excited_transparent_58: 980724585350042918
+      Lena Excited_transparent_59: -8169768933799077744
+      Lena Excited_transparent_6: 973301470005735785
+      Lena Excited_transparent_60: 5909590015727940331
+      Lena Excited_transparent_61: 7105259590512779143
+      Lena Excited_transparent_62: -3636291007771530033
+      Lena Excited_transparent_63: 6015195410917665765
+      Lena Excited_transparent_7: 7840343163474585319
+      Lena Excited_transparent_8: -1507085455505507141
+      Lena Excited_transparent_9: 5186358501732017304
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

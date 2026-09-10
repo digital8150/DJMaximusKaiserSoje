@@ -1,0 +1,1796 @@
+fileFormatVersion: 2
+guid: 0b803fd5179e2d645b39b1258bd2073d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6813738320745429233
+    second: Lena Bad_transparent_0
+  - first:
+      213: -3082566923465162120
+    second: Lena Bad_transparent_1
+  - first:
+      213: 227523659989319436
+    second: Lena Bad_transparent_2
+  - first:
+      213: -3222116348775113759
+    second: Lena Bad_transparent_3
+  - first:
+      213: -8829726454020942555
+    second: Lena Bad_transparent_4
+  - first:
+      213: 9115781992386581383
+    second: Lena Bad_transparent_5
+  - first:
+      213: 6073795387471856322
+    second: Lena Bad_transparent_6
+  - first:
+      213: -891999152143517075
+    second: Lena Bad_transparent_7
+  - first:
+      213: 6518333364069406494
+    second: Lena Bad_transparent_8
+  - first:
+      213: 7892651540925548480
+    second: Lena Bad_transparent_9
+  - first:
+      213: 442130816997464778
+    second: Lena Bad_transparent_10
+  - first:
+      213: 7386054707585887981
+    second: Lena Bad_transparent_11
+  - first:
+      213: 3986691680325190167
+    second: Lena Bad_transparent_12
+  - first:
+      213: 9103967439630855067
+    second: Lena Bad_transparent_13
+  - first:
+      213: -2231507775950715003
+    second: Lena Bad_transparent_14
+  - first:
+      213: 5661506910693258697
+    second: Lena Bad_transparent_15
+  - first:
+      213: -8584469552678588776
+    second: Lena Bad_transparent_16
+  - first:
+      213: 1267524513088239307
+    second: Lena Bad_transparent_17
+  - first:
+      213: 2347547192233641379
+    second: Lena Bad_transparent_18
+  - first:
+      213: 7667002520963266507
+    second: Lena Bad_transparent_19
+  - first:
+      213: 8216253772743935549
+    second: Lena Bad_transparent_20
+  - first:
+      213: 7232055717201113835
+    second: Lena Bad_transparent_21
+  - first:
+      213: -7179013070405487874
+    second: Lena Bad_transparent_22
+  - first:
+      213: -1752892731529189728
+    second: Lena Bad_transparent_23
+  - first:
+      213: 3198231976075272871
+    second: Lena Bad_transparent_24
+  - first:
+      213: -437019713266959961
+    second: Lena Bad_transparent_25
+  - first:
+      213: 2288649475982418514
+    second: Lena Bad_transparent_26
+  - first:
+      213: -320998808608943119
+    second: Lena Bad_transparent_27
+  - first:
+      213: 7100411072038397274
+    second: Lena Bad_transparent_28
+  - first:
+      213: 6237058422768183764
+    second: Lena Bad_transparent_29
+  - first:
+      213: 1905467093747844257
+    second: Lena Bad_transparent_30
+  - first:
+      213: 9165768724656494618
+    second: Lena Bad_transparent_31
+  - first:
+      213: 2857208572709501013
+    second: Lena Bad_transparent_32
+  - first:
+      213: -8512524096378300034
+    second: Lena Bad_transparent_33
+  - first:
+      213: 7934804065481766409
+    second: Lena Bad_transparent_34
+  - first:
+      213: 8487211402801759895
+    second: Lena Bad_transparent_35
+  - first:
+      213: -1094013212935654431
+    second: Lena Bad_transparent_36
+  - first:
+      213: 383404725931062557
+    second: Lena Bad_transparent_37
+  - first:
+      213: 8659501542673579794
+    second: Lena Bad_transparent_38
+  - first:
+      213: -354325510310672252
+    second: Lena Bad_transparent_39
+  - first:
+      213: -3932768359366882121
+    second: Lena Bad_transparent_40
+  - first:
+      213: -1723961776203859963
+    second: Lena Bad_transparent_41
+  - first:
+      213: -6236444731489545227
+    second: Lena Bad_transparent_42
+  - first:
+      213: -4297690019284578240
+    second: Lena Bad_transparent_43
+  - first:
+      213: 7439954819569276832
+    second: Lena Bad_transparent_44
+  - first:
+      213: 1763444845723072504
+    second: Lena Bad_transparent_45
+  - first:
+      213: 5293574790078773878
+    second: Lena Bad_transparent_46
+  - first:
+      213: -1457003396332494870
+    second: Lena Bad_transparent_47
+  - first:
+      213: -3078864604112699166
+    second: Lena Bad_transparent_48
+  - first:
+      213: 5495328514762933818
+    second: Lena Bad_transparent_49
+  - first:
+      213: 3736859695988600627
+    second: Lena Bad_transparent_50
+  - first:
+      213: 4081686170428900137
+    second: Lena Bad_transparent_51
+  - first:
+      213: -2921689072377439729
+    second: Lena Bad_transparent_52
+  - first:
+      213: -4658108544806043534
+    second: Lena Bad_transparent_53
+  - first:
+      213: 7714188005019565703
+    second: Lena Bad_transparent_54
+  - first:
+      213: -1362042177706711234
+    second: Lena Bad_transparent_55
+  - first:
+      213: 8291192137938313569
+    second: Lena Bad_transparent_56
+  - first:
+      213: 2045985044665236959
+    second: Lena Bad_transparent_57
+  - first:
+      213: -8116777470669013922
+    second: Lena Bad_transparent_58
+  - first:
+      213: -7045797626577441930
+    second: Lena Bad_transparent_59
+  - first:
+      213: -4469572598195660417
+    second: Lena Bad_transparent_60
+  - first:
+      213: 6098545353418953204
+    second: Lena Bad_transparent_61
+  - first:
+      213: -3911113124506392238
+    second: Lena Bad_transparent_62
+  - first:
+      213: 1174600205501055329
+    second: Lena Bad_transparent_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lena Bad_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 8644
+        width: 418
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f078087191db071a0800000000000000
+      internalID: -6813738320745429233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 8644
+        width: 418
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8728d7a17b58835d0800000000000000
+      internalID: -3082566923465162120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 8644
+        width: 418
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ff8a33093582300800000000000000
+      internalID: 227523659989319436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 8644
+        width: 419
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebd746904eb843d0800000000000000
+      internalID: -3222116348775113759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 8644
+        width: 419
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525563c6292867580800000000000000
+      internalID: -8829726454020942555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 4346
+        y: 8644
+        width: 423
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783da12bc63c18e70800000000000000
+      internalID: 9115781992386581383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 5170
+        y: 8644
+        width: 434
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c28aac79b47a4450800000000000000
+      internalID: 6073795387471856322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 5989
+        y: 8644
+        width: 451
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a39844f7bfe93f0800000000000000
+      internalID: -891999152143517075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 7428
+        width: 461
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e171fe4b8a5c57a50800000000000000
+      internalID: 6518333364069406494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 7428
+        width: 482
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c78ec862c4588d60800000000000000
+      internalID: 7892651540925548480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 7428
+        width: 505
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca1363b2a3c22600800000000000000
+      internalID: 442130816997464778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 7428
+        width: 514
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee2241af99808660800000000000000
+      internalID: 7386054707585887981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 7428
+        width: 517
+        height: 951
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712c9caf5f2935730800000000000000
+      internalID: 3986691680325190167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 4273
+        y: 7428
+        width: 516
+        height: 952
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b6be5c62ac75e70800000000000000
+      internalID: 9103967439630855067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 5107
+        y: 7428
+        width: 515
+        height: 952
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5878fe430871801e0800000000000000
+      internalID: -2231507775950715003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 5943
+        y: 7428
+        width: 512
+        height: 952
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c57a411a86b19e40800000000000000
+      internalID: 5661506910693258697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 6212
+        width: 510
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89eaf6f9c66ddd880800000000000000
+      internalID: -8584469552678588776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 6212
+        width: 509
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc679ba34d6279110800000000000000
+      internalID: 1267524513088239307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 6212
+        width: 507
+        height: 952
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a54d86cbb9249020800000000000000
+      internalID: 2347547192233641379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 6212
+        width: 505
+        height: 951
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc73a0adb2aa66a60800000000000000
+      internalID: 7667002520963266507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 3454
+        y: 6212
+        width: 503
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d368dd4564ff50270800000000000000
+      internalID: 8216253772743935549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 6212
+        width: 500
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2fa939b5c6d5460800000000000000
+      internalID: 7232055717201113835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 5119
+        y: 6212
+        width: 499
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2389406a50f5c90800000000000000
+      internalID: -7179013070405487874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 6212
+        width: 497
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6a6df09597ca7e0800000000000000
+      internalID: -1752892731529189728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 4996
+        width: 497
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2234b8907626c20800000000000000
+      internalID: 3198231976075272871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4996
+        width: 496
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a931eed2e46fe9f0800000000000000
+      internalID: -437019713266959961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 4996
+        width: 496
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252e057929ae2cf10800000000000000
+      internalID: 2288649475982418514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 4996
+        width: 495
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f35a87c8459b8bf0800000000000000
+      internalID: -320998808608943119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 4996
+        width: 494
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55691c104ab98260800000000000000
+      internalID: 7100411072038397274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 4289
+        y: 4996
+        width: 494
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9a474179b7e8650800000000000000
+      internalID: 6237058422768183764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_30
+      rect:
+        serializedVersion: 2
+        x: 5121
+        y: 4996
+        width: 495
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a44906e934917a10800000000000000
+      internalID: 1905467093747844257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_31
+      rect:
+        serializedVersion: 2
+        x: 5953
+        y: 4996
+        width: 495
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18198eb71a533f70800000000000000
+      internalID: 9165768724656494618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3780
+        width: 496
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558fc890f08d6a720800000000000000
+      internalID: 2857208572709501013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_33
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 3780
+        width: 498
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e791b658f607dd980800000000000000
+      internalID: -8512524096378300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_34
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 3780
+        width: 500
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906bd55d1461e1e60800000000000000
+      internalID: 7934804065481766409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_35
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 3780
+        width: 505
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796c4adbdc1a8c570800000000000000
+      internalID: 8487211402801759895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_36
+      rect:
+        serializedVersion: 2
+        x: 3438
+        y: 3780
+        width: 509
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3f26777c841d0f0800000000000000
+      internalID: -1094013212935654431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_37
+      rect:
+        serializedVersion: 2
+        x: 4269
+        y: 3780
+        width: 508
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15b35e1190225500800000000000000
+      internalID: 383404725931062557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_38
+      rect:
+        serializedVersion: 2
+        x: 5109
+        y: 3780
+        width: 498
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f7107e5cabc2870800000000000000
+      internalID: 8659501542673579794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_39
+      rect:
+        serializedVersion: 2
+        x: 5961
+        y: 3780
+        width: 476
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488c21f53de251bf0800000000000000
+      internalID: -354325510310672252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_40
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2564
+        width: 466
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc8a0c83000c69c0800000000000000
+      internalID: -3932768359366882121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_41
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 2564
+        width: 445
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508740306e14318e0800000000000000
+      internalID: -1723961776203859963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_42
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 2564
+        width: 429
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3953e0f82b379a0800000000000000
+      internalID: -6236444731489545227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_43
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 2564
+        width: 421
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0401dc592b98b54c0800000000000000
+      internalID: -4297690019284578240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_44
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 2564
+        width: 418
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7d1656d77004760800000000000000
+      internalID: 7439954819569276832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_45
+      rect:
+        serializedVersion: 2
+        x: 4349
+        y: 2564
+        width: 418
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7315a7eb3097810800000000000000
+      internalID: 1763444845723072504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_46
+      rect:
+        serializedVersion: 2
+        x: 5181
+        y: 2564
+        width: 418
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67abb9a993e867940800000000000000
+      internalID: 5293574790078773878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_47
+      rect:
+        serializedVersion: 2
+        x: 6013
+        y: 2564
+        width: 418
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef501d612fa7cbe0800000000000000
+      internalID: -1457003396332494870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_48
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1348
+        width: 418
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0c65084fca545d0800000000000000
+      internalID: -3078864604112699166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_49
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1348
+        width: 418
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36058e2b24534c40800000000000000
+      internalID: 5495328514762933818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_50
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1348
+        width: 418
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fefd2481efbd330800000000000000
+      internalID: 3736859695988600627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_51
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1348
+        width: 418
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9230a0142ff05a830800000000000000
+      internalID: 4081686170428900137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_52
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 1348
+        width: 418
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a5dc8b4431477d0800000000000000
+      internalID: -2921689072377439729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_53
+      rect:
+        serializedVersion: 2
+        x: 4349
+        y: 1348
+        width: 418
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270cf9d45f21b5fb0800000000000000
+      internalID: -4658108544806043534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_54
+      rect:
+        serializedVersion: 2
+        x: 5181
+        y: 1348
+        width: 418
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e35c97e1d4e0b60800000000000000
+      internalID: 7714188005019565703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_55
+      rect:
+        serializedVersion: 2
+        x: 6013
+        y: 1348
+        width: 418
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3721b41bdd091de0800000000000000
+      internalID: -1362042177706711234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_56
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 132
+        width: 418
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1612352225b301370800000000000000
+      internalID: 8291192137938313569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_57
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 132
+        width: 418
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd780bde8cc46c10800000000000000
+      internalID: 2045985044665236959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_58
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 132
+        width: 418
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c31eb15e96b5f80800000000000000
+      internalID: -8116777470669013922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_59
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 132
+        width: 418
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67baf8c836c483e90800000000000000
+      internalID: -7045797626577441930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_60
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 132
+        width: 418
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f795aba1763e8f1c0800000000000000
+      internalID: -4469572598195660417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_61
+      rect:
+        serializedVersion: 2
+        x: 4349
+        y: 132
+        width: 418
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1552dffa262a450800000000000000
+      internalID: 6098545353418953204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_62
+      rect:
+        serializedVersion: 2
+        x: 5181
+        y: 132
+        width: 418
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259ad61d55fe8b9c0800000000000000
+      internalID: -3911113124506392238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Bad_transparent_63
+      rect:
+        serializedVersion: 2
+        x: 6013
+        y: 132
+        width: 418
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161cdf1e9a40d4010800000000000000
+      internalID: 1174600205501055329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lena Bad_transparent_0: -6813738320745429233
+      Lena Bad_transparent_1: -3082566923465162120
+      Lena Bad_transparent_10: 442130816997464778
+      Lena Bad_transparent_11: 7386054707585887981
+      Lena Bad_transparent_12: 3986691680325190167
+      Lena Bad_transparent_13: 9103967439630855067
+      Lena Bad_transparent_14: -2231507775950715003
+      Lena Bad_transparent_15: 5661506910693258697
+      Lena Bad_transparent_16: -8584469552678588776
+      Lena Bad_transparent_17: 1267524513088239307
+      Lena Bad_transparent_18: 2347547192233641379
+      Lena Bad_transparent_19: 7667002520963266507
+      Lena Bad_transparent_2: 227523659989319436
+      Lena Bad_transparent_20: 8216253772743935549
+      Lena Bad_transparent_21: 7232055717201113835
+      Lena Bad_transparent_22: -7179013070405487874
+      Lena Bad_transparent_23: -1752892731529189728
+      Lena Bad_transparent_24: 3198231976075272871
+      Lena Bad_transparent_25: -437019713266959961
+      Lena Bad_transparent_26: 2288649475982418514
+      Lena Bad_transparent_27: -320998808608943119
+      Lena Bad_transparent_28: 7100411072038397274
+      Lena Bad_transparent_29: 6237058422768183764
+      Lena Bad_transparent_3: -3222116348775113759
+      Lena Bad_transparent_30: 1905467093747844257
+      Lena Bad_transparent_31: 9165768724656494618
+      Lena Bad_transparent_32: 2857208572709501013
+      Lena Bad_transparent_33: -8512524096378300034
+      Lena Bad_transparent_34: 7934804065481766409
+      Lena Bad_transparent_35: 8487211402801759895
+      Lena Bad_transparent_36: -1094013212935654431
+      Lena Bad_transparent_37: 383404725931062557
+      Lena Bad_transparent_38: 8659501542673579794
+      Lena Bad_transparent_39: -354325510310672252
+      Lena Bad_transparent_4: -8829726454020942555
+      Lena Bad_transparent_40: -3932768359366882121
+      Lena Bad_transparent_41: -1723961776203859963
+      Lena Bad_transparent_42: -6236444731489545227
+      Lena Bad_transparent_43: -4297690019284578240
+      Lena Bad_transparent_44: 7439954819569276832
+      Lena Bad_transparent_45: 1763444845723072504
+      Lena Bad_transparent_46: 5293574790078773878
+      Lena Bad_transparent_47: -1457003396332494870
+      Lena Bad_transparent_48: -3078864604112699166
+      Lena Bad_transparent_49: 5495328514762933818
+      Lena Bad_transparent_5: 9115781992386581383
+      Lena Bad_transparent_50: 3736859695988600627
+      Lena Bad_transparent_51: 4081686170428900137
+      Lena Bad_transparent_52: -2921689072377439729
+      Lena Bad_transparent_53: -4658108544806043534
+      Lena Bad_transparent_54: 7714188005019565703
+      Lena Bad_transparent_55: -1362042177706711234
+      Lena Bad_transparent_56: 8291192137938313569
+      Lena Bad_transparent_57: 2045985044665236959
+      Lena Bad_transparent_58: -8116777470669013922
+      Lena Bad_transparent_59: -7045797626577441930
+      Lena Bad_transparent_6: 6073795387471856322
+      Lena Bad_transparent_60: -4469572598195660417
+      Lena Bad_transparent_61: 6098545353418953204
+      Lena Bad_transparent_62: -3911113124506392238
+      Lena Bad_transparent_63: 1174600205501055329
+      Lena Bad_transparent_7: -891999152143517075
+      Lena Bad_transparent_8: 6518333364069406494
+      Lena Bad_transparent_9: 7892651540925548480
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

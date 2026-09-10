@@ -1,0 +1,1796 @@
+fileFormatVersion: 2
+guid: 42f6f567ab3e68f4a903af40d676580e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3225241705873914238
+    second: Ren Idle_transparent_0
+  - first:
+      213: 113583897926088257
+    second: Ren Idle_transparent_1
+  - first:
+      213: 3723293237576792798
+    second: Ren Idle_transparent_2
+  - first:
+      213: 1165997507469461428
+    second: Ren Idle_transparent_3
+  - first:
+      213: 8339710257893079315
+    second: Ren Idle_transparent_4
+  - first:
+      213: -7296692748565646375
+    second: Ren Idle_transparent_5
+  - first:
+      213: -3607150727625082075
+    second: Ren Idle_transparent_6
+  - first:
+      213: -7356687674802957487
+    second: Ren Idle_transparent_7
+  - first:
+      213: 8178381012256236003
+    second: Ren Idle_transparent_8
+  - first:
+      213: -3775223613275573389
+    second: Ren Idle_transparent_9
+  - first:
+      213: -7599217894146163098
+    second: Ren Idle_transparent_10
+  - first:
+      213: 2785096575867926560
+    second: Ren Idle_transparent_11
+  - first:
+      213: 8025069446157843806
+    second: Ren Idle_transparent_12
+  - first:
+      213: 9203657898321799180
+    second: Ren Idle_transparent_13
+  - first:
+      213: -7970389119585312493
+    second: Ren Idle_transparent_14
+  - first:
+      213: -9054283505255936176
+    second: Ren Idle_transparent_15
+  - first:
+      213: 3649535193762451410
+    second: Ren Idle_transparent_16
+  - first:
+      213: -2307852829688743673
+    second: Ren Idle_transparent_17
+  - first:
+      213: 1227974706152351119
+    second: Ren Idle_transparent_18
+  - first:
+      213: 7470153081964448669
+    second: Ren Idle_transparent_19
+  - first:
+      213: -7448321989029338436
+    second: Ren Idle_transparent_20
+  - first:
+      213: 5158961782614522998
+    second: Ren Idle_transparent_21
+  - first:
+      213: -1104267619831417725
+    second: Ren Idle_transparent_22
+  - first:
+      213: -8746555560534107944
+    second: Ren Idle_transparent_23
+  - first:
+      213: -4348810248831259906
+    second: Ren Idle_transparent_24
+  - first:
+      213: 1016718801604508243
+    second: Ren Idle_transparent_25
+  - first:
+      213: -5052645447612778302
+    second: Ren Idle_transparent_26
+  - first:
+      213: 8295426285367277158
+    second: Ren Idle_transparent_27
+  - first:
+      213: -1627424814512853023
+    second: Ren Idle_transparent_28
+  - first:
+      213: 7969162338069023456
+    second: Ren Idle_transparent_29
+  - first:
+      213: 305404842833908374
+    second: Ren Idle_transparent_30
+  - first:
+      213: -617565421442045187
+    second: Ren Idle_transparent_31
+  - first:
+      213: 1283877884442684095
+    second: Ren Idle_transparent_32
+  - first:
+      213: 1972092033938173740
+    second: Ren Idle_transparent_33
+  - first:
+      213: 5274315789422307754
+    second: Ren Idle_transparent_34
+  - first:
+      213: -7195898528644904389
+    second: Ren Idle_transparent_35
+  - first:
+      213: 1578581141322187452
+    second: Ren Idle_transparent_36
+  - first:
+      213: -282608849951089826
+    second: Ren Idle_transparent_37
+  - first:
+      213: 6575989670386771055
+    second: Ren Idle_transparent_38
+  - first:
+      213: -7909372506001203282
+    second: Ren Idle_transparent_39
+  - first:
+      213: 8414759104125532879
+    second: Ren Idle_transparent_40
+  - first:
+      213: -5131637554700681323
+    second: Ren Idle_transparent_41
+  - first:
+      213: 8416279109313227504
+    second: Ren Idle_transparent_42
+  - first:
+      213: 5735817760547029443
+    second: Ren Idle_transparent_43
+  - first:
+      213: -7312344223049528059
+    second: Ren Idle_transparent_44
+  - first:
+      213: 8425612540762972513
+    second: Ren Idle_transparent_45
+  - first:
+      213: -3899817173585832028
+    second: Ren Idle_transparent_46
+  - first:
+      213: -3049929963941813988
+    second: Ren Idle_transparent_47
+  - first:
+      213: -4617121773202317698
+    second: Ren Idle_transparent_48
+  - first:
+      213: 8932879574155587701
+    second: Ren Idle_transparent_49
+  - first:
+      213: 3278567152274259168
+    second: Ren Idle_transparent_50
+  - first:
+      213: -1637911519208239240
+    second: Ren Idle_transparent_51
+  - first:
+      213: 3579985943149511031
+    second: Ren Idle_transparent_52
+  - first:
+      213: 1351038518201405944
+    second: Ren Idle_transparent_53
+  - first:
+      213: 2288058467471638960
+    second: Ren Idle_transparent_54
+  - first:
+      213: -2003177840134617530
+    second: Ren Idle_transparent_55
+  - first:
+      213: -5819029392826254133
+    second: Ren Idle_transparent_56
+  - first:
+      213: -1920981261904505260
+    second: Ren Idle_transparent_57
+  - first:
+      213: -2501903253943662416
+    second: Ren Idle_transparent_58
+  - first:
+      213: 7243691888018182058
+    second: Ren Idle_transparent_59
+  - first:
+      213: 4960159640839585584
+    second: Ren Idle_transparent_60
+  - first:
+      213: 718508772152554893
+    second: Ren Idle_transparent_61
+  - first:
+      213: 7672404840841503910
+    second: Ren Idle_transparent_62
+  - first:
+      213: 1150586984923595265
+    second: Ren Idle_transparent_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ren Idle_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 8651
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2864c9ea1c3ad33d0800000000000000
+      internalID: -3225241705873914238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 8651
+        width: 409
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146b61014f7839100800000000000000
+      internalID: 113583897926088257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 8651
+        width: 411
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edaf064097bcba330800000000000000
+      internalID: 3723293237576792798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 8651
+        width: 411
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b745b92e847e2010800000000000000
+      internalID: 1165997507469461428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 3546
+        y: 8651
+        width: 413
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319f56b3b4a9cb370800000000000000
+      internalID: 8339710257893079315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 4379
+        y: 8651
+        width: 414
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3739eca90fcba90800000000000000
+      internalID: -7296692748565646375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 5212
+        y: 8651
+        width: 415
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b7d945683d0fdc0800000000000000
+      internalID: -3607150727625082075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 6046
+        y: 8651
+        width: 415
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15310e3898bc7e990800000000000000
+      internalID: -7356687674802957487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 7435
+        width: 416
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1255123327f7170800000000000000
+      internalID: 8178381012256236003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 7435
+        width: 417
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373fa0f2026bb9bc0800000000000000
+      internalID: -3775223613275573389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 7435
+        width: 416
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e30a076972a8690800000000000000
+      internalID: -7599217894146163098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 7435
+        width: 416
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028b3c56496a6a620800000000000000
+      internalID: 2785096575867926560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 7435
+        width: 415
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d34148426ce5f60800000000000000
+      internalID: 8025069446157843806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 4391
+        y: 7434
+        width: 416
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0860bf6816f9bf70800000000000000
+      internalID: 9203657898321799180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 5225
+        y: 7434
+        width: 413
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311aa7d135d736190800000000000000
+      internalID: -7970389119585312493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 6059
+        y: 7434
+        width: 412
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f8a85af19b85280800000000000000
+      internalID: -9054283505255936176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 6218
+        width: 412
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df4f733ce0c5a230800000000000000
+      internalID: 3649535193762451410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 6218
+        width: 411
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709b584341cd8ffd0800000000000000
+      internalID: -2307852829688743673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 6218
+        width: 410
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8520693d74aa0110800000000000000
+      internalID: 1227974706152351119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 6218
+        width: 412
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bc74446a05ba760800000000000000
+      internalID: 7470153081964448669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 6218
+        width: 410
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2ec272d9e32a890800000000000000
+      internalID: -7448321989029338436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 4395
+        y: 6219
+        width: 409
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cfd8e6860589740800000000000000
+      internalID: 5158961782614522998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 5225
+        y: 6219
+        width: 410
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3847bfe437adca0f0800000000000000
+      internalID: -1104267619831417725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 6053
+        y: 6219
+        width: 410
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d895261f0efd9680800000000000000
+      internalID: -8746555560534107944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 5003
+        width: 411
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efaa5d2ae1ce5a3c0800000000000000
+      internalID: -4348810248831259906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 5003
+        width: 410
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35af81efc5c1c1e00800000000000000
+      internalID: 1016718801604508243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 5003
+        width: 411
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8bb074cb561e9b0800000000000000
+      internalID: -5052645447612778302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 5003
+        width: 412
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66631c761464f1370800000000000000
+      internalID: 8295426285367277158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 5003
+        width: 414
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef2e40f0c93a69e0800000000000000
+      internalID: -1627424814512853023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 4375
+        y: 5002
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea860e8ce6289e60800000000000000
+      internalID: 7969162338069023456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_30
+      rect:
+        serializedVersion: 2
+        x: 5207
+        y: 5002
+        width: 413
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6929cc126140d3400800000000000000
+      internalID: 305404842833908374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_31
+      rect:
+        serializedVersion: 2
+        x: 6040
+        y: 5002
+        width: 414
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfae16d6587fd67f0800000000000000
+      internalID: -617565421442045187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_32
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 3787
+        width: 415
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbaaf25322041d110800000000000000
+      internalID: 1283877884442684095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_33
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 3786
+        width: 415
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f234b91474e5b10800000000000000
+      internalID: 1972092033938173740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_34
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 3787
+        width: 416
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa920c51442223940800000000000000
+      internalID: 5274315789422307754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_35
+      rect:
+        serializedVersion: 2
+        x: 2717
+        y: 3787
+        width: 416
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a4d58e968032c90800000000000000
+      internalID: -7195898528644904389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_36
+      rect:
+        serializedVersion: 2
+        x: 3549
+        y: 3787
+        width: 417
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2c3a13f2f38e510800000000000000
+      internalID: 1578581141322187452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_37
+      rect:
+        serializedVersion: 2
+        x: 4384
+        y: 3787
+        width: 416
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b98409fb8f31cf0800000000000000
+      internalID: -282608849951089826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_38
+      rect:
+        serializedVersion: 2
+        x: 5218
+        y: 3787
+        width: 416
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64aa0e93cb924b50800000000000000
+      internalID: 6575989670386771055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_39
+      rect:
+        serializedVersion: 2
+        x: 6052
+        y: 3787
+        width: 416
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf9e878c934c3290800000000000000
+      internalID: -7909372506001203282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_40
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2571
+        width: 415
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcaf2e762da37c470800000000000000
+      internalID: 8414759104125532879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_41
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 2570
+        width: 415
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ff20425d2c8c8b0800000000000000
+      internalID: -5131637554700681323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_42
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 2570
+        width: 414
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fae7213241acc470800000000000000
+      internalID: 8416279109313227504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_43
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 2570
+        width: 413
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c148c11dd7b99f40800000000000000
+      internalID: 5735817760547029443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_44
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 2570
+        width: 412
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50dc0cdeba5558a90800000000000000
+      internalID: -7312344223049528059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_45
+      rect:
+        serializedVersion: 2
+        x: 4397
+        y: 2570
+        width: 411
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161e04b07f9cde470800000000000000
+      internalID: 8425612540762972513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_46
+      rect:
+        serializedVersion: 2
+        x: 5229
+        y: 2570
+        width: 412
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7d27751f011e9c0800000000000000
+      internalID: -3899817173585832028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_47
+      rect:
+        serializedVersion: 2
+        x: 6061
+        y: 2570
+        width: 411
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11ad656bd87ca5d0800000000000000
+      internalID: -3049929963941813988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_48
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1355
+        width: 410
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7edd87b530bcefb0800000000000000
+      internalID: -4617121773202317698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_49
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1355
+        width: 410
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570f2eee4a6f7fb70800000000000000
+      internalID: 8932879574155587701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_50
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1355
+        width: 410
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec3293547fcf7d20800000000000000
+      internalID: 3278567152274259168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_51
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 1354
+        width: 409
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f821cb628f449e0800000000000000
+      internalID: -1637911519208239240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_52
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 1354
+        width: 409
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771815a6f3aaea130800000000000000
+      internalID: 3579985943149511031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_53
+      rect:
+        serializedVersion: 2
+        x: 4384
+        y: 1354
+        width: 408
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1d34bcf5adfb210800000000000000
+      internalID: 1351038518201405944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_54
+      rect:
+        serializedVersion: 2
+        x: 5212
+        y: 1355
+        width: 409
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1c8f2bd01d0cf10800000000000000
+      internalID: 2288058467471638960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_55
+      rect:
+        serializedVersion: 2
+        x: 6043
+        y: 1355
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64687d02e584334e0800000000000000
+      internalID: -2003177840134617530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_56
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 139
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccb8070997ae3fa0800000000000000
+      internalID: -5819029392826254133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_57
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 139
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456100858bd4755e0800000000000000
+      internalID: -1920981261904505260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_58
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 139
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b84b460f34774dd0800000000000000
+      internalID: -2501903253943662416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_59
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 139
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafc3b7b463c68460800000000000000
+      internalID: 7243691888018182058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_60
+      rect:
+        serializedVersion: 2
+        x: 3547
+        y: 139
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ff87dc9e606d440800000000000000
+      internalID: 4960159640839585584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_61
+      rect:
+        serializedVersion: 2
+        x: 4379
+        y: 139
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85b724ebe7a8f900800000000000000
+      internalID: 718508772152554893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_62
+      rect:
+        serializedVersion: 2
+        x: 5211
+        y: 139
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a468577d8bd97a60800000000000000
+      internalID: 7672404840841503910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Idle_transparent_63
+      rect:
+        serializedVersion: 2
+        x: 6043
+        y: 139
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1020f8744c4b7ff00800000000000000
+      internalID: 1150586984923595265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ren Idle_transparent_0: -3225241705873914238
+      Ren Idle_transparent_1: 113583897926088257
+      Ren Idle_transparent_10: -7599217894146163098
+      Ren Idle_transparent_11: 2785096575867926560
+      Ren Idle_transparent_12: 8025069446157843806
+      Ren Idle_transparent_13: 9203657898321799180
+      Ren Idle_transparent_14: -7970389119585312493
+      Ren Idle_transparent_15: -9054283505255936176
+      Ren Idle_transparent_16: 3649535193762451410
+      Ren Idle_transparent_17: -2307852829688743673
+      Ren Idle_transparent_18: 1227974706152351119
+      Ren Idle_transparent_19: 7470153081964448669
+      Ren Idle_transparent_2: 3723293237576792798
+      Ren Idle_transparent_20: -7448321989029338436
+      Ren Idle_transparent_21: 5158961782614522998
+      Ren Idle_transparent_22: -1104267619831417725
+      Ren Idle_transparent_23: -8746555560534107944
+      Ren Idle_transparent_24: -4348810248831259906
+      Ren Idle_transparent_25: 1016718801604508243
+      Ren Idle_transparent_26: -5052645447612778302
+      Ren Idle_transparent_27: 8295426285367277158
+      Ren Idle_transparent_28: -1627424814512853023
+      Ren Idle_transparent_29: 7969162338069023456
+      Ren Idle_transparent_3: 1165997507469461428
+      Ren Idle_transparent_30: 305404842833908374
+      Ren Idle_transparent_31: -617565421442045187
+      Ren Idle_transparent_32: 1283877884442684095
+      Ren Idle_transparent_33: 1972092033938173740
+      Ren Idle_transparent_34: 5274315789422307754
+      Ren Idle_transparent_35: -7195898528644904389
+      Ren Idle_transparent_36: 1578581141322187452
+      Ren Idle_transparent_37: -282608849951089826
+      Ren Idle_transparent_38: 6575989670386771055
+      Ren Idle_transparent_39: -7909372506001203282
+      Ren Idle_transparent_4: 8339710257893079315
+      Ren Idle_transparent_40: 8414759104125532879
+      Ren Idle_transparent_41: -5131637554700681323
+      Ren Idle_transparent_42: 8416279109313227504
+      Ren Idle_transparent_43: 5735817760547029443
+      Ren Idle_transparent_44: -7312344223049528059
+      Ren Idle_transparent_45: 8425612540762972513
+      Ren Idle_transparent_46: -3899817173585832028
+      Ren Idle_transparent_47: -3049929963941813988
+      Ren Idle_transparent_48: -4617121773202317698
+      Ren Idle_transparent_49: 8932879574155587701
+      Ren Idle_transparent_5: -7296692748565646375
+      Ren Idle_transparent_50: 3278567152274259168
+      Ren Idle_transparent_51: -1637911519208239240
+      Ren Idle_transparent_52: 3579985943149511031
+      Ren Idle_transparent_53: 1351038518201405944
+      Ren Idle_transparent_54: 2288058467471638960
+      Ren Idle_transparent_55: -2003177840134617530
+      Ren Idle_transparent_56: -5819029392826254133
+      Ren Idle_transparent_57: -1920981261904505260
+      Ren Idle_transparent_58: -2501903253943662416
+      Ren Idle_transparent_59: 7243691888018182058
+      Ren Idle_transparent_6: -3607150727625082075
+      Ren Idle_transparent_60: 4960159640839585584
+      Ren Idle_transparent_61: 718508772152554893
+      Ren Idle_transparent_62: 7672404840841503910
+      Ren Idle_transparent_63: 1150586984923595265
+      Ren Idle_transparent_7: -7356687674802957487
+      Ren Idle_transparent_8: 8178381012256236003
+      Ren Idle_transparent_9: -3775223613275573389
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1796 @@
+fileFormatVersion: 2
+guid: 95f0b7ddbb15e24439558758df3cba85
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6104530928887421871
+    second: Kai idle_transparent_0
+  - first:
+      213: -2267512594357710672
+    second: Kai idle_transparent_1
+  - first:
+      213: 5392705691753204333
+    second: Kai idle_transparent_2
+  - first:
+      213: 2631867048225784842
+    second: Kai idle_transparent_3
+  - first:
+      213: 7407062633104170609
+    second: Kai idle_transparent_4
+  - first:
+      213: -4285602960089611189
+    second: Kai idle_transparent_5
+  - first:
+      213: 800018101195226241
+    second: Kai idle_transparent_6
+  - first:
+      213: -430586171793096739
+    second: Kai idle_transparent_7
+  - first:
+      213: -9099700556458170782
+    second: Kai idle_transparent_8
+  - first:
+      213: 4943028740020054878
+    second: Kai idle_transparent_9
+  - first:
+      213: 7281042287865998233
+    second: Kai idle_transparent_10
+  - first:
+      213: -4907323472114002127
+    second: Kai idle_transparent_11
+  - first:
+      213: -8595947245200841807
+    second: Kai idle_transparent_12
+  - first:
+      213: 5826831561572629626
+    second: Kai idle_transparent_13
+  - first:
+      213: -7037005386630596650
+    second: Kai idle_transparent_14
+  - first:
+      213: -7253040933850905345
+    second: Kai idle_transparent_15
+  - first:
+      213: 6032464983593750299
+    second: Kai idle_transparent_16
+  - first:
+      213: -6156753322878268728
+    second: Kai idle_transparent_17
+  - first:
+      213: 8043319095997074353
+    second: Kai idle_transparent_18
+  - first:
+      213: -8837613104419585900
+    second: Kai idle_transparent_19
+  - first:
+      213: -2109946903186355854
+    second: Kai idle_transparent_20
+  - first:
+      213: -6782120390843470099
+    second: Kai idle_transparent_21
+  - first:
+      213: 3310499696520013423
+    second: Kai idle_transparent_22
+  - first:
+      213: 7450766469721136261
+    second: Kai idle_transparent_23
+  - first:
+      213: 39626264328716089
+    second: Kai idle_transparent_24
+  - first:
+      213: 5745555040009102622
+    second: Kai idle_transparent_25
+  - first:
+      213: -7439971249047467728
+    second: Kai idle_transparent_26
+  - first:
+      213: 2767187052594272111
+    second: Kai idle_transparent_27
+  - first:
+      213: 1320859133654003785
+    second: Kai idle_transparent_28
+  - first:
+      213: 3047090728103216334
+    second: Kai idle_transparent_29
+  - first:
+      213: -8459966015229160351
+    second: Kai idle_transparent_30
+  - first:
+      213: -8872309420905597682
+    second: Kai idle_transparent_31
+  - first:
+      213: 1777085275673305
+    second: Kai idle_transparent_32
+  - first:
+      213: -4364268791530473792
+    second: Kai idle_transparent_33
+  - first:
+      213: -1123016141826869055
+    second: Kai idle_transparent_34
+  - first:
+      213: 111978498583490506
+    second: Kai idle_transparent_35
+  - first:
+      213: 6868362782540347554
+    second: Kai idle_transparent_36
+  - first:
+      213: 8658528816702179611
+    second: Kai idle_transparent_37
+  - first:
+      213: 7632257468111557485
+    second: Kai idle_transparent_38
+  - first:
+      213: -1647619394407078916
+    second: Kai idle_transparent_39
+  - first:
+      213: 3516479194146044135
+    second: Kai idle_transparent_40
+  - first:
+      213: -937361775125651303
+    second: Kai idle_transparent_41
+  - first:
+      213: -3123210336049491033
+    second: Kai idle_transparent_42
+  - first:
+      213: -7947915460561808660
+    second: Kai idle_transparent_43
+  - first:
+      213: -8641556923584424570
+    second: Kai idle_transparent_44
+  - first:
+      213: -227928048711644430
+    second: Kai idle_transparent_45
+  - first:
+      213: -7567393624534375967
+    second: Kai idle_transparent_46
+  - first:
+      213: 3067393879126114427
+    second: Kai idle_transparent_47
+  - first:
+      213: 3548277977434565789
+    second: Kai idle_transparent_48
+  - first:
+      213: 3884174451871655116
+    second: Kai idle_transparent_49
+  - first:
+      213: -7752930219798770748
+    second: Kai idle_transparent_50
+  - first:
+      213: -2161445732078757463
+    second: Kai idle_transparent_51
+  - first:
+      213: -7202581261131275086
+    second: Kai idle_transparent_52
+  - first:
+      213: -5824460173230220661
+    second: Kai idle_transparent_53
+  - first:
+      213: -2612032351002077601
+    second: Kai idle_transparent_54
+  - first:
+      213: -7240603225512290295
+    second: Kai idle_transparent_55
+  - first:
+      213: 2487560293663762315
+    second: Kai idle_transparent_56
+  - first:
+      213: 5474846659188811253
+    second: Kai idle_transparent_57
+  - first:
+      213: -1000258143676417191
+    second: Kai idle_transparent_58
+  - first:
+      213: 7011113263541879836
+    second: Kai idle_transparent_59
+  - first:
+      213: -3543817793971636534
+    second: Kai idle_transparent_60
+  - first:
+      213: 266017254593752587
+    second: Kai idle_transparent_61
+  - first:
+      213: -3835441968315313810
+    second: Kai idle_transparent_62
+  - first:
+      213: -1169714668169484271
+    second: Kai idle_transparent_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kai idle_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 8650
+        width: 538
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab58b06986a7b450800000000000000
+      internalID: 6104530928887421871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 8650
+        width: 537
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b095992f4d2880e0800000000000000
+      internalID: -2267512594357710672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 8650
+        width: 537
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a4d2f314db6da40800000000000000
+      internalID: 5392705691753204333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 8650
+        width: 537
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04cd89d225468420800000000000000
+      internalID: 2631867048225784842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 8650
+        width: 537
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e5e33783c2bc660800000000000000
+      internalID: 7407062633104170609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 8650
+        width: 538
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b440f7b50da7684c0800000000000000
+      internalID: -4285602960089611189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 5155
+        y: 8650
+        width: 539
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18cbf9f693c3a1b00800000000000000
+      internalID: 800018101195226241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 8650
+        width: 540
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfb3197820460af0800000000000000
+      internalID: -430586171793096739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 7434
+        width: 540
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266e2e16e8e57b180800000000000000
+      internalID: -9099700556458170782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 7434
+        width: 539
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b2173237a299440800000000000000
+      internalID: 4943028740020054878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 7434
+        width: 541
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ba9da52657b0560800000000000000
+      internalID: 7281042287865998233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 7434
+        width: 541
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13755be5d4fa5ebb0800000000000000
+      internalID: -4907323472114002127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 3492
+        y: 7434
+        width: 541
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b36ec5168f05b880800000000000000
+      internalID: -8595947245200841807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 4324
+        y: 7434
+        width: 541
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c3291fe601dd050800000000000000
+      internalID: 5826831561572629626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 7434
+        width: 541
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d77f5f62e8875e90800000000000000
+      internalID: -7037005386630596650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 7434
+        width: 542
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4037ce2b5085b90800000000000000
+      internalID: -7253040933850905345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 6218
+        width: 539
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f8613f0fe97b350800000000000000
+      internalID: 6032464983593750299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 6218
+        width: 540
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca82240971de8aa0800000000000000
+      internalID: -6156753322878268728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 6217
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb850c3a1c9f9f60800000000000000
+      internalID: 8043319095997074353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 6218
+        width: 538
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490cbb884bd7a5580800000000000000
+      internalID: -8837613104419585900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 6218
+        width: 538
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27944a47876f7b2e0800000000000000
+      internalID: -2109946903186355854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 6218
+        width: 538
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee67df007111e1a0800000000000000
+      internalID: -6782120390843470099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 5155
+        y: 6218
+        width: 538
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f662d182fe141fd20800000000000000
+      internalID: 3310499696520013423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 6218
+        width: 538
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c9e1cd0a0766760800000000000000
+      internalID: 7450766469721136261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 5002
+        width: 538
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93fb611a0e7cc8000800000000000000
+      internalID: 39626264328716089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 5002
+        width: 538
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15a23d1edf4cbf40800000000000000
+      internalID: 5745555040009102622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 5002
+        width: 539
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03908615199efb890800000000000000
+      internalID: -7439971249047467728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 5002
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6711f096f5076620800000000000000
+      internalID: 2767187052594272111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 3492
+        y: 5002
+        width: 539
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940f6c34262a45210800000000000000
+      internalID: 1320859133654003785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 4324
+        y: 5002
+        width: 539
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec48afe7fd0794a20800000000000000
+      internalID: 3047090728103216334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_30
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 5002
+        width: 541
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16493626bb9289a80800000000000000
+      internalID: -8459966015229160351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_31
+      rect:
+        serializedVersion: 2
+        x: 5988
+        y: 5002
+        width: 541
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05f195d6993fd480800000000000000
+      internalID: -8872309420905597682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_32
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 3786
+        width: 541
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d29798ef30560000800000000000000
+      internalID: 1777085275673305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_33
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 3786
+        width: 541
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6b08038a00f63c0800000000000000
+      internalID: -4364268791530473792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_34
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 3786
+        width: 542
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8316dd4ce3a60f0800000000000000
+      internalID: -1123016141826869055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_35
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 3786
+        width: 541
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfec86e9d3dd8100800000000000000
+      internalID: 111978498583490506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_36
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 3786
+        width: 541
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8b4d18f83515f50800000000000000
+      internalID: 6868362782540347554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_37
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 3786
+        width: 540
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19440d7516492870800000000000000
+      internalID: 8658528816702179611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_38
+      rect:
+        serializedVersion: 2
+        x: 5155
+        y: 3786
+        width: 540
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d639c15dab93be960800000000000000
+      internalID: 7632257468111557485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_39
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 3786
+        width: 539
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf36257e3ea7229e0800000000000000
+      internalID: -1647619394407078916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_40
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 2570
+        width: 538
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8702b223b0dc030800000000000000
+      internalID: 3516479194146044135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_41
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 2570
+        width: 538
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9902b9f8e62ddf2f0800000000000000
+      internalID: -937361775125651303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_42
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 2570
+        width: 538
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a311f03fb028a4d0800000000000000
+      internalID: -3123210336049491033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_43
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 2570
+        width: 538
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2d06c9ff453b190800000000000000
+      internalID: -7947915460561808660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_44
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 2569
+        width: 538
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685de6f43c5031880800000000000000
+      internalID: -8641556923584424570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_45
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 2569
+        width: 538
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fac136b5ac36dcf0800000000000000
+      internalID: -227928048711644430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_46
+      rect:
+        serializedVersion: 2
+        x: 5155
+        y: 2570
+        width: 540
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1a21e97973bf690800000000000000
+      internalID: -7567393624534375967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_47
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 2570
+        width: 540
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7005873b72919a20800000000000000
+      internalID: 3067393879126114427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_48
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1354
+        width: 540
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c245955040e3130800000000000000
+      internalID: 3548277977434565789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_49
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1354
+        width: 541
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc42571b51c57e530800000000000000
+      internalID: 3884174451871655116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_50
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 1354
+        width: 541
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbc088ba0f086490800000000000000
+      internalID: -7752930219798770748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_51
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 1354
+        width: 541
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9592afe800102e0800000000000000
+      internalID: -2161445732078757463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_52
+      rect:
+        serializedVersion: 2
+        x: 3492
+        y: 1354
+        width: 541
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4a260018a4b0c90800000000000000
+      internalID: -7202581261131275086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_53
+      rect:
+        serializedVersion: 2
+        x: 4324
+        y: 1354
+        width: 541
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ad33ee45c5b2fa0800000000000000
+      internalID: -5824460173230220661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_54
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 1354
+        width: 541
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5651b87a6230cbd0800000000000000
+      internalID: -2612032351002077601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_55
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 1354
+        width: 542
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908dacf8ab5348b90800000000000000
+      internalID: -7240603225512290295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_56
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 138
+        width: 539
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87e13d48e6958220800000000000000
+      internalID: 2487560293663762315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_57
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 138
+        width: 540
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5eea097009afb40800000000000000
+      internalID: 5474846659188811253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_58
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 138
+        width: 540
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bb976948e5e12f0800000000000000
+      internalID: -1000258143676417191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_59
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 138
+        width: 539
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c148171ed5a7c4160800000000000000
+      internalID: 7011113263541879836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_60
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 138
+        width: 538
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6bc990e74d1dec0800000000000000
+      internalID: -3543817793971636534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_61
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 138
+        width: 538
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e6f2c984511b300800000000000000
+      internalID: 266017254593752587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_62
+      rect:
+        serializedVersion: 2
+        x: 5155
+        y: 138
+        width: 538
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61d0f1d9d5c5cac0800000000000000
+      internalID: -3835441968315313810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai idle_transparent_63
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 138
+        width: 538
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118a13be4b654cfe0800000000000000
+      internalID: -1169714668169484271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Kai idle_transparent_0: 6104530928887421871
+      Kai idle_transparent_1: -2267512594357710672
+      Kai idle_transparent_10: 7281042287865998233
+      Kai idle_transparent_11: -4907323472114002127
+      Kai idle_transparent_12: -8595947245200841807
+      Kai idle_transparent_13: 5826831561572629626
+      Kai idle_transparent_14: -7037005386630596650
+      Kai idle_transparent_15: -7253040933850905345
+      Kai idle_transparent_16: 6032464983593750299
+      Kai idle_transparent_17: -6156753322878268728
+      Kai idle_transparent_18: 8043319095997074353
+      Kai idle_transparent_19: -8837613104419585900
+      Kai idle_transparent_2: 5392705691753204333
+      Kai idle_transparent_20: -2109946903186355854
+      Kai idle_transparent_21: -6782120390843470099
+      Kai idle_transparent_22: 3310499696520013423
+      Kai idle_transparent_23: 7450766469721136261
+      Kai idle_transparent_24: 39626264328716089
+      Kai idle_transparent_25: 5745555040009102622
+      Kai idle_transparent_26: -7439971249047467728
+      Kai idle_transparent_27: 2767187052594272111
+      Kai idle_transparent_28: 1320859133654003785
+      Kai idle_transparent_29: 3047090728103216334
+      Kai idle_transparent_3: 2631867048225784842
+      Kai idle_transparent_30: -8459966015229160351
+      Kai idle_transparent_31: -8872309420905597682
+      Kai idle_transparent_32: 1777085275673305
+      Kai idle_transparent_33: -4364268791530473792
+      Kai idle_transparent_34: -1123016141826869055
+      Kai idle_transparent_35: 111978498583490506
+      Kai idle_transparent_36: 6868362782540347554
+      Kai idle_transparent_37: 8658528816702179611
+      Kai idle_transparent_38: 7632257468111557485
+      Kai idle_transparent_39: -1647619394407078916
+      Kai idle_transparent_4: 7407062633104170609
+      Kai idle_transparent_40: 3516479194146044135
+      Kai idle_transparent_41: -937361775125651303
+      Kai idle_transparent_42: -3123210336049491033
+      Kai idle_transparent_43: -7947915460561808660
+      Kai idle_transparent_44: -8641556923584424570
+      Kai idle_transparent_45: -227928048711644430
+      Kai idle_transparent_46: -7567393624534375967
+      Kai idle_transparent_47: 3067393879126114427
+      Kai idle_transparent_48: 3548277977434565789
+      Kai idle_transparent_49: 3884174451871655116
+      Kai idle_transparent_5: -4285602960089611189
+      Kai idle_transparent_50: -7752930219798770748
+      Kai idle_transparent_51: -2161445732078757463
+      Kai idle_transparent_52: -7202581261131275086
+      Kai idle_transparent_53: -5824460173230220661
+      Kai idle_transparent_54: -2612032351002077601
+      Kai idle_transparent_55: -7240603225512290295
+      Kai idle_transparent_56: 2487560293663762315
+      Kai idle_transparent_57: 5474846659188811253
+      Kai idle_transparent_58: -1000258143676417191
+      Kai idle_transparent_59: 7011113263541879836
+      Kai idle_transparent_6: 800018101195226241
+      Kai idle_transparent_60: -3543817793971636534
+      Kai idle_transparent_61: 266017254593752587
+      Kai idle_transparent_62: -3835441968315313810
+      Kai idle_transparent_63: -1169714668169484271
+      Kai idle_transparent_7: -430586171793096739
+      Kai idle_transparent_8: -9099700556458170782
+      Kai idle_transparent_9: 4943028740020054878
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

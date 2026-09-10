@@ -1,0 +1,1796 @@
+fileFormatVersion: 2
+guid: b298b45f9f3eff5418363ec2524e0ee0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4003581439692755620
+    second: Kai Excited_transparent_0
+  - first:
+      213: -3285240258223572252
+    second: Kai Excited_transparent_1
+  - first:
+      213: 4478126758569941548
+    second: Kai Excited_transparent_2
+  - first:
+      213: -3874593504217050849
+    second: Kai Excited_transparent_3
+  - first:
+      213: 5375546083363245613
+    second: Kai Excited_transparent_4
+  - first:
+      213: 3422513571922426205
+    second: Kai Excited_transparent_5
+  - first:
+      213: 6872663224869732582
+    second: Kai Excited_transparent_6
+  - first:
+      213: 7912050140880998406
+    second: Kai Excited_transparent_7
+  - first:
+      213: -5024051645466919059
+    second: Kai Excited_transparent_8
+  - first:
+      213: 8637134141661997346
+    second: Kai Excited_transparent_9
+  - first:
+      213: -1475316152794345286
+    second: Kai Excited_transparent_10
+  - first:
+      213: 1897155465166942035
+    second: Kai Excited_transparent_11
+  - first:
+      213: 8677553805379218217
+    second: Kai Excited_transparent_12
+  - first:
+      213: -1399010595890199113
+    second: Kai Excited_transparent_13
+  - first:
+      213: 3705845487718780498
+    second: Kai Excited_transparent_14
+  - first:
+      213: -8409132915725382853
+    second: Kai Excited_transparent_15
+  - first:
+      213: 4981693426663825315
+    second: Kai Excited_transparent_16
+  - first:
+      213: 1398158335507305990
+    second: Kai Excited_transparent_17
+  - first:
+      213: 4913429426218029628
+    second: Kai Excited_transparent_18
+  - first:
+      213: -6496102385273815019
+    second: Kai Excited_transparent_19
+  - first:
+      213: -8163511113882485707
+    second: Kai Excited_transparent_20
+  - first:
+      213: -4058143500169688330
+    second: Kai Excited_transparent_21
+  - first:
+      213: 6481834929751280916
+    second: Kai Excited_transparent_22
+  - first:
+      213: 2891018353124772683
+    second: Kai Excited_transparent_23
+  - first:
+      213: 7881288627684493915
+    second: Kai Excited_transparent_24
+  - first:
+      213: 7865742688036452309
+    second: Kai Excited_transparent_25
+  - first:
+      213: 6437727500018272920
+    second: Kai Excited_transparent_26
+  - first:
+      213: -494153133511406158
+    second: Kai Excited_transparent_27
+  - first:
+      213: 7146213149522216989
+    second: Kai Excited_transparent_28
+  - first:
+      213: 5711617233320021111
+    second: Kai Excited_transparent_29
+  - first:
+      213: 8035079234642485376
+    second: Kai Excited_transparent_30
+  - first:
+      213: -1646751637274788462
+    second: Kai Excited_transparent_31
+  - first:
+      213: 6208831918245295283
+    second: Kai Excited_transparent_32
+  - first:
+      213: -1767974561500998909
+    second: Kai Excited_transparent_33
+  - first:
+      213: -646239373382262181
+    second: Kai Excited_transparent_34
+  - first:
+      213: -7223139452717775711
+    second: Kai Excited_transparent_35
+  - first:
+      213: -8611417107997739493
+    second: Kai Excited_transparent_36
+  - first:
+      213: 3359322968043533718
+    second: Kai Excited_transparent_37
+  - first:
+      213: -4014482947139537631
+    second: Kai Excited_transparent_38
+  - first:
+      213: 1476989254481632325
+    second: Kai Excited_transparent_39
+  - first:
+      213: -1276096721402417332
+    second: Kai Excited_transparent_40
+  - first:
+      213: -3759497319445907435
+    second: Kai Excited_transparent_41
+  - first:
+      213: -5662804197706592794
+    second: Kai Excited_transparent_42
+  - first:
+      213: 6413788329345300045
+    second: Kai Excited_transparent_43
+  - first:
+      213: 6380030562227141733
+    second: Kai Excited_transparent_44
+  - first:
+      213: -8821533982427677961
+    second: Kai Excited_transparent_45
+  - first:
+      213: 6287610856778332927
+    second: Kai Excited_transparent_46
+  - first:
+      213: -6497870018131801199
+    second: Kai Excited_transparent_47
+  - first:
+      213: 5506451423543877114
+    second: Kai Excited_transparent_48
+  - first:
+      213: 6647355730667809716
+    second: Kai Excited_transparent_49
+  - first:
+      213: 5571499384583734848
+    second: Kai Excited_transparent_50
+  - first:
+      213: -2605113574589205750
+    second: Kai Excited_transparent_51
+  - first:
+      213: 616245204852208457
+    second: Kai Excited_transparent_52
+  - first:
+      213: -3051166909811850375
+    second: Kai Excited_transparent_53
+  - first:
+      213: 6474975874830675094
+    second: Kai Excited_transparent_54
+  - first:
+      213: 7842752628658085616
+    second: Kai Excited_transparent_55
+  - first:
+      213: -6306249689427486777
+    second: Kai Excited_transparent_56
+  - first:
+      213: 7619135922307355981
+    second: Kai Excited_transparent_57
+  - first:
+      213: -1271871457142280883
+    second: Kai Excited_transparent_58
+  - first:
+      213: 4217957385940713813
+    second: Kai Excited_transparent_59
+  - first:
+      213: -8099533498213629750
+    second: Kai Excited_transparent_60
+  - first:
+      213: -8976679025737690442
+    second: Kai Excited_transparent_61
+  - first:
+      213: 2310039752637220529
+    second: Kai Excited_transparent_62
+  - first:
+      213: -4019832857232688446
+    second: Kai Excited_transparent_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kai Excited_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 8649
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d24c974eb6078c0800000000000000
+      internalID: -4003581439692755620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 8649
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea75ce146b7862d0800000000000000
+      internalID: -3285240258223572252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 8649
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a9bbf8f80852e30800000000000000
+      internalID: 4478126758569941548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 8649
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f115b148cbdaa3ac0800000000000000
+      internalID: -3874593504217050849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 8649
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ecb949ea6c99a40800000000000000
+      internalID: 5375546083363245613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 4322
+        y: 8649
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59b36dd5f53f7f20800000000000000
+      internalID: 3422513571922426205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 5154
+        y: 8649
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e040434aca906f50800000000000000
+      internalID: 6872663224869732582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 5986
+        y: 8649
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6009a4ceeaf3dcd60800000000000000
+      internalID: 7912050140880998406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 7433
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f3ab2a5abf64ab0800000000000000
+      internalID: -5024051645466919059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 7433
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22969278db34dd770800000000000000
+      internalID: 8637134141661997346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 7433
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab01c4d86cf968be0800000000000000
+      internalID: -1475316152794345286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 7433
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f67f018dc045a10800000000000000
+      internalID: 1897155465166942035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 7433
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ba7f8d53ddc6870800000000000000
+      internalID: 8677553805379218217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 4322
+        y: 7433
+        width: 539
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b505fa7647b59ce0800000000000000
+      internalID: -1399010595890199113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 5154
+        y: 7433
+        width: 552
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e46ff26decd6330800000000000000
+      internalID: 3705845487718780498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 7433
+        width: 566
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bc429aa22cc4b80800000000000000
+      internalID: -8409132915725382853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 6217
+        width: 562
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af123407c7822540800000000000000
+      internalID: 4981693426663825315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 6217
+        width: 550
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6061aaf2991476310800000000000000
+      internalID: 1398158335507305990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 6217
+        width: 540
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c325daad702003440800000000000000
+      internalID: 4913429426218029628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 6217
+        width: 530
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510cf256c4539d5a0800000000000000
+      internalID: -6496102385273815019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 6217
+        width: 524
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cb411e4e165be80800000000000000
+      internalID: -8163511113882485707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 4337
+        y: 6217
+        width: 520
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa43d0dcf39ea7c0800000000000000
+      internalID: -4058143500169688330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 6217
+        width: 518
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d4b80c68a14f950800000000000000
+      internalID: 6481834929751280916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 6003
+        y: 6217
+        width: 521
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b0329ffd5fe1820800000000000000
+      internalID: 2891018353124772683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 5001
+        width: 522
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ac5710046ff5d60800000000000000
+      internalID: 7881288627684493915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 5001
+        width: 523
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7f90fdc4bb82d60800000000000000
+      internalID: 7865742688036452309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 5001
+        width: 523
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a4a5f7d07675950800000000000000
+      internalID: 6437727500018272920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 5001
+        width: 523
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd086cd75a6429f0800000000000000
+      internalID: -494153133511406158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 3507
+        y: 5001
+        width: 522
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d184f7a4ff27c2360800000000000000
+      internalID: 7146213149522216989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 4339
+        y: 5001
+        width: 521
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c0a0dbc9db34f40800000000000000
+      internalID: 5711617233320021111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_30
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 5001
+        width: 521
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080abf20ef5528f60800000000000000
+      internalID: 8035079234642485376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_31
+      rect:
+        serializedVersion: 2
+        x: 6003
+        y: 5001
+        width: 521
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d71fa5c109529e0800000000000000
+      internalID: -1646751637274788462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_32
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 3785
+        width: 521
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b43e1ddbb33a2650800000000000000
+      internalID: 6208831918245295283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_33
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 3785
+        width: 522
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3035ec1e084e677e0800000000000000
+      internalID: -1767974561500998909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_34
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 3785
+        width: 528
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52edadb6b81807f0800000000000000
+      internalID: -646239373382262181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_35
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 3785
+        width: 533
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4c5a500f042cb90800000000000000
+      internalID: -7223139452717775711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_36
+      rect:
+        serializedVersion: 2
+        x: 3502
+        y: 3785
+        width: 543
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16b219f3c91e7880800000000000000
+      internalID: -8611417107997739493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_37
+      rect:
+        serializedVersion: 2
+        x: 4333
+        y: 3785
+        width: 550
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695bb04e076be9e20800000000000000
+      internalID: 3359322968043533718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_38
+      rect:
+        serializedVersion: 2
+        x: 5163
+        y: 3785
+        width: 556
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12572ea7701b948c0800000000000000
+      internalID: -4014482947139537631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_39
+      rect:
+        serializedVersion: 2
+        x: 5992
+        y: 3785
+        width: 563
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c527ac6e15f7410800000000000000
+      internalID: 1476989254481632325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_40
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2569
+        width: 566
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fa4cdfac46a4ee0800000000000000
+      internalID: -1276096721402417332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_41
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 2569
+        width: 564
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518b46c4b1593dbc0800000000000000
+      internalID: -3759497319445907435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_42
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 2569
+        width: 558
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed8b13c59da961b0800000000000000
+      internalID: -5662804197706592794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_43
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 2569
+        width: 548
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d463c2bf08a520950800000000000000
+      internalID: 6413788329345300045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_44
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 2569
+        width: 542
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c3fa55efb6a8850800000000000000
+      internalID: 6380030562227141733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_45
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 2569
+        width: 538
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa7c5bd49d939580800000000000000
+      internalID: -8821533982427677961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_46
+      rect:
+        serializedVersion: 2
+        x: 5155
+        y: 2569
+        width: 538
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa7924d2c4124750800000000000000
+      internalID: 6287610856778332927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_47
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 2569
+        width: 538
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bc79c45ade2d5a0800000000000000
+      internalID: -6497870018131801199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_48
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1353
+        width: 538
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afdd6413568da6c40800000000000000
+      internalID: 5506451423543877114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_49
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1353
+        width: 539
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbac1e51d6204c50800000000000000
+      internalID: 6647355730667809716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_50
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 1353
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046cb64db21f15d40800000000000000
+      internalID: 5571499384583734848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_51
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 1353
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03ff03a107c8dbd0800000000000000
+      internalID: -2605113574589205750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_52
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 1353
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943f0c1bfb75d8800800000000000000
+      internalID: 616245204852208457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_53
+      rect:
+        serializedVersion: 2
+        x: 4322
+        y: 1353
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9730d3e7cd318a5d0800000000000000
+      internalID: -3051166909811850375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_54
+      rect:
+        serializedVersion: 2
+        x: 5154
+        y: 1353
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ca184904cbbd950800000000000000
+      internalID: 6474975874830675094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_55
+      rect:
+        serializedVersion: 2
+        x: 5986
+        y: 1353
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe1d6c86fd07dc60800000000000000
+      internalID: 7842752628658085616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_56
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 137
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7d1c4c153bb78a0800000000000000
+      internalID: -6306249689427486777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_57
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 137
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d455c80e0cb9cb960800000000000000
+      internalID: 7619135922307355981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_58
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 137
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d631df5a7695ee0800000000000000
+      internalID: -1271871457142280883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_59
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 137
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5514bb215e1398a30800000000000000
+      internalID: 4217957385940713813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_60
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 137
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac08990523da89f80800000000000000
+      internalID: -8099533498213629750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_61
+      rect:
+        serializedVersion: 2
+        x: 4322
+        y: 137
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b294309cfd6c6380800000000000000
+      internalID: -8976679025737690442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_62
+      rect:
+        serializedVersion: 2
+        x: 5154
+        y: 137
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b609f87ae8ee0020800000000000000
+      internalID: 2310039752637220529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kai Excited_transparent_63
+      rect:
+        serializedVersion: 2
+        x: 5986
+        y: 137
+        width: 539
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cab338705fa638c0800000000000000
+      internalID: -4019832857232688446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Kai Excited_transparent_0: -4003581439692755620
+      Kai Excited_transparent_1: -3285240258223572252
+      Kai Excited_transparent_10: -1475316152794345286
+      Kai Excited_transparent_11: 1897155465166942035
+      Kai Excited_transparent_12: 8677553805379218217
+      Kai Excited_transparent_13: -1399010595890199113
+      Kai Excited_transparent_14: 3705845487718780498
+      Kai Excited_transparent_15: -8409132915725382853
+      Kai Excited_transparent_16: 4981693426663825315
+      Kai Excited_transparent_17: 1398158335507305990
+      Kai Excited_transparent_18: 4913429426218029628
+      Kai Excited_transparent_19: -6496102385273815019
+      Kai Excited_transparent_2: 4478126758569941548
+      Kai Excited_transparent_20: -8163511113882485707
+      Kai Excited_transparent_21: -4058143500169688330
+      Kai Excited_transparent_22: 6481834929751280916
+      Kai Excited_transparent_23: 2891018353124772683
+      Kai Excited_transparent_24: 7881288627684493915
+      Kai Excited_transparent_25: 7865742688036452309
+      Kai Excited_transparent_26: 6437727500018272920
+      Kai Excited_transparent_27: -494153133511406158
+      Kai Excited_transparent_28: 7146213149522216989
+      Kai Excited_transparent_29: 5711617233320021111
+      Kai Excited_transparent_3: -3874593504217050849
+      Kai Excited_transparent_30: 8035079234642485376
+      Kai Excited_transparent_31: -1646751637274788462
+      Kai Excited_transparent_32: 6208831918245295283
+      Kai Excited_transparent_33: -1767974561500998909
+      Kai Excited_transparent_34: -646239373382262181
+      Kai Excited_transparent_35: -7223139452717775711
+      Kai Excited_transparent_36: -8611417107997739493
+      Kai Excited_transparent_37: 3359322968043533718
+      Kai Excited_transparent_38: -4014482947139537631
+      Kai Excited_transparent_39: 1476989254481632325
+      Kai Excited_transparent_4: 5375546083363245613
+      Kai Excited_transparent_40: -1276096721402417332
+      Kai Excited_transparent_41: -3759497319445907435
+      Kai Excited_transparent_42: -5662804197706592794
+      Kai Excited_transparent_43: 6413788329345300045
+      Kai Excited_transparent_44: 6380030562227141733
+      Kai Excited_transparent_45: -8821533982427677961
+      Kai Excited_transparent_46: 6287610856778332927
+      Kai Excited_transparent_47: -6497870018131801199
+      Kai Excited_transparent_48: 5506451423543877114
+      Kai Excited_transparent_49: 6647355730667809716
+      Kai Excited_transparent_5: 3422513571922426205
+      Kai Excited_transparent_50: 5571499384583734848
+      Kai Excited_transparent_51: -2605113574589205750
+      Kai Excited_transparent_52: 616245204852208457
+      Kai Excited_transparent_53: -3051166909811850375
+      Kai Excited_transparent_54: 6474975874830675094
+      Kai Excited_transparent_55: 7842752628658085616
+      Kai Excited_transparent_56: -6306249689427486777
+      Kai Excited_transparent_57: 7619135922307355981
+      Kai Excited_transparent_58: -1271871457142280883
+      Kai Excited_transparent_59: 4217957385940713813
+      Kai Excited_transparent_6: 6872663224869732582
+      Kai Excited_transparent_60: -8099533498213629750
+      Kai Excited_transparent_61: -8976679025737690442
+      Kai Excited_transparent_62: 2310039752637220529
+      Kai Excited_transparent_63: -4019832857232688446
+      Kai Excited_transparent_7: 7912050140880998406
+      Kai Excited_transparent_8: -5024051645466919059
+      Kai Excited_transparent_9: 8637134141661997346
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

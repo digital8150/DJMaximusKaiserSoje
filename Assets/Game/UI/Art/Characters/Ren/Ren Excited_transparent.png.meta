@@ -1,0 +1,1796 @@
+fileFormatVersion: 2
+guid: 4e020c75d197ce041a08e78948b5b45c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8455957527275716141
+    second: Ren Excited_transparent_0
+  - first:
+      213: -5476808438799857258
+    second: Ren Excited_transparent_1
+  - first:
+      213: 4653452623270679372
+    second: Ren Excited_transparent_2
+  - first:
+      213: -6235535330926698098
+    second: Ren Excited_transparent_3
+  - first:
+      213: 4937510242882014642
+    second: Ren Excited_transparent_4
+  - first:
+      213: -2401042120710088662
+    second: Ren Excited_transparent_5
+  - first:
+      213: -3121567662197940493
+    second: Ren Excited_transparent_6
+  - first:
+      213: -4920091663678918459
+    second: Ren Excited_transparent_7
+  - first:
+      213: -8076651965519070379
+    second: Ren Excited_transparent_8
+  - first:
+      213: -4021875449826350518
+    second: Ren Excited_transparent_9
+  - first:
+      213: 1808495546154715458
+    second: Ren Excited_transparent_10
+  - first:
+      213: -1849483005095150687
+    second: Ren Excited_transparent_11
+  - first:
+      213: 993921469141865078
+    second: Ren Excited_transparent_12
+  - first:
+      213: -923757871389093634
+    second: Ren Excited_transparent_13
+  - first:
+      213: -5310220030757948529
+    second: Ren Excited_transparent_14
+  - first:
+      213: -3171721744613721127
+    second: Ren Excited_transparent_15
+  - first:
+      213: 8461270223366296935
+    second: Ren Excited_transparent_16
+  - first:
+      213: -3774467652391771598
+    second: Ren Excited_transparent_17
+  - first:
+      213: 1547214804844360010
+    second: Ren Excited_transparent_18
+  - first:
+      213: -8923893629263951892
+    second: Ren Excited_transparent_19
+  - first:
+      213: 6247959230677187314
+    second: Ren Excited_transparent_20
+  - first:
+      213: 5320902241525757182
+    second: Ren Excited_transparent_21
+  - first:
+      213: 9188425391010279091
+    second: Ren Excited_transparent_22
+  - first:
+      213: -1396591690464297973
+    second: Ren Excited_transparent_23
+  - first:
+      213: -4714422978645922127
+    second: Ren Excited_transparent_24
+  - first:
+      213: -4805594042744428048
+    second: Ren Excited_transparent_25
+  - first:
+      213: 5070860682537840795
+    second: Ren Excited_transparent_26
+  - first:
+      213: -3020185448562511364
+    second: Ren Excited_transparent_27
+  - first:
+      213: -7633826538411215979
+    second: Ren Excited_transparent_28
+  - first:
+      213: 271416076775333305
+    second: Ren Excited_transparent_29
+  - first:
+      213: 2595454013514327300
+    second: Ren Excited_transparent_30
+  - first:
+      213: -4351105751076517910
+    second: Ren Excited_transparent_31
+  - first:
+      213: -7827749741225546142
+    second: Ren Excited_transparent_32
+  - first:
+      213: -4246020306789219556
+    second: Ren Excited_transparent_33
+  - first:
+      213: -7754349971712271297
+    second: Ren Excited_transparent_34
+  - first:
+      213: -6213436749308433834
+    second: Ren Excited_transparent_35
+  - first:
+      213: 9001345202468416596
+    second: Ren Excited_transparent_36
+  - first:
+      213: -5217158798863448283
+    second: Ren Excited_transparent_37
+  - first:
+      213: -1252831771762321633
+    second: Ren Excited_transparent_38
+  - first:
+      213: 1436231355997459346
+    second: Ren Excited_transparent_39
+  - first:
+      213: 6098540330248089837
+    second: Ren Excited_transparent_40
+  - first:
+      213: -3187493316181946202
+    second: Ren Excited_transparent_41
+  - first:
+      213: -7961433890060403420
+    second: Ren Excited_transparent_42
+  - first:
+      213: 1259527364945290828
+    second: Ren Excited_transparent_43
+  - first:
+      213: 7391666758294692770
+    second: Ren Excited_transparent_44
+  - first:
+      213: -1190906793392067984
+    second: Ren Excited_transparent_45
+  - first:
+      213: 7070444366416144737
+    second: Ren Excited_transparent_46
+  - first:
+      213: -962375531042852041
+    second: Ren Excited_transparent_47
+  - first:
+      213: -1840973597064513061
+    second: Ren Excited_transparent_48
+  - first:
+      213: 2011874668873497623
+    second: Ren Excited_transparent_49
+  - first:
+      213: -8318551051702779143
+    second: Ren Excited_transparent_50
+  - first:
+      213: 1635104882798129823
+    second: Ren Excited_transparent_51
+  - first:
+      213: 7699559729646856427
+    second: Ren Excited_transparent_52
+  - first:
+      213: -3018155551006071203
+    second: Ren Excited_transparent_53
+  - first:
+      213: -3146467765268263666
+    second: Ren Excited_transparent_54
+  - first:
+      213: 774962044573379292
+    second: Ren Excited_transparent_55
+  - first:
+      213: 1269468438915467313
+    second: Ren Excited_transparent_56
+  - first:
+      213: 4639854503941407782
+    second: Ren Excited_transparent_57
+  - first:
+      213: -9157327655375611787
+    second: Ren Excited_transparent_58
+  - first:
+      213: -2730139971942321617
+    second: Ren Excited_transparent_59
+  - first:
+      213: 2323049633518884326
+    second: Ren Excited_transparent_60
+  - first:
+      213: -2446619050193067584
+    second: Ren Excited_transparent_61
+  - first:
+      213: -4954038457842272073
+    second: Ren Excited_transparent_62
+  - first:
+      213: 1131968983319191220
+    second: Ren Excited_transparent_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ren Excited_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 8651
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e3f09c198995570800000000000000
+      internalID: 8455957527275716141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 8651
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69909760eb77ef3b0800000000000000
+      internalID: -5476808438799857258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 8651
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43982d7182649040800000000000000
+      internalID: 4653452623270679372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 8651
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8167bf57ade679a0800000000000000
+      internalID: -6235535330926698098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 8651
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdc5d5e76f858440800000000000000
+      internalID: 4937510242882014642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 4375
+        y: 8651
+        width: 412
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28135899e8cdaed0800000000000000
+      internalID: -2401042120710088662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 8651
+        width: 437
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe585000c6fda4d0800000000000000
+      internalID: -3121567662197940493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 6006
+        y: 8650
+        width: 463
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0be0c13b258bbb0800000000000000
+      internalID: -4920091663678918459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 7434
+        width: 477
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b76cc44d7f9ef80800000000000000
+      internalID: -8076651965519070379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 7435
+        width: 503
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a6c32569d6f28c0800000000000000
+      internalID: -4021875449826350518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 7434
+        width: 520
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2498d6e0e11191910800000000000000
+      internalID: 1808495546154715458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 2657
+        y: 7434
+        width: 512
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab7e2f71015556e0800000000000000
+      internalID: -1849483005095150687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 7435
+        width: 487
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672d5d66f4e1bcd00800000000000000
+      internalID: 993921469141865078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 4334
+        y: 7435
+        width: 489
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0d1693c172e23f0800000000000000
+      internalID: -923757871389093634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 7434
+        width: 474
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83328b440f4e46b0800000000000000
+      internalID: -5310220030757948529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 6006
+        y: 7434
+        width: 467
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbbae5b0e7cbf3d0800000000000000
+      internalID: -3171721744613721127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 6218
+        width: 465
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765965c30787c6570800000000000000
+      internalID: 8461270223366296935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 6218
+        width: 466
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2326cfa0ba56e9bc0800000000000000
+      internalID: -3774467652391771598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 6218
+        width: 460
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4139f1eaafc87510800000000000000
+      internalID: 1547214804844360010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 6219
+        width: 459
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7c9566606f72480800000000000000
+      internalID: -8923893629263951892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 6218
+        width: 465
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2faf2a331d535b650800000000000000
+      internalID: 6247959230677187314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 6218
+        width: 470
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4f8b6b564a7d940800000000000000
+      internalID: 5320902241525757182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 5132
+        y: 6218
+        width: 479
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bee854f538d38f70800000000000000
+      internalID: 9188425391010279091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 5955
+        y: 6218
+        width: 487
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cfc99c14f4e9ce0800000000000000
+      internalID: -1396591690464297973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 5002
+        width: 489
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1beeedc6741039eb0800000000000000
+      internalID: -4714422978645922127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 5002
+        width: 489
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f92c73eda91f4db0800000000000000
+      internalID: -4805594042744428048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 5002
+        width: 487
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90b9289ce05f5640800000000000000
+      internalID: 5070860682537840795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 5002
+        width: 474
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1b0ae06552616d0800000000000000
+      internalID: -3020185448562511364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 5002
+        width: 466
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593bc0585333f0690800000000000000
+      internalID: -7633826538411215979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 4333
+        y: 5002
+        width: 454
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd168adb7344c300800000000000000
+      internalID: 271416076775333305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_30
+      rect:
+        serializedVersion: 2
+        x: 5177
+        y: 5002
+        width: 443
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405226a8ca7e40420800000000000000
+      internalID: 2595454013514327300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_31
+      rect:
+        serializedVersion: 2
+        x: 6020
+        y: 5003
+        width: 433
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7ccee5f54cd93c0800000000000000
+      internalID: -4351105751076517910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_32
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 3787
+        width: 424
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e6893651f3e5390800000000000000
+      internalID: -7827749741225546142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_33
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 3787
+        width: 420
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13cbb0070b1315c0800000000000000
+      internalID: -4246020306789219556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_34
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 3787
+        width: 418
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c9708f8c3036490800000000000000
+      internalID: -7754349971712271297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_35
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 3787
+        width: 417
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65aec1b523075c9a0800000000000000
+      internalID: -6213436749308433834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_36
+      rect:
+        serializedVersion: 2
+        x: 3543
+        y: 3786
+        width: 414
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cebcd35c33bec70800000000000000
+      internalID: 9001345202468416596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_37
+      rect:
+        serializedVersion: 2
+        x: 4376
+        y: 3786
+        width: 413
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527c0f0d6bde897b0800000000000000
+      internalID: -5217158798863448283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_38
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 3787
+        width: 411
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1798c0342c0d9ee0800000000000000
+      internalID: -1252831771762321633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_39
+      rect:
+        serializedVersion: 2
+        x: 6041
+        y: 3787
+        width: 409
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293918d0fc48ee310800000000000000
+      internalID: 1436231355997459346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_40
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2571
+        width: 409
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0b4d07e1e52a450800000000000000
+      internalID: 6098540330248089837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_41
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 2571
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a01b0d87bfb3c3d0800000000000000
+      internalID: -3187493316181946202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_42
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 2571
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d7138fe0e438190800000000000000
+      internalID: -7961433890060403420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_43
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 2571
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46a274177dba7110800000000000000
+      internalID: 1259527364945290828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_44
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2571
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3e73201c9749660800000000000000
+      internalID: 7391666758294692770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_45
+      rect:
+        serializedVersion: 2
+        x: 4377
+        y: 2571
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a2443c49c097fe0800000000000000
+      internalID: -1190906793392067984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_46
+      rect:
+        serializedVersion: 2
+        x: 5209
+        y: 2571
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1696560c0b34f1260800000000000000
+      internalID: 7070444366416144737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_47
+      rect:
+        serializedVersion: 2
+        x: 6041
+        y: 2571
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733b9abad84f4a2f0800000000000000
+      internalID: -962375531042852041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_48
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1355
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9b812744c8376e0800000000000000
+      internalID: -1840973597064513061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_49
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1355
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71cbfca1a5d9beb10800000000000000
+      internalID: 2011874668873497623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_50
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1355
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2cd4d54e19e8c80800000000000000
+      internalID: -8318551051702779143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_51
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 1355
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9270bd4a3f01b610800000000000000
+      internalID: 1635104882798129823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_52
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 1355
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8e084b7c45ada60800000000000000
+      internalID: 7699559729646856427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_53
+      rect:
+        serializedVersion: 2
+        x: 4377
+        y: 1355
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56e869648b5d16d0800000000000000
+      internalID: -3018155551006071203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_54
+      rect:
+        serializedVersion: 2
+        x: 5209
+        y: 1355
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dc7f9fc308554d0800000000000000
+      internalID: -3146467765268263666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_55
+      rect:
+        serializedVersion: 2
+        x: 6041
+        y: 1355
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdae435afd731ca00800000000000000
+      internalID: 774962044573379292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_56
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 139
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138402bb1de0e9110800000000000000
+      internalID: 1269468438915467313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_57
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 139
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6248cec9613146040800000000000000
+      internalID: 4639854503941407782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_58
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 139
+        width: 408
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578d979d303aae080800000000000000
+      internalID: -9157327655375611787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_59
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 139
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22784119289c1ad0800000000000000
+      internalID: -2730139971942321617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_60
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 139
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e59e7965512d3020800000000000000
+      internalID: 2323049633518884326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_61
+      rect:
+        serializedVersion: 2
+        x: 4377
+        y: 139
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1e984cfecdb0ed0800000000000000
+      internalID: -2446619050193067584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_62
+      rect:
+        serializedVersion: 2
+        x: 5209
+        y: 139
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8ffac2548bf3bb0800000000000000
+      internalID: -4954038457842272073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ren Excited_transparent_63
+      rect:
+        serializedVersion: 2
+        x: 6041
+        y: 139
+        width: 408
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be108bfacf85bf00800000000000000
+      internalID: 1131968983319191220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ren Excited_transparent_0: 8455957527275716141
+      Ren Excited_transparent_1: -5476808438799857258
+      Ren Excited_transparent_10: 1808495546154715458
+      Ren Excited_transparent_11: -1849483005095150687
+      Ren Excited_transparent_12: 993921469141865078
+      Ren Excited_transparent_13: -923757871389093634
+      Ren Excited_transparent_14: -5310220030757948529
+      Ren Excited_transparent_15: -3171721744613721127
+      Ren Excited_transparent_16: 8461270223366296935
+      Ren Excited_transparent_17: -3774467652391771598
+      Ren Excited_transparent_18: 1547214804844360010
+      Ren Excited_transparent_19: -8923893629263951892
+      Ren Excited_transparent_2: 4653452623270679372
+      Ren Excited_transparent_20: 6247959230677187314
+      Ren Excited_transparent_21: 5320902241525757182
+      Ren Excited_transparent_22: 9188425391010279091
+      Ren Excited_transparent_23: -1396591690464297973
+      Ren Excited_transparent_24: -4714422978645922127
+      Ren Excited_transparent_25: -4805594042744428048
+      Ren Excited_transparent_26: 5070860682537840795
+      Ren Excited_transparent_27: -3020185448562511364
+      Ren Excited_transparent_28: -7633826538411215979
+      Ren Excited_transparent_29: 271416076775333305
+      Ren Excited_transparent_3: -6235535330926698098
+      Ren Excited_transparent_30: 2595454013514327300
+      Ren Excited_transparent_31: -4351105751076517910
+      Ren Excited_transparent_32: -7827749741225546142
+      Ren Excited_transparent_33: -4246020306789219556
+      Ren Excited_transparent_34: -7754349971712271297
+      Ren Excited_transparent_35: -6213436749308433834
+      Ren Excited_transparent_36: 9001345202468416596
+      Ren Excited_transparent_37: -5217158798863448283
+      Ren Excited_transparent_38: -1252831771762321633
+      Ren Excited_transparent_39: 1436231355997459346
+      Ren Excited_transparent_4: 4937510242882014642
+      Ren Excited_transparent_40: 6098540330248089837
+      Ren Excited_transparent_41: -3187493316181946202
+      Ren Excited_transparent_42: -7961433890060403420
+      Ren Excited_transparent_43: 1259527364945290828
+      Ren Excited_transparent_44: 7391666758294692770
+      Ren Excited_transparent_45: -1190906793392067984
+      Ren Excited_transparent_46: 7070444366416144737
+      Ren Excited_transparent_47: -962375531042852041
+      Ren Excited_transparent_48: -1840973597064513061
+      Ren Excited_transparent_49: 2011874668873497623
+      Ren Excited_transparent_5: -2401042120710088662
+      Ren Excited_transparent_50: -8318551051702779143
+      Ren Excited_transparent_51: 1635104882798129823
+      Ren Excited_transparent_52: 7699559729646856427
+      Ren Excited_transparent_53: -3018155551006071203
+      Ren Excited_transparent_54: -3146467765268263666
+      Ren Excited_transparent_55: 774962044573379292
+      Ren Excited_transparent_56: 1269468438915467313
+      Ren Excited_transparent_57: 4639854503941407782
+      Ren Excited_transparent_58: -9157327655375611787
+      Ren Excited_transparent_59: -2730139971942321617
+      Ren Excited_transparent_6: -3121567662197940493
+      Ren Excited_transparent_60: 2323049633518884326
+      Ren Excited_transparent_61: -2446619050193067584
+      Ren Excited_transparent_62: -4954038457842272073
+      Ren Excited_transparent_63: 1131968983319191220
+      Ren Excited_transparent_7: -4920091663678918459
+      Ren Excited_transparent_8: -8076651965519070379
+      Ren Excited_transparent_9: -4021875449826350518
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

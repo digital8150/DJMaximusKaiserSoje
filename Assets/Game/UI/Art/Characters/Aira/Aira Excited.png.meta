@@ -1,0 +1,1796 @@
+fileFormatVersion: 2
+guid: 5df4f6c350b89474e86fea2baa030652
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6538321760617296229
+    second: Aira Excited_0
+  - first:
+      213: -2167283521292389290
+    second: Aira Excited_1
+  - first:
+      213: 8211329292268198164
+    second: Aira Excited_2
+  - first:
+      213: 1737059507961692364
+    second: Aira Excited_3
+  - first:
+      213: 3880570837458606899
+    second: Aira Excited_4
+  - first:
+      213: 6761400503811746899
+    second: Aira Excited_5
+  - first:
+      213: 1199232108918126863
+    second: Aira Excited_6
+  - first:
+      213: 1699818277261974720
+    second: Aira Excited_7
+  - first:
+      213: -4462802202039268572
+    second: Aira Excited_8
+  - first:
+      213: 1270511752746605384
+    second: Aira Excited_9
+  - first:
+      213: -8040525068983394329
+    second: Aira Excited_10
+  - first:
+      213: 6707483488162185128
+    second: Aira Excited_11
+  - first:
+      213: -901982061095712016
+    second: Aira Excited_12
+  - first:
+      213: 4625323065654882127
+    second: Aira Excited_13
+  - first:
+      213: 6337719455362611379
+    second: Aira Excited_14
+  - first:
+      213: 4592389419881246451
+    second: Aira Excited_15
+  - first:
+      213: -5102506426050878486
+    second: Aira Excited_16
+  - first:
+      213: 9010212585147397769
+    second: Aira Excited_17
+  - first:
+      213: -7857914316000526300
+    second: Aira Excited_18
+  - first:
+      213: 3624258117193845833
+    second: Aira Excited_19
+  - first:
+      213: 3863313771317667621
+    second: Aira Excited_20
+  - first:
+      213: 8688575152032336185
+    second: Aira Excited_21
+  - first:
+      213: -4210663768185529025
+    second: Aira Excited_22
+  - first:
+      213: -7267211209176854416
+    second: Aira Excited_23
+  - first:
+      213: 9067022667103514913
+    second: Aira Excited_24
+  - first:
+      213: -1040691124448822997
+    second: Aira Excited_25
+  - first:
+      213: 5037108522828745109
+    second: Aira Excited_26
+  - first:
+      213: -6544956183630836097
+    second: Aira Excited_27
+  - first:
+      213: -8240451120637235495
+    second: Aira Excited_28
+  - first:
+      213: -3689543791519018658
+    second: Aira Excited_29
+  - first:
+      213: -2688161105256213916
+    second: Aira Excited_30
+  - first:
+      213: -1810590548069988479
+    second: Aira Excited_31
+  - first:
+      213: -4252772486731009608
+    second: Aira Excited_32
+  - first:
+      213: -3491912629403388758
+    second: Aira Excited_33
+  - first:
+      213: 57586048473329370
+    second: Aira Excited_34
+  - first:
+      213: 4057451545841845554
+    second: Aira Excited_35
+  - first:
+      213: -50361233894483971
+    second: Aira Excited_36
+  - first:
+      213: -3615341592311961619
+    second: Aira Excited_37
+  - first:
+      213: 7803515648192170951
+    second: Aira Excited_38
+  - first:
+      213: -3987904544548714153
+    second: Aira Excited_39
+  - first:
+      213: 3037062019956289274
+    second: Aira Excited_40
+  - first:
+      213: -5498786205032049756
+    second: Aira Excited_41
+  - first:
+      213: -8280086020769968691
+    second: Aira Excited_42
+  - first:
+      213: -3323692469498780805
+    second: Aira Excited_43
+  - first:
+      213: 71371359450281713
+    second: Aira Excited_44
+  - first:
+      213: -7483672239151870026
+    second: Aira Excited_45
+  - first:
+      213: -5029095853321500915
+    second: Aira Excited_46
+  - first:
+      213: 222897754303692605
+    second: Aira Excited_47
+  - first:
+      213: -6989689015416942420
+    second: Aira Excited_48
+  - first:
+      213: 1486701439960046575
+    second: Aira Excited_49
+  - first:
+      213: 7130253663110983655
+    second: Aira Excited_50
+  - first:
+      213: 7600415829021203920
+    second: Aira Excited_51
+  - first:
+      213: 1000415282169946282
+    second: Aira Excited_52
+  - first:
+      213: -8923151567018699198
+    second: Aira Excited_53
+  - first:
+      213: -3852094762227609181
+    second: Aira Excited_54
+  - first:
+      213: -1874945459767603039
+    second: Aira Excited_55
+  - first:
+      213: 2293465169303053796
+    second: Aira Excited_56
+  - first:
+      213: 4612410927346401703
+    second: Aira Excited_57
+  - first:
+      213: -3734050492578857678
+    second: Aira Excited_58
+  - first:
+      213: -4772945562060145741
+    second: Aira Excited_59
+  - first:
+      213: -2218891639095052441
+    second: Aira Excited_60
+  - first:
+      213: 8558367122101090335
+    second: Aira Excited_61
+  - first:
+      213: 3496711652216119029
+    second: Aira Excited_62
+  - first:
+      213: 731844879894709376
+    second: Aira Excited_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aira Excited_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 8627
+        width: 570
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e033f00073345a0800000000000000
+      internalID: -6538321760617296229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_1
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 8627
+        width: 570
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6543fc1ce134ce1e0800000000000000
+      internalID: -2167283521292389290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_2
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 8627
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419d76f5c7084f170800000000000000
+      internalID: 8211329292268198164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_3
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 8627
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc085cd4b664b1810800000000000000
+      internalID: 1737059507961692364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_4
+      rect:
+        serializedVersion: 2
+        x: 3455
+        y: 8627
+        width: 570
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bd574dd9e8ad530800000000000000
+      internalID: 3880570837458606899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_5
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 8627
+        width: 570
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ca8dd4fe155dd50800000000000000
+      internalID: 6761400503811746899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_6
+      rect:
+        serializedVersion: 2
+        x: 5119
+        y: 8627
+        width: 570
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09be4fcf3784a010800000000000000
+      internalID: 1199232108918126863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_7
+      rect:
+        serializedVersion: 2
+        x: 5951
+        y: 8627
+        width: 570
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc9ae697b7f69710800000000000000
+      internalID: 1699818277261974720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 7411
+        width: 570
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b4e9cca01f012c0800000000000000
+      internalID: -4462802202039268572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_9
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 7411
+        width: 570
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b9b6925b3c1a110800000000000000
+      internalID: 1270511752746605384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_10
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 7411
+        width: 570
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef1f9fdc015a6090800000000000000
+      internalID: -8040525068983394329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_11
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 7411
+        width: 570
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af74b8d1b4c51d50800000000000000
+      internalID: 6707483488162185128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_12
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 7411
+        width: 568
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa8d9628148b73f0800000000000000
+      internalID: -901982061095712016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_13
+      rect:
+        serializedVersion: 2
+        x: 4294
+        y: 7411
+        width: 559
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fa7cb72d2703040800000000000000
+      internalID: 4625323065654882127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_14
+      rect:
+        serializedVersion: 2
+        x: 5130
+        y: 7411
+        width: 548
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b878f6144a14f750800000000000000
+      internalID: 6337719455362611379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_15
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 7411
+        width: 566
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fea84a88d17bbf30800000000000000
+      internalID: 4592389419881246451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_16
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 6195
+        width: 615
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3e61390714039b0800000000000000
+      internalID: -5102506426050878486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_17
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 6195
+        width: 656
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986f678ab94ba0d70800000000000000
+      internalID: 9010212585147397769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_18
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 6195
+        width: 670
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4200557009413f290800000000000000
+      internalID: -7857914316000526300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_19
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 6195
+        width: 658
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c4aa13e83fb4230800000000000000
+      internalID: 3624258117193845833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_20
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 6195
+        width: 654
+        height: 994
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527a343086f3d9530800000000000000
+      internalID: 3863313771317667621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_21
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 6195
+        width: 651
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9394c251115049870800000000000000
+      internalID: 8688575152032336185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_22
+      rect:
+        serializedVersion: 2
+        x: 5093
+        y: 6195
+        width: 652
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d91b4ac97b095c0800000000000000
+      internalID: -4210663768185529025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_23
+      rect:
+        serializedVersion: 2
+        x: 5926
+        y: 6195
+        width: 651
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070d64998eda52b90800000000000000
+      internalID: -7267211209176854416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 4979
+        width: 652
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121be1b931984dd70800000000000000
+      internalID: 9067022667103514913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_25
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 4979
+        width: 652
+        height: 980
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b297356afe8be81f0800000000000000
+      internalID: -1040691124448822997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_26
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 4979
+        width: 658
+        height: 966
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599cc46838767e540800000000000000
+      internalID: 5037108522828745109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_27
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 4979
+        width: 668
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e00341705ab25a0800000000000000
+      internalID: -6544956183630836097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_28
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 4979
+        width: 660
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dea2759d5904ad80800000000000000
+      internalID: -8240451120637235495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_29
+      rect:
+        serializedVersion: 2
+        x: 4242
+        y: 4979
+        width: 649
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51d24b387b1cccc0800000000000000
+      internalID: -3689543791519018658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_30
+      rect:
+        serializedVersion: 2
+        x: 5078
+        y: 4980
+        width: 635
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4629e2e97bbb1bad0800000000000000
+      internalID: -2688161105256213916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_31
+      rect:
+        serializedVersion: 2
+        x: 5923
+        y: 4979
+        width: 612
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187cb9c4d7d7fd6e0800000000000000
+      internalID: -1810590548069988479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_32
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 3763
+        width: 591
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1f7d994fd1bf4c0800000000000000
+      internalID: -4252772486731009608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_33
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 3763
+        width: 566
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4f5b9e6fb3a8fc0800000000000000
+      internalID: -3491912629403388758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_34
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 3764
+        width: 559
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade654bb4369cc000800000000000000
+      internalID: 57586048473329370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_35
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 3763
+        width: 560
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23543430fa6fe4830800000000000000
+      internalID: 4057451545841845554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_36
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 3763
+        width: 564
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7d44f79b41d4ff0800000000000000
+      internalID: -50361233894483971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_37
+      rect:
+        serializedVersion: 2
+        x: 4288
+        y: 3763
+        width: 567
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7ec880af9b3ddc0800000000000000
+      internalID: -3615341592311961619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_38
+      rect:
+        serializedVersion: 2
+        x: 5119
+        y: 3763
+        width: 570
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb42b12328ab4c60800000000000000
+      internalID: 7803515648192170951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_39
+      rect:
+        serializedVersion: 2
+        x: 5951
+        y: 3763
+        width: 570
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759020012fd18a8c0800000000000000
+      internalID: -3987904544548714153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2547
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe235ce0dfc52a20800000000000000
+      internalID: 3037062019956289274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_41
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2547
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a31f31941360b3b0800000000000000
+      internalID: -5498786205032049756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_42
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2547
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd045642a9371d80800000000000000
+      internalID: -8280086020769968691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_43
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 2547
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7362e40f4fdfd1d0800000000000000
+      internalID: -3323692469498780805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_44
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 2547
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6bb2f8fdf8df000800000000000000
+      internalID: 71371359450281713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_45
+      rect:
+        serializedVersion: 2
+        x: 4288
+        y: 2547
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf86e9afb7a42890800000000000000
+      internalID: -7483672239151870026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_46
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2547
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07c16977ff053ab0800000000000000
+      internalID: -5029095853321500915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_47
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 2547
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ff08a9354e71300800000000000000
+      internalID: 222897754303692605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1331
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca09f999fd2affe90800000000000000
+      internalID: -6989689015416942420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_49
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1331
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb51ef2513d1a410800000000000000
+      internalID: 1486701439960046575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_50
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1331
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef682ccdefb3f260800000000000000
+      internalID: 7130253663110983655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_51
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1331
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd90128de91a7960800000000000000
+      internalID: 7600415829021203920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_52
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1331
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0ac91166032ed00800000000000000
+      internalID: 1000415282169946282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_53
+      rect:
+        serializedVersion: 2
+        x: 4288
+        y: 1331
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24651ea3de89a2480800000000000000
+      internalID: -8923151567018699198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_54
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1331
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1d748193c9a8ac0800000000000000
+      internalID: -3852094762227609181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_55
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 1331
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a01259c90bdaf5e0800000000000000
+      internalID: -1874945459767603039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 115
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e52a019b6604df10800000000000000
+      internalID: 2293465169303053796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_57
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 115
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1cc920d43920040800000000000000
+      internalID: 4612410927346401703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_58
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 115
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23df6706cdcfd2cc0800000000000000
+      internalID: -3734050492578857678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_59
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 115
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbb029ac4713cdb0800000000000000
+      internalID: -4772945562060145741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_60
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 115
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767b7a87fc9e431e0800000000000000
+      internalID: -2218891639095052441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_61
+      rect:
+        serializedVersion: 2
+        x: 4288
+        y: 115
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18b73aad8d65c670800000000000000
+      internalID: 8558367122101090335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_62
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 115
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe9f48a8b0d68030800000000000000
+      internalID: 3496711652216119029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aira Excited_63
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 115
+        width: 569
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08400d07a09082a00800000000000000
+      internalID: 731844879894709376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Aira Excited_0: -6538321760617296229
+      Aira Excited_1: -2167283521292389290
+      Aira Excited_10: -8040525068983394329
+      Aira Excited_11: 6707483488162185128
+      Aira Excited_12: -901982061095712016
+      Aira Excited_13: 4625323065654882127
+      Aira Excited_14: 6337719455362611379
+      Aira Excited_15: 4592389419881246451
+      Aira Excited_16: -5102506426050878486
+      Aira Excited_17: 9010212585147397769
+      Aira Excited_18: -7857914316000526300
+      Aira Excited_19: 3624258117193845833
+      Aira Excited_2: 8211329292268198164
+      Aira Excited_20: 3863313771317667621
+      Aira Excited_21: 8688575152032336185
+      Aira Excited_22: -4210663768185529025
+      Aira Excited_23: -7267211209176854416
+      Aira Excited_24: 9067022667103514913
+      Aira Excited_25: -1040691124448822997
+      Aira Excited_26: 5037108522828745109
+      Aira Excited_27: -6544956183630836097
+      Aira Excited_28: -8240451120637235495
+      Aira Excited_29: -3689543791519018658
+      Aira Excited_3: 1737059507961692364
+      Aira Excited_30: -2688161105256213916
+      Aira Excited_31: -1810590548069988479
+      Aira Excited_32: -4252772486731009608
+      Aira Excited_33: -3491912629403388758
+      Aira Excited_34: 57586048473329370
+      Aira Excited_35: 4057451545841845554
+      Aira Excited_36: -50361233894483971
+      Aira Excited_37: -3615341592311961619
+      Aira Excited_38: 7803515648192170951
+      Aira Excited_39: -3987904544548714153
+      Aira Excited_4: 3880570837458606899
+      Aira Excited_40: 3037062019956289274
+      Aira Excited_41: -5498786205032049756
+      Aira Excited_42: -8280086020769968691
+      Aira Excited_43: -3323692469498780805
+      Aira Excited_44: 71371359450281713
+      Aira Excited_45: -7483672239151870026
+      Aira Excited_46: -5029095853321500915
+      Aira Excited_47: 222897754303692605
+      Aira Excited_48: -6989689015416942420
+      Aira Excited_49: 1486701439960046575
+      Aira Excited_5: 6761400503811746899
+      Aira Excited_50: 7130253663110983655
+      Aira Excited_51: 7600415829021203920
+      Aira Excited_52: 1000415282169946282
+      Aira Excited_53: -8923151567018699198
+      Aira Excited_54: -3852094762227609181
+      Aira Excited_55: -1874945459767603039
+      Aira Excited_56: 2293465169303053796
+      Aira Excited_57: 4612410927346401703
+      Aira Excited_58: -3734050492578857678
+      Aira Excited_59: -4772945562060145741
+      Aira Excited_6: 1199232108918126863
+      Aira Excited_60: -2218891639095052441
+      Aira Excited_61: 8558367122101090335
+      Aira Excited_62: 3496711652216119029
+      Aira Excited_63: 731844879894709376
+      Aira Excited_7: 1699818277261974720
+      Aira Excited_8: -4462802202039268572
+      Aira Excited_9: 1270511752746605384
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

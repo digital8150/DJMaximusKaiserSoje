@@ -1,0 +1,704 @@
+fileFormatVersion: 2
+guid: c0c286cdc7267744a857c0b0ce97a8f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8432705396682569893
+    second: Lena Source_0
+  - first:
+      213: -4555646484027034900
+    second: Lena Source_1
+  - first:
+      213: 2929156199440490481
+    second: Lena Source_2
+  - first:
+      213: -8015440417490567867
+    second: Lena Source_3
+  - first:
+      213: 3516232557497746732
+    second: Lena Source_4
+  - first:
+      213: 179140131117017932
+    second: Lena Source_5
+  - first:
+      213: -2839646635476322846
+    second: Lena Source_6
+  - first:
+      213: -4220274555677186169
+    second: Lena Source_7
+  - first:
+      213: -7851824063656026152
+    second: Lena Source_8
+  - first:
+      213: 2477732532002868409
+    second: Lena Source_9
+  - first:
+      213: 3525985857004014371
+    second: Lena Source_10
+  - first:
+      213: 3905897159347040959
+    second: Lena Source_11
+  - first:
+      213: 7956213900009786876
+    second: Lena Source_12
+  - first:
+      213: 668492761422630096
+    second: Lena Source_13
+  - first:
+      213: -3144523257530383640
+    second: Lena Source_14
+  - first:
+      213: 3668355306405078835
+    second: Lena Source_15
+  - first:
+      213: 3987746974348138145
+    second: Lena Source_16
+  - first:
+      213: 8592898092200607109
+    second: Lena Source_17
+  - first:
+      213: 6577851049449342765
+    second: Lena Source_18
+  - first:
+      213: -7264265196901224312
+    second: Lena Source_19
+  - first:
+      213: 9137354582367550563
+    second: Lena Source_20
+  - first:
+      213: 8052422381094341239
+    second: Lena Source_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lena Source_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1186
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57473fbe1309fa80800000000000000
+      internalID: -8432705396682569893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1156
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2bf4dd8a717c0c0800000000000000
+      internalID: -4555646484027034900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 537
+        height: 1216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff98474b0476a820800000000000000
+      internalID: 2929156199440490481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1091
+        width: 13
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d7a2d686f63c090800000000000000
+      internalID: -8015440417490567867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25015991ea2cc030800000000000000
+      internalID: 3516232557497746732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1087
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b2f38000f6c7200800000000000000
+      internalID: 179140131117017932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1062
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5fccc1e6c8798d0800000000000000
+      internalID: -2839646635476322846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 13
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787ed3ec6a29e65c0800000000000000
+      internalID: -4220274555677186169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 932
+        width: 13
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df1be66d97b80390800000000000000
+      internalID: -7851824063656026152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 908
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcc57a3c9ca26220800000000000000
+      internalID: 2477732532002868409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 759
+        width: 13
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b86c99471dee030800000000000000
+      internalID: 3525985857004014371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb27618a5c8843630800000000000000
+      internalID: 3905897159347040959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 677
+        width: 13
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdcb1363662a6e60800000000000000
+      internalID: 7956213900009786876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 613
+        width: 13
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc048bef96f64900800000000000000
+      internalID: 668492761422630096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 531
+        width: 13
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e282f6f1c86c54d0800000000000000
+      internalID: -3144523257530383640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 13
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337a13427bd98e230800000000000000
+      internalID: 3668355306405078835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 13
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6d824ceb2575730800000000000000
+      internalID: 3987746974348138145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 211
+        width: 13
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dbfb8a94b104770800000000000000
+      internalID: 8592898092200607109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27cbd3bda8394b50800000000000000
+      internalID: 6577851049449342765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88038788a45203b90800000000000000
+      internalID: -7264265196901224312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 13
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c3ec4b4976ece70800000000000000
+      internalID: 9137354582367550563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Source_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 13
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a8886fd73ffbf60800000000000000
+      internalID: 8052422381094341239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lena Source_0: -8432705396682569893
+      Lena Source_1: -4555646484027034900
+      Lena Source_10: 3525985857004014371
+      Lena Source_11: 3905897159347040959
+      Lena Source_12: 7956213900009786876
+      Lena Source_13: 668492761422630096
+      Lena Source_14: -3144523257530383640
+      Lena Source_15: 3668355306405078835
+      Lena Source_16: 3987746974348138145
+      Lena Source_17: 8592898092200607109
+      Lena Source_18: 6577851049449342765
+      Lena Source_19: -7264265196901224312
+      Lena Source_2: 2929156199440490481
+      Lena Source_20: 9137354582367550563
+      Lena Source_21: 8052422381094341239
+      Lena Source_3: -8015440417490567867
+      Lena Source_4: 3516232557497746732
+      Lena Source_5: 179140131117017932
+      Lena Source_6: -2839646635476322846
+      Lena Source_7: -4220274555677186169
+      Lena Source_8: -7851824063656026152
+      Lena Source_9: 2477732532002868409
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

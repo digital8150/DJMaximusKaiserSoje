@@ -1,0 +1,1796 @@
+fileFormatVersion: 2
+guid: 1e363fb0add3f0c458d076a0d3bc61be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2301241722605305576
+    second: Lena Idle_transparent_0
+  - first:
+      213: 2418864913124396739
+    second: Lena Idle_transparent_1
+  - first:
+      213: -1725734032239881651
+    second: Lena Idle_transparent_2
+  - first:
+      213: 1958022002163363236
+    second: Lena Idle_transparent_3
+  - first:
+      213: -4783569881527153250
+    second: Lena Idle_transparent_4
+  - first:
+      213: -3864104584656582699
+    second: Lena Idle_transparent_5
+  - first:
+      213: -7055286508479484974
+    second: Lena Idle_transparent_6
+  - first:
+      213: -3343498639415797074
+    second: Lena Idle_transparent_7
+  - first:
+      213: 4859347580841730541
+    second: Lena Idle_transparent_8
+  - first:
+      213: 1123080104711453552
+    second: Lena Idle_transparent_9
+  - first:
+      213: 6839044107097679739
+    second: Lena Idle_transparent_10
+  - first:
+      213: -3378710963476713959
+    second: Lena Idle_transparent_11
+  - first:
+      213: -8849743009506646516
+    second: Lena Idle_transparent_12
+  - first:
+      213: 2956199881150959320
+    second: Lena Idle_transparent_13
+  - first:
+      213: -3261594580665457598
+    second: Lena Idle_transparent_14
+  - first:
+      213: 8099890929416861540
+    second: Lena Idle_transparent_15
+  - first:
+      213: 5822504776148350448
+    second: Lena Idle_transparent_16
+  - first:
+      213: -3825048919969959990
+    second: Lena Idle_transparent_17
+  - first:
+      213: -223545687256283166
+    second: Lena Idle_transparent_18
+  - first:
+      213: 1963168741171560094
+    second: Lena Idle_transparent_19
+  - first:
+      213: 9160770948814784437
+    second: Lena Idle_transparent_20
+  - first:
+      213: -4507988168558350598
+    second: Lena Idle_transparent_21
+  - first:
+      213: -3163062980371265575
+    second: Lena Idle_transparent_22
+  - first:
+      213: -5933057830102066141
+    second: Lena Idle_transparent_23
+  - first:
+      213: 3220321389960966489
+    second: Lena Idle_transparent_24
+  - first:
+      213: 8079056603336804412
+    second: Lena Idle_transparent_25
+  - first:
+      213: -4307639392009329698
+    second: Lena Idle_transparent_26
+  - first:
+      213: 1657867937867772532
+    second: Lena Idle_transparent_27
+  - first:
+      213: 1060949429353092364
+    second: Lena Idle_transparent_28
+  - first:
+      213: 503843047652066060
+    second: Lena Idle_transparent_29
+  - first:
+      213: -6647812324733173746
+    second: Lena Idle_transparent_30
+  - first:
+      213: 6777086940899177870
+    second: Lena Idle_transparent_31
+  - first:
+      213: -5929230856926249366
+    second: Lena Idle_transparent_32
+  - first:
+      213: 6457318467000234085
+    second: Lena Idle_transparent_33
+  - first:
+      213: 3332184292404679098
+    second: Lena Idle_transparent_34
+  - first:
+      213: 4080878036258306680
+    second: Lena Idle_transparent_35
+  - first:
+      213: -7297408566368783159
+    second: Lena Idle_transparent_36
+  - first:
+      213: -7735980142205307338
+    second: Lena Idle_transparent_37
+  - first:
+      213: 9065108705620494969
+    second: Lena Idle_transparent_38
+  - first:
+      213: -941088006546023503
+    second: Lena Idle_transparent_39
+  - first:
+      213: -1444156960694879339
+    second: Lena Idle_transparent_40
+  - first:
+      213: 5796921633240688913
+    second: Lena Idle_transparent_41
+  - first:
+      213: 5121996596113591635
+    second: Lena Idle_transparent_42
+  - first:
+      213: 9199034201304189193
+    second: Lena Idle_transparent_43
+  - first:
+      213: -4753880109315706450
+    second: Lena Idle_transparent_44
+  - first:
+      213: -2532145065768242148
+    second: Lena Idle_transparent_45
+  - first:
+      213: -6250437867203407196
+    second: Lena Idle_transparent_46
+  - first:
+      213: -64791527273178532
+    second: Lena Idle_transparent_47
+  - first:
+      213: 6219633785189564044
+    second: Lena Idle_transparent_48
+  - first:
+      213: -6291566365878003091
+    second: Lena Idle_transparent_49
+  - first:
+      213: -8037818276649837561
+    second: Lena Idle_transparent_50
+  - first:
+      213: -3918125678734246584
+    second: Lena Idle_transparent_51
+  - first:
+      213: 4872740106362343125
+    second: Lena Idle_transparent_52
+  - first:
+      213: 2707670300697707945
+    second: Lena Idle_transparent_53
+  - first:
+      213: 5390811440177370729
+    second: Lena Idle_transparent_54
+  - first:
+      213: 1798683598874644536
+    second: Lena Idle_transparent_55
+  - first:
+      213: 3372621591058648184
+    second: Lena Idle_transparent_56
+  - first:
+      213: 7486416164088018683
+    second: Lena Idle_transparent_57
+  - first:
+      213: 7380430898336256590
+    second: Lena Idle_transparent_58
+  - first:
+      213: -3151207514669432104
+    second: Lena Idle_transparent_59
+  - first:
+      213: -5675484585521053452
+    second: Lena Idle_transparent_60
+  - first:
+      213: 2949866342894423024
+    second: Lena Idle_transparent_61
+  - first:
+      213: -2245284292819885916
+    second: Lena Idle_transparent_62
+  - first:
+      213: -466704735674482204
+    second: Lena Idle_transparent_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lena Idle_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 8653
+        width: 412
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee723a7727afef10800000000000000
+      internalID: 2301241722605305576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 8653
+        width: 412
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce8f62a2d8819120800000000000000
+      internalID: 2418864913124396739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 8653
+        width: 412
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d421a8f7a06fc08e0800000000000000
+      internalID: -1725734032239881651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 8653
+        width: 414
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ada85d03aa4c2b10800000000000000
+      internalID: 1958022002163363236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 8653
+        width: 414
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d015589885d9db0800000000000000
+      internalID: -4783569881527153250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 4349
+        y: 8653
+        width: 415
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d706986a51ff5ac0800000000000000
+      internalID: -3864104584656582699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 5179
+        y: 8653
+        width: 417
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db69711d46961e90800000000000000
+      internalID: -7055286508479484974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 6010
+        y: 8653
+        width: 418
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa9e9ab3b18991d0800000000000000
+      internalID: -3343498639415797074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 7437
+        width: 418
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1a93cf0eedf6340800000000000000
+      internalID: 4859347580841730541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 7437
+        width: 419
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b72a7a76bf59f00800000000000000
+      internalID: 1123080104711453552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 7437
+        width: 419
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7729ce616a29ee50800000000000000
+      internalID: 6839044107097679739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 7437
+        width: 419
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ea047a7486c11d0800000000000000
+      internalID: -3378710963476713959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 3513
+        y: 7437
+        width: 418
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c062cdcee956f2580800000000000000
+      internalID: -8849743009506646516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 4347
+        y: 7437
+        width: 417
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de0e091128860920800000000000000
+      internalID: 2956199881150959320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 7437
+        width: 415
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244a812720d7cb2d0800000000000000
+      internalID: -3261594580665457598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 6013
+        y: 7437
+        width: 415
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467fc4f92e7986070800000000000000
+      internalID: 8099890929416861540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 6221
+        width: 413
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f57655be31bdc050800000000000000
+      internalID: 5822504776148350448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6221
+        width: 413
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfe2b4f542baeac0800000000000000
+      internalID: -3825048919969959990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 6221
+        width: 412
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7c400c16ec5ecf0800000000000000
+      internalID: -223545687256283166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 6221
+        width: 412
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e7eab91939e3b10800000000000000
+      internalID: 1963168741171560094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 6221
+        width: 412
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7c2d064a8912f70800000000000000
+      internalID: 9160770948814784437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 4354
+        y: 6221
+        width: 412
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe6a6125a86071c0800000000000000
+      internalID: -4507988168558350598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 5185
+        y: 6221
+        width: 413
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d748cc5afa8a14d0800000000000000
+      internalID: -3163062980371265575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 6015
+        y: 6221
+        width: 414
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c9ae4965b89ada0800000000000000
+      internalID: -5933057830102066141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 5005
+        width: 415
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951373ffd31e0bc20800000000000000
+      internalID: 3220321389960966489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 5005
+        width: 415
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c380a221d239e1070800000000000000
+      internalID: 8079056603336804412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 5005
+        width: 417
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3edcabbc03834c0800000000000000
+      internalID: -4307639392009329698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 5005
+        width: 418
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4723e111b1ee10710800000000000000
+      internalID: 1657867937867772532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 3513
+        y: 5005
+        width: 417
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c059e3582ef39be00800000000000000
+      internalID: 1060949429353092364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 4344
+        y: 5005
+        width: 419
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c030ad515920ef600800000000000000
+      internalID: 503843047652066060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_30
+      rect:
+        serializedVersion: 2
+        x: 5177
+        y: 5005
+        width: 418
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00c0da89e93eb3a0800000000000000
+      internalID: -6647812324733173746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_31
+      rect:
+        serializedVersion: 2
+        x: 6010
+        y: 5005
+        width: 417
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85fb3c8aac0d0e50800000000000000
+      internalID: 6777086940899177870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_32
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 3789
+        width: 417
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e30a533f327bda0800000000000000
+      internalID: -5929230856926249366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_33
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 3789
+        width: 414
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5607e13fee00d9950800000000000000
+      internalID: 6457318467000234085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_34
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 3789
+        width: 415
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1dae295fb4e3e20800000000000000
+      internalID: 3332184292404679098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_35
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 3789
+        width: 414
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87abedad3f032a830800000000000000
+      internalID: 4080878036258306680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_36
+      rect:
+        serializedVersion: 2
+        x: 3521
+        y: 3789
+        width: 412
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c432bc72956aba90800000000000000
+      internalID: -7297408566368783159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_37
+      rect:
+        serializedVersion: 2
+        x: 4353
+        y: 3789
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63670623c0744a490800000000000000
+      internalID: -7735980142205307338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_38
+      rect:
+        serializedVersion: 2
+        x: 5186
+        y: 3789
+        width: 412
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a8fc8b65cbdcd70800000000000000
+      internalID: 9065108705620494969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_39
+      rect:
+        serializedVersion: 2
+        x: 6018
+        y: 3789
+        width: 412
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb9173b17590f2f0800000000000000
+      internalID: -941088006546023503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_40
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2573
+        width: 412
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bbfdd45e255fbe0800000000000000
+      internalID: -1444156960694879339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_41
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 2573
+        width: 413
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119a614138dc27050800000000000000
+      internalID: 5796921633240688913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_42
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 2573
+        width: 414
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d4c1444ccf41740800000000000000
+      internalID: 5121996596113591635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_43
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 2573
+        width: 416
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909c7651ed889af70800000000000000
+      internalID: 9199034201304189193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_44
+      rect:
+        serializedVersion: 2
+        x: 3515
+        y: 2573
+        width: 417
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1317b4a33d60eb0800000000000000
+      internalID: -4753880109315706450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_45
+      rect:
+        serializedVersion: 2
+        x: 4346
+        y: 2573
+        width: 418
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1430238a730cdcd0800000000000000
+      internalID: -2532145065768242148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_46
+      rect:
+        serializedVersion: 2
+        x: 5177
+        y: 2573
+        width: 418
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2d0b240ebf149a0800000000000000
+      internalID: -6250437867203407196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_47
+      rect:
+        serializedVersion: 2
+        x: 6008
+        y: 2573
+        width: 420
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a5d600370d91ff0800000000000000
+      internalID: -64791527273178532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_48
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1357
+        width: 418
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8efd3f79f3905650800000000000000
+      internalID: 6219633785189564044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_49
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1357
+        width: 417
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6adb0179bddfa8a0800000000000000
+      internalID: -6291566365878003091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_50
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1357
+        width: 416
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cd4231ddee37090800000000000000
+      internalID: -8037818276649837561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_51
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 1357
+        width: 417
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d75bd447500a9c0800000000000000
+      internalID: -3918125678734246584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_52
+      rect:
+        serializedVersion: 2
+        x: 3518
+        y: 1357
+        width: 414
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dec6825f437f9340800000000000000
+      internalID: 4872740106362343125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_53
+      rect:
+        serializedVersion: 2
+        x: 4351
+        y: 1357
+        width: 414
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a546f9eac3939520800000000000000
+      internalID: 2707670300697707945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_54
+      rect:
+        serializedVersion: 2
+        x: 5185
+        y: 1357
+        width: 413
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96652ee617200da40800000000000000
+      internalID: 5390811440177370729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_55
+      rect:
+        serializedVersion: 2
+        x: 6017
+        y: 1357
+        width: 412
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8309e3e043536f810800000000000000
+      internalID: 1798683598874644536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_56
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 141
+        width: 412
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c0dd8d775fdce20800000000000000
+      internalID: 3372621591058648184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_57
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 141
+        width: 412
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6753526d715e760800000000000000
+      internalID: 7486416164088018683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_58
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 141
+        width: 412
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4256a08cce8c6660800000000000000
+      internalID: 7380430898336256590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_59
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 141
+        width: 412
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d246921679a444d0800000000000000
+      internalID: -3151207514669432104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_60
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 141
+        width: 412
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f000d7e6d0ac31b0800000000000000
+      internalID: -5675484585521053452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_61
+      rect:
+        serializedVersion: 2
+        x: 4354
+        y: 141
+        width: 412
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb4a1f4fc700f820800000000000000
+      internalID: 2949866342894423024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_62
+      rect:
+        serializedVersion: 2
+        x: 5186
+        y: 141
+        width: 412
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0e4bae4d527d0e0800000000000000
+      internalID: -2245284292819885916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lena Idle_transparent_63
+      rect:
+        serializedVersion: 2
+        x: 6018
+        y: 141
+        width: 412
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1412ff38ee589f0800000000000000
+      internalID: -466704735674482204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lena Idle_transparent_0: 2301241722605305576
+      Lena Idle_transparent_1: 2418864913124396739
+      Lena Idle_transparent_10: 6839044107097679739
+      Lena Idle_transparent_11: -3378710963476713959
+      Lena Idle_transparent_12: -8849743009506646516
+      Lena Idle_transparent_13: 2956199881150959320
+      Lena Idle_transparent_14: -3261594580665457598
+      Lena Idle_transparent_15: 8099890929416861540
+      Lena Idle_transparent_16: 5822504776148350448
+      Lena Idle_transparent_17: -3825048919969959990
+      Lena Idle_transparent_18: -223545687256283166
+      Lena Idle_transparent_19: 1963168741171560094
+      Lena Idle_transparent_2: -1725734032239881651
+      Lena Idle_transparent_20: 9160770948814784437
+      Lena Idle_transparent_21: -4507988168558350598
+      Lena Idle_transparent_22: -3163062980371265575
+      Lena Idle_transparent_23: -5933057830102066141
+      Lena Idle_transparent_24: 3220321389960966489
+      Lena Idle_transparent_25: 8079056603336804412
+      Lena Idle_transparent_26: -4307639392009329698
+      Lena Idle_transparent_27: 1657867937867772532
+      Lena Idle_transparent_28: 1060949429353092364
+      Lena Idle_transparent_29: 503843047652066060
+      Lena Idle_transparent_3: 1958022002163363236
+      Lena Idle_transparent_30: -6647812324733173746
+      Lena Idle_transparent_31: 6777086940899177870
+      Lena Idle_transparent_32: -5929230856926249366
+      Lena Idle_transparent_33: 6457318467000234085
+      Lena Idle_transparent_34: 3332184292404679098
+      Lena Idle_transparent_35: 4080878036258306680
+      Lena Idle_transparent_36: -7297408566368783159
+      Lena Idle_transparent_37: -7735980142205307338
+      Lena Idle_transparent_38: 9065108705620494969
+      Lena Idle_transparent_39: -941088006546023503
+      Lena Idle_transparent_4: -4783569881527153250
+      Lena Idle_transparent_40: -1444156960694879339
+      Lena Idle_transparent_41: 5796921633240688913
+      Lena Idle_transparent_42: 5121996596113591635
+      Lena Idle_transparent_43: 9199034201304189193
+      Lena Idle_transparent_44: -4753880109315706450
+      Lena Idle_transparent_45: -2532145065768242148
+      Lena Idle_transparent_46: -6250437867203407196
+      Lena Idle_transparent_47: -64791527273178532
+      Lena Idle_transparent_48: 6219633785189564044
+      Lena Idle_transparent_49: -6291566365878003091
+      Lena Idle_transparent_5: -3864104584656582699
+      Lena Idle_transparent_50: -8037818276649837561
+      Lena Idle_transparent_51: -3918125678734246584
+      Lena Idle_transparent_52: 4872740106362343125
+      Lena Idle_transparent_53: 2707670300697707945
+      Lena Idle_transparent_54: 5390811440177370729
+      Lena Idle_transparent_55: 1798683598874644536
+      Lena Idle_transparent_56: 3372621591058648184
+      Lena Idle_transparent_57: 7486416164088018683
+      Lena Idle_transparent_58: 7380430898336256590
+      Lena Idle_transparent_59: -3151207514669432104
+      Lena Idle_transparent_6: -7055286508479484974
+      Lena Idle_transparent_60: -5675484585521053452
+      Lena Idle_transparent_61: 2949866342894423024
+      Lena Idle_transparent_62: -2245284292819885916
+      Lena Idle_transparent_63: -466704735674482204
+      Lena Idle_transparent_7: -3343498639415797074
+      Lena Idle_transparent_8: 4859347580841730541
+      Lena Idle_transparent_9: 1123080104711453552
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
