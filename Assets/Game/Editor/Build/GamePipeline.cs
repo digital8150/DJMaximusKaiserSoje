@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
@@ -7,14 +5,12 @@ using UnityEngine;
 namespace DJMaximusKaiserSoje.Editor
 {
     /// <summary>
-    /// Builds every authored asset from script. The screens are described in code and stamped into
-    /// scenes by Unity itself, so nobody has to hand-edit serialized YAML and a fresh clone can
-    /// rebuild the whole front end with one command.
+    /// Prepares authored runtime assets (fonts, music importers, chrome sprites) from script.
     /// </summary>
     public static class GamePipeline
     {
-        /// <summary>Fonts and sprites the screens reference. Run this before building screens.</summary>
-        [MenuItem("Tools/DJ Maximus/1 · Prepare Assets")]
+        /// <summary>Fonts and sprites the screens reference.</summary>
+        [MenuItem("Tools/DJ Maximus/Prepare Assets")]
         public static void PrepareAssets()
         {
             TmpEssentials.Import();
@@ -22,63 +18,7 @@ namespace DJMaximusKaiserSoje.Editor
             ChromeSpriteGenerator.Generate();
             ConfigureGeneratedArtImporters();
             FontAssetBuilder.Build();
-            Ui.ResetCaches();
             Debug.Log("Assets prepared.");
-        }
-
-        /// <summary>Prefabs, screen scenes, and the build settings scene list.</summary>
-        [MenuItem("Tools/DJ Maximus/2 · Build Screens")]
-        public static void BuildScreens()
-        {
-            Ui.ResetCaches();
-
-            var scenes = new List<string>
-            {
-                BootSceneBuilder.Build(),
-                TitleSceneBuilder.Build(),
-                OptionsSceneBuilder.Build(),
-                SongSelectSceneBuilder.Build(),
-                GameplaySceneBuilder.Build(),
-                ResultSceneBuilder.Build()
-            };
-
-            EditorBuildSettings.scenes = scenes
-                .Select(path => new EditorBuildSettingsScene(path, true))
-                .ToArray();
-
-            AssetDatabase.SaveAssets();
-            AssetDatabase.Refresh();
-            Debug.Log("Screens built: " + string.Join(", ", scenes));
-        }
-
-        [MenuItem("Tools/DJ Maximus/Build Everything")]
-        public static void BuildAll()
-        {
-            PrepareAssets();
-            BuildScreens();
-        }
-
-        /// <summary>Rebuilds only the scenes touched by settings navigation.</summary>
-        public static void BuildSettingsEntryScenes()
-        {
-            Ui.ResetCaches();
-            TitleSceneBuilder.Build();
-            SongSelectSceneBuilder.Build();
-            OptionsSceneBuilder.Build();
-            AssetDatabase.SaveAssets();
-            AssetDatabase.Refresh();
-            Debug.Log("Settings entry scenes built.");
-        }
-
-        /// <summary>Rebuilds the two screens that share play-setting presentation.</summary>
-        public static void BuildPlaySettingsScenes()
-        {
-            Ui.ResetCaches();
-            OptionsSceneBuilder.Build();
-            GameplaySceneBuilder.Build();
-            AssetDatabase.SaveAssets();
-            AssetDatabase.Refresh();
-            Debug.Log("Play settings scenes built.");
         }
 
         /// <summary>

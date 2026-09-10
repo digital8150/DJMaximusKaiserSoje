@@ -19,6 +19,8 @@ namespace DJMaximusKaiserSoje.Editor
         private const int Width = 1920;
         private const int Height = 1080;
 
+        private const string SceneFolder = "Assets/Scenes";
+
         [MenuItem("Tools/DJ Maximus/Capture Screens")]
         public static void CaptureAll()
         {
@@ -26,11 +28,11 @@ namespace DJMaximusKaiserSoje.Editor
 
             string[] scenes =
             {
-                BootSceneBuilder.SceneName,
-                TitleSceneBuilder.SceneName,
-                SongSelectSceneBuilder.SceneName,
-                GameplaySceneBuilder.SceneName,
-                ResultSceneBuilder.SceneName
+                "Boot",
+                "Title",
+                "SongSelect",
+                "Gameplay",
+                "Result"
             };
 
             foreach (var sceneName in scenes) Capture(sceneName);
@@ -39,7 +41,7 @@ namespace DJMaximusKaiserSoje.Editor
 
         private static void Capture(string sceneName)
         {
-            string scenePath = SceneScaffold.SceneFolder + "/" + sceneName + ".unity";
+            string scenePath = SceneFolder + "/" + sceneName + ".unity";
             if (!File.Exists(scenePath))
             {
                 Debug.LogWarning("Scene not built yet: " + scenePath);
