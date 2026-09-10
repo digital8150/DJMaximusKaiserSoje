@@ -96,25 +96,6 @@ dividers — is drawn deterministically by script instead of generated.
 
 Style: neon-cute with an original mascot. Nothing from the reference screenshots is reproduced —
 no logos, mascot likenesses, or brand strings.
-
-## Rebuilding the front end
-
-The screens are described in editor code and stamped into scenes by Unity, so nothing about them is
-hand-edited YAML. From a clean clone, with the editor closed:
-
-```sh
-tools/unity.sh DJMaximusKaiserSoje.Editor.GamePipeline.PrepareAssets   # TMP, fonts, chrome sprites
-tools/unity.sh DJMaximusKaiserSoje.Editor.GamePipeline.BuildScreens    # prefabs, scenes, build list
-tools/unity.sh DJMaximusKaiserSoje.Editor.ContentPipeline.Migrate      # song content + Addressables keys
-```
-
-All three are also on the `Tools > DJ Maximus` menu inside the editor. They are idempotent:
-re-running overwrites the generated sprites and rebuilds every scene from the builder scripts, so a
-layout change is a code change, not a manual re-drag.
-
-`tools/unity.sh DJMaximusKaiserSoje.Editor.ScreenshotCapture.CaptureAll` renders each screen to
-`artifacts/screens` so a layout can be reviewed without launching the game.
-
 ## Importing osu!mania song sets
 
 `Tools > DJ Maximus > Import osu!mania .osz` opens a file picker and imports one set; the adjacent
