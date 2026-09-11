@@ -9,7 +9,7 @@ namespace DJMaximusKaiserSoje.App
     /// <summary>JSON persistence with a deliberately forgiving read path for damaged local data.</summary>
     public sealed class JsonRecordStore : IRecordStore
     {
-        private const int CurrentSchemaVersion = 1;
+        public const int CurrentSchemaVersion = 2;
         private readonly string filePath;
         private readonly Dictionary<string, ChartRecord> records = new Dictionary<string, ChartRecord>(StringComparer.Ordinal);
 
@@ -29,6 +29,12 @@ namespace DJMaximusKaiserSoje.App
         {
             if (string.IsNullOrWhiteSpace(chartId)) throw new ArgumentException("Chart id is required.", nameof(chartId));
             return records.TryGetValue(chartId, out ChartRecord record) ? record : ChartRecord.Empty(chartId);
+        }
+
+        public void PurgeAll()
+        {
+            records.Clear();
+            Save();
         }
 
         public ChartRecord Submit(PlayResult result)
@@ -64,7 +70,12 @@ namespace DJMaximusKaiserSoje.App
             {
                 string json = File.ReadAllText(filePath);
                 var document = JsonUtility.FromJson<RecordDocument>(json);
-                if (document == null || document.schemaVersion != CurrentSchemaVersion || document.records == null) return;
+                if (document == null || document.schemaVersion != CurrentSchemaVersion || document.records == null)
+                {
+                    records.Clear();
+                    Save();
+                    return;
+                }
                 for (int index = 0; index < document.records.Length; index++)
                 {
                     StoredRecord stored = document.records[index];

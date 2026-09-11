@@ -10,6 +10,7 @@ namespace DJMaximusKaiserSoje.App
         public const string ScrollSpeedKey = "rhythm.play.scroll-speed";
         public const string JudgementOffsetKey = "rhythm.play.judgement-offset-ms";
         public const string PlayStyleKey = "rhythm.play.style";
+        public const string SelectedCrewKey = "rhythm.play.selected-crew";
         public const string AudioBufferSizeKey = "rhythm.audio.buffer-size";
         public const string QualityLevelKey = "rhythm.graphics.quality";
         public const string GearBackgroundOpacityKey = "rhythm.graphics.gear-background-opacity";
@@ -32,6 +33,7 @@ namespace DJMaximusKaiserSoje.App
             scrollSpeed = ScrollSpeedRange.Clamp(PlayerPrefs.GetFloat(ScrollSpeedKey, ScrollSpeedRange.Default));
             judgementOffsetMs = JudgementOffsetRange.Clamp(PlayerPrefs.GetFloat(JudgementOffsetKey, 0.0f));
             playStyle = ReadStyle(PlayerPrefs.GetInt(PlayStyleKey, 0));
+            selectedCrewId = BattleCrewId.Normalize(PlayerPrefs.GetString(SelectedCrewKey, BattleCrewId.Default));
             audioBufferSize = StoredAudioBufferSize;
             qualityLevel = Mathf.Clamp(PlayerPrefs.GetInt(QualityLevelKey, QualitySettings.GetQualityLevel()),
                 0, Mathf.Max(0, QualitySettings.names.Length - 1));
@@ -48,6 +50,7 @@ namespace DJMaximusKaiserSoje.App
         private float scrollSpeed;
         private double judgementOffsetMs;
         private PlayStyle playStyle;
+        private string selectedCrewId;
         private int audioBufferSize;
         private int qualityLevel;
         private float gearBackgroundOpacity;
@@ -91,6 +94,19 @@ namespace DJMaximusKaiserSoje.App
                 if (playStyle == value) return;
                 playStyle = value;
                 PlayerPrefs.SetInt(PlayStyleKey, (int)playStyle);
+                SaveAndNotify();
+            }
+        }
+
+        public string SelectedCrewId
+        {
+            get => selectedCrewId;
+            set
+            {
+                string normalized = BattleCrewId.Normalize(value);
+                if (string.Equals(selectedCrewId, normalized, StringComparison.Ordinal)) return;
+                selectedCrewId = normalized;
+                PlayerPrefs.SetString(SelectedCrewKey, selectedCrewId);
                 SaveAndNotify();
             }
         }

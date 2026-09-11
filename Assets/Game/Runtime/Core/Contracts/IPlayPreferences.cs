@@ -17,6 +17,8 @@ namespace DJMaximusKaiserSoje.Core
 
         PlayStyle PlayStyle { get; set; }
 
+        string SelectedCrewId { get; set; }
+
         /// <summary>
         /// How much audio the mixer works on at a time, in samples. Smaller is more responsive and
         /// more likely to crackle; see <see cref="GameOptionRules.AudioBufferSizes"/>.

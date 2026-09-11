@@ -48,10 +48,35 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
             score.Feed(JudgementGrade.PerfectHigh, JudgementTiming.Exact);
             RunScore result = score.Feed(JudgementGrade.PerfectHigh, JudgementTiming.Exact);
 
+            Assert.That(result.Score, Is.EqualTo(1000000L));
             Assert.That(result.Accuracy01, Is.EqualTo(1.0).Within(0.000001));
             Assert.That(result.Rating, Is.EqualTo(100.0).Within(0.000001));
             Assert.That(result.IsAllPerfect, Is.True);
             Assert.That(result.IsFullCombo, Is.True);
+        }
+
+        [Test]
+        public void Score_OneMillionMaxStandard_DistributesEquallyAcrossNotes()
+        {
+            var score = new ScoreAccumulator(4);
+            score.Feed(JudgementGrade.PerfectHigh, JudgementTiming.Exact);
+            score.Feed(JudgementGrade.Perfect, JudgementTiming.Exact);
+            score.Feed(JudgementGrade.Great, JudgementTiming.Exact);
+            RunScore result = score.Feed(JudgementGrade.Good, JudgementTiming.Exact);
+
+            Assert.That(result.Score, Is.EqualTo(782500L));
+        }
+
+        [Test]
+        public void Score_LargeChartAllPerfectHigh_ReachesExactlyOneMillion()
+        {
+            const int notes = 1337;
+            var score = new ScoreAccumulator(notes);
+            for (int i = 0; i < notes; i++)
+            {
+                score.Feed(JudgementGrade.PerfectHigh, JudgementTiming.Exact);
+            }
+            Assert.That(score.Current.Score, Is.EqualTo(1000000L));
         }
 
         [Test]

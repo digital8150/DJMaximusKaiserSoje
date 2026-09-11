@@ -30,6 +30,12 @@ namespace DJMaximusKaiserSoje.Presentation
         [SerializeField] internal TMP_Text scoreLabel;
         [SerializeField] internal Image playerAvatar;
 
+        [Header("Battle Crew")]
+        [SerializeField] internal BattleCrewView battleCrewView;
+        [SerializeField] internal BattleCrewCatalog battleCrewCatalog;
+
+        private int previousCombo;
+
         [Header("Chips")]
         [SerializeField] internal TMP_Text speedLabel;
         [SerializeField] internal TMP_Text keyGuideLabel;
@@ -68,6 +74,7 @@ namespace DJMaximusKaiserSoje.Presentation
 
             ShowPauseOverlay(false);
             RefreshGearBackground();
+            RefreshBattleCrew();
         }
 
         public void BindSession(IPlaySession playSession)
@@ -76,6 +83,8 @@ namespace DJMaximusKaiserSoje.Presentation
             session = playSession;
             lastCountdown = null;
             countdownShown = false;
+            previousCombo = 0;
+            battleCrewView?.PlayIdle();
 
             if (playfield != null)
                 playfield.Bind(session, services.Preferences.ScrollSpeed,
@@ -137,6 +146,11 @@ namespace DJMaximusKaiserSoje.Presentation
         {
             tally?.Bind(score);
             if (scoreLabel != null) scoreLabel.text = UiFormat.Score(score.Score);
+            if (battleCrewView != null)
+            {
+                battleCrewView.NotifyCombo(score.Combo, previousCombo);
+            }
+            previousCombo = score.Combo;
         }
 
         private void OnHealthChanged(HealthState state) => health?.Set(state);
@@ -217,6 +231,8 @@ namespace DJMaximusKaiserSoje.Presentation
         private void Restart()
         {
             feedback?.Clear();
+            previousCombo = 0;
+            battleCrewView?.PlayIdle();
             session.Restart();
         }
 
@@ -241,6 +257,20 @@ namespace DJMaximusKaiserSoje.Presentation
             if (playfield != null && session != null)
                 playfield.SetKeyBindings(services.Preferences.GetKeyBindings(session.Layout.Style));
             RefreshGearBackground();
+            RefreshBattleCrew();
+        }
+
+        private void RefreshBattleCrew()
+        {
+            if (battleCrewView == null) return;
+            string crewId = services != null && services.Preferences != null
+                ? services.Preferences.SelectedCrewId
+                : BattleCrewId.Default;
+            var data = battleCrewCatalog != null ? battleCrewCatalog.GetCrewOrDefault(crewId) : null;
+            if (data != null)
+            {
+                battleCrewView.Bind(data);
+            }
         }
 
         private void RefreshGearBackground()

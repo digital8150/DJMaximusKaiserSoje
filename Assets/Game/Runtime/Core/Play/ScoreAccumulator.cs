@@ -5,17 +5,20 @@ namespace DJMaximusKaiserSoje.Core
     /// <summary>
     /// Builds an immutable score snapshot from one judgement at a time.
     ///
-    /// The point value intentionally keeps the prototype's feel: each note is worth 1,000
-    /// weighted points and the combo multiplier grows from 1.00x to 2.00x over the first 100
-    /// successful notes. Accuracy is the weighted mean of the judgements. Rating is a 0-100
-    /// performance value that gives 70% weight to accuracy and 30% to combo consistency.
+    /// The scoring system uses a 1,000,000 maximum score standard. Each note contributes
+    /// an equal fraction of the 1,000,000 points multiplied by the judgement accuracy weight.
+    /// Accuracy is the weighted mean of the judgements. Rating is a 0-100 performance value
+    /// that gives 70% weight to accuracy and 30% to combo consistency.
     /// </summary>
     public sealed class ScoreAccumulator
     {
+        public const long MaxPossibleScore = 1_000_000L;
+
         private readonly int totalNotes;
         private readonly JudgementEngine judgementEngine;
         private JudgementTally tally;
         private long score;
+        private double earnedScore;
         private double earnedAccuracy;
         private int combo;
         private int maxCombo;
@@ -47,10 +50,20 @@ namespace DJMaximusKaiserSoje.Core
             {
                 combo++;
                 maxCombo = Math.Max(maxCombo, combo);
-                score += (long)Math.Round(1000.0 * weight * (1.0 + Math.Min(combo, 100) / 100.0), MidpointRounding.AwayFromZero);
             }
 
             earnedAccuracy += weight;
+            if (totalNotes > 0)
+            {
+                earnedScore += (MaxPossibleScore / (double)totalNotes) * weight;
+                score = (long)Math.Round(earnedScore, MidpointRounding.AwayFromZero);
+                if (tally.Judged == totalNotes && tally.PerfectHigh == totalNotes)
+                {
+                    score = MaxPossibleScore;
+                }
+                score = Math.Min(MaxPossibleScore, Math.Max(0L, score));
+            }
+
             double accuracy = tally.Judged == 0 ? 0.0 : earnedAccuracy / tally.Judged;
             double comboRatio = totalNotes <= 0 ? 0.0 : Math.Min(1.0, (double)maxCombo / totalNotes);
             double rating = accuracy * 100.0 * (0.7 + 0.3 * comboRatio);

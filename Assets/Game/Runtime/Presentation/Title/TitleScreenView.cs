@@ -16,6 +16,9 @@ namespace DJMaximusKaiserSoje.Presentation
         [SerializeField] internal TMP_Text promptLabel;
         [SerializeField] internal TMP_Text buildLabel;
         [SerializeField] internal Button optionsButton;
+        [SerializeField] internal Button crewButton;
+        [SerializeField] internal CrewRoomModalView crewModal;
+        [SerializeField] internal BattleCrewCatalog battleCrewCatalog;
         [SerializeField] internal CanvasGroup fader;
 
         private GameServices services;
@@ -33,22 +36,42 @@ namespace DJMaximusKaiserSoje.Presentation
                 optionsButton.onClick.RemoveListener(OpenOptions);
                 optionsButton.onClick.AddListener(OpenOptions);
             }
+            if (crewButton != null)
+            {
+                crewButton.onClick.RemoveListener(OpenCrewRoom);
+                crewButton.onClick.AddListener(OpenCrewRoom);
+            }
+            if (crewModal != null)
+            {
+                crewModal.Bind(services, battleCrewCatalog);
+            }
             services.Music.PlayTheme(ScreenTheme.Title);
         }
 
         private void OnDestroy()
         {
             if (optionsButton != null) optionsButton.onClick.RemoveListener(OpenOptions);
+            if (crewButton != null) crewButton.onClick.RemoveListener(OpenCrewRoom);
         }
 
         private void Update()
         {
             if (services == null || leaving) return;
+            if (crewModal != null && crewModal.IsOpen) return;
+
             var keyboard = Keyboard.current;
-            if (keyboard != null && keyboard.oKey.wasPressedThisFrame)
+            if (keyboard != null)
             {
-                OpenOptions();
-                return;
+                if (keyboard.cKey.wasPressedThisFrame)
+                {
+                    OpenCrewRoom();
+                    return;
+                }
+                if (keyboard.oKey.wasPressedThisFrame)
+                {
+                    OpenOptions();
+                    return;
+                }
             }
             if (!AnyInputThisFrame()) return;
 
@@ -64,6 +87,16 @@ namespace DJMaximusKaiserSoje.Presentation
             var mouse = Mouse.current;
             return mouse != null && mouse.leftButton.wasPressedThisFrame &&
                    (EventSystem.current == null || !EventSystem.current.IsPointerOverGameObject());
+        }
+
+        private void OpenCrewRoom()
+        {
+            if (services == null || leaving) return;
+            if (crewModal != null)
+            {
+                crewModal.Bind(services, battleCrewCatalog);
+                crewModal.Open();
+            }
         }
 
         private void OpenOptions()

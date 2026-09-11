@@ -100,6 +100,26 @@ namespace DJMaximusKaiserSoje.Tests.EditMode
         }
 
         [Test]
+        public void Records_SchemaVersion1File_IsPurgedOnLoad()
+        {
+            string path = Path.Combine(Path.GetTempPath(), "djmaximus-old-schema-test-" + Guid.NewGuid().ToString("N") + ".json");
+            try
+            {
+                string oldSchemaJson = "{\"schemaVersion\":1,\"records\":[{\"chartId\":\"old.chart\",\"bestScore\":9999999,\"bestAccuracy01\":0.99,\"bestRating\":99.0,\"bestCombo\":500,\"bestRank\":7,\"cleared\":true,\"playCount\":5}]}";
+                File.WriteAllText(path, oldSchemaJson);
+
+                var records = new JsonRecordStore(path);
+
+                Assert.That(records.Get("old.chart").IsEmpty, Is.True);
+                Assert.That(records.Get("old.chart").BestScore, Is.EqualTo(0));
+            }
+            finally
+            {
+                if (File.Exists(path)) File.Delete(path);
+            }
+        }
+
+        [Test]
         public void Preferences_GearBackgroundOpacityPersistsAndClamps()
         {
             bool hadValue = PlayerPrefs.HasKey(PlayerPrefsPlayPreferences.GearBackgroundOpacityKey);

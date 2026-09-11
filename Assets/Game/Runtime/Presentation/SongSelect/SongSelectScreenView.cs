@@ -49,6 +49,9 @@ namespace DJMaximusKaiserSoje.Presentation
         [Header("Actions")]
         [SerializeField] internal Button playButton;
         [SerializeField] internal Button optionsButton;
+        [SerializeField] internal Button crewButton;
+        [SerializeField] internal CrewRoomModalView crewModal;
+        [SerializeField] internal BattleCrewCatalog battleCrewCatalog;
         [SerializeField] internal RecordPanelView recordPanel;
         [SerializeField] internal TMP_Text keyGuideLabel;
         [SerializeField] internal TMP_Text emptyLibraryLabel;
@@ -70,13 +73,11 @@ namespace DJMaximusKaiserSoje.Presentation
             starting = false;
 
             HookButtons();
+            if (crewModal != null) crewModal.Bind(services, battleCrewCatalog);
             services.Preferences.Changed += OnPreferencesChanged;
 
             if (keyGuideLabel != null)
-                keyGuideLabel.text = "↑↓ 곡 고르기    ←→ 난이도    Enter 시작    Tab 키 모드    F1 / F2 노트 속도    Esc 뒤로";
-
-            if (keyGuideLabel != null)
-                keyGuideLabel.text = "↑↓ 곡 선택   ←→ 난이도   Enter 시작   Tab 키 모드   F1/F2 속도   Esc 뒤로";
+                keyGuideLabel.text = "↑↓ 곡 선택   ←→ 난이도   Enter 시작   Tab 키 모드   C 크루   F1/F2 속도   Esc 뒤로";
 
             services.Music.PlayTheme(ScreenTheme.SongSelect);
             OnPreferencesChanged();
@@ -97,6 +98,7 @@ namespace DJMaximusKaiserSoje.Presentation
         private void OnDestroy()
         {
             if (optionsButton != null) optionsButton.onClick.RemoveListener(OpenOptions);
+            if (crewButton != null) crewButton.onClick.RemoveListener(OpenCrewRoom);
             if (services != null) services.Preferences.Changed -= OnPreferencesChanged;
         }
 
@@ -128,6 +130,11 @@ namespace DJMaximusKaiserSoje.Presentation
                 optionsButton.onClick.RemoveListener(OpenOptions);
                 optionsButton.onClick.AddListener(OpenOptions);
             }
+            if (crewButton != null)
+            {
+                crewButton.onClick.RemoveListener(OpenCrewRoom);
+                crewButton.onClick.AddListener(OpenCrewRoom);
+            }
             if (speedDownButton != null) speedDownButton.onClick.AddListener(() => NudgeSpeed(-1));
             if (speedUpButton != null) speedUpButton.onClick.AddListener(() => NudgeSpeed(1));
 
@@ -143,12 +150,18 @@ namespace DJMaximusKaiserSoje.Presentation
         private void Update()
         {
             if (services == null || starting) return;
+            if (crewModal != null && crewModal.IsOpen) return;
 
             var keyboard = Keyboard.current;
             if (keyboard == null) return;
 
             if (keyboard.f1Key.wasPressedThisFrame) NudgeSpeed(-1);
             if (keyboard.f2Key.wasPressedThisFrame) NudgeSpeed(1);
+            if (keyboard.cKey.wasPressedThisFrame)
+            {
+                OpenCrewRoom();
+                return;
+            }
             if (keyboard.oKey.wasPressedThisFrame)
             {
                 OpenOptions();
@@ -377,6 +390,16 @@ namespace DJMaximusKaiserSoje.Presentation
                 services.Preferences.ScrollSpeed,
                 services.Preferences.JudgementOffsetMs,
                 services.Preferences.GetKeyBindings(services.Preferences.PlayStyle)));
+        }
+
+        private void OpenCrewRoom()
+        {
+            if (starting || services == null) return;
+            if (crewModal != null)
+            {
+                crewModal.Bind(services, battleCrewCatalog);
+                crewModal.Open();
+            }
         }
 
         private void OpenOptions()
